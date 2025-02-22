@@ -277,6 +277,10 @@ Graphics are created by `plotparlament.py` and `vote_distribution.py` which are 
 
 The graphics for interpreting the German election as a US presidential election are completely separate from that and are all contained in `president.py`.
 
+## Tests
+
+The tests are fairly simple, we just use the data from an election on its own system. The result should the be the actual seat distribution from that election. If that happends we probably got this somewhat right. Or not too wrong.
+
 # Note on Use of LLMs
 
 This code was created using, among other tools, LLM tools like ChatGPT.
