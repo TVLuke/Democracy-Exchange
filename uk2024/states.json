@@ -1,0 +1,62 @@
+{
+  "Wales": {
+    "name": "Wales",
+    "population": 3131640,
+    "electorate": 0
+  },
+  "Scotland": {
+    "name": "Scotland",
+    "population": 5447000,
+    "electorate": 0
+  },
+  "South East": {
+    "name": "South East",
+    "population": 9379833,
+    "electorate": 0
+  },
+  "West Midlands": {
+    "name": "West Midlands",
+    "population": 6021653,
+    "electorate": 0
+  },
+  "North West": {
+    "name": "North West",
+    "population": 7516113,
+    "electorate": 0
+  },
+  "East Midlands": {
+    "name": "East Midlands",
+    "population": 4934939,
+    "electorate": 0
+  },
+  "London": {
+    "name": "London",
+    "population": 8866180,
+    "electorate": 0
+  },
+  "Yorkshire and The Humber": {
+    "name": "Yorkshire and The Humber",
+    "population": 5541262,
+    "electorate": 0
+  },
+  "East of England": {
+    "name": "East of England",
+    "population": 6398497,
+    "electorate": 0
+  },
+  "South West": {
+    "name": "South West",
+    "population": 5764881,
+    "electorate": 0
+  },
+  "Northern Ireland": {
+    "name": "Northern Ireland",
+    "population": 1910543,
+    "electorate": 0
+  },
+  "North East": {
+    "name": "North East",
+    "population": 2683040,
+    "electorate": 0
+  }
+}

@@ -1,0 +1,92 @@
+[
+  {
+    "short_name": "Con",
+    "name": "Conservative Party",
+    "color": "#0087dc",
+    "left_to_right": 7
+  },
+  {
+    "short_name": "Lab",
+    "name": "Labour Party",
+    "color": "#dc241f",
+    "left_to_right": 3
+  },
+  {
+    "short_name": "LD",
+    "name": "Liberal Democrats",
+    "color": "#faa61a",
+    "left_to_right": 4
+  },
+  {
+    "short_name": "RUK",
+    "name": "Reform UK",
+    "color": "#12b6cf",
+    "left_to_right": 8
+  },
+  {
+    "short_name": "Green",
+    "name": "Green Party",
+    "color": "#6ab023",
+    "left_to_right": 2
+  },
+  {
+    "short_name": "SNP",
+    "name": "Scottish National Party",
+    "color": "#fdf38e",
+    "left_to_right": 3
+  },
+  {
+    "short_name": "PC",
+    "name": "Plaid Cymru",
+    "color": "#008142",
+    "left_to_right": 3
+  },
+  {
+    "short_name": "DUP",
+    "name": "Democratic Unionist Party",
+    "color": "#d46a4c",
+    "left_to_right": 7
+  },
+  {
+    "short_name": "SF",
+    "name": "Sinn F\u00e9in",
+    "color": "#326760",
+    "left_to_right": 1
+  },
+  {
+    "short_name": "SDLP",
+    "name": "Social Democratic and Labour Party",
+    "color": "#2aa82c",
+    "left_to_right": 3
+  },
+  {
+    "short_name": "UUP",
+    "name": "Ulster Unionist Party",
+    "color": "#48a5ee",
+    "left_to_right": 6
+  },
+  {
+    "short_name": "APNI",
+    "name": "Alliance Party of Northern Ireland",
+    "color": "#f6cb2f",
+    "left_to_right": 4
+  },
+  {
+    "short_name": "Ind",
+    "name": "Independent",
+    "color": "#CCCCCC",
+    "left_to_right": 0
+  },
+  {
+    "short_name": "Speaker",
+    "name": "Speaker",
+    "color": "#000000",
+    "left_to_right": 0
+  },
+  {
+    "short_name": "TUV",
+    "name": "Traditional Unionist Voice",
+    "color": "#022397",
+    "left_to_right": 7
+  }
+]

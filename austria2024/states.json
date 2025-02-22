@@ -1,0 +1,47 @@
+{
+  "Burgenland": {
+    "name": "Burgenland",
+    "population": 296010,
+    "electorate": 233738
+  },
+  "Kärnten": {
+    "name": "Kärnten",
+    "population": 562089,
+    "electorate": 432330
+  },
+  "Niederösterreich": {
+    "name": "Niederösterreich",
+    "population": 1690879,
+    "electorate": 1296084
+  },
+  "Oberösterreich": {
+    "name": "Oberösterreich",
+    "population": 1495608,
+    "electorate": 1097771
+  },
+  "Salzburg": {
+    "name": "Salzburg",
+    "population": 560710,
+    "electorate": 391220
+  },
+  "Steiermark": {
+    "name": "Steiermark",
+    "population": 1247077,
+    "electorate": 951115
+  },
+  "Tirol": {
+    "name": "Tirol",
+    "population": 760105,
+    "electorate": 539833
+  },
+  "Vorarlberg": {
+    "name": "Vorarlberg",
+    "population": 399237,
+    "electorate": 276039
+  },
+  "Wien": {
+    "name": "Wien",
+    "population": 1920949,
+    "electorate": 1127929
+  }
+}

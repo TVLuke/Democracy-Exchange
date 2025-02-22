@@ -1,0 +1,74 @@
+[
+  {
+    "short_name": "ÖVP",
+    "name": "",
+    "color": "#63c4d0",
+    "left_to_right": 4
+  },
+  {
+    "short_name": "SPÖ",
+    "name": "",
+    "color": "#e2202d",
+    "left_to_right": 1
+  },
+  {
+    "short_name": "FPÖ",
+    "name": "",
+    "color": "#1d5ca5",
+    "left_to_right": 5
+  },
+  {
+    "short_name": "GRÜNE",
+    "name": "",
+    "color": "#56a417",
+    "left_to_right": 2
+  },
+  {
+    "short_name": "NEOS",
+    "name": "",
+    "color": "#e84188",
+    "left_to_right": 3
+  },
+  {
+    "short_name": "BIER",
+    "name": "",
+    "color": "#1d5ca5",
+    "left_to_right": 0
+  },
+  {
+    "short_name": "MFG",
+    "name": "",
+    "color": "",
+    "left_to_right": 0
+  },
+  {
+    "short_name": "BGE",
+    "name": "",
+    "color": "",
+    "left_to_right": 0
+  },
+  {
+    "short_name": "LMP",
+    "name": "",
+    "color": "",
+    "left_to_right": 0
+  },
+  {
+    "short_name": "GAZA",
+    "name": "",
+    "color": "",
+    "left_to_right": 0
+  },
+  {
+    "short_name": "KPÖ",
+    "name": "",
+    "color": "#1d5ca5",
+    "left_to_right": 0
+  },
+  {
+    "short_name": "KEINE",
+    "name": "",
+    "color": "",
+    "left_to_right": 0
+  }
+]

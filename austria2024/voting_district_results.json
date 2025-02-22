@@ -1,0 +1,1757 @@
+[
+  {
+    "district": "G1A",
+    "name": "Burgenland Nord",
+    "state": "Burgenland",
+    "population": 0,
+    "electorate": 124968,
+    "party_results": {
+      "ÖVP": {
+        "list": 28057
+      },
+      "SPÖ": {
+        "list": 27636
+      },
+      "FPÖ": {
+        "list": 28903
+      },
+      "GRÜNE": {
+        "list": 5329
+      },
+      "NEOS": {
+        "list": 7480
+      },
+      "BIER": {
+        "list": 2218
+      },
+      "MFG": {
+        "list": 0
+      },
+      "BGE": {
+        "list": 40
+      },
+      "LMP": {
+        "list": 479
+      },
+      "GAZA": {
+        "list": 293
+      },
+      "KPÖ": {
+        "list": 1375
+      },
+      "KEINE": {
+        "list": 517
+      }
+    }
+  },
+  {
+    "district": "G1B",
+    "name": "Burgenland Süd",
+    "state": "Burgenland",
+    "population": 0,
+    "electorate": 108770,
+    "party_results": {
+      "ÖVP": {
+        "list": 26323
+      },
+      "SPÖ": {
+        "list": 23881
+      },
+      "FPÖ": {
+        "list": 25955
+      },
+      "GRÜNE": {
+        "list": 3693
+      },
+      "NEOS": {
+        "list": 4894
+      },
+      "BIER": {
+        "list": 1613
+      },
+      "MFG": {
+        "list": 0
+      },
+      "BGE": {
+        "list": 116
+      },
+      "LMP": {
+        "list": 384
+      },
+      "GAZA": {
+        "list": 53
+      },
+      "KPÖ": {
+        "list": 1070
+      },
+      "KEINE": {
+        "list": 381
+      }
+    }
+  },
+  {
+    "district": "G2A",
+    "name": "Klagenfurt",
+    "state": "Kärnten",
+    "population": 0,
+    "electorate": 120983,
+    "party_results": {
+      "ÖVP": {
+        "list": 18694
+      },
+      "SPÖ": {
+        "list": 21275
+      },
+      "FPÖ": {
+        "list": 29456
+      },
+      "GRÜNE": {
+        "list": 5821
+      },
+      "NEOS": {
+        "list": 9077
+      },
+      "BIER": {
+        "list": 2005
+      },
+      "MFG": {
+        "list": 0
+      },
+      "BGE": {
+        "list": 0
+      },
+      "LMP": {
+        "list": 679
+      },
+      "GAZA": {
+        "list": 0
+      },
+      "KPÖ": {
+        "list": 1981
+      },
+      "KEINE": {
+        "list": 569
+      }
+    }
+  },
+  {
+    "district": "G2B",
+    "name": "Villach",
+    "state": "Kärnten",
+    "population": 0,
+    "electorate": 95502,
+    "party_results": {
+      "ÖVP": {
+        "list": 13099
+      },
+      "SPÖ": {
+        "list": 18062
+      },
+      "FPÖ": {
+        "list": 28125
+      },
+      "GRÜNE": {
+        "list": 3791
+      },
+      "NEOS": {
+        "list": 5922
+      },
+      "BIER": {
+        "list": 1667
+      },
+      "MFG": {
+        "list": 0
+      },
+      "BGE": {
+        "list": 0
+      },
+      "LMP": {
+        "list": 442
+      },
+      "GAZA": {
+        "list": 0
+      },
+      "KPÖ": {
+        "list": 1258
+      },
+      "KEINE": {
+        "list": 508
+      }
+    }
+  },
+  {
+    "district": "G2C",
+    "name": "Kärnten West",
+    "state": "Kärnten",
+    "population": 0,
+    "electorate": 97683,
+    "party_results": {
+      "ÖVP": {
+        "list": 17451
+      },
+      "SPÖ": {
+        "list": 15232
+      },
+      "FPÖ": {
+        "list": 32278
+      },
+      "GRÜNE": {
+        "list": 2748
+      },
+      "NEOS": {
+        "list": 5304
+      },
+      "BIER": {
+        "list": 1650
+      },
+      "MFG": {
+        "list": 0
+      },
+      "BGE": {
+        "list": 0
+      },
+      "LMP": {
+        "list": 355
+      },
+      "GAZA": {
+        "list": 0
+      },
+      "KPÖ": {
+        "list": 908
+      },
+      "KEINE": {
+        "list": 540
+      }
+    }
+  },
+  {
+    "district": "G2D",
+    "name": "Kärnten Ost",
+    "state": "Kärnten",
+    "population": 0,
+    "electorate": 118162,
+    "party_results": {
+      "ÖVP": {
+        "list": 19326
+      },
+      "SPÖ": {
+        "list": 21699
+      },
+      "FPÖ": {
+        "list": 36577
+      },
+      "GRÜNE": {
+        "list": 3293
+      },
+      "NEOS": {
+        "list": 5653
+      },
+      "BIER": {
+        "list": 2010
+      },
+      "MFG": {
+        "list": 0
+      },
+      "BGE": {
+        "list": 0
+      },
+      "LMP": {
+        "list": 381
+      },
+      "GAZA": {
+        "list": 0
+      },
+      "KPÖ": {
+        "list": 1345
+      },
+      "KEINE": {
+        "list": 687
+      }
+    }
+  },
+  {
+    "district": "G3A",
+    "name": "Weinviertel",
+    "state": "Niederösterreich",
+    "population": 0,
+    "electorate": 172783,
+    "party_results": {
+      "ÖVP": {
+        "list": 47663
+      },
+      "SPÖ": {
+        "list": 25421
+      },
+      "FPÖ": {
+        "list": 39501
+      },
+      "GRÜNE": {
+        "list": 9783
+      },
+      "NEOS": {
+        "list": 12526
+      },
+      "BIER": {
+        "list": 3280
+      },
+      "MFG": {
+        "list": 362
+      },
+      "BGE": {
+        "list": 0
+      },
+      "LMP": {
+        "list": 742
+      },
+      "GAZA": {
+        "list": 173
+      },
+      "KPÖ": {
+        "list": 2159
+      },
+      "KEINE": {
+        "list": 821
+      }
+    }
+  },
+  {
+    "district": "G3B",
+    "name": "Waldviertel",
+    "state": "Niederösterreich",
+    "population": 0,
+    "electorate": 173679,
+    "party_results": {
+      "ÖVP": {
+        "list": 52585
+      },
+      "SPÖ": {
+        "list": 22830
+      },
+      "FPÖ": {
+        "list": 43874
+      },
+      "GRÜNE": {
+        "list": 7855
+      },
+      "NEOS": {
+        "list": 10148
+      },
+      "BIER": {
+        "list": 2971
+      },
+      "MFG": {
+        "list": 548
+      },
+      "BGE": {
+        "list": 0
+      },
+      "LMP": {
+        "list": 890
+      },
+      "GAZA": {
+        "list": 139
+      },
+      "KPÖ": {
+        "list": 1842
+      },
+      "KEINE": {
+        "list": 732
+      }
+    }
+  },
+  {
+    "district": "G3C",
+    "name": "Mostviertel",
+    "state": "Niederösterreich",
+    "population": 0,
+    "electorate": 194196,
+    "party_results": {
+      "ÖVP": {
+        "list": 51756
+      },
+      "SPÖ": {
+        "list": 30162
+      },
+      "FPÖ": {
+        "list": 49804
+      },
+      "GRÜNE": {
+        "list": 10028
+      },
+      "NEOS": {
+        "list": 11475
+      },
+      "BIER": {
+        "list": 3256
+      },
+      "MFG": {
+        "list": 896
+      },
+      "BGE": {
+        "list": 0
+      },
+      "LMP": {
+        "list": 1000
+      },
+      "GAZA": {
+        "list": 182
+      },
+      "KPÖ": {
+        "list": 2621
+      },
+      "KEINE": {
+        "list": 1156
+      }
+    }
+  },
+  {
+    "district": "G3D",
+    "name": "Niederösterreich Mitte",
+    "state": "Niederösterreich",
+    "population": 0,
+    "electorate": 243188,
+    "party_results": {
+      "ÖVP": {
+        "list": 56775
+      },
+      "SPÖ": {
+        "list": 41277
+      },
+      "FPÖ": {
+        "list": 53067
+      },
+      "GRÜNE": {
+        "list": 17021
+      },
+      "NEOS": {
+        "list": 18809
+      },
+      "BIER": {
+        "list": 4266
+      },
+      "MFG": {
+        "list": 727
+      },
+      "BGE": {
+        "list": 0
+      },
+      "LMP": {
+        "list": 1649
+      },
+      "GAZA": {
+        "list": 446
+      },
+      "KPÖ": {
+        "list": 3751
+      },
+      "KEINE": {
+        "list": 1110
+      }
+    }
+  },
+  {
+    "district": "G3E",
+    "name": "Niederösterreich Süd",
+    "state": "Niederösterreich",
+    "population": 0,
+    "electorate": 161052,
+    "party_results": {
+      "ÖVP": {
+        "list": 33791
+      },
+      "SPÖ": {
+        "list": 27344
+      },
+      "FPÖ": {
+        "list": 42270
+      },
+      "GRÜNE": {
+        "list": 6319
+      },
+      "NEOS": {
+        "list": 8953
+      },
+      "BIER": {
+        "list": 2648
+      },
+      "MFG": {
+        "list": 478
+      },
+      "BGE": {
+        "list": 0
+      },
+      "LMP": {
+        "list": 850
+      },
+      "GAZA": {
+        "list": 995
+      },
+      "KPÖ": {
+        "list": 2117
+      },
+      "KEINE": {
+        "list": 758
+      }
+    }
+  },
+  {
+    "district": "G3F",
+    "name": "Thermenregion",
+    "state": "Niederösterreich",
+    "population": 0,
+    "electorate": 197219,
+    "party_results": {
+      "ÖVP": {
+        "list": 40477
+      },
+      "SPÖ": {
+        "list": 38649
+      },
+      "FPÖ": {
+        "list": 40450
+      },
+      "GRÜNE": {
+        "list": 13403
+      },
+      "NEOS": {
+        "list": 18898
+      },
+      "BIER": {
+        "list": 2949
+      },
+      "MFG": {
+        "list": 468
+      },
+      "BGE": {
+        "list": 0
+      },
+      "LMP": {
+        "list": 1031
+      },
+      "GAZA": {
+        "list": 810
+      },
+      "KPÖ": {
+        "list": 2467
+      },
+      "KEINE": {
+        "list": 817
+      }
+    }
+  },
+  {
+    "district": "G3G",
+    "name": "Niederösterreich Ost",
+    "state": "Niederösterreich",
+    "population": 0,
+    "electorate": 153967,
+    "party_results": {
+      "ÖVP": {
+        "list": 32300
+      },
+      "SPÖ": {
+        "list": 27790
+      },
+      "FPÖ": {
+        "list": 38483
+      },
+      "GRÜNE": {
+        "list": 6039
+      },
+      "NEOS": {
+        "list": 9011
+      },
+      "BIER": {
+        "list": 2447
+      },
+      "MFG": {
+        "list": 284
+      },
+      "BGE": {
+        "list": 0
+      },
+      "LMP": {
+        "list": 505
+      },
+      "GAZA": {
+        "list": 491
+      },
+      "KPÖ": {
+        "list": 1941
+      },
+      "KEINE": {
+        "list": 733
+      }
+    }
+  },
+  {
+    "district": "G4A",
+    "name": "Linz und Umgebung",
+    "state": "Oberösterreich",
+    "population": 0,
+    "electorate": 240123,
+    "party_results": {
+      "ÖVP": {
+        "list": 37508
+      },
+      "SPÖ": {
+        "list": 47001
+      },
+      "FPÖ": {
+        "list": 46430
+      },
+      "GRÜNE": {
+        "list": 18591
+      },
+      "NEOS": {
+        "list": 17686
+      },
+      "BIER": {
+        "list": 2997
+      },
+      "MFG": {
+        "list": 1114
+      },
+      "BGE": {
+        "list": 0
+      },
+      "LMP": {
+        "list": 1098
+      },
+      "GAZA": {
+        "list": 832
+      },
+      "KPÖ": {
+        "list": 5397
+      },
+      "KEINE": {
+        "list": 1034
+      }
+    }
+  },
+  {
+    "district": "G4B",
+    "name": "Innviertel",
+    "state": "Oberösterreich",
+    "population": 0,
+    "electorate": 165943,
+    "party_results": {
+      "ÖVP": {
+        "list": 38753
+      },
+      "SPÖ": {
+        "list": 18340
+      },
+      "FPÖ": {
+        "list": 47571
+      },
+      "GRÜNE": {
+        "list": 8151
+      },
+      "NEOS": {
+        "list": 9100
+      },
+      "BIER": {
+        "list": 2504
+      },
+      "MFG": {
+        "list": 1295
+      },
+      "BGE": {
+        "list": 0
+      },
+      "LMP": {
+        "list": 630
+      },
+      "GAZA": {
+        "list": 247
+      },
+      "KPÖ": {
+        "list": 2140
+      },
+      "KEINE": {
+        "list": 885
+      }
+    }
+  },
+  {
+    "district": "G4C",
+    "name": "Hausruckviertel",
+    "state": "Oberösterreich",
+    "population": 0,
+    "electorate": 273190,
+    "party_results": {
+      "ÖVP": {
+        "list": 56477
+      },
+      "SPÖ": {
+        "list": 41395
+      },
+      "FPÖ": {
+        "list": 69918
+      },
+      "GRÜNE": {
+        "list": 16819
+      },
+      "NEOS": {
+        "list": 18311
+      },
+      "BIER": {
+        "list": 4486
+      },
+      "MFG": {
+        "list": 1720
+      },
+      "BGE": {
+        "list": 0
+      },
+      "LMP": {
+        "list": 1242
+      },
+      "GAZA": {
+        "list": 626
+      },
+      "KPÖ": {
+        "list": 3898
+      },
+      "KEINE": {
+        "list": 1419
+      }
+    }
+  },
+  {
+    "district": "G4D",
+    "name": "Traunviertel",
+    "state": "Oberösterreich",
+    "population": 0,
+    "electorate": 195450,
+    "party_results": {
+      "ÖVP": {
+        "list": 38828
+      },
+      "SPÖ": {
+        "list": 34888
+      },
+      "FPÖ": {
+        "list": 47383
+      },
+      "GRÜNE": {
+        "list": 12796
+      },
+      "NEOS": {
+        "list": 12902
+      },
+      "BIER": {
+        "list": 3081
+      },
+      "MFG": {
+        "list": 1452
+      },
+      "BGE": {
+        "list": 0
+      },
+      "LMP": {
+        "list": 954
+      },
+      "GAZA": {
+        "list": 350
+      },
+      "KPÖ": {
+        "list": 3109
+      },
+      "KEINE": {
+        "list": 1040
+      }
+    }
+  },
+  {
+    "district": "G4E",
+    "name": "Mühlviertel",
+    "state": "Oberösterreich",
+    "population": 0,
+    "electorate": 223065,
+    "party_results": {
+      "ÖVP": {
+        "list": 57589
+      },
+      "SPÖ": {
+        "list": 34970
+      },
+      "FPÖ": {
+        "list": 53623
+      },
+      "GRÜNE": {
+        "list": 15811
+      },
+      "NEOS": {
+        "list": 15022
+      },
+      "BIER": {
+        "list": 3467
+      },
+      "MFG": {
+        "list": 1722
+      },
+      "BGE": {
+        "list": 0
+      },
+      "LMP": {
+        "list": 1146
+      },
+      "GAZA": {
+        "list": 270
+      },
+      "KPÖ": {
+        "list": 3130
+      },
+      "KEINE": {
+        "list": 1631
+      }
+    }
+  },
+  {
+    "district": "G5A",
+    "name": "Salzburg Stadt",
+    "state": "Salzburg",
+    "population": 0,
+    "electorate": 94828,
+    "party_results": {
+      "ÖVP": {
+        "list": 17740
+      },
+      "SPÖ": {
+        "list": 14222
+      },
+      "FPÖ": {
+        "list": 14245
+      },
+      "GRÜNE": {
+        "list": 9214
+      },
+      "NEOS": {
+        "list": 6831
+      },
+      "BIER": {
+        "list": 769
+      },
+      "MFG": {
+        "list": 228
+      },
+      "BGE": {
+        "list": 0
+      },
+      "LMP": {
+        "list": 459
+      },
+      "GAZA": {
+        "list": 0
+      },
+      "KPÖ": {
+        "list": 4240
+      },
+      "KEINE": {
+        "list": 346
+      }
+    }
+  },
+  {
+    "district": "G5B",
+    "name": "Flachgau/Tennengau",
+    "state": "Salzburg",
+    "population": 0,
+    "electorate": 158777,
+    "party_results": {
+      "ÖVP": {
+        "list": 40569
+      },
+      "SPÖ": {
+        "list": 19032
+      },
+      "FPÖ": {
+        "list": 35637
+      },
+      "GRÜNE": {
+        "list": 11477
+      },
+      "NEOS": {
+        "list": 11978
+      },
+      "BIER": {
+        "list": 2108
+      },
+      "MFG": {
+        "list": 659
+      },
+      "BGE": {
+        "list": 0
+      },
+      "LMP": {
+        "list": 758
+      },
+      "GAZA": {
+        "list": 0
+      },
+      "KPÖ": {
+        "list": 3875
+      },
+      "KEINE": {
+        "list": 889
+      }
+    }
+  },
+  {
+    "district": "G5C",
+    "name": "Lungau/Pinzgau/Pongau",
+    "state": "Salzburg",
+    "population": 0,
+    "electorate": 137615,
+    "party_results": {
+      "ÖVP": {
+        "list": 37703
+      },
+      "SPÖ": {
+        "list": 17946
+      },
+      "FPÖ": {
+        "list": 34272
+      },
+      "GRÜNE": {
+        "list": 5386
+      },
+      "NEOS": {
+        "list": 8756
+      },
+      "BIER": {
+        "list": 1776
+      },
+      "MFG": {
+        "list": 399
+      },
+      "BGE": {
+        "list": 0
+      },
+      "LMP": {
+        "list": 380
+      },
+      "GAZA": {
+        "list": 0
+      },
+      "KPÖ": {
+        "list": 2029
+      },
+      "KEINE": {
+        "list": 698
+      }
+    }
+  },
+  {
+    "district": "G6A",
+    "name": "Graz und Umgebung",
+    "state": "Steiermark",
+    "population": 0,
+    "electorate": 316057,
+    "party_results": {
+      "ÖVP": {
+        "list": 56628
+      },
+      "SPÖ": {
+        "list": 49953
+      },
+      "FPÖ": {
+        "list": 60428
+      },
+      "GRÜNE": {
+        "list": 31342
+      },
+      "NEOS": {
+        "list": 27059
+      },
+      "BIER": {
+        "list": 4162
+      },
+      "MFG": {
+        "list": 842
+      },
+      "BGE": {
+        "list": 0
+      },
+      "LMP": {
+        "list": 1523
+      },
+      "GAZA": {
+        "list": 828
+      },
+      "KPÖ": {
+        "list": 11462
+      },
+      "KEINE": {
+        "list": 1225
+      }
+    }
+  },
+  {
+    "district": "G6B",
+    "name": "Oststeiermark",
+    "state": "Steiermark",
+    "population": 0,
+    "electorate": 214694,
+    "party_results": {
+      "ÖVP": {
+        "list": 58203
+      },
+      "SPÖ": {
+        "list": 22253
+      },
+      "FPÖ": {
+        "list": 60629
+      },
+      "GRÜNE": {
+        "list": 9712
+      },
+      "NEOS": {
+        "list": 11250
+      },
+      "BIER": {
+        "list": 3371
+      },
+      "MFG": {
+        "list": 690
+      },
+      "BGE": {
+        "list": 0
+      },
+      "LMP": {
+        "list": 837
+      },
+      "GAZA": {
+        "list": 100
+      },
+      "KPÖ": {
+        "list": 3183
+      },
+      "KEINE": {
+        "list": 931
+      }
+    }
+  },
+  {
+    "district": "G6C",
+    "name": "Weststeiermark",
+    "state": "Steiermark",
+    "population": 0,
+    "electorate": 159920,
+    "party_results": {
+      "ÖVP": {
+        "list": 34280
+      },
+      "SPÖ": {
+        "list": 20816
+      },
+      "FPÖ": {
+        "list": 48521
+      },
+      "GRÜNE": {
+        "list": 6112
+      },
+      "NEOS": {
+        "list": 8010
+      },
+      "BIER": {
+        "list": 2201
+      },
+      "MFG": {
+        "list": 460
+      },
+      "BGE": {
+        "list": 0
+      },
+      "LMP": {
+        "list": 588
+      },
+      "GAZA": {
+        "list": 50
+      },
+      "KPÖ": {
+        "list": 2549
+      },
+      "KEINE": {
+        "list": 598
+      }
+    }
+  },
+  {
+    "district": "G6D",
+    "name": "Obersteiermark",
+    "state": "Steiermark",
+    "population": 0,
+    "electorate": 260444,
+    "party_results": {
+      "ÖVP": {
+        "list": 51068
+      },
+      "SPÖ": {
+        "list": 45221
+      },
+      "FPÖ": {
+        "list": 69268
+      },
+      "GRÜNE": {
+        "list": 9273
+      },
+      "NEOS": {
+        "list": 14545
+      },
+      "BIER": {
+        "list": 4249
+      },
+      "MFG": {
+        "list": 768
+      },
+      "BGE": {
+        "list": 0
+      },
+      "LMP": {
+        "list": 826
+      },
+      "GAZA": {
+        "list": 153
+      },
+      "KPÖ": {
+        "list": 5694
+      },
+      "KEINE": {
+        "list": 1151
+      }
+    }
+  },
+  {
+    "district": "G7A",
+    "name": "Innsbruck",
+    "state": "Tirol",
+    "population": 0,
+    "electorate": 81342,
+    "party_results": {
+      "ÖVP": {
+        "list": 12106
+      },
+      "SPÖ": {
+        "list": 13507
+      },
+      "FPÖ": {
+        "list": 12867
+      },
+      "GRÜNE": {
+        "list": 8718
+      },
+      "NEOS": {
+        "list": 6878
+      },
+      "BIER": {
+        "list": 934
+      },
+      "MFG": {
+        "list": 182
+      },
+      "BGE": {
+        "list": 0
+      },
+      "LMP": {
+        "list": 343
+      },
+      "GAZA": {
+        "list": 557
+      },
+      "KPÖ": {
+        "list": 2289
+      },
+      "KEINE": {
+        "list": 229
+      }
+    }
+  },
+  {
+    "district": "G7B",
+    "name": "Innsbruck-Land",
+    "state": "Tirol",
+    "population": 0,
+    "electorate": 195140,
+    "party_results": {
+      "ÖVP": {
+        "list": 43136
+      },
+      "SPÖ": {
+        "list": 23271
+      },
+      "FPÖ": {
+        "list": 43194
+      },
+      "GRÜNE": {
+        "list": 11647
+      },
+      "NEOS": {
+        "list": 16378
+      },
+      "BIER": {
+        "list": 3008
+      },
+      "MFG": {
+        "list": 714
+      },
+      "BGE": {
+        "list": 0
+      },
+      "LMP": {
+        "list": 919
+      },
+      "GAZA": {
+        "list": 552
+      },
+      "KPÖ": {
+        "list": 2836
+      },
+      "KEINE": {
+        "list": 730
+      }
+    }
+  },
+  {
+    "district": "G7C",
+    "name": "Unterland",
+    "state": "Tirol",
+    "population": 0,
+    "electorate": 122654,
+    "party_results": {
+      "ÖVP": {
+        "list": 30416
+      },
+      "SPÖ": {
+        "list": 11997
+      },
+      "FPÖ": {
+        "list": 28300
+      },
+      "GRÜNE": {
+        "list": 6142
+      },
+      "NEOS": {
+        "list": 9094
+      },
+      "BIER": {
+        "list": 2130
+      },
+      "MFG": {
+        "list": 634
+      },
+      "BGE": {
+        "list": 0
+      },
+      "LMP": {
+        "list": 403
+      },
+      "GAZA": {
+        "list": 211
+      },
+      "KPÖ": {
+        "list": 1461
+      },
+      "KEINE": {
+        "list": 489
+      }
+    }
+  },
+  {
+    "district": "G7D",
+    "name": "Oberland",
+    "state": "Tirol",
+    "population": 0,
+    "electorate": 101447,
+    "party_results": {
+      "ÖVP": {
+        "list": 26542
+      },
+      "SPÖ": {
+        "list": 9591
+      },
+      "FPÖ": {
+        "list": 21532
+      },
+      "GRÜNE": {
+        "list": 4354
+      },
+      "NEOS": {
+        "list": 7660
+      },
+      "BIER": {
+        "list": 1933
+      },
+      "MFG": {
+        "list": 373
+      },
+      "BGE": {
+        "list": 0
+      },
+      "LMP": {
+        "list": 409
+      },
+      "GAZA": {
+        "list": 187
+      },
+      "KPÖ": {
+        "list": 1151
+      },
+      "KEINE": {
+        "list": 445
+      }
+    }
+  },
+  {
+    "district": "G7E",
+    "name": "Osttirol",
+    "state": "Tirol",
+    "population": 0,
+    "electorate": 39250,
+    "party_results": {
+      "ÖVP": {
+        "list": 11596
+      },
+      "SPÖ": {
+        "list": 3126
+      },
+      "FPÖ": {
+        "list": 8808
+      },
+      "GRÜNE": {
+        "list": 1736
+      },
+      "NEOS": {
+        "list": 2452
+      },
+      "BIER": {
+        "list": 820
+      },
+      "MFG": {
+        "list": 100
+      },
+      "BGE": {
+        "list": 0
+      },
+      "LMP": {
+        "list": 110
+      },
+      "GAZA": {
+        "list": 30
+      },
+      "KPÖ": {
+        "list": 416
+      },
+      "KEINE": {
+        "list": 183
+      }
+    }
+  },
+  {
+    "district": "G8A",
+    "name": "Vorarlberg Nord",
+    "state": "Vorarlberg",
+    "population": 0,
+    "electorate": 153345,
+    "party_results": {
+      "ÖVP": {
+        "list": 32449
+      },
+      "SPÖ": {
+        "list": 14012
+      },
+      "FPÖ": {
+        "list": 28544
+      },
+      "GRÜNE": {
+        "list": 12546
+      },
+      "NEOS": {
+        "list": 13929
+      },
+      "BIER": {
+        "list": 2466
+      },
+      "MFG": {
+        "list": 567
+      },
+      "BGE": {
+        "list": 0
+      },
+      "LMP": {
+        "list": 703
+      },
+      "GAZA": {
+        "list": 1201
+      },
+      "KPÖ": {
+        "list": 1639
+      },
+      "KEINE": {
+        "list": 572
+      }
+    }
+  },
+  {
+    "district": "G8B",
+    "name": "Vorarlberg Süd",
+    "state": "Vorarlberg",
+    "population": 0,
+    "electorate": 122694,
+    "party_results": {
+      "ÖVP": {
+        "list": 25087
+      },
+      "SPÖ": {
+        "list": 11975
+      },
+      "FPÖ": {
+        "list": 25057
+      },
+      "GRÜNE": {
+        "list": 9996
+      },
+      "NEOS": {
+        "list": 11120
+      },
+      "BIER": {
+        "list": 2246
+      },
+      "MFG": {
+        "list": 547
+      },
+      "BGE": {
+        "list": 0
+      },
+      "LMP": {
+        "list": 775
+      },
+      "GAZA": {
+        "list": 571
+      },
+      "KPÖ": {
+        "list": 1369
+      },
+      "KEINE": {
+        "list": 569
+      }
+    }
+  },
+  {
+    "district": "G9A",
+    "name": "Wien Innen-Süd",
+    "state": "Wien",
+    "population": 0,
+    "electorate": 102947,
+    "party_results": {
+      "ÖVP": {
+        "list": 13036
+      },
+      "SPÖ": {
+        "list": 24122
+      },
+      "FPÖ": {
+        "list": 10888
+      },
+      "GRÜNE": {
+        "list": 13024
+      },
+      "NEOS": {
+        "list": 11014
+      },
+      "BIER": {
+        "list": 1412
+      },
+      "MFG": {
+        "list": 165
+      },
+      "BGE": {
+        "list": 0
+      },
+      "LMP": {
+        "list": 558
+      },
+      "GAZA": {
+        "list": 587
+      },
+      "KPÖ": {
+        "list": 3562
+      },
+      "KEINE": {
+        "list": 312
+      }
+    }
+  },
+  {
+    "district": "G9B",
+    "name": "Wien Innen-West",
+    "state": "Wien",
+    "population": 0,
+    "electorate": 88589,
+    "party_results": {
+      "ÖVP": {
+        "list": 12955
+      },
+      "SPÖ": {
+        "list": 20467
+      },
+      "FPÖ": {
+        "list": 7998
+      },
+      "GRÜNE": {
+        "list": 13759
+      },
+      "NEOS": {
+        "list": 11717
+      },
+      "BIER": {
+        "list": 1022
+      },
+      "MFG": {
+        "list": 136
+      },
+      "BGE": {
+        "list": 0
+      },
+      "LMP": {
+        "list": 540
+      },
+      "GAZA": {
+        "list": 340
+      },
+      "KPÖ": {
+        "list": 3167
+      },
+      "KEINE": {
+        "list": 214
+      }
+    }
+  },
+  {
+    "district": "G9C",
+    "name": "Wien Innen-Ost",
+    "state": "Wien",
+    "population": 0,
+    "electorate": 102685,
+    "party_results": {
+      "ÖVP": {
+        "list": 9957
+      },
+      "SPÖ": {
+        "list": 24259
+      },
+      "FPÖ": {
+        "list": 12460
+      },
+      "GRÜNE": {
+        "list": 11201
+      },
+      "NEOS": {
+        "list": 7507
+      },
+      "BIER": {
+        "list": 1424
+      },
+      "MFG": {
+        "list": 148
+      },
+      "BGE": {
+        "list": 0
+      },
+      "LMP": {
+        "list": 412
+      },
+      "GAZA": {
+        "list": 1175
+      },
+      "KPÖ": {
+        "list": 3567
+      },
+      "KEINE": {
+        "list": 257
+      }
+    }
+  },
+  {
+    "district": "G9D",
+    "name": "Wien Süd",
+    "state": "Wien",
+    "population": 0,
+    "electorate": 216702,
+    "party_results": {
+      "ÖVP": {
+        "list": 21795
+      },
+      "SPÖ": {
+        "list": 46328
+      },
+      "FPÖ": {
+        "list": 37877
+      },
+      "GRÜNE": {
+        "list": 11173
+      },
+      "NEOS": {
+        "list": 11005
+      },
+      "BIER": {
+        "list": 3817
+      },
+      "MFG": {
+        "list": 287
+      },
+      "BGE": {
+        "list": 0
+      },
+      "LMP": {
+        "list": 700
+      },
+      "GAZA": {
+        "list": 2838
+      },
+      "KPÖ": {
+        "list": 5193
+      },
+      "KEINE": {
+        "list": 620
+      }
+    }
+  },
+  {
+    "district": "G9E",
+    "name": "Wien Süd-West",
+    "state": "Wien",
+    "population": 0,
+    "electorate": 210621,
+    "party_results": {
+      "ÖVP": {
+        "list": 30856
+      },
+      "SPÖ": {
+        "list": 44268
+      },
+      "FPÖ": {
+        "list": 31180
+      },
+      "GRÜNE": {
+        "list": 20393
+      },
+      "NEOS": {
+        "list": 18867
+      },
+      "BIER": {
+        "list": 3201
+      },
+      "MFG": {
+        "list": 312
+      },
+      "BGE": {
+        "list": 0
+      },
+      "LMP": {
+        "list": 1155
+      },
+      "GAZA": {
+        "list": 1354
+      },
+      "KPÖ": {
+        "list": 5556
+      },
+      "KEINE": {
+        "list": 669
+      }
+    }
+  },
+  {
+    "district": "G9F",
+    "name": "Wien Nord-West",
+    "state": "Wien",
+    "population": 0,
+    "electorate": 163019,
+    "party_results": {
+      "ÖVP": {
+        "list": 24716
+      },
+      "SPÖ": {
+        "list": 33741
+      },
+      "FPÖ": {
+        "list": 19569
+      },
+      "GRÜNE": {
+        "list": 19223
+      },
+      "NEOS": {
+        "list": 17269
+      },
+      "BIER": {
+        "list": 2121
+      },
+      "MFG": {
+        "list": 217
+      },
+      "BGE": {
+        "list": 0
+      },
+      "LMP": {
+        "list": 957
+      },
+      "GAZA": {
+        "list": 983
+      },
+      "KPÖ": {
+        "list": 5072
+      },
+      "KEINE": {
+        "list": 463
+      }
+    }
+  },
+  {
+    "district": "G9G",
+    "name": "Wien Nord",
+    "state": "Wien",
+    "population": 0,
+    "electorate": 243366,
+    "party_results": {
+      "ÖVP": {
+        "list": 29333
+      },
+      "SPÖ": {
+        "list": 50870
+      },
+      "FPÖ": {
+        "list": 48651
+      },
+      "GRÜNE": {
+        "list": 12859
+      },
+      "NEOS": {
+        "list": 15795
+      },
+      "BIER": {
+        "list": 4304
+      },
+      "MFG": {
+        "list": 398
+      },
+      "BGE": {
+        "list": 0
+      },
+      "LMP": {
+        "list": 950
+      },
+      "GAZA": {
+        "list": 1819
+      },
+      "KPÖ": {
+        "list": 5269
+      },
+      "KEINE": {
+        "list": 1031
+      }
+    }
+  }
+]

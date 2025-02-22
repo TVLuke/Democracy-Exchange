@@ -1,9 +1,7 @@
 import os
 import json
 import random
-from collections import namedtuple
-from typing import List, Optional
-from party import Party
+from typing import Optional
 
 def generate_random_color() -> str:
     """Generate a random hex color code."""
@@ -12,15 +10,16 @@ def generate_random_color() -> str:
     b = random.randint(0, 255)
     return f'#{r:02x}{g:02x}{b:02x}'
 
-def load_parties(folder_path: str) -> Optional[List[Party]]:
+def load_parties(folder_path: str) -> Optional[list]:
     """
     Load parties from a participating_parties.json file in the specified folder.
+    For parties without colors, generates and adds random colors.
     
     Args:
         folder_path: Path to the folder containing participating_parties.json
         
     Returns:
-        List of Party tuples if successful, None if file not found
+        List of party data dictionaries if successful, None if file not found
     """
     json_path = os.path.join(folder_path, 'participating_parties.json')
     
@@ -40,34 +39,30 @@ def load_parties(folder_path: str) -> Optional[List[Party]]:
         print(f"Error reading file: {e}")
         return None
     
-    # Process parties
-    parties = []
+    # Add random colors for parties that don't have one
     for party in party_data:
-        # Get party name (use short_name if available, otherwise name)
-        party_name = party.get('short_name') or party.get('name')
-        if not party_name:
-            continue
-            
-        # Get color or generate random one
-        color = party.get('color') or generate_random_color()
-        
-        # Get left_to_right value
-        left_to_right = party.get('left_to_right', 0)
-        
-        # Create Party tuple
-        parties.append(Party(name=party_name, color=color, size=0, left_to_right=left_to_right, votes=0))
+        if not party.get('color'):
+            party['color'] = generate_random_color()
     
-    return parties
+    return party_data
 
-def load_basic_information(folder_path: str) -> int:
+def load_basic_information(folder_path: str) -> tuple[int, str]:
+    """Load basic information from a folder.
+    
+    Args:
+        folder_path: Path to the election folder
+        
+    Returns:
+        Tuple of (total seats, election name)
+    """
     basic_info_file = os.path.join(folder_path, 'basic_information.json')
     if not os.path.exists(basic_info_file):
-        return 0  # Or handle the error as needed
+        return 0, ''  # Or handle the error as needed
     
-    with open(basic_info_file, 'r') as file:
+    with open(basic_info_file, 'r', encoding='utf-8') as file:
         basic_info = json.load(file)
     
-    return basic_info.get('seats', 0)
+    return basic_info.get('seats', 0), basic_info.get('name', '')
 
 if __name__ == '__main__':
     # Example usage
@@ -78,6 +73,6 @@ if __name__ == '__main__':
         if parties:
             print(f"Loaded {len(parties)} parties:")
             for party in parties:
-                print(f"- {party.name}: {party.color}")
+                print(f"- {party['short_name']}: {party['color']}")
     else:
         print("Please provide a folder path")

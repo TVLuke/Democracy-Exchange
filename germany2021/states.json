@@ -1,0 +1,82 @@
+{
+  "Schleswig-Holstein": {
+    "name": "Schleswig-Holstein",
+    "population": 2668990,
+    "electorate": 2272717
+  },
+  "Mecklenburg-Vorpommern": {
+    "name": "Mecklenburg-Vorpommern",
+    "population": 1494603,
+    "electorate": 1314435
+  },
+  "Hamburg": {
+    "name": "Hamburg",
+    "population": 1503565,
+    "electorate": 1298792
+  },
+  "Niedersachsen": {
+    "name": "Niedersachsen",
+    "population": 7126642,
+    "electorate": 6105381
+  },
+  "Bremen": {
+    "name": "Bremen",
+    "population": 550744,
+    "electorate": 459749
+  },
+  "Brandenburg": {
+    "name": "Brandenburg",
+    "population": 2387845,
+    "electorate": 2048844
+  },
+  "Sachsen-Anhalt": {
+    "name": "Sachsen-Anhalt",
+    "population": 2266930,
+    "electorate": 1789775
+  },
+  "Berlin": {
+    "name": "Berlin",
+    "population": 2856870,
+    "electorate": 2460618
+  },
+  "Nordrhein-Westfalen": {
+    "name": "Nordrhein-Westfalen",
+    "population": 15305085,
+    "electorate": 13040267
+  },
+  "Sachsen": {
+    "name": "Sachsen",
+    "population": 3804365,
+    "electorate": 3253667
+  },
+  "Hessen": {
+    "name": "Hessen",
+    "population": 5203781,
+    "electorate": 4383047
+  },
+  "Thüringen": {
+    "name": "Thüringen",
+    "population": 2018585,
+    "electorate": 1707726
+  },
+  "Rheinland-Pfalz": {
+    "name": "Rheinland-Pfalz",
+    "population": 3497565,
+    "electorate": 3053335
+  },
+  "Bayern": {
+    "name": "Bayern",
+    "population": 10977291,
+    "electorate": 9517664
+  },
+  "Baden-Württemberg": {
+    "name": "Baden-Württemberg",
+    "population": 9259790,
+    "electorate": 7711531
+  },
+  "Saarland": {
+    "name": "Saarland",
+    "population": 875273,
+    "electorate": 755223
+  }
+}

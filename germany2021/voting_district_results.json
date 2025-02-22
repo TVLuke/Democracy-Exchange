@@ -2,6 +2,9 @@
   {
     "district": 1,
     "name": "Flensburg – Schleswig",
+    "state": "Schleswig-Holstein",
+    "population": 271989,
+    "electorate": 231536,
     "party_results": {
       "CDU": {
         "member": 41721,
@@ -92,6 +95,9 @@
   {
     "district": 2,
     "name": "Nordfriesland – Dithmarschen Nord",
+    "state": "Schleswig-Holstein",
+    "population": 218670,
+    "electorate": 188267,
     "party_results": {
       "CDU": {
         "member": 43745,
@@ -182,6 +188,9 @@
   {
     "district": 3,
     "name": "Steinburg – Dithmarschen Süd",
+    "state": "Schleswig-Holstein",
+    "population": 206270,
+    "electorate": 176899,
     "party_results": {
       "CDU": {
         "member": 39431,
@@ -272,6 +281,9 @@
   {
     "district": 4,
     "name": "Rendsburg-Eckernförde",
+    "state": "Schleswig-Holstein",
+    "population": 238225,
+    "electorate": 202226,
     "party_results": {
       "CDU": {
         "member": 47688,
@@ -362,6 +374,9 @@
   {
     "district": 5,
     "name": "Kiel",
+    "state": "Schleswig-Holstein",
+    "population": 239546,
+    "electorate": 202482,
     "party_results": {
       "CDU": {
         "member": 28416,
@@ -452,6 +467,9 @@
   {
     "district": 6,
     "name": "Plön – Neumünster",
+    "state": "Schleswig-Holstein",
+    "population": 204491,
+    "electorate": 174908,
     "party_results": {
       "CDU": {
         "member": 36870,
@@ -542,6 +560,9 @@
   {
     "district": 7,
     "name": "Pinneberg",
+    "state": "Schleswig-Holstein",
+    "population": 282913,
+    "electorate": 238388,
     "party_results": {
       "CDU": {
         "member": 49710,
@@ -632,6 +653,9 @@
   {
     "district": 8,
     "name": "Segeberg – Stormarn-Mitte",
+    "state": "Schleswig-Holstein",
+    "population": 294709,
+    "electorate": 249202,
     "party_results": {
       "CDU": {
         "member": 55265,
@@ -722,6 +746,9 @@
   {
     "district": 9,
     "name": "Ostholstein – Stormarn-Nord",
+    "state": "Schleswig-Holstein",
+    "population": 207015,
+    "electorate": 183138,
     "party_results": {
       "CDU": {
         "member": 42991,
@@ -812,6 +839,9 @@
   {
     "district": 10,
     "name": "Herzogtum Lauenburg – Stormarn-Süd",
+    "state": "Schleswig-Holstein",
+    "population": 295149,
+    "electorate": 246277,
     "party_results": {
       "CDU": {
         "member": 51872,
@@ -902,6 +932,9 @@
   {
     "district": 11,
     "name": "Lübeck",
+    "state": "Schleswig-Holstein",
+    "population": 210013,
+    "electorate": 179394,
     "party_results": {
       "CDU": {
         "member": 28266,
@@ -992,6 +1025,9 @@
   {
     "district": 12,
     "name": "Schwerin – Ludwigslust-Parchim I – Nordwestmecklenburg I",
+    "state": "Mecklenburg-Vorpommern",
+    "population": 250687,
+    "electorate": 214853,
     "party_results": {
       "CDU": {
         "member": 31754,
@@ -1070,6 +1106,9 @@
   {
     "district": 13,
     "name": "Ludwigslust-Parchim II – Nordwestmecklenburg II – Landkreis Rostock I",
+    "state": "Mecklenburg-Vorpommern",
+    "population": 238029,
+    "electorate": 205042,
     "party_results": {
       "CDU": {
         "member": 26208,
@@ -1148,6 +1187,9 @@
   {
     "district": 14,
     "name": "Rostock – Landkreis Rostock II",
+    "state": "Mecklenburg-Vorpommern",
+    "population": 256530,
+    "electorate": 222705,
     "party_results": {
       "CDU": {
         "member": 27672,
@@ -1226,6 +1268,9 @@
   {
     "district": 15,
     "name": "Vorpommern-Rügen – Vorpommern-Greifswald I",
+    "state": "Mecklenburg-Vorpommern",
+    "population": 268532,
+    "electorate": 241066,
     "party_results": {
       "CDU": {
         "member": 33903,
@@ -1304,6 +1349,9 @@
   {
     "district": 16,
     "name": "Mecklenburgische Seenplatte I – Vorpommern-Greifswald II",
+    "state": "Mecklenburg-Vorpommern",
+    "population": 244945,
+    "electorate": 221421,
     "party_results": {
       "CDU": {
         "member": 31182,
@@ -1386,6 +1434,9 @@
   {
     "district": 17,
     "name": "Mecklenburgische Seenplatte II – Landkreis Rostock III",
+    "state": "Mecklenburg-Vorpommern",
+    "population": 235880,
+    "electorate": 209348,
     "party_results": {
       "CDU": {
         "member": 29950,
@@ -1464,6 +1515,9 @@
   {
     "district": 18,
     "name": "Hamburg-Mitte",
+    "state": "Hamburg",
+    "population": 270841,
+    "electorate": 242078,
     "party_results": {
       "CDU": {
         "member": 23231,
@@ -1558,6 +1612,9 @@
   {
     "district": 19,
     "name": "Hamburg-Altona",
+    "state": "Hamburg",
+    "population": 221073,
+    "electorate": 187705,
     "party_results": {
       "CDU": {
         "member": 25441,
@@ -1652,6 +1709,9 @@
   {
     "district": 20,
     "name": "Hamburg-Eimsbüttel",
+    "state": "Hamburg",
+    "population": 221514,
+    "electorate": 193823,
     "party_results": {
       "CDU": {
         "member": 27462,
@@ -1746,6 +1806,9 @@
   {
     "district": 21,
     "name": "Hamburg-Nord",
+    "state": "Hamburg",
+    "population": 255277,
+    "electorate": 219909,
     "party_results": {
       "CDU": {
         "member": 43870,
@@ -1840,6 +1903,9 @@
   {
     "district": 22,
     "name": "Hamburg-Wandsbek",
+    "state": "Hamburg",
+    "population": 270837,
+    "electorate": 233483,
     "party_results": {
       "CDU": {
         "member": 33085,
@@ -1934,6 +2000,9 @@
   {
     "district": 23,
     "name": "Hamburg-Bergedorf – Harburg",
+    "state": "Hamburg",
+    "population": 264023,
+    "electorate": 221794,
     "party_results": {
       "CDU": {
         "member": 26483,
@@ -2028,6 +2097,9 @@
   {
     "district": 24,
     "name": "Aurich – Emden",
+    "state": "Niedersachsen",
+    "population": 220603,
+    "electorate": 191846,
     "party_results": {
       "CDU": {
         "member": 24019,
@@ -2118,6 +2190,9 @@
   {
     "district": 25,
     "name": "Unterems",
+    "state": "Niedersachsen",
+    "population": 280970,
+    "electorate": 238506,
     "party_results": {
       "CDU": {
         "member": 77143,
@@ -2208,6 +2283,9 @@
   {
     "district": 26,
     "name": "Friesland – Wilhelmshaven – Wittmund",
+    "state": "Niedersachsen",
+    "population": 214609,
+    "electorate": 189047,
     "party_results": {
       "CDU": {
         "member": 29286,
@@ -2298,6 +2376,9 @@
   {
     "district": 27,
     "name": "Oldenburg – Ammerland",
+    "state": "Niedersachsen",
+    "population": 271338,
+    "electorate": 228705,
     "party_results": {
       "CDU": {
         "member": 34294,
@@ -2388,6 +2469,9 @@
   {
     "district": 28,
     "name": "Delmenhorst – Wesermarsch – Oldenburg-Land",
+    "state": "Niedersachsen",
+    "population": 267863,
+    "electorate": 226827,
     "party_results": {
       "CDU": {
         "member": 40410,
@@ -2478,6 +2562,9 @@
   {
     "district": 29,
     "name": "Cuxhaven – Stade II",
+    "state": "Niedersachsen",
+    "population": 219905,
+    "electorate": 188602,
     "party_results": {
       "CDU": {
         "member": 42085,
@@ -2568,6 +2655,9 @@
   {
     "district": 30,
     "name": "Stade I – Rotenburg II",
+    "state": "Niedersachsen",
+    "population": 232980,
+    "electorate": 198576,
     "party_results": {
       "CDU": {
         "member": 52069,
@@ -2658,6 +2748,9 @@
   {
     "district": 31,
     "name": "Mittelems",
+    "state": "Niedersachsen",
+    "population": 283465,
+    "electorate": 233253,
     "party_results": {
       "CDU": {
         "member": 72523,
@@ -2748,6 +2841,9 @@
   {
     "district": 32,
     "name": "Cloppenburg – Vechta",
+    "state": "Niedersachsen",
+    "population": 277128,
+    "electorate": 223948,
     "party_results": {
       "CDU": {
         "member": 80134,
@@ -2838,6 +2934,9 @@
   {
     "district": 33,
     "name": "Diepholz – Nienburg I",
+    "state": "Niedersachsen",
+    "population": 227588,
+    "electorate": 194371,
     "party_results": {
       "CDU": {
         "member": 49116,
@@ -2928,6 +3027,9 @@
   {
     "district": 34,
     "name": "Osterholz – Verden",
+    "state": "Niedersachsen",
+    "population": 231462,
+    "electorate": 197490,
     "party_results": {
       "CDU": {
         "member": 50274,
@@ -3018,6 +3120,9 @@
   {
     "district": 35,
     "name": "Rotenburg I – Heidekreis",
+    "state": "Niedersachsen",
+    "population": 198960,
+    "electorate": 168927,
     "party_results": {
       "CDU": {
         "member": 32720,
@@ -3108,6 +3213,9 @@
   {
     "district": 36,
     "name": "Harburg",
+    "state": "Niedersachsen",
+    "population": 238797,
+    "electorate": 201740,
     "party_results": {
       "CDU": {
         "member": 46711,
@@ -3198,6 +3306,9 @@
   {
     "district": 37,
     "name": "Lüchow-Dannenberg – Lüneburg",
+    "state": "Niedersachsen",
+    "population": 208636,
+    "electorate": 182673,
     "party_results": {
       "CDU": {
         "member": 34287,
@@ -3288,6 +3399,9 @@
   {
     "district": 38,
     "name": "Osnabrück-Land",
+    "state": "Niedersachsen",
+    "population": 236920,
+    "electorate": 199960,
     "party_results": {
       "CDU": {
         "member": 54535,
@@ -3378,6 +3492,9 @@
   {
     "district": 39,
     "name": "Stadt Osnabrück",
+    "state": "Niedersachsen",
+    "population": 226340,
+    "electorate": 195467,
     "party_results": {
       "CDU": {
         "member": 43316,
@@ -3468,6 +3585,9 @@
   {
     "district": 40,
     "name": "Nienburg II – Schaumburg",
+    "state": "Niedersachsen",
+    "population": 224035,
+    "electorate": 193863,
     "party_results": {
       "CDU": {
         "member": 43817,
@@ -3558,6 +3678,9 @@
   {
     "district": 41,
     "name": "Stadt Hannover I",
+    "state": "Niedersachsen",
+    "population": 201890,
+    "electorate": 176770,
     "party_results": {
       "CDU": {
         "member": 27303,
@@ -3648,6 +3771,9 @@
   {
     "district": 42,
     "name": "Stadt Hannover II",
+    "state": "Niedersachsen",
+    "population": 215049,
+    "electorate": 190336,
     "party_results": {
       "CDU": {
         "member": 26196,
@@ -3738,6 +3864,9 @@
   {
     "district": 43,
     "name": "Hannover-Land I",
+    "state": "Niedersachsen",
+    "population": 269226,
+    "electorate": 231250,
     "party_results": {
       "CDU": {
         "member": 55185,
@@ -3828,6 +3957,9 @@
   {
     "district": 44,
     "name": "Celle – Uelzen",
+    "state": "Niedersachsen",
+    "population": 242823,
+    "electorate": 214482,
     "party_results": {
       "CDU": {
         "member": 51504,
@@ -3918,6 +4050,9 @@
   {
     "district": 45,
     "name": "Gifhorn – Peine",
+    "state": "Niedersachsen",
+    "population": 261338,
+    "electorate": 219966,
     "party_results": {
       "CDU": {
         "member": 40279,
@@ -4008,6 +4143,9 @@
   {
     "district": 46,
     "name": "Hameln-Pyrmont – Holzminden",
+    "state": "Niedersachsen",
+    "population": 209417,
+    "electorate": 184471,
     "party_results": {
       "CDU": {
         "member": 33575,
@@ -4098,6 +4236,9 @@
   {
     "district": 47,
     "name": "Hannover-Land II",
+    "state": "Niedersachsen",
+    "population": 277565,
+    "electorate": 238323,
     "party_results": {
       "CDU": {
         "member": 45721,
@@ -4188,6 +4329,9 @@
   {
     "district": 48,
     "name": "Hildesheim",
+    "state": "Niedersachsen",
+    "population": 243203,
+    "electorate": 215131,
     "party_results": {
       "CDU": {
         "member": 41230,
@@ -4278,6 +4422,9 @@
   {
     "district": 49,
     "name": "Salzgitter – Wolfenbüttel",
+    "state": "Niedersachsen",
+    "population": 233470,
+    "electorate": 200922,
     "party_results": {
       "CDU": {
         "member": 39541,
@@ -4368,6 +4515,9 @@
   {
     "district": 50,
     "name": "Braunschweig",
+    "state": "Niedersachsen",
+    "population": 223651,
+    "electorate": 187721,
     "party_results": {
       "CDU": {
         "member": 31276,
@@ -4458,6 +4608,9 @@
   {
     "district": 51,
     "name": "Helmstedt – Wolfsburg",
+    "state": "Niedersachsen",
+    "population": 215857,
+    "electorate": 180147,
     "party_results": {
       "CDU": {
         "member": 34367,
@@ -4548,6 +4701,9 @@
   {
     "district": 52,
     "name": "Goslar – Northeim – Osterode",
+    "state": "Niedersachsen",
+    "population": 217063,
+    "electorate": 197519,
     "party_results": {
       "CDU": {
         "member": 47196,
@@ -4638,6 +4794,9 @@
   {
     "district": 53,
     "name": "Göttingen",
+    "state": "Niedersachsen",
+    "population": 254491,
+    "electorate": 214542,
     "party_results": {
       "CDU": {
         "member": 42958,
@@ -4728,6 +4887,9 @@
   {
     "district": 54,
     "name": "Bremen I",
+    "state": "Bremen",
+    "population": 293474,
+    "electorate": 245384,
     "party_results": {
       "SPD": {
         "member": 55934,
@@ -4806,6 +4968,9 @@
   {
     "district": 55,
     "name": "Bremen II – Bremerhaven",
+    "state": "Bremen",
+    "population": 257270,
+    "electorate": 214365,
     "party_results": {
       "SPD": {
         "member": 52498,
@@ -4888,6 +5053,9 @@
   {
     "district": 56,
     "name": "Prignitz – Ostprignitz-Ruppin – Havelland I",
+    "state": "Brandenburg",
+    "population": 199283,
+    "electorate": 172726,
     "party_results": {
       "CDU": {
         "member": 23433,
@@ -4970,6 +5138,9 @@
   {
     "district": 57,
     "name": "Uckermark – Barnim I",
+    "state": "Brandenburg",
+    "population": 209685,
+    "electorate": 182836,
     "party_results": {
       "CDU": {
         "member": 22991,
@@ -5052,6 +5223,9 @@
   {
     "district": 58,
     "name": "Oberhavel – Havelland II",
+    "state": "Brandenburg",
+    "population": 296014,
+    "electorate": 249331,
     "party_results": {
       "CDU": {
         "member": 39996,
@@ -5134,6 +5308,9 @@
   {
     "district": 59,
     "name": "Märkisch-Oderland – Barnim II",
+    "state": "Brandenburg",
+    "population": 271317,
+    "electorate": 230391,
     "party_results": {
       "CDU": {
         "member": 40804,
@@ -5216,6 +5393,9 @@
   {
     "district": 60,
     "name": "Brandenburg an der Havel – Potsdam-Mittelmark I – Havelland III – Teltow-Fläming I",
+    "state": "Brandenburg",
+    "population": 237389,
+    "electorate": 202955,
     "party_results": {
       "CDU": {
         "member": 29236,
@@ -5298,6 +5478,9 @@
   {
     "district": 61,
     "name": "Potsdam – Potsdam-Mittelmark II – Teltow-Fläming II",
+    "state": "Brandenburg",
+    "population": 280057,
+    "electorate": 232797,
     "party_results": {
       "CDU": {
         "member": 26050,
@@ -5380,6 +5563,9 @@
   {
     "district": 62,
     "name": "Dahme-Spreewald – Teltow-Fläming III – Oberspreewald-Lausitz I",
+    "state": "Brandenburg",
+    "population": 284002,
+    "electorate": 252744,
     "party_results": {
       "CDU": {
         "member": 38080,
@@ -5466,6 +5652,9 @@
   {
     "district": 63,
     "name": "Frankfurt (Oder) – Oder-Spree",
+    "state": "Brandenburg",
+    "population": 217652,
+    "electorate": 191387,
     "party_results": {
       "CDU": {
         "member": 22876,
@@ -5548,6 +5737,9 @@
   {
     "district": 64,
     "name": "Cottbus – Spree-Neiße",
+    "state": "Brandenburg",
+    "population": 191997,
+    "electorate": 171267,
     "party_results": {
       "CDU": {
         "member": 21072,
@@ -5630,6 +5822,9 @@
   {
     "district": 65,
     "name": "Elbe-Elster – Oberspreewald-Lausitz II",
+    "state": "Brandenburg",
+    "population": 200449,
+    "electorate": 162410,
     "party_results": {
       "CDU": {
         "member": 19130,
@@ -5712,6 +5907,9 @@
   {
     "district": 66,
     "name": "Altmark",
+    "state": "Sachsen-Anhalt",
+    "population": 266094,
+    "electorate": 159998,
     "party_results": {
       "CDU": {
         "member": 23433,
@@ -5794,6 +5992,9 @@
   {
     "district": 67,
     "name": "Börde – Jerichower Land",
+    "state": "Sachsen-Anhalt",
+    "population": 254187,
+    "electorate": 215532,
     "party_results": {
       "CDU": {
         "member": 36652,
@@ -5876,6 +6077,9 @@
   {
     "district": 68,
     "name": "Harz",
+    "state": "Sachsen-Anhalt",
+    "population": 233302,
+    "electorate": 207942,
     "party_results": {
       "CDU": {
         "member": 37884,
@@ -5958,6 +6162,9 @@
   {
     "district": 69,
     "name": "Magdeburg",
+    "state": "Sachsen-Anhalt",
+    "population": 266736,
+    "electorate": 229198,
     "party_results": {
       "CDU": {
         "member": 34177,
@@ -6040,6 +6247,9 @@
   {
     "district": 70,
     "name": "Dessau – Wittenberg",
+    "state": "Sachsen-Anhalt",
+    "population": 262329,
+    "electorate": 169749,
     "party_results": {
       "CDU": {
         "member": 39042,
@@ -6122,6 +6332,9 @@
   {
     "district": 71,
     "name": "Anhalt",
+    "state": "Sachsen-Anhalt",
+    "population": 256027,
+    "electorate": 214563,
     "party_results": {
       "CDU": {
         "member": 32295,
@@ -6204,6 +6417,9 @@
   {
     "district": 72,
     "name": "Halle",
+    "state": "Sachsen-Anhalt",
+    "population": 238537,
+    "electorate": 209765,
     "party_results": {
       "CDU": {
         "member": 30499,
@@ -6286,6 +6502,9 @@
   {
     "district": 73,
     "name": "Burgenland – Saalekreis",
+    "state": "Sachsen-Anhalt",
+    "population": 245633,
+    "electorate": 184352,
     "party_results": {
       "CDU": {
         "member": 32649,
@@ -6368,6 +6587,9 @@
   {
     "district": 74,
     "name": "Mansfeld",
+    "state": "Sachsen-Anhalt",
+    "population": 244085,
+    "electorate": 198676,
     "party_results": {
       "CDU": {
         "member": 32732,
@@ -6450,6 +6672,9 @@
   {
     "district": 75,
     "name": "Berlin-Mitte",
+    "state": "Berlin",
+    "population": 282744,
+    "electorate": 207010,
     "party_results": {
       "CDU": {
         "member": 19216,
@@ -6556,6 +6781,9 @@
   {
     "district": 76,
     "name": "Berlin-Pankow",
+    "state": "Berlin",
+    "population": 207430,
+    "electorate": 233069,
     "party_results": {
       "CDU": {
         "member": 23439,
@@ -6658,6 +6886,9 @@
   {
     "district": 77,
     "name": "Berlin-Reinickendorf",
+    "state": "Berlin",
+    "population": 212574,
+    "electorate": 175195,
     "party_results": {
       "CDU": {
         "member": 32972,
@@ -6764,6 +6995,9 @@
   {
     "district": 78,
     "name": "Berlin-Spandau – Charlottenburg Nord",
+    "state": "Berlin",
+    "population": 252875,
+    "electorate": 179896,
     "party_results": {
       "CDU": {
         "member": 28647,
@@ -6874,6 +7108,9 @@
   {
     "district": 79,
     "name": "Berlin-Steglitz-Zehlendorf",
+    "state": "Berlin",
+    "population": 222675,
+    "electorate": 217506,
     "party_results": {
       "CDU": {
         "member": 48530,
@@ -6980,6 +7217,9 @@
   {
     "district": 80,
     "name": "Berlin-Charlottenburg-Wilmersdorf",
+    "state": "Berlin",
+    "population": 269523,
+    "electorate": 195586,
     "party_results": {
       "CDU": {
         "member": 33023,
@@ -7086,6 +7326,9 @@
   {
     "district": 81,
     "name": "Berlin-Tempelhof-Schöneberg",
+    "state": "Berlin",
+    "population": 232619,
+    "electorate": 231477,
     "party_results": {
       "CDU": {
         "member": 37902,
@@ -7196,6 +7439,9 @@
   {
     "district": 82,
     "name": "Berlin-Neukölln",
+    "state": "Berlin",
+    "population": 254487,
+    "electorate": 196593,
     "party_results": {
       "CDU": {
         "member": 25173,
@@ -7306,6 +7552,9 @@
   {
     "district": 83,
     "name": "Berlin-Friedrichshain-Kreuzberg – Prenzlauer Berg Ost",
+    "state": "Berlin",
+    "population": 243833,
+    "electorate": 218824,
     "party_results": {
       "CDU": {
         "member": 12706,
@@ -7416,6 +7665,9 @@
   {
     "district": 84,
     "name": "Berlin-Treptow-Köpenick",
+    "state": "Berlin",
+    "population": 234644,
+    "electorate": 206999,
     "party_results": {
       "CDU": {
         "member": 21016,
@@ -7522,6 +7774,9 @@
   {
     "district": 85,
     "name": "Berlin-Marzahn-Hellersdorf",
+    "state": "Berlin",
+    "population": 236541,
+    "electorate": 198002,
     "party_results": {
       "CDU": {
         "member": 38914,
@@ -7628,6 +7883,9 @@
   {
     "district": 86,
     "name": "Berlin-Lichtenberg",
+    "state": "Berlin",
+    "population": 206925,
+    "electorate": 200461,
     "party_results": {
       "CDU": {
         "member": 17696,
@@ -7734,6 +7992,9 @@
   {
     "district": 87,
     "name": "Aachen I",
+    "state": "Nordrhein-Westfalen",
+    "population": 275994,
+    "electorate": 176306,
     "party_results": {
       "CDU": {
         "member": 35562,
@@ -7848,6 +8109,9 @@
   {
     "district": 88,
     "name": "Aachen II",
+    "state": "Nordrhein-Westfalen",
+    "population": 227156,
+    "electorate": 226420,
     "party_results": {
       "CDU": {
         "member": 54808,
@@ -7962,6 +8226,9 @@
   {
     "district": 89,
     "name": "Heinsberg",
+    "state": "Nordrhein-Westfalen",
+    "population": 241415,
+    "electorate": 192346,
     "party_results": {
       "CDU": {
         "member": 57095,
@@ -8076,6 +8343,9 @@
   {
     "district": 90,
     "name": "Düren",
+    "state": "Nordrhein-Westfalen",
+    "population": 293416,
+    "electorate": 199656,
     "party_results": {
       "CDU": {
         "member": 55719,
@@ -8194,6 +8464,9 @@
   {
     "district": 91,
     "name": "Rhein-Erft-Kreis I",
+    "state": "Nordrhein-Westfalen",
+    "population": 293796,
+    "electorate": 249035,
     "party_results": {
       "CDU": {
         "member": 63635,
@@ -8308,6 +8581,9 @@
   {
     "district": 92,
     "name": "Euskirchen – Rhein-Erft-Kreis II",
+    "state": "Nordrhein-Westfalen",
+    "population": 217300,
+    "electorate": 249198,
     "party_results": {
       "CDU": {
         "member": 65981,
@@ -8422,6 +8698,9 @@
   {
     "district": 93,
     "name": "Köln I",
+    "state": "Nordrhein-Westfalen",
+    "population": 267182,
+    "electorate": 190630,
     "party_results": {
       "CDU": {
         "member": 31636,
@@ -8536,6 +8815,9 @@
   {
     "district": 94,
     "name": "Köln II",
+    "state": "Nordrhein-Westfalen",
+    "population": 235026,
+    "electorate": 242483,
     "party_results": {
       "CDU": {
         "member": 50918,
@@ -8650,6 +8932,9 @@
   {
     "district": 95,
     "name": "Köln III",
+    "state": "Nordrhein-Westfalen",
+    "population": 264384,
+    "electorate": 204539,
     "party_results": {
       "CDU": {
         "member": 28674,
@@ -8764,6 +9049,9 @@
   {
     "district": 96,
     "name": "Bonn",
+    "state": "Nordrhein-Westfalen",
+    "population": 282792,
+    "electorate": 230215,
     "party_results": {
       "CDU": {
         "member": 44872,
@@ -8878,6 +9166,9 @@
   {
     "district": 97,
     "name": "Rhein-Sieg-Kreis I",
+    "state": "Nordrhein-Westfalen",
+    "population": 252610,
+    "electorate": 238627,
     "party_results": {
       "CDU": {
         "member": 60776,
@@ -8996,6 +9287,9 @@
   {
     "district": 98,
     "name": "Rhein-Sieg-Kreis II",
+    "state": "Nordrhein-Westfalen",
+    "population": 244411,
+    "electorate": 216063,
     "party_results": {
       "CDU": {
         "member": 70144,
@@ -9114,6 +9408,9 @@
   {
     "district": 99,
     "name": "Oberbergischer Kreis",
+    "state": "Nordrhein-Westfalen",
+    "population": 254563,
+    "electorate": 206640,
     "party_results": {
       "CDU": {
         "member": 53757,
@@ -9228,6 +9525,9 @@
   {
     "district": 100,
     "name": "Rheinisch-Bergischer Kreis",
+    "state": "Nordrhein-Westfalen",
+    "population": 246848,
+    "electorate": 217193,
     "party_results": {
       "CDU": {
         "member": 52714,
@@ -9342,6 +9642,9 @@
   {
     "district": 101,
     "name": "Leverkusen – Köln IV",
+    "state": "Nordrhein-Westfalen",
+    "population": 243555,
+    "electorate": 209102,
     "party_results": {
       "CDU": {
         "member": 31197,
@@ -9456,6 +9759,9 @@
   {
     "district": 102,
     "name": "Wuppertal I",
+    "state": "Nordrhein-Westfalen",
+    "population": 268363,
+    "electorate": 202528,
     "party_results": {
       "CDU": {
         "member": 31960,
@@ -9570,6 +9876,9 @@
   {
     "district": 103,
     "name": "Solingen – Remscheid – Wuppertal II",
+    "state": "Nordrhein-Westfalen",
+    "population": 236260,
+    "electorate": 220204,
     "party_results": {
       "CDU": {
         "member": 44778,
@@ -9684,6 +9993,9 @@
   {
     "district": 104,
     "name": "Mettmann I",
+    "state": "Nordrhein-Westfalen",
+    "population": 185988,
+    "electorate": 203030,
     "party_results": {
       "CDU": {
         "member": 47326,
@@ -9798,6 +10110,9 @@
   {
     "district": 105,
     "name": "Mettmann II",
+    "state": "Nordrhein-Westfalen",
+    "population": 253504,
+    "electorate": 160175,
     "party_results": {
       "CDU": {
         "member": 38429,
@@ -9912,6 +10227,9 @@
   {
     "district": 106,
     "name": "Düsseldorf I",
+    "state": "Nordrhein-Westfalen",
+    "population": 218640,
+    "electorate": 220827,
     "party_results": {
       "CDU": {
         "member": 54158,
@@ -10026,6 +10344,9 @@
   {
     "district": 107,
     "name": "Düsseldorf II",
+    "state": "Nordrhein-Westfalen",
+    "population": 252171,
+    "electorate": 190102,
     "party_results": {
       "CDU": {
         "member": 34801,
@@ -10140,6 +10461,9 @@
   {
     "district": 108,
     "name": "Neuss I",
+    "state": "Nordrhein-Westfalen",
+    "population": 216576,
+    "electorate": 213250,
     "party_results": {
       "CDU": {
         "member": 57445,
@@ -10254,6 +10578,9 @@
   {
     "district": 109,
     "name": "Mönchengladbach",
+    "state": "Nordrhein-Westfalen",
+    "population": 236870,
+    "electorate": 185185,
     "party_results": {
       "CDU": {
         "member": 45550,
@@ -10368,6 +10695,9 @@
   {
     "district": 110,
     "name": "Krefeld I – Neuss II",
+    "state": "Nordrhein-Westfalen",
+    "population": 263722,
+    "electorate": 200048,
     "party_results": {
       "CDU": {
         "member": 51500,
@@ -10482,6 +10812,9 @@
   {
     "district": 111,
     "name": "Viersen",
+    "state": "Nordrhein-Westfalen",
+    "population": 263684,
+    "electorate": 227166,
     "party_results": {
       "CDU": {
         "member": 62123,
@@ -10596,6 +10929,9 @@
   {
     "district": 112,
     "name": "Kleve",
+    "state": "Nordrhein-Westfalen",
+    "population": 237231,
+    "electorate": 225463,
     "party_results": {
       "CDU": {
         "member": 63701,
@@ -10710,6 +11046,9 @@
   {
     "district": 113,
     "name": "Wesel I",
+    "state": "Nordrhein-Westfalen",
+    "population": 205149,
+    "electorate": 206270,
     "party_results": {
       "CDU": {
         "member": 47448,
@@ -10824,6 +11163,9 @@
   {
     "district": 114,
     "name": "Krefeld II – Wesel II",
+    "state": "Nordrhein-Westfalen",
+    "population": 197045,
+    "electorate": 175852,
     "party_results": {
       "CDU": {
         "member": 37033,
@@ -10938,6 +11280,9 @@
   {
     "district": 115,
     "name": "Duisburg I",
+    "state": "Nordrhein-Westfalen",
+    "population": 191542,
+    "electorate": 163394,
     "party_results": {
       "CDU": {
         "member": 24299,
@@ -11052,6 +11397,9 @@
   {
     "district": 116,
     "name": "Duisburg II",
+    "state": "Nordrhein-Westfalen",
+    "population": 237826,
+    "electorate": 155265,
     "party_results": {
       "CDU": {
         "member": 19404,
@@ -11170,6 +11518,9 @@
   {
     "district": 117,
     "name": "Oberhausen – Wesel III",
+    "state": "Nordrhein-Westfalen",
+    "population": 213582,
+    "electorate": 199156,
     "party_results": {
       "CDU": {
         "member": 32277,
@@ -11284,6 +11635,9 @@
   {
     "district": 118,
     "name": "Mülheim – Essen I",
+    "state": "Nordrhein-Westfalen",
+    "population": 185370,
+    "electorate": 182895,
     "party_results": {
       "CDU": {
         "member": 33090,
@@ -11398,6 +11752,9 @@
   {
     "district": 119,
     "name": "Essen II",
+    "state": "Nordrhein-Westfalen",
+    "population": 218711,
+    "electorate": 156298,
     "party_results": {
       "CDU": {
         "member": 23735,
@@ -11512,6 +11869,9 @@
   {
     "district": 120,
     "name": "Essen III",
+    "state": "Nordrhein-Westfalen",
+    "population": 190190,
+    "electorate": 190335,
     "party_results": {
       "CDU": {
         "member": 46635,
@@ -11626,6 +11986,9 @@
   {
     "district": 121,
     "name": "Recklinghausen I",
+    "state": "Nordrhein-Westfalen",
+    "population": 218828,
+    "electorate": 165193,
     "party_results": {
       "CDU": {
         "member": 30845,
@@ -11740,6 +12103,9 @@
   {
     "district": 122,
     "name": "Recklinghausen II",
+    "state": "Nordrhein-Westfalen",
+    "population": 204560,
+    "electorate": 186413,
     "party_results": {
       "CDU": {
         "member": 38325,
@@ -11854,6 +12220,9 @@
   {
     "district": 123,
     "name": "Gelsenkirchen",
+    "state": "Nordrhein-Westfalen",
+    "population": 241877,
+    "electorate": 168496,
     "party_results": {
       "CDU": {
         "member": 21954,
@@ -11968,6 +12337,9 @@
   {
     "district": 124,
     "name": "Steinfurt I – Borken I",
+    "state": "Nordrhein-Westfalen",
+    "population": 236152,
+    "electorate": 202388,
     "party_results": {
       "CDU": {
         "member": 62322,
@@ -12082,6 +12454,9 @@
   {
     "district": 125,
     "name": "Bottrop – Recklinghausen III",
+    "state": "Nordrhein-Westfalen",
+    "population": 241386,
+    "electorate": 199344,
     "party_results": {
       "CDU": {
         "member": 39834,
@@ -12196,6 +12571,9 @@
   {
     "district": 126,
     "name": "Borken II",
+    "state": "Nordrhein-Westfalen",
+    "population": 231692,
+    "electorate": 201103,
     "party_results": {
       "CDU": {
         "member": 70334,
@@ -12310,6 +12688,9 @@
   {
     "district": 127,
     "name": "Coesfeld – Steinfurt II",
+    "state": "Nordrhein-Westfalen",
+    "population": 227811,
+    "electorate": 194695,
     "party_results": {
       "CDU": {
         "member": 65402,
@@ -12424,6 +12805,9 @@
   {
     "district": 128,
     "name": "Steinfurt III",
+    "state": "Nordrhein-Westfalen",
+    "population": 270402,
+    "electorate": 195513,
     "party_results": {
       "CDU": {
         "member": 52445,
@@ -12538,6 +12922,9 @@
   {
     "district": 129,
     "name": "Münster",
+    "state": "Nordrhein-Westfalen",
+    "population": 247925,
+    "electorate": 233953,
     "party_results": {
       "CDU": {
         "member": 51096,
@@ -12652,6 +13039,9 @@
   {
     "district": 130,
     "name": "Warendorf",
+    "state": "Nordrhein-Westfalen",
+    "population": 275845,
+    "electorate": 208754,
     "party_results": {
       "CDU": {
         "member": 59631,
@@ -12766,6 +13156,9 @@
   {
     "district": 131,
     "name": "Gütersloh I",
+    "state": "Nordrhein-Westfalen",
+    "population": 285600,
+    "electorate": 234177,
     "party_results": {
       "CDU": {
         "member": 71185,
@@ -12880,6 +13273,9 @@
   {
     "district": 132,
     "name": "Bielefeld – Gütersloh II",
+    "state": "Nordrhein-Westfalen",
+    "population": 271059,
+    "electorate": 243059,
     "party_results": {
       "CDU": {
         "member": 40928,
@@ -12994,6 +13390,9 @@
   {
     "district": 133,
     "name": "Herford – Minden-Lübbecke II",
+    "state": "Nordrhein-Westfalen",
+    "population": 243951,
+    "electorate": 226894,
     "party_results": {
       "CDU": {
         "member": 45138,
@@ -13108,6 +13507,9 @@
   {
     "district": 134,
     "name": "Minden-Lübbecke I",
+    "state": "Nordrhein-Westfalen",
+    "population": 264865,
+    "electorate": 201888,
     "party_results": {
       "CDU": {
         "member": 39679,
@@ -13222,6 +13624,9 @@
   {
     "district": 135,
     "name": "Lippe I",
+    "state": "Nordrhein-Westfalen",
+    "population": 201276,
+    "electorate": 224415,
     "party_results": {
       "CDU": {
         "member": 44650,
@@ -13336,6 +13741,9 @@
   {
     "district": 136,
     "name": "Höxter – Gütersloh III – Lippe II",
+    "state": "Nordrhein-Westfalen",
+    "population": 280668,
+    "electorate": 172435,
     "party_results": {
       "CDU": {
         "member": 53294,
@@ -13450,6 +13858,9 @@
   {
     "district": 137,
     "name": "Paderborn",
+    "state": "Nordrhein-Westfalen",
+    "population": 234219,
+    "electorate": 231534,
     "party_results": {
       "CDU": {
         "member": 84669,
@@ -13564,6 +13975,9 @@
   {
     "district": 138,
     "name": "Hagen – Ennepe-Ruhr-Kreis I",
+    "state": "Nordrhein-Westfalen",
+    "population": 195529,
+    "electorate": 201594,
     "party_results": {
       "CDU": {
         "member": 37718,
@@ -13678,6 +14092,9 @@
   {
     "district": 139,
     "name": "Ennepe-Ruhr-Kreis II",
+    "state": "Nordrhein-Westfalen",
+    "population": 229543,
+    "electorate": 175283,
     "party_results": {
       "CDU": {
         "member": 33357,
@@ -13792,6 +14209,9 @@
   {
     "district": 140,
     "name": "Bochum I",
+    "state": "Nordrhein-Westfalen",
+    "population": 199911,
+    "electorate": 202393,
     "party_results": {
       "CDU": {
         "member": 32962,
@@ -13906,6 +14326,9 @@
   {
     "district": 141,
     "name": "Herne – Bochum II",
+    "state": "Nordrhein-Westfalen",
+    "population": 243909,
+    "electorate": 173939,
     "party_results": {
       "CDU": {
         "member": 24027,
@@ -14020,6 +14443,9 @@
   {
     "district": 142,
     "name": "Dortmund I",
+    "state": "Nordrhein-Westfalen",
+    "population": 240215,
+    "electorate": 206727,
     "party_results": {
       "CDU": {
         "member": 30051,
@@ -14134,6 +14560,9 @@
   {
     "district": 143,
     "name": "Dortmund II",
+    "state": "Nordrhein-Westfalen",
+    "population": 224200,
+    "electorate": 199317,
     "party_results": {
       "CDU": {
         "member": 28897,
@@ -14248,6 +14677,9 @@
   {
     "district": 144,
     "name": "Unna I",
+    "state": "Nordrhein-Westfalen",
+    "population": 273833,
+    "electorate": 194493,
     "party_results": {
       "CDU": {
         "member": 36810,
@@ -14362,6 +14794,9 @@
   {
     "district": 145,
     "name": "Hamm – Unna II",
+    "state": "Nordrhein-Westfalen",
+    "population": 268365,
+    "electorate": 231226,
     "party_results": {
       "CDU": {
         "member": 44266,
@@ -14476,6 +14911,9 @@
   {
     "district": 146,
     "name": "Soest",
+    "state": "Nordrhein-Westfalen",
+    "population": 234777,
+    "electorate": 231811,
     "party_results": {
       "CDU": {
         "member": 58791,
@@ -14590,6 +15028,9 @@
   {
     "district": 147,
     "name": "Hochsauerlandkreis",
+    "state": "Nordrhein-Westfalen",
+    "population": 241871,
+    "electorate": 200496,
     "party_results": {
       "CDU": {
         "member": 62810,
@@ -14704,6 +15145,9 @@
   {
     "district": 148,
     "name": "Siegen-Wittgenstein",
+    "state": "Nordrhein-Westfalen",
+    "population": 240557,
+    "electorate": 207672,
     "party_results": {
       "CDU": {
         "member": 54042,
@@ -14818,6 +15262,9 @@
   {
     "district": 149,
     "name": "Olpe – Märkischer Kreis I",
+    "state": "Nordrhein-Westfalen",
+    "population": 231780,
+    "electorate": 203350,
     "party_results": {
       "CDU": {
         "member": 56879,
@@ -14932,6 +15379,9 @@
   {
     "district": 150,
     "name": "Märkischer Kreis II",
+    "state": "Nordrhein-Westfalen",
+    "population": 189607,
+    "electorate": 195816,
     "party_results": {
       "CDU": {
         "member": 47937,
@@ -15046,6 +15496,9 @@
   {
     "district": 151,
     "name": "Nordsachsen",
+    "state": "Sachsen",
+    "population": 260275,
+    "electorate": 161279,
     "party_results": {
       "AfD": {
         "member": 32702,
@@ -15140,6 +15593,9 @@
   {
     "district": 152,
     "name": "Leipzig I",
+    "state": "Sachsen",
+    "population": 269101,
+    "electorate": 224100,
     "party_results": {
       "AfD": {
         "member": 26450,
@@ -15234,6 +15690,9 @@
   {
     "district": 153,
     "name": "Leipzig II",
+    "state": "Sachsen",
+    "population": 249913,
+    "electorate": 231178,
     "party_results": {
       "AfD": {
         "member": 20667,
@@ -15328,6 +15787,9 @@
   {
     "district": 154,
     "name": "Leipzig-Land",
+    "state": "Sachsen",
+    "population": 230640,
+    "electorate": 212853,
     "party_results": {
       "AfD": {
         "member": 39348,
@@ -15422,6 +15884,9 @@
   {
     "district": 155,
     "name": "Meißen",
+    "state": "Sachsen",
+    "population": 240811,
+    "electorate": 197004,
     "party_results": {
       "AfD": {
         "member": 45705,
@@ -15520,6 +15985,9 @@
   {
     "district": 156,
     "name": "Bautzen I",
+    "state": "Sachsen",
+    "population": 232798,
+    "electorate": 206895,
     "party_results": {
       "AfD": {
         "member": 52492,
@@ -15618,6 +16086,9 @@
   {
     "district": 157,
     "name": "Görlitz",
+    "state": "Sachsen",
+    "population": 235864,
+    "electorate": 204105,
     "party_results": {
       "AfD": {
         "member": 53970,
@@ -15716,6 +16187,9 @@
   {
     "district": 158,
     "name": "Sächsische Schweiz-Osterzgebirge",
+    "state": "Sachsen",
+    "population": 267841,
+    "electorate": 199703,
     "party_results": {
       "AfD": {
         "member": 50203,
@@ -15810,6 +16284,9 @@
   {
     "district": 159,
     "name": "Dresden I",
+    "state": "Sachsen",
+    "population": 283925,
+    "electorate": 228643,
     "party_results": {
       "AfD": {
         "member": 33780,
@@ -15904,6 +16381,9 @@
   {
     "district": 160,
     "name": "Dresden II – Bautzen II",
+    "state": "Sachsen",
+    "population": 224603,
+    "electorate": 234432,
     "party_results": {
       "AfD": {
         "member": 34979,
@@ -16002,6 +16482,9 @@
   {
     "district": 161,
     "name": "Mittelsachsen",
+    "state": "Sachsen",
+    "population": 216623,
+    "electorate": 193828,
     "party_results": {
       "AfD": {
         "member": 48725,
@@ -16096,6 +16579,9 @@
   {
     "district": 162,
     "name": "Chemnitz",
+    "state": "Sachsen",
+    "population": 205345,
+    "electorate": 188691,
     "party_results": {
       "AfD": {
         "member": 30502,
@@ -16190,6 +16676,9 @@
   {
     "district": 163,
     "name": "Chemnitzer Umland – Erzgebirgskreis II",
+    "state": "Sachsen",
+    "population": 239956,
+    "electorate": 177211,
     "party_results": {
       "AfD": {
         "member": 39264,
@@ -16284,6 +16773,9 @@
   {
     "district": 164,
     "name": "Erzgebirgskreis I",
+    "state": "Sachsen",
+    "population": 227152,
+    "electorate": 210941,
     "party_results": {
       "AfD": {
         "member": 50571,
@@ -16378,6 +16870,9 @@
   {
     "district": 165,
     "name": "Zwickau",
+    "state": "Sachsen",
+    "population": 211214,
+    "electorate": 197831,
     "party_results": {
       "AfD": {
         "member": 37135,
@@ -16472,6 +16967,9 @@
   {
     "district": 166,
     "name": "Vogtlandkreis",
+    "state": "Sachsen",
+    "population": 208304,
+    "electorate": 184973,
     "party_results": {
       "AfD": {
         "member": 36388,
@@ -16570,6 +17068,9 @@
   {
     "district": 167,
     "name": "Waldeck",
+    "state": "Hessen",
+    "population": 248529,
+    "electorate": 184073,
     "party_results": {
       "CDU": {
         "member": 35734,
@@ -16668,6 +17169,9 @@
   {
     "district": 168,
     "name": "Kassel",
+    "state": "Hessen",
+    "population": 196501,
+    "electorate": 218474,
     "party_results": {
       "CDU": {
         "member": 32765,
@@ -16766,6 +17270,9 @@
   {
     "district": 169,
     "name": "Werra-Meißner – Hersfeld-Rotenburg",
+    "state": "Hessen",
+    "population": 214894,
+    "electorate": 171886,
     "party_results": {
       "CDU": {
         "member": 34527,
@@ -16864,6 +17371,9 @@
   {
     "district": 170,
     "name": "Schwalm-Eder",
+    "state": "Hessen",
+    "population": 212892,
+    "electorate": 185944,
     "party_results": {
       "CDU": {
         "member": 33443,
@@ -16962,6 +17472,9 @@
   {
     "district": 171,
     "name": "Marburg",
+    "state": "Hessen",
+    "population": 243755,
+    "electorate": 181588,
     "party_results": {
       "CDU": {
         "member": 36528,
@@ -17060,6 +17573,9 @@
   {
     "district": 172,
     "name": "Lahn-Dill",
+    "state": "Hessen",
+    "population": 249491,
+    "electorate": 206532,
     "party_results": {
       "CDU": {
         "member": 45441,
@@ -17158,6 +17674,9 @@
   {
     "district": 173,
     "name": "Gießen",
+    "state": "Hessen",
+    "population": 241447,
+    "electorate": 217514,
     "party_results": {
       "CDU": {
         "member": 47283,
@@ -17256,6 +17775,9 @@
   {
     "district": 174,
     "name": "Fulda",
+    "state": "Hessen",
+    "population": 204263,
+    "electorate": 208542,
     "party_results": {
       "CDU": {
         "member": 61573,
@@ -17354,6 +17876,9 @@
   {
     "district": 175,
     "name": "Main-Kinzig – Wetterau II – Schotten",
+    "state": "Hessen",
+    "population": 215964,
+    "electorate": 178307,
     "party_results": {
       "CDU": {
         "member": 37118,
@@ -17452,6 +17977,9 @@
   {
     "district": 176,
     "name": "Hochtaunus",
+    "state": "Hessen",
+    "population": 208656,
+    "electorate": 179842,
     "party_results": {
       "CDU": {
         "member": 44549,
@@ -17550,6 +18078,9 @@
   {
     "district": 177,
     "name": "Wetterau I",
+    "state": "Hessen",
+    "population": 257996,
+    "electorate": 176897,
     "party_results": {
       "CDU": {
         "member": 38807,
@@ -17648,6 +18179,9 @@
   {
     "district": 178,
     "name": "Rheingau-Taunus – Limburg",
+    "state": "Hessen",
+    "population": 223808,
+    "electorate": 220466,
     "party_results": {
       "CDU": {
         "member": 51318,
@@ -17746,6 +18280,9 @@
   {
     "district": 179,
     "name": "Wiesbaden",
+    "state": "Hessen",
+    "population": 206001,
+    "electorate": 186735,
     "party_results": {
       "CDU": {
         "member": 35375,
@@ -17848,6 +18385,9 @@
   {
     "district": 180,
     "name": "Hanau",
+    "state": "Hessen",
+    "population": 232989,
+    "electorate": 176271,
     "party_results": {
       "CDU": {
         "member": 36019,
@@ -17946,6 +18486,9 @@
   {
     "district": 181,
     "name": "Main-Taunus",
+    "state": "Hessen",
+    "population": 251053,
+    "electorate": 195514,
     "party_results": {
       "CDU": {
         "member": 51985,
@@ -18044,6 +18587,9 @@
   {
     "district": 182,
     "name": "Frankfurt am Main I",
+    "state": "Hessen",
+    "population": 281869,
+    "electorate": 201216,
     "party_results": {
       "CDU": {
         "member": 31163,
@@ -18142,6 +18688,9 @@
   {
     "district": 183,
     "name": "Frankfurt am Main II",
+    "state": "Hessen",
+    "population": 205280,
+    "electorate": 227207,
     "party_results": {
       "CDU": {
         "member": 38995,
@@ -18240,6 +18789,9 @@
   {
     "district": 184,
     "name": "Groß-Gerau",
+    "state": "Hessen",
+    "population": 262830,
+    "electorate": 174082,
     "party_results": {
       "CDU": {
         "member": 35334,
@@ -18338,6 +18890,9 @@
   {
     "district": 185,
     "name": "Offenbach",
+    "state": "Hessen",
+    "population": 291948,
+    "electorate": 219511,
     "party_results": {
       "CDU": {
         "member": 43347,
@@ -18436,6 +18991,9 @@
   {
     "district": 186,
     "name": "Darmstadt",
+    "state": "Hessen",
+    "population": 274852,
+    "electorate": 240763,
     "party_results": {
       "CDU": {
         "member": 42351,
@@ -18534,6 +19092,9 @@
   {
     "district": 187,
     "name": "Odenwald",
+    "state": "Hessen",
+    "population": 233337,
+    "electorate": 233901,
     "party_results": {
       "CDU": {
         "member": 49367,
@@ -18632,6 +19193,9 @@
   {
     "district": 188,
     "name": "Bergstraße",
+    "state": "Hessen",
+    "population": 245426,
+    "electorate": 197782,
     "party_results": {
       "CDU": {
         "member": 46125,
@@ -18734,6 +19298,9 @@
   {
     "district": 189,
     "name": "Eichsfeld – Nordhausen – Kyffhäuserkreis",
+    "state": "Thüringen",
+    "population": 239234,
+    "electorate": 209203,
     "party_results": {
       "CDU": {
         "member": 40599,
@@ -18816,6 +19383,9 @@
   {
     "district": 190,
     "name": "Eisenach – Wartburgkreis – Unstrut-Hainich-Kreis",
+    "state": "Thüringen",
+    "population": 235119,
+    "electorate": 212267,
     "party_results": {
       "CDU": {
         "member": 35415,
@@ -18902,6 +19472,9 @@
   {
     "district": 191,
     "name": "Jena – Sömmerda – Weimarer Land I",
+    "state": "Thüringen",
+    "population": 224644,
+    "electorate": 198697,
     "party_results": {
       "CDU": {
         "member": 28170,
@@ -18988,6 +19561,9 @@
   {
     "district": 192,
     "name": "Gotha – Ilm-Kreis",
+    "state": "Thüringen",
+    "population": 261521,
+    "electorate": 190519,
     "party_results": {
       "CDU": {
         "member": 25918,
@@ -19078,6 +19654,9 @@
   {
     "district": 193,
     "name": "Erfurt – Weimar – Weimarer Land II",
+    "state": "Thüringen",
+    "population": 260297,
+    "electorate": 217944,
     "party_results": {
       "CDU": {
         "member": 28639,
@@ -19160,6 +19739,9 @@
   {
     "district": 194,
     "name": "Gera – Greiz – Altenburger Land",
+    "state": "Thüringen",
+    "population": 252767,
+    "electorate": 229588,
     "party_results": {
       "CDU": {
         "member": 33067,
@@ -19242,6 +19824,9 @@
   {
     "district": 195,
     "name": "Saalfeld-Rudolstadt – Saale-Holzland-Kreis – Saale-Orla-Kreis",
+    "state": "Thüringen",
+    "population": 259243,
+    "electorate": 219437,
     "party_results": {
       "CDU": {
         "member": 34489,
@@ -19324,6 +19909,9 @@
   {
     "district": 196,
     "name": "Suhl – Schmalkalden-Meiningen – Hildburghausen – Sonneberg",
+    "state": "Thüringen",
+    "population": 285760,
+    "electorate": 230071,
     "party_results": {
       "CDU": {
         "member": 37729,
@@ -19406,6 +19994,9 @@
   {
     "district": 197,
     "name": "Neuwied",
+    "state": "Rheinland-Pfalz",
+    "population": 225732,
+    "electorate": 238118,
     "party_results": {
       "CDU": {
         "member": 57430,
@@ -19496,6 +20087,9 @@
   {
     "district": 198,
     "name": "Ahrweiler",
+    "state": "Rheinland-Pfalz",
+    "population": 225628,
+    "electorate": 195109,
     "party_results": {
       "CDU": {
         "member": 50281,
@@ -19582,6 +20176,9 @@
   {
     "district": 199,
     "name": "Koblenz",
+    "state": "Rheinland-Pfalz",
+    "population": 198512,
+    "electorate": 193035,
     "party_results": {
       "CDU": {
         "member": 46073,
@@ -19668,6 +20265,9 @@
   {
     "district": 200,
     "name": "Mosel/Rhein-Hunsrück",
+    "state": "Rheinland-Pfalz",
+    "population": 217416,
+    "electorate": 171102,
     "party_results": {
       "CDU": {
         "member": 45364,
@@ -19754,6 +20354,9 @@
   {
     "district": 201,
     "name": "Kreuznach",
+    "state": "Rheinland-Pfalz",
+    "population": 188507,
+    "electorate": 182380,
     "party_results": {
       "CDU": {
         "member": 39589,
@@ -19840,6 +20443,9 @@
   {
     "district": 202,
     "name": "Bitburg",
+    "state": "Rheinland-Pfalz",
+    "population": 216261,
+    "electorate": 163493,
     "party_results": {
       "CDU": {
         "member": 46340,
@@ -19926,6 +20532,9 @@
   {
     "district": 203,
     "name": "Trier",
+    "state": "Rheinland-Pfalz",
+    "population": 252352,
+    "electorate": 190530,
     "party_results": {
       "CDU": {
         "member": 40299,
@@ -20020,6 +20629,9 @@
   {
     "district": 204,
     "name": "Montabaur",
+    "state": "Rheinland-Pfalz",
+    "population": 294487,
+    "electorate": 210816,
     "party_results": {
       "CDU": {
         "member": 48607,
@@ -20106,6 +20718,9 @@
   {
     "district": 205,
     "name": "Mainz",
+    "state": "Rheinland-Pfalz",
+    "population": 251449,
+    "electorate": 249630,
     "party_results": {
       "CDU": {
         "member": 47153,
@@ -20192,6 +20807,9 @@
   {
     "district": 206,
     "name": "Worms",
+    "state": "Rheinland-Pfalz",
+    "population": 255530,
+    "electorate": 212943,
     "party_results": {
       "CDU": {
         "member": 52827,
@@ -20278,6 +20896,9 @@
   {
     "district": 207,
     "name": "Ludwigshafen/Frankenthal",
+    "state": "Rheinland-Pfalz",
+    "population": 255321,
+    "electorate": 210969,
     "party_results": {
       "CDU": {
         "member": 38193,
@@ -20364,6 +20985,9 @@
   {
     "district": 208,
     "name": "Neustadt – Speyer",
+    "state": "Rheinland-Pfalz",
+    "population": 261690,
+    "electorate": 219416,
     "party_results": {
       "CDU": {
         "member": 51770,
@@ -20450,6 +21074,9 @@
   {
     "district": 209,
     "name": "Kaiserslautern",
+    "state": "Rheinland-Pfalz",
+    "population": 196028,
+    "electorate": 224701,
     "party_results": {
       "CDU": {
         "member": 35803,
@@ -20536,6 +21163,9 @@
   {
     "district": 210,
     "name": "Pirmasens",
+    "state": "Rheinland-Pfalz",
+    "population": 257780,
+    "electorate": 174093,
     "party_results": {
       "CDU": {
         "member": 39236,
@@ -20622,6 +21252,9 @@
   {
     "district": 211,
     "name": "Südpfalz",
+    "state": "Rheinland-Pfalz",
+    "population": 200872,
+    "electorate": 217000,
     "party_results": {
       "CDU": {
         "member": 47860,
@@ -20708,6 +21341,9 @@
   {
     "district": 212,
     "name": "Altötting",
+    "state": "Bayern",
+    "population": 240816,
+    "electorate": 168656,
     "party_results": {
       "CSU": {
         "member": 55693,
@@ -20818,6 +21454,9 @@
   {
     "district": 213,
     "name": "Erding – Ebersberg",
+    "state": "Bayern",
+    "population": 285284,
+    "electorate": 200569,
     "party_results": {
       "CSU": {
         "member": 70656,
@@ -20928,6 +21567,9 @@
   {
     "district": 214,
     "name": "Freising",
+    "state": "Bayern",
+    "population": 274938,
+    "electorate": 237250,
     "party_results": {
       "CSU": {
         "member": 69689,
@@ -21038,6 +21680,9 @@
   {
     "district": 215,
     "name": "Fürstenfeldbruck",
+    "state": "Bayern",
+    "population": 288440,
+    "electorate": 231905,
     "party_results": {
       "CSU": {
         "member": 72721,
@@ -21148,6 +21793,9 @@
   {
     "district": 216,
     "name": "Ingolstadt",
+    "state": "Bayern",
+    "population": 256572,
+    "electorate": 238384,
     "party_results": {
       "CSU": {
         "member": 83663,
@@ -21258,6 +21906,9 @@
   {
     "district": 217,
     "name": "München-Nord",
+    "state": "Bayern",
+    "population": 286605,
+    "electorate": 223683,
     "party_results": {
       "CSU": {
         "member": 44854,
@@ -21372,6 +22023,9 @@
   {
     "district": 218,
     "name": "München-Ost",
+    "state": "Bayern",
+    "population": 248645,
+    "electorate": 242591,
     "party_results": {
       "CSU": {
         "member": 61159,
@@ -21486,6 +22140,9 @@
   {
     "district": 219,
     "name": "München-Süd",
+    "state": "Bayern",
+    "population": 283667,
+    "electorate": 214606,
     "party_results": {
       "CSU": {
         "member": 46059,
@@ -21600,6 +22257,9 @@
   {
     "district": 220,
     "name": "München-West/Mitte",
+    "state": "Bayern",
+    "population": 282600,
+    "electorate": 242252,
     "party_results": {
       "CSU": {
         "member": 53311,
@@ -21714,6 +22374,9 @@
   {
     "district": 221,
     "name": "München-Land",
+    "state": "Bayern",
+    "population": 276304,
+    "electorate": 234912,
     "party_results": {
       "CSU": {
         "member": 77523,
@@ -21824,6 +22487,9 @@
   {
     "district": 222,
     "name": "Rosenheim",
+    "state": "Bayern",
+    "population": 195985,
+    "electorate": 237390,
     "party_results": {
       "CSU": {
         "member": 68670,
@@ -21938,6 +22604,9 @@
   {
     "district": 223,
     "name": "Bad Tölz-Wolfratshausen – Miesbach",
+    "state": "Bayern",
+    "population": 256503,
+    "electorate": 166662,
     "party_results": {
       "CSU": {
         "member": 55501,
@@ -22048,6 +22717,9 @@
   {
     "district": 224,
     "name": "Starnberg – Landsberg am Lech",
+    "state": "Bayern",
+    "population": 239001,
+    "electorate": 214828,
     "party_results": {
       "CSU": {
         "member": 68617,
@@ -22158,6 +22830,9 @@
   {
     "district": 225,
     "name": "Traunstein",
+    "state": "Bayern",
+    "population": 199954,
+    "electorate": 208815,
     "party_results": {
       "CSU": {
         "member": 59555,
@@ -22268,6 +22943,9 @@
   {
     "district": 226,
     "name": "Weilheim",
+    "state": "Bayern",
+    "population": 192430,
+    "electorate": 168473,
     "party_results": {
       "CSU": {
         "member": 57179,
@@ -22378,6 +23056,9 @@
   {
     "district": 227,
     "name": "Deggendorf",
+    "state": "Bayern",
+    "population": 291693,
+    "electorate": 166186,
     "party_results": {
       "CSU": {
         "member": 47267,
@@ -22488,6 +23169,9 @@
   {
     "district": 228,
     "name": "Landshut",
+    "state": "Bayern",
+    "population": 203227,
+    "electorate": 246854,
     "party_results": {
       "CSU": {
         "member": 70685,
@@ -22598,6 +23282,9 @@
   {
     "district": 229,
     "name": "Passau",
+    "state": "Bayern",
+    "population": 203803,
+    "electorate": 177563,
     "party_results": {
       "CSU": {
         "member": 41530,
@@ -22708,6 +23395,9 @@
   {
     "district": 230,
     "name": "Rottal-Inn",
+    "state": "Bayern",
+    "population": 202856,
+    "electorate": 173632,
     "party_results": {
       "CSU": {
         "member": 46493,
@@ -22818,6 +23508,9 @@
   {
     "district": 231,
     "name": "Straubing",
+    "state": "Bayern",
+    "population": 255891,
+    "electorate": 173772,
     "party_results": {
       "CSU": {
         "member": 58487,
@@ -22928,6 +23621,9 @@
   {
     "district": 232,
     "name": "Amberg",
+    "state": "Bayern",
+    "population": 285098,
+    "electorate": 216071,
     "party_results": {
       "CSU": {
         "member": 69278,
@@ -23038,6 +23734,9 @@
   {
     "district": 233,
     "name": "Regensburg",
+    "state": "Bayern",
+    "population": 257531,
+    "electorate": 248192,
     "party_results": {
       "CSU": {
         "member": 69842,
@@ -23148,6 +23847,9 @@
   {
     "district": 234,
     "name": "Schwandorf",
+    "state": "Bayern",
+    "population": 194746,
+    "electorate": 222424,
     "party_results": {
       "CSU": {
         "member": 60924,
@@ -23258,6 +23960,9 @@
   {
     "district": 235,
     "name": "Weiden",
+    "state": "Bayern",
+    "population": 212719,
+    "electorate": 165807,
     "party_results": {
       "CSU": {
         "member": 50575,
@@ -23368,6 +24073,9 @@
   {
     "district": 236,
     "name": "Bamberg",
+    "state": "Bayern",
+    "population": 187084,
+    "electorate": 182586,
     "party_results": {
       "CSU": {
         "member": 54726,
@@ -23478,6 +24186,9 @@
   {
     "district": 237,
     "name": "Bayreuth",
+    "state": "Bayern",
+    "population": 178212,
+    "electorate": 162430,
     "party_results": {
       "CSU": {
         "member": 54465,
@@ -23588,6 +24299,9 @@
   {
     "district": 238,
     "name": "Coburg",
+    "state": "Bayern",
+    "population": 185443,
+    "electorate": 156571,
     "party_results": {
       "CSU": {
         "member": 44890,
@@ -23698,6 +24412,9 @@
   {
     "district": 239,
     "name": "Hof",
+    "state": "Bayern",
+    "population": 197128,
+    "electorate": 162872,
     "party_results": {
       "CSU": {
         "member": 51312,
@@ -23808,6 +24525,9 @@
   {
     "district": 240,
     "name": "Kulmbach",
+    "state": "Bayern",
+    "population": 285127,
+    "electorate": 168923,
     "party_results": {
       "CSU": {
         "member": 65163,
@@ -23918,6 +24638,9 @@
   {
     "district": 241,
     "name": "Ansbach",
+    "state": "Bayern",
+    "population": 220520,
+    "electorate": 243174,
     "party_results": {
       "CSU": {
         "member": 73312,
@@ -24028,6 +24751,9 @@
   {
     "district": 242,
     "name": "Erlangen",
+    "state": "Bayern",
+    "population": 294970,
+    "electorate": 187299,
     "party_results": {
       "CSU": {
         "member": 54223,
@@ -24138,6 +24864,9 @@
   {
     "district": 243,
     "name": "Fürth",
+    "state": "Bayern",
+    "population": 219710,
+    "electorate": 250730,
     "party_results": {
       "CSU": {
         "member": 65876,
@@ -24248,6 +24977,9 @@
   {
     "district": 244,
     "name": "Nürnberg-Nord",
+    "state": "Bayern",
+    "population": 211647,
+    "electorate": 188283,
     "party_results": {
       "CSU": {
         "member": 41027,
@@ -24358,6 +25090,9 @@
   {
     "district": 245,
     "name": "Nürnberg-Süd",
+    "state": "Bayern",
+    "population": 270022,
+    "electorate": 177316,
     "party_results": {
       "CSU": {
         "member": 44192,
@@ -24468,6 +25203,9 @@
   {
     "district": 246,
     "name": "Roth",
+    "state": "Bayern",
+    "population": 211632,
+    "electorate": 229279,
     "party_results": {
       "CSU": {
         "member": 71478,
@@ -24578,6 +25316,9 @@
   {
     "district": 247,
     "name": "Aschaffenburg",
+    "state": "Bayern",
+    "population": 248618,
+    "electorate": 182652,
     "party_results": {
       "CSU": {
         "member": 59269,
@@ -24688,6 +25429,9 @@
   {
     "district": 248,
     "name": "Bad Kissingen",
+    "state": "Bayern",
+    "population": 227152,
+    "electorate": 214061,
     "party_results": {
       "CSU": {
         "member": 67458,
@@ -24798,6 +25542,9 @@
   {
     "district": 249,
     "name": "Main-Spessart",
+    "state": "Bayern",
+    "population": 229710,
+    "electorate": 194408,
     "party_results": {
       "CSU": {
         "member": 60489,
@@ -24908,6 +25655,9 @@
   {
     "district": 250,
     "name": "Schweinfurt",
+    "state": "Bayern",
+    "population": 261532,
+    "electorate": 196710,
     "party_results": {
       "CSU": {
         "member": 63697,
@@ -25018,6 +25768,9 @@
   {
     "district": 251,
     "name": "Würzburg",
+    "state": "Bayern",
+    "population": 226537,
+    "electorate": 224907,
     "party_results": {
       "CSU": {
         "member": 67651,
@@ -25128,6 +25881,9 @@
   {
     "district": 252,
     "name": "Augsburg-Stadt",
+    "state": "Bayern",
+    "population": 279055,
+    "electorate": 207543,
     "party_results": {
       "CSU": {
         "member": 42780,
@@ -25238,6 +25994,9 @@
   {
     "district": 253,
     "name": "Augsburg-Land",
+    "state": "Bayern",
+    "population": 228204,
+    "electorate": 249372,
     "party_results": {
       "CSU": {
         "member": 82423,
@@ -25348,6 +26107,9 @@
   {
     "district": 254,
     "name": "Donau-Ries",
+    "state": "Bayern",
+    "population": 260301,
+    "electorate": 195774,
     "party_results": {
       "CSU": {
         "member": 64045,
@@ -25458,6 +26220,9 @@
   {
     "district": 255,
     "name": "Neu-Ulm",
+    "state": "Bayern",
+    "population": 186187,
+    "electorate": 241919,
     "party_results": {
       "CSU": {
         "member": 69676,
@@ -25568,6 +26333,9 @@
   {
     "district": 256,
     "name": "Oberallgäu",
+    "state": "Bayern",
+    "population": 263040,
+    "electorate": 228803,
     "party_results": {
       "CSU": {
         "member": 53566,
@@ -25678,6 +26446,9 @@
   {
     "district": 257,
     "name": "Ostallgäu",
+    "state": "Bayern",
+    "population": 190152,
+    "electorate": 250575,
     "party_results": {
       "CSU": {
         "member": 76399,
@@ -25788,6 +26559,9 @@
   {
     "district": 258,
     "name": "Stuttgart I",
+    "state": "Baden-Württemberg",
+    "population": 231173,
+    "electorate": 191811,
     "party_results": {
       "CDU": {
         "member": 36605,
@@ -25894,6 +26668,9 @@
   {
     "district": 259,
     "name": "Stuttgart II",
+    "state": "Baden-Württemberg",
+    "population": 222396,
+    "electorate": 178958,
     "party_results": {
       "CDU": {
         "member": 34312,
@@ -26000,6 +26777,9 @@
   {
     "district": 260,
     "name": "Böblingen",
+    "state": "Baden-Württemberg",
+    "population": 296554,
+    "electorate": 245553,
     "party_results": {
       "CDU": {
         "member": 57504,
@@ -26102,6 +26882,9 @@
   {
     "district": 261,
     "name": "Esslingen",
+    "state": "Baden-Württemberg",
+    "population": 200763,
+    "electorate": 166628,
     "party_results": {
       "CDU": {
         "member": 41976,
@@ -26204,6 +26987,9 @@
   {
     "district": 262,
     "name": "Nürtingen",
+    "state": "Baden-Württemberg",
+    "population": 246487,
+    "electorate": 205967,
     "party_results": {
       "CDU": {
         "member": 49506,
@@ -26306,6 +27092,9 @@
   {
     "district": 263,
     "name": "Göppingen",
+    "state": "Baden-Württemberg",
+    "population": 210518,
+    "electorate": 177107,
     "party_results": {
       "CDU": {
         "member": 41558,
@@ -26408,6 +27197,9 @@
   {
     "district": 264,
     "name": "Waiblingen",
+    "state": "Baden-Württemberg",
+    "population": 272967,
+    "electorate": 221775,
     "party_results": {
       "CDU": {
         "member": 50566,
@@ -26510,6 +27302,9 @@
   {
     "district": 265,
     "name": "Ludwigsburg",
+    "state": "Baden-Württemberg",
+    "population": 256762,
+    "electorate": 215312,
     "party_results": {
       "CDU": {
         "member": 50297,
@@ -26612,6 +27407,9 @@
   {
     "district": 266,
     "name": "Neckar-Zaber",
+    "state": "Baden-Württemberg",
+    "population": 275204,
+    "electorate": 230738,
     "party_results": {
       "CDU": {
         "member": 56249,
@@ -26714,6 +27512,9 @@
   {
     "district": 267,
     "name": "Heilbronn",
+    "state": "Baden-Württemberg",
+    "population": 293579,
+    "electorate": 240951,
     "party_results": {
       "CDU": {
         "member": 50299,
@@ -26816,6 +27617,9 @@
   {
     "district": 268,
     "name": "Schwäbisch Hall – Hohenlohe",
+    "state": "Baden-Württemberg",
+    "population": 270584,
+    "electorate": 225874,
     "party_results": {
       "CDU": {
         "member": 54894,
@@ -26918,6 +27722,9 @@
   {
     "district": 269,
     "name": "Backnang – Schwäbisch Gmünd",
+    "state": "Baden-Württemberg",
+    "population": 214720,
+    "electorate": 177062,
     "party_results": {
       "CDU": {
         "member": 41176,
@@ -27020,6 +27827,9 @@
   {
     "district": 270,
     "name": "Aalen – Heidenheim",
+    "state": "Baden-Württemberg",
+    "population": 263392,
+    "electorate": 220686,
     "party_results": {
       "CDU": {
         "member": 61832,
@@ -27122,6 +27932,9 @@
   {
     "district": 271,
     "name": "Karlsruhe-Stadt",
+    "state": "Baden-Württemberg",
+    "population": 249203,
+    "electorate": 205608,
     "party_results": {
       "CDU": {
         "member": 30921,
@@ -27228,6 +28041,9 @@
   {
     "district": 272,
     "name": "Karlsruhe-Land",
+    "state": "Baden-Württemberg",
+    "population": 248575,
+    "electorate": 209147,
     "party_results": {
       "CDU": {
         "member": 50581,
@@ -27330,6 +28146,9 @@
   {
     "district": 273,
     "name": "Rastatt",
+    "state": "Baden-Württemberg",
+    "population": 237779,
+    "electorate": 204890,
     "party_results": {
       "CDU": {
         "member": 50988,
@@ -27436,6 +28255,9 @@
   {
     "district": 274,
     "name": "Heidelberg",
+    "state": "Baden-Württemberg",
+    "population": 265429,
+    "electorate": 218431,
     "party_results": {
       "CDU": {
         "member": 42582,
@@ -27542,6 +28364,9 @@
   {
     "district": 275,
     "name": "Mannheim",
+    "state": "Baden-Württemberg",
+    "population": 231522,
+    "electorate": 196863,
     "party_results": {
       "CDU": {
         "member": 27986,
@@ -27648,6 +28473,9 @@
   {
     "district": 276,
     "name": "Odenwald – Tauber",
+    "state": "Baden-Württemberg",
+    "population": 246370,
+    "electorate": 209418,
     "party_results": {
       "CDU": {
         "member": 57391,
@@ -27750,6 +28578,9 @@
   {
     "district": 277,
     "name": "Rhein-Neckar",
+    "state": "Baden-Württemberg",
+    "population": 237040,
+    "electorate": 196882,
     "party_results": {
       "CDU": {
         "member": 43487,
@@ -27852,6 +28683,9 @@
   {
     "district": 278,
     "name": "Bruchsal – Schwetzingen",
+    "state": "Baden-Württemberg",
+    "population": 235858,
+    "electorate": 195755,
     "party_results": {
       "CDU": {
         "member": 44465,
@@ -27954,6 +28788,9 @@
   {
     "district": 279,
     "name": "Pforzheim",
+    "state": "Baden-Württemberg",
+    "population": 265774,
+    "electorate": 217126,
     "party_results": {
       "CDU": {
         "member": 46291,
@@ -28056,6 +28893,9 @@
   {
     "district": 280,
     "name": "Calw",
+    "state": "Baden-Württemberg",
+    "population": 237914,
+    "electorate": 199092,
     "party_results": {
       "CDU": {
         "member": 51208,
@@ -28162,6 +29002,9 @@
   {
     "district": 281,
     "name": "Freiburg",
+    "state": "Baden-Württemberg",
+    "population": 272810,
+    "electorate": 224392,
     "party_results": {
       "CDU": {
         "member": 37111,
@@ -28268,6 +29111,9 @@
   {
     "district": 282,
     "name": "Lörrach – Müllheim",
+    "state": "Baden-Württemberg",
+    "population": 279345,
+    "electorate": 231076,
     "party_results": {
       "CDU": {
         "member": 43509,
@@ -28374,6 +29220,9 @@
   {
     "district": 283,
     "name": "Emmendingen – Lahr",
+    "state": "Baden-Württemberg",
+    "population": 261828,
+    "electorate": 218872,
     "party_results": {
       "CDU": {
         "member": 46406,
@@ -28476,6 +29325,9 @@
   {
     "district": 284,
     "name": "Offenburg",
+    "state": "Baden-Württemberg",
+    "population": 245431,
+    "electorate": 205893,
     "party_results": {
       "CDU": {
         "member": 54148,
@@ -28578,6 +29430,9 @@
   {
     "district": 285,
     "name": "Rottweil – Tuttlingen",
+    "state": "Baden-Württemberg",
+    "population": 237609,
+    "electorate": 198182,
     "party_results": {
       "CDU": {
         "member": 46535,
@@ -28680,6 +29535,9 @@
   {
     "district": 286,
     "name": "Schwarzwald-Baar",
+    "state": "Baden-Württemberg",
+    "population": 192715,
+    "electorate": 162800,
     "party_results": {
       "CDU": {
         "member": 44188,
@@ -28782,6 +29640,9 @@
   {
     "district": 287,
     "name": "Konstanz",
+    "state": "Baden-Württemberg",
+    "population": 241277,
+    "electorate": 206009,
     "party_results": {
       "CDU": {
         "member": 53362,
@@ -28884,6 +29745,9 @@
   {
     "district": 288,
     "name": "Waldshut",
+    "state": "Baden-Württemberg",
+    "population": 211621,
+    "electorate": 177275,
     "party_results": {
       "CDU": {
         "member": 45335,
@@ -28986,6 +29850,9 @@
   {
     "district": 289,
     "name": "Reutlingen",
+    "state": "Baden-Württemberg",
+    "population": 241973,
+    "electorate": 199189,
     "party_results": {
       "CDU": {
         "member": 49631,
@@ -29088,6 +29955,9 @@
   {
     "district": 290,
     "name": "Tübingen",
+    "state": "Baden-Württemberg",
+    "population": 240573,
+    "electorate": 198791,
     "party_results": {
       "CDU": {
         "member": 43024,
@@ -29190,6 +30060,9 @@
   {
     "district": 291,
     "name": "Ulm",
+    "state": "Baden-Württemberg",
+    "population": 269898,
+    "electorate": 223376,
     "party_results": {
       "CDU": {
         "member": 57608,
@@ -29296,6 +30169,9 @@
   {
     "district": 292,
     "name": "Biberach",
+    "state": "Baden-Württemberg",
+    "population": 206162,
+    "electorate": 169147,
     "party_results": {
       "CDU": {
         "member": 46458,
@@ -29398,6 +30274,9 @@
   {
     "district": 293,
     "name": "Bodensee",
+    "state": "Baden-Württemberg",
+    "population": 204920,
+    "electorate": 174430,
     "party_results": {
       "CDU": {
         "member": 41624,
@@ -29500,6 +30379,9 @@
   {
     "district": 294,
     "name": "Ravensburg",
+    "state": "Baden-Württemberg",
+    "population": 223996,
+    "electorate": 187817,
     "party_results": {
       "CDU": {
         "member": 44597,
@@ -29606,6 +30488,9 @@
   {
     "district": 295,
     "name": "Zollernalb – Sigmaringen",
+    "state": "Baden-Württemberg",
+    "population": 219069,
+    "electorate": 182648,
     "party_results": {
       "CDU": {
         "member": 41106,
@@ -29708,6 +30593,9 @@
   {
     "district": 296,
     "name": "Saarbrücken",
+    "state": "Saarland",
+    "population": 220136,
+    "electorate": 192929,
     "party_results": {
       "CDU": {
         "member": 35252,
@@ -29778,6 +30666,9 @@
   {
     "district": 297,
     "name": "Saarlouis",
+    "state": "Saarland",
+    "population": 242854,
+    "electorate": 203279,
     "party_results": {
       "CDU": {
         "member": 43671,
@@ -29848,6 +30739,9 @@
   {
     "district": 298,
     "name": "St. Wendel",
+    "state": "Saarland",
+    "population": 199233,
+    "electorate": 173074,
     "party_results": {
       "CDU": {
         "member": 43928,
@@ -29918,6 +30812,9 @@
   {
     "district": 299,
     "name": "Homburg",
+    "state": "Saarland",
+    "population": 213050,
+    "electorate": 185941,
     "party_results": {
       "CDU": {
         "member": 36472,

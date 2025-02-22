@@ -93,7 +93,7 @@
     "short_name": "Die PARTEI",
     "name": "",
     "color": "",
-    "left_to_right": 0
+    "left_to_right": 2
   },
   {
     "short_name": "FAMILIE",
@@ -111,7 +111,7 @@
     "short_name": "FREIE WÄHLER",
     "name": "",
     "color": "",
-    "left_to_right": 0
+    "left_to_right": 6
   },
   {
     "short_name": "GRÜNE",
@@ -141,13 +141,13 @@
     "short_name": "HEIMAT (2021: NPD)",
     "name": "",
     "color": "",
-    "left_to_right": 0
+    "left_to_right": 9
   },
   {
     "short_name": "III. Weg",
     "name": "",
     "color": "",
-    "left_to_right": 0
+    "left_to_right": 9
   },
   {
     "short_name": "KlimalisteBW",
@@ -183,7 +183,7 @@
     "short_name": "PIRATEN",
     "name": "",
     "color": "",
-    "left_to_right": 0
+    "left_to_right": 2
   },
   {
     "short_name": "PdF",
@@ -207,7 +207,8 @@
     "short_name": "SSW",
     "name": "",
     "color": "#EFEFEF",
-    "left_to_right": 3
+    "left_to_right": 3,
+    "minority": true
   },
   {
     "short_name": "THP",
@@ -231,7 +232,7 @@
     "short_name": "Tierschutzpartei",
     "name": "",
     "color": "",
-    "left_to_right": 0
+    "left_to_right": 2
   },
   {
     "short_name": "UNABHÄNGIGE",
@@ -261,7 +262,7 @@
     "short_name": "Volt",
     "name": "",
     "color": "",
-    "left_to_right": 0
+    "left_to_right": 1
   },
   {
     "short_name": "Wir Bürger (2021: LKR)",
@@ -273,7 +274,7 @@
     "short_name": "dieBasis",
     "name": "",
     "color": "",
-    "left_to_right": 0
+    "left_to_right": 8
   },
   {
     "short_name": "du.",
@@ -291,6 +292,6 @@
     "short_name": "ÖDP",
     "name": "",
     "color": "",
-    "left_to_right": 0
+    "left_to_right": 2
   }
 ]
