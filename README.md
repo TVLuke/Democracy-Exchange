@@ -6,7 +6,9 @@ There are many parliamentary democracies. For people living in them, their elect
 
 **This is a stupid idea to learn about the diferent ways we count votes by projecting the votes from one country with the electoral-system in another country.**
 
-Of course the electoral system shapes the landscape of parties and the way people vote tactically. so these projections are not actually legitimate. But they 
+These examples use mostly elections for the lower houeses, like the House of Commons in the United Kingdom, the German Bundestag, the Austrian Nationalrat, the French National Assembly and the US House of Representatives.
+
+Of course the electoral system shapes the landscape of strategies for a tactical vote emerge from the rules. So these projections are not actually legitimate, since people would vote differently if the system was different. But they: 
 
 - a) may help understand how different ways of counting votes shape the way a paralement can look and
 - b) how different countries systems have advantages and disatvantages.
