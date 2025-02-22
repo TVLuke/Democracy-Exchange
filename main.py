@@ -89,84 +89,128 @@ RADIUS_INCREMENT = INITIAL_RADIUS * (2.5 / max(NUM_ROWS - 2, 1))
 
 print(f"Total seats: {TOTAL_SEATS}, rows: {NUM_ROWS}")
 
-# Load voting results
-voting_data = load_results(election)
-if not voting_data:
-    print("Error: Could not load voting district results")
-    exit(1)
-
-# Apply country-specific changes
-voting_data, parties = apply_country_changes(election, voting_data, parties)
-
-# Print voting data summary
-print("\nVoting Data Summary:")
-print("-" * 20)
-
-if not isinstance(voting_data, list) or not voting_data or not isinstance(voting_data[0], dict):
-    print("Error: Voting data is not in the expected format (list of district dictionaries)")
-    exit(1)
-
-# Get total votes per party across all districts
-party_totals = {}
-for district in voting_data:
-    if 'party_results' in district:
-        for party_name, results in district['party_results'].items():
-            if party_name not in party_totals:
-                party_totals[party_name] = 0
-            party_totals[party_name] += results.get('list', 0)
-
-# Print totals sorted by votes
-for party_name, total_votes in sorted(party_totals.items(), key=lambda x: x[1], reverse=True):
-    print(f"{party_name}: {total_votes:,} list votes")
-
-# Load states data
-states_file = os.path.join(election, 'states.json')
-with open(states_file, 'r', encoding='utf-8') as f:
-    states = json.load(f)
-
-# Try different seat distribution methods
-for appointment in appointments:
-    print(f"\nCalculating seats using {appointment} method...")
-    print("=" * 50)
+def calculate_election_results(election_id: str, appointments: list) -> dict:
+    """Calculate election results for given election and appointments.
     
-    # Load election calculation module
-    election_module_path = os.path.join(appointment, 'election.py')
-    if not os.path.exists(election_module_path):
-        print(f"Error: Could not find election calculation module at {election_module_path}")
-        continue
+    Args:
+        election_id: String identifier for the election (e.g. 'germany2021')
+        appointments: List of appointment identifiers to calculate results for
+        
+    Returns:
+        Dictionary mapping appointment names to their calculated party results
+    """
+    # Load voting results
+    voting_data = load_results(election_id)
+    if not voting_data:
+        raise ValueError("Could not load voting district results")
 
-    spec = importlib.util.spec_from_file_location('election_module', election_module_path)
-    election_module = importlib.util.module_from_spec(spec)
-    spec.loader.exec_module(election_module)
-    
-    # Calculate seats
-    calculated_parties = election_module.calculate_seats(voting_data, states, TOTAL_SEATS, parties)
-    
-    # Sort parties from left to right
-    calculated_parties.sort(key=lambda p: p.left_to_right)
-    
-    # Print seat distribution
-    print("\nSeat Distribution in Parliament:")
-    print("-" * 30)
-    total_seats = 0
-    for party in calculated_parties:
-        if party.size > 0:  # Only show parties that got seats
-            print(f"{party.name}: {party.size:,} seats")
-            total_seats += party.size
-    print(f"\nTotal Seats: {total_seats:,}")
-    
-    print("\nParties before plotting:")
-    print("-" * 20)
-    for party in calculated_parties:
-        if party.size > 0:  # Only show parties that got seats
-            print(f"{party.name}:")
-            print(f"  Votes: {party.votes:,}")
-            print(f"  Color: {party.color}")
-            print(f"  Seats: {party.size}")
-            print(f"  Left-Right Position: {party.left_to_right}")
+    # Load parties and basic information
+    parties = load_parties(election_id)
+    if not parties:
+        raise ValueError("Could not load parties from participating_parties.json")
 
-    # Get the election title from the module
-    election_title = getattr(election_module, 'TITLE', '')
+    # Load basic information
+    TOTAL_SEATS, election_name = load_basic_information(election_id)
+    
+    # Apply country-specific changes
+    voting_data, parties = apply_country_changes(election_id, voting_data, parties)
+
+    if not isinstance(voting_data, list) or not voting_data or not isinstance(voting_data[0], dict):
+        raise ValueError("Voting data is not in the expected format")
+
+    # Get total votes per party across all districts
+    party_totals = {}
+    for district in voting_data:
+        if 'party_results' in district:
+            for party_name, results in district['party_results'].items():
+                if party_name not in party_totals:
+                    party_totals[party_name] = 0
+                party_totals[party_name] += results.get('list', 0)
+
+    # Print totals sorted by votes
+    for party_name, total_votes in sorted(party_totals.items(), key=lambda x: x[1], reverse=True):
+        print(f"{party_name}: {total_votes:,} list votes")
+
+    # Load states data
+    states_file = os.path.join(election_id, 'states.json')
+    with open(states_file, 'r', encoding='utf-8') as f:
+        states = json.load(f)
+
+    results = {}
+    
+    # Calculate results for each appointment
+    for appointment in appointments:
+        print(f"\nCalculating seats using {appointment} method...")
+        print("=" * 50)
+        
+        # Load election calculation module
+        election_module_path = os.path.join(appointment, 'election.py')
+        if not os.path.exists(election_module_path):
+            print(f"Error: Could not find election calculation module at {election_module_path}")
+            continue
+
+        spec = importlib.util.spec_from_file_location('election_module', election_module_path)
+        election_module = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(election_module)
+        
+        # Calculate seats
+        calculated_parties = election_module.calculate_seats(voting_data, states, TOTAL_SEATS, parties)
+        
+        # Sort parties from left to right
+        calculated_parties.sort(key=lambda p: p.left_to_right)
+        
+        # Print seat distribution
+        print("\nSeat Distribution in Parliament:")
+        print("-" * 30)
+        total_seats = 0
+        for party in calculated_parties:
+            if party.size > 0:  # Only show parties that got seats
+                print(f"{party.name}: {party.size:,} seats")
+                total_seats += party.size
+        print(f"\nTotal Seats: {total_seats:,}")
+        
+        print("\nParties before plotting:")
+        print("-" * 20)
+        for party in calculated_parties:
+            if party.size > 0:  # Only show parties that got seats
+                print(f"{party.name}:")
+                print(f"  Votes: {party.votes:,}")
+                print(f"  Color: {party.color}")
+                print(f"  Seats: {party.size}")
+                print(f"  Left-Right Position: {party.left_to_right}")
+
+        # Get the election title from the module
+        election_title = getattr(election_module, 'TITLE', '')
+        
+        # Read relevant_vote type from the appointment's basic information
+        try:
+            with open(f'{appointment}/basic_information.json', 'r') as f:
+                basic_info = json.load(f)
+        except:
+            basic_info = {'relevant_vote': 'list'}
+            
+        # Store results
+        results[appointment] = {
+            'basic_info': basic_info,
+            'voting_data': voting_data,
+            'calculated_parties': calculated_parties,
+            'all_parties': parties,
+            'election_title': election_title,
+            'election_name': election_name
+        }
+    
+    return results
+
+
+def main():
+    # Set up election parameters
+    country = 'germany'
+    year = '2021'
+    election = country + year
+    appointments = ['uk', 'germany', 'austria']
+    
+    # Calculate results
+    results = calculate_election_results(election, appointments)
     
     # Create plots directory if it doesn't exist
     plots_dir = "plots"
@@ -176,23 +220,33 @@ for appointment in appointments:
     # Create timestamp for unique filenames
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     
-    # Read relevant_vote type from the appointment's basic information
-    with open(f'{appointment}/basic_information.json', 'r') as f:
-        basic_info = json.load(f)
+    # Create plots for each appointment
+    for appointment, result in results.items():
+        basic_info = result['basic_info']
+        voting_data = result['voting_data']
+        calculated_parties = result['calculated_parties']
+        all_parties = result['all_parties']
+        election_title = result['election_title']
+        election_name = result['election_name']
+        
+        # Get relevant vote type
         relevant_vote = basic_info.get('relevant_vote', 'list')  # default to list if not specified
-    
-    # Create plot for this appointment's seat distribution
-    # Create plot for this appointment's seat distribution
-    deputies = plot_main(num_rows=11, initial_radius=4.0, radius_increment=1.11, NUM_DEPUTIES=TOTAL_SEATS)
-    plot_deputies(deputies, calculated_parties, POINT_SIZE, 
-                 plots_dir, timestamp, title=f"{election_name} {election_title}",
-                 relevant_vote=relevant_vote,
-                 voting_data=voting_data)
-    
-    # Create vote distribution plots - one for votes only, one for votes vs seats
-    plot_vote_distribution(parties, calculated_parties, timestamp,
-                         f"{election_name}",  # Title for vote percentage plot
-                         f"{election_name} {election_title}",  # Title for vote vs seat percentage plot
-                         plots_dir,
-                         relevant_vote=relevant_vote,
-                         voting_data=voting_data)
+        
+        # Create plot for this appointment's seat distribution
+        deputies = plot_main(num_rows=11, initial_radius=4.0, radius_increment=1.11, NUM_DEPUTIES=733)
+        plot_deputies(deputies, calculated_parties, 200, 
+                     plots_dir, f"{timestamp}_{appointment}", title=f"{election_name} {election_title}",
+                     relevant_vote=relevant_vote,
+                     voting_data=voting_data)
+        
+        # Create vote distribution plots
+        plot_vote_distribution(all_parties, calculated_parties, f"{timestamp}_{appointment}",
+                             f"{election_name}",  # Title for vote percentage plot
+                             f"{election_name} {election_title}",  # Title for vote vs seat percentage plot
+                             plots_dir,
+                             relevant_vote=relevant_vote,
+                             voting_data=voting_data)
+
+
+if __name__ == "__main__":
+    main()

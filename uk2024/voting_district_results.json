@@ -3,7 +3,7 @@
     "district": 1,
     "name": "Aberafan Maesteg",
     "state": "Wales",
-    "population": 92319,
+    "population": null,
     "electorate": 72580,
     "party_results": {
       "Con": {
@@ -51,7 +51,7 @@
     "district": 2,
     "name": "Aberdeen North",
     "state": "Scotland",
-    "population": 110584,
+    "population": null,
     "electorate": 75925,
     "party_results": {
       "Con": {
@@ -99,7 +99,7 @@
     "district": 3,
     "name": "Aberdeen South",
     "state": "Scotland",
-    "population": 113666,
+    "population": null,
     "electorate": 77328,
     "party_results": {
       "Con": {
@@ -147,7 +147,7 @@
     "district": 4,
     "name": "Aberdeenshire North and Moray East",
     "state": "Scotland",
-    "population": 96558,
+    "population": null,
     "electorate": 70058,
     "party_results": {
       "Con": {
@@ -192,7 +192,7 @@
     "district": 5,
     "name": "Airdrie and Shotts",
     "state": "Scotland",
-    "population": 92557,
+    "population": null,
     "electorate": 70199,
     "party_results": {
       "Con": {
@@ -240,7 +240,7 @@
     "district": 6,
     "name": "Aldershot",
     "state": "South East",
-    "population": 119256,
+    "population": null,
     "electorate": 78553,
     "party_results": {
       "Con": {
@@ -288,7 +288,7 @@
     "district": 7,
     "name": "Aldridge-Brownhills",
     "state": "West Midlands",
-    "population": 93720,
+    "population": null,
     "electorate": 70268,
     "party_results": {
       "Con": {
@@ -333,7 +333,7 @@
     "district": 8,
     "name": "Alloa and Grangemouth",
     "state": "Scotland",
-    "population": 94596,
+    "population": null,
     "electorate": 70680,
     "party_results": {
       "Con": {
@@ -381,7 +381,7 @@
     "district": 9,
     "name": "Altrincham and Sale West",
     "state": "North West",
-    "population": 101272,
+    "population": null,
     "electorate": 74025,
     "party_results": {
       "Con": {
@@ -429,7 +429,7 @@
     "district": 10,
     "name": "Alyn and Deeside",
     "state": "Wales",
-    "population": 102432,
+    "population": null,
     "electorate": 75790,
     "party_results": {
       "Con": {
@@ -477,7 +477,7 @@
     "district": 11,
     "name": "Amber Valley",
     "state": "East Midlands",
-    "population": 90793,
+    "population": null,
     "electorate": 71546,
     "party_results": {
       "Con": {
@@ -522,7 +522,7 @@
     "district": 12,
     "name": "Angus and Perthshire Glens",
     "state": "Scotland",
-    "population": 98733,
+    "population": null,
     "electorate": 76668,
     "party_results": {
       "Con": {
@@ -570,7 +570,7 @@
     "district": 13,
     "name": "Arbroath and Broughty Ferry",
     "state": "Scotland",
-    "population": 100886,
+    "population": null,
     "electorate": 76149,
     "party_results": {
       "Con": {
@@ -618,7 +618,7 @@
     "district": 14,
     "name": "Argyll, Bute and South Lochaber",
     "state": "Scotland",
-    "population": 94028,
+    "population": null,
     "electorate": 71756,
     "party_results": {
       "Con": {
@@ -666,7 +666,7 @@
     "district": 15,
     "name": "Arundel and South Downs",
     "state": "South East",
-    "population": 98053,
+    "population": null,
     "electorate": 77969,
     "party_results": {
       "Con": {
@@ -714,7 +714,7 @@
     "district": 16,
     "name": "Ashfield",
     "state": "East Midlands",
-    "population": 95883,
+    "population": null,
     "electorate": 68929,
     "party_results": {
       "Con": {
@@ -762,7 +762,7 @@
     "district": 17,
     "name": "Ashford",
     "state": "South East",
-    "population": 108652,
+    "population": null,
     "electorate": 76233,
     "party_results": {
       "Con": {
@@ -810,7 +810,7 @@
     "district": 18,
     "name": "Ashton-under-Lyne",
     "state": "North West",
-    "population": 100866,
+    "population": null,
     "electorate": 71002,
     "party_results": {
       "Con": {
@@ -858,7 +858,7 @@
     "district": 19,
     "name": "Aylesbury",
     "state": "South East",
-    "population": 111020,
+    "population": null,
     "electorate": 79169,
     "party_results": {
       "Con": {
@@ -906,7 +906,7 @@
     "district": 20,
     "name": "Ayr, Carrick and Cumnock",
     "state": "Scotland",
-    "population": 90312,
+    "population": null,
     "electorate": 70340,
     "party_results": {
       "Con": {
@@ -954,7 +954,7 @@
     "district": 21,
     "name": "Banbury",
     "state": "South East",
-    "population": 103589,
+    "population": null,
     "electorate": 73250,
     "party_results": {
       "Con": {
@@ -1002,7 +1002,7 @@
     "district": 22,
     "name": "Bangor Aberconwy",
     "state": "Wales",
-    "population": 92628,
+    "population": null,
     "electorate": 70527,
     "party_results": {
       "Con": {
@@ -1050,7 +1050,7 @@
     "district": 23,
     "name": "Barking",
     "state": "London",
-    "population": 134461,
+    "population": null,
     "electorate": 79822,
     "party_results": {
       "Con": {
@@ -1098,7 +1098,7 @@
     "district": 24,
     "name": "Barnsley North",
     "state": "Yorkshire and The Humber",
-    "population": 105282,
+    "population": null,
     "electorate": 78274,
     "party_results": {
       "Con": {
@@ -1146,7 +1146,7 @@
     "district": 25,
     "name": "Barnsley South",
     "state": "Yorkshire and The Humber",
-    "population": 105571,
+    "population": null,
     "electorate": 75853,
     "party_results": {
       "Con": {
@@ -1194,7 +1194,7 @@
     "district": 26,
     "name": "Barrow and Furness",
     "state": "North West",
-    "population": 97254,
+    "population": null,
     "electorate": 74980,
     "party_results": {
       "Con": {
@@ -1242,7 +1242,7 @@
     "district": 27,
     "name": "Basildon and Billericay",
     "state": "East of England",
-    "population": 108648,
+    "population": null,
     "electorate": 76873,
     "party_results": {
       "Con": {
@@ -1290,7 +1290,7 @@
     "district": 28,
     "name": "Basingstoke",
     "state": "South East",
-    "population": 111647,
+    "population": null,
     "electorate": 78487,
     "party_results": {
       "Con": {
@@ -1338,7 +1338,7 @@
     "district": 29,
     "name": "Bassetlaw",
     "state": "East Midlands",
-    "population": 106068,
+    "population": null,
     "electorate": 78161,
     "party_results": {
       "Con": {
@@ -1383,7 +1383,7 @@
     "district": 30,
     "name": "Bath",
     "state": "South West",
-    "population": 103776,
+    "population": null,
     "electorate": 69662,
     "party_results": {
       "Con": {
@@ -1431,7 +1431,7 @@
     "district": 31,
     "name": "Bathgate and Linlithgow",
     "state": "Scotland",
-    "population": 94907,
+    "population": null,
     "electorate": 72185,
     "party_results": {
       "Con": {
@@ -1479,7 +1479,7 @@
     "district": 32,
     "name": "Battersea",
     "state": "London",
-    "population": 110258,
+    "population": null,
     "electorate": 72827,
     "party_results": {
       "Con": {
@@ -1527,7 +1527,7 @@
     "district": 33,
     "name": "Beaconsfield",
     "state": "South East",
-    "population": 97257,
+    "population": null,
     "electorate": 72751,
     "party_results": {
       "Con": {
@@ -1575,7 +1575,7 @@
     "district": 34,
     "name": "Beckenham and Penge",
     "state": "London",
-    "population": 106866,
+    "population": null,
     "electorate": 77198,
     "party_results": {
       "Con": {
@@ -1620,7 +1620,7 @@
     "district": 35,
     "name": "Bedford",
     "state": "East of England",
-    "population": 110633,
+    "population": null,
     "electorate": 72478,
     "party_results": {
       "Con": {
@@ -1668,7 +1668,7 @@
     "district": 36,
     "name": "Belfast East",
     "state": "Northern Ireland",
-    "population": 102447,
+    "population": null,
     "electorate": 72917,
     "party_results": {
       "Con": {
@@ -1716,7 +1716,7 @@
     "district": 37,
     "name": "Belfast North",
     "state": "Northern Ireland",
-    "population": 107096,
+    "population": null,
     "electorate": 74240,
     "party_results": {
       "Con": {
@@ -1764,7 +1764,7 @@
     "district": 38,
     "name": "Belfast South and Mid Down",
     "state": "Northern Ireland",
-    "population": 120879,
+    "population": null,
     "electorate": 74749,
     "party_results": {
       "Con": {
@@ -1812,7 +1812,7 @@
     "district": 39,
     "name": "Belfast West",
     "state": "Northern Ireland",
-    "population": 103422,
+    "population": null,
     "electorate": 75346,
     "party_results": {
       "Con": {
@@ -1860,7 +1860,7 @@
     "district": 40,
     "name": "Bermondsey and Old Southwark",
     "state": "London",
-    "population": 109422,
+    "population": null,
     "electorate": 69482,
     "party_results": {
       "Con": {
@@ -1908,7 +1908,7 @@
     "district": 41,
     "name": "Berwickshire, Roxburgh and Selkirk",
     "state": "Scotland",
-    "population": 96387,
+    "population": null,
     "electorate": 76438,
     "party_results": {
       "Con": {
@@ -1956,7 +1956,7 @@
     "district": 42,
     "name": "Bethnal Green and Stepney",
     "state": "London",
-    "population": 132943,
+    "population": null,
     "electorate": 81439,
     "party_results": {
       "Con": {
@@ -2004,7 +2004,7 @@
     "district": 43,
     "name": "Beverley and Holderness",
     "state": "Yorkshire and The Humber",
-    "population": 90245,
+    "population": null,
     "electorate": 71994,
     "party_results": {
       "Con": {
@@ -2052,7 +2052,7 @@
     "district": 44,
     "name": "Bexhill and Battle",
     "state": "South East",
-    "population": 90339,
+    "population": null,
     "electorate": 72198,
     "party_results": {
       "Con": {
@@ -2100,7 +2100,7 @@
     "district": 45,
     "name": "Bexleyheath and Crayford",
     "state": "London",
-    "population": 99481,
+    "population": null,
     "electorate": 70297,
     "party_results": {
       "Con": {
@@ -2145,7 +2145,7 @@
     "district": 46,
     "name": "Bicester and Woodstock",
     "state": "South East",
-    "population": 102891,
+    "population": null,
     "electorate": 74353,
     "party_results": {
       "Con": {
@@ -2193,7 +2193,7 @@
     "district": 47,
     "name": "Birkenhead",
     "state": "North West",
-    "population": 106281,
+    "population": null,
     "electorate": 78091,
     "party_results": {
       "Con": {
@@ -2241,7 +2241,7 @@
     "district": 48,
     "name": "Birmingham Edgbaston",
     "state": "West Midlands",
-    "population": 108160,
+    "population": null,
     "electorate": 71787,
     "party_results": {
       "Con": {
@@ -2289,7 +2289,7 @@
     "district": 49,
     "name": "Birmingham Erdington",
     "state": "West Midlands",
-    "population": 123037,
+    "population": null,
     "electorate": 77463,
     "party_results": {
       "Con": {
@@ -2337,7 +2337,7 @@
     "district": 50,
     "name": "Birmingham Hall Green and Moseley",
     "state": "West Midlands",
-    "population": 118220,
+    "population": null,
     "electorate": 76936,
     "party_results": {
       "Con": {
@@ -2388,7 +2388,7 @@
     "district": 51,
     "name": "Birmingham Hodge Hill and Solihull North",
     "state": "West Midlands",
-    "population": 123181,
+    "population": null,
     "electorate": 77737,
     "party_results": {
       "Con": {
@@ -2436,7 +2436,7 @@
     "district": 52,
     "name": "Birmingham Ladywood",
     "state": "West Midlands",
-    "population": 156820,
+    "population": null,
     "electorate": 83693,
     "party_results": {
       "Con": {
@@ -2484,7 +2484,7 @@
     "district": 53,
     "name": "Birmingham Northfield",
     "state": "West Midlands",
-    "population": 108073,
+    "population": null,
     "electorate": 74048,
     "party_results": {
       "Con": {
@@ -2532,7 +2532,7 @@
     "district": 54,
     "name": "Birmingham Perry Barr",
     "state": "West Midlands",
-    "population": 122861,
+    "population": null,
     "electorate": 76350,
     "party_results": {
       "Con": {
@@ -2580,7 +2580,7 @@
     "district": 55,
     "name": "Birmingham Selly Oak",
     "state": "West Midlands",
-    "population": 109874,
+    "population": null,
     "electorate": 75678,
     "party_results": {
       "Con": {
@@ -2628,7 +2628,7 @@
     "district": 56,
     "name": "Birmingham Yardley",
     "state": "West Midlands",
-    "population": 114295,
+    "population": null,
     "electorate": 73203,
     "party_results": {
       "Con": {
@@ -2676,7 +2676,7 @@
     "district": 57,
     "name": "Bishop Auckland",
     "state": "North East",
-    "population": 92948,
+    "population": null,
     "electorate": 70745,
     "party_results": {
       "Con": {
@@ -2724,7 +2724,7 @@
     "district": 58,
     "name": "Blackburn",
     "state": "North West",
-    "population": 113580,
+    "population": null,
     "electorate": 73263,
     "party_results": {
       "Con": {
@@ -2772,7 +2772,7 @@
     "district": 59,
     "name": "Blackley and Middleton South",
     "state": "North West",
-    "population": 111799,
+    "population": null,
     "electorate": 72303,
     "party_results": {
       "Con": {
@@ -2817,7 +2817,7 @@
     "district": 60,
     "name": "Blackpool North and Fleetwood",
     "state": "North West",
-    "population": 95938,
+    "population": null,
     "electorate": 73339,
     "party_results": {
       "Con": {
@@ -2865,7 +2865,7 @@
     "district": 61,
     "name": "Blackpool South",
     "state": "North West",
-    "population": 110074,
+    "population": null,
     "electorate": 77460,
     "party_results": {
       "Con": {
@@ -2913,7 +2913,7 @@
     "district": 62,
     "name": "Blaenau Gwent and Rhymney",
     "state": "Wales",
-    "population": 94680,
+    "population": null,
     "electorate": 70153,
     "party_results": {
       "Con": {
@@ -2961,7 +2961,7 @@
     "district": 63,
     "name": "Blaydon and Consett",
     "state": "North East",
-    "population": 92199,
+    "population": null,
     "electorate": 70487,
     "party_results": {
       "Con": {
@@ -3009,7 +3009,7 @@
     "district": 64,
     "name": "Blyth and Ashington",
     "state": "North East",
-    "population": 102370,
+    "population": null,
     "electorate": 76595,
     "party_results": {
       "Con": {
@@ -3054,7 +3054,7 @@
     "district": 65,
     "name": "Bognor Regis and Littlehampton",
     "state": "South East",
-    "population": 107496,
+    "population": null,
     "electorate": 76854,
     "party_results": {
       "Con": {
@@ -3102,7 +3102,7 @@
     "district": 66,
     "name": "Bolsover",
     "state": "East Midlands",
-    "population": 101967,
+    "population": null,
     "electorate": 77207,
     "party_results": {
       "Con": {
@@ -3147,7 +3147,7 @@
     "district": 67,
     "name": "Bolton North East",
     "state": "North West",
-    "population": 115119,
+    "population": null,
     "electorate": 80011,
     "party_results": {
       "Con": {
@@ -3195,7 +3195,7 @@
     "district": 68,
     "name": "Bolton South and Walkden",
     "state": "North West",
-    "population": 125207,
+    "population": null,
     "electorate": 79622,
     "party_results": {
       "Con": {
@@ -3243,7 +3243,7 @@
     "district": 69,
     "name": "Bolton West",
     "state": "North West",
-    "population": 99084,
+    "population": null,
     "electorate": 74933,
     "party_results": {
       "Con": {
@@ -3291,7 +3291,7 @@
     "district": 70,
     "name": "Bootle",
     "state": "North West",
-    "population": 101709,
+    "population": null,
     "electorate": 73037,
     "party_results": {
       "Con": {
@@ -3339,7 +3339,7 @@
     "district": 71,
     "name": "Boston and Skegness",
     "state": "East Midlands",
-    "population": 117072,
+    "population": null,
     "electorate": 75811,
     "party_results": {
       "Con": {
@@ -3387,7 +3387,7 @@
     "district": 72,
     "name": "Bournemouth East",
     "state": "South West",
-    "population": 106584,
+    "population": null,
     "electorate": 72354,
     "party_results": {
       "Con": {
@@ -3435,7 +3435,7 @@
     "district": 73,
     "name": "Bournemouth West",
     "state": "South West",
-    "population": 109309,
+    "population": null,
     "electorate": 70259,
     "party_results": {
       "Con": {
@@ -3483,7 +3483,7 @@
     "district": 74,
     "name": "Bracknell",
     "state": "South East",
-    "population": 102980,
+    "population": null,
     "electorate": 71660,
     "party_results": {
       "Con": {
@@ -3531,7 +3531,7 @@
     "district": 75,
     "name": "Bradford East",
     "state": "Yorkshire and The Humber",
-    "population": 120544,
+    "population": null,
     "electorate": 75164,
     "party_results": {
       "Con": {
@@ -3579,7 +3579,7 @@
     "district": 76,
     "name": "Bradford South",
     "state": "Yorkshire and The Humber",
-    "population": 110478,
+    "population": null,
     "electorate": 70999,
     "party_results": {
       "Con": {
@@ -3627,7 +3627,7 @@
     "district": 77,
     "name": "Bradford West",
     "state": "Yorkshire and The Humber",
-    "population": 122548,
+    "population": null,
     "electorate": 77897,
     "party_results": {
       "Con": {
@@ -3678,7 +3678,7 @@
     "district": 78,
     "name": "Braintree",
     "state": "East of England",
-    "population": 105458,
+    "population": null,
     "electorate": 77673,
     "party_results": {
       "Con": {
@@ -3726,7 +3726,7 @@
     "district": 79,
     "name": "Brecon, Radnor and Cwm Tawe",
     "state": "Wales",
-    "population": 91992,
+    "population": null,
     "electorate": 73114,
     "party_results": {
       "Con": {
@@ -3774,7 +3774,7 @@
     "district": 80,
     "name": "Brent East",
     "state": "London",
-    "population": 133708,
+    "population": null,
     "electorate": 77547,
     "party_results": {
       "Con": {
@@ -3822,7 +3822,7 @@
     "district": 81,
     "name": "Brent West",
     "state": "London",
-    "population": 136768,
+    "population": null,
     "electorate": 80027,
     "party_results": {
       "Con": {
@@ -3870,7 +3870,7 @@
     "district": 82,
     "name": "Brentford and Isleworth",
     "state": "London",
-    "population": 129198,
+    "population": null,
     "electorate": 79423,
     "party_results": {
       "Con": {
@@ -3918,7 +3918,7 @@
     "district": 83,
     "name": "Brentwood and Ongar",
     "state": "East of England",
-    "population": 98423,
+    "population": null,
     "electorate": 75352,
     "party_results": {
       "Con": {
@@ -3966,7 +3966,7 @@
     "district": 84,
     "name": "Bridgend",
     "state": "Wales",
-    "population": 95831,
+    "population": null,
     "electorate": 73168,
     "party_results": {
       "Con": {
@@ -4014,7 +4014,7 @@
     "district": 85,
     "name": "Bridgwater",
     "state": "South West",
-    "population": 100065,
+    "population": null,
     "electorate": 71571,
     "party_results": {
       "Con": {
@@ -4062,7 +4062,7 @@
     "district": 86,
     "name": "Bridlington and The Wolds",
     "state": "Yorkshire and The Humber",
-    "population": 93389,
+    "population": null,
     "electorate": 74438,
     "party_results": {
       "Con": {
@@ -4110,7 +4110,7 @@
     "district": 87,
     "name": "Brigg and Immingham",
     "state": "Yorkshire and The Humber",
-    "population": 91663,
+    "population": null,
     "electorate": 73099,
     "party_results": {
       "Con": {
@@ -4155,7 +4155,7 @@
     "district": 88,
     "name": "Brighton Kemptown and Peacehaven",
     "state": "South East",
-    "population": 96034,
+    "population": null,
     "electorate": 68784,
     "party_results": {
       "Con": {
@@ -4203,7 +4203,7 @@
     "district": 89,
     "name": "Brighton Pavilion",
     "state": "South East",
-    "population": 103257,
+    "population": null,
     "electorate": 74786,
     "party_results": {
       "Con": {
@@ -4251,7 +4251,7 @@
     "district": 90,
     "name": "Bristol Central",
     "state": "South West",
-    "population": 97813,
+    "population": null,
     "electorate": 62735,
     "party_results": {
       "Con": {
@@ -4299,7 +4299,7 @@
     "district": 91,
     "name": "Bristol East",
     "state": "South West",
-    "population": 110757,
+    "population": null,
     "electorate": 75917,
     "party_results": {
       "Con": {
@@ -4347,7 +4347,7 @@
     "district": 92,
     "name": "Bristol North East",
     "state": "South West",
-    "population": 99433,
+    "population": null,
     "electorate": 70076,
     "party_results": {
       "Con": {
@@ -4395,7 +4395,7 @@
     "district": 93,
     "name": "Bristol North West",
     "state": "South West",
-    "population": 110008,
+    "population": null,
     "electorate": 74869,
     "party_results": {
       "Con": {
@@ -4443,7 +4443,7 @@
     "district": 94,
     "name": "Bristol South",
     "state": "South West",
-    "population": 104457,
+    "population": null,
     "electorate": 75533,
     "party_results": {
       "Con": {
@@ -4491,7 +4491,7 @@
     "district": 95,
     "name": "Broadland and Fakenham",
     "state": "East of England",
-    "population": 94786,
+    "population": null,
     "electorate": 76863,
     "party_results": {
       "Con": {
@@ -4536,7 +4536,7 @@
     "district": 96,
     "name": "Bromley and Biggin Hill",
     "state": "London",
-    "population": 97689,
+    "population": null,
     "electorate": 70713,
     "party_results": {
       "Con": {
@@ -4584,7 +4584,7 @@
     "district": 97,
     "name": "Bromsgrove",
     "state": "West Midlands",
-    "population": 100076,
+    "population": null,
     "electorate": 76468,
     "party_results": {
       "Con": {
@@ -4632,7 +4632,7 @@
     "district": 98,
     "name": "Broxbourne",
     "state": "East of England",
-    "population": 108478,
+    "population": null,
     "electorate": 75210,
     "party_results": {
       "Con": {
@@ -4680,7 +4680,7 @@
     "district": 99,
     "name": "Broxtowe",
     "state": "East Midlands",
-    "population": 95719,
+    "population": null,
     "electorate": 70440,
     "party_results": {
       "Con": {
@@ -4728,7 +4728,7 @@
     "district": 100,
     "name": "Buckingham and Bletchley",
     "state": "South East",
-    "population": 106944,
+    "population": null,
     "electorate": 74832,
     "party_results": {
       "Con": {
@@ -4776,7 +4776,7 @@
     "district": 101,
     "name": "Burnley",
     "state": "North West",
-    "population": 110444,
+    "population": null,
     "electorate": 74954,
     "party_results": {
       "Con": {
@@ -4824,7 +4824,7 @@
     "district": 102,
     "name": "Burton and Uttoxeter",
     "state": "West Midlands",
-    "population": 114123,
+    "population": null,
     "electorate": 77994,
     "party_results": {
       "Con": {
@@ -4872,7 +4872,7 @@
     "district": 103,
     "name": "Bury North",
     "state": "North West",
-    "population": 103270,
+    "population": null,
     "electorate": 77686,
     "party_results": {
       "Con": {
@@ -4920,7 +4920,7 @@
     "district": 104,
     "name": "Bury South",
     "state": "North West",
-    "population": 107760,
+    "population": null,
     "electorate": 75326,
     "party_results": {
       "Con": {
@@ -4968,7 +4968,7 @@
     "district": 105,
     "name": "Bury St Edmunds and Stowmarket",
     "state": "East of England",
-    "population": 103768,
+    "population": null,
     "electorate": 78479,
     "party_results": {
       "Con": {
@@ -5016,7 +5016,7 @@
     "district": 106,
     "name": "Caerfyrddin",
     "state": "Wales",
-    "population": 94301,
+    "population": null,
     "electorate": 74005,
     "party_results": {
       "Con": {
@@ -5064,7 +5064,7 @@
     "district": 107,
     "name": "Caerphilly",
     "state": "Wales",
-    "population": 96268,
+    "population": null,
     "electorate": 72648,
     "party_results": {
       "Con": {
@@ -5109,7 +5109,7 @@
     "district": 108,
     "name": "Caithness, Sutherland and Easter Ross",
     "state": "Scotland",
-    "population": 95992,
+    "population": null,
     "electorate": 74627,
     "party_results": {
       "Con": {
@@ -5157,7 +5157,7 @@
     "district": 109,
     "name": "Calder Valley",
     "state": "Yorkshire and The Humber",
-    "population": 98777,
+    "population": null,
     "electorate": 77364,
     "party_results": {
       "Con": {
@@ -5205,7 +5205,7 @@
     "district": 110,
     "name": "Camborne and Redruth",
     "state": "South West",
-    "population": 100254,
+    "population": null,
     "electorate": 74342,
     "party_results": {
       "Con": {
@@ -5253,7 +5253,7 @@
     "district": 111,
     "name": "Cambridge",
     "state": "East of England",
-    "population": 125429,
+    "population": null,
     "electorate": 70321,
     "party_results": {
       "Con": {
@@ -5301,7 +5301,7 @@
     "district": 112,
     "name": "Cannock Chase",
     "state": "West Midlands",
-    "population": 101140,
+    "population": null,
     "electorate": 76974,
     "party_results": {
       "Con": {
@@ -5346,7 +5346,7 @@
     "district": 113,
     "name": "Canterbury",
     "state": "South East",
-    "population": 107264,
+    "population": null,
     "electorate": 71155,
     "party_results": {
       "Con": {
@@ -5394,7 +5394,7 @@
     "district": 114,
     "name": "Cardiff East",
     "state": "Wales",
-    "population": 111599,
+    "population": null,
     "electorate": 72876,
     "party_results": {
       "Con": {
@@ -5442,7 +5442,7 @@
     "district": 115,
     "name": "Cardiff North",
     "state": "Wales",
-    "population": 94983,
+    "population": null,
     "electorate": 71460,
     "party_results": {
       "Con": {
@@ -5487,7 +5487,7 @@
     "district": 116,
     "name": "Cardiff South and Penarth",
     "state": "Wales",
-    "population": 109698,
+    "population": null,
     "electorate": 73060,
     "party_results": {
       "Con": {
@@ -5532,7 +5532,7 @@
     "district": 117,
     "name": "Cardiff West",
     "state": "Wales",
-    "population": 104802,
+    "population": null,
     "electorate": 75697,
     "party_results": {
       "Con": {
@@ -5580,7 +5580,7 @@
     "district": 118,
     "name": "Carlisle",
     "state": "North West",
-    "population": 103813,
+    "population": null,
     "electorate": 77863,
     "party_results": {
       "Con": {
@@ -5628,7 +5628,7 @@
     "district": 119,
     "name": "Carshalton and Wallington",
     "state": "London",
-    "population": 105051,
+    "population": null,
     "electorate": 74362,
     "party_results": {
       "Con": {
@@ -5676,7 +5676,7 @@
     "district": 120,
     "name": "Castle Point",
     "state": "East of England",
-    "population": 91681,
+    "population": null,
     "electorate": 71026,
     "party_results": {
       "Con": {
@@ -5721,7 +5721,7 @@
     "district": 121,
     "name": "Central Ayrshire",
     "state": "Scotland",
-    "population": 86544,
+    "population": null,
     "electorate": 69413,
     "party_results": {
       "Con": {
@@ -5769,7 +5769,7 @@
     "district": 122,
     "name": "Central Devon",
     "state": "South West",
-    "population": 94481,
+    "population": null,
     "electorate": 75385,
     "party_results": {
       "Con": {
@@ -5817,7 +5817,7 @@
     "district": 123,
     "name": "Central Suffolk and North Ipswich",
     "state": "East of England",
-    "population": 95100,
+    "population": null,
     "electorate": 73046,
     "party_results": {
       "Con": {
@@ -5865,7 +5865,7 @@
     "district": 124,
     "name": "Ceredigion Preseli",
     "state": "Wales",
-    "population": 94099,
+    "population": null,
     "electorate": 75690,
     "party_results": {
       "Con": {
@@ -5913,7 +5913,7 @@
     "district": 125,
     "name": "Chatham and Aylesford",
     "state": "South East",
-    "population": 106459,
+    "population": null,
     "electorate": 75109,
     "party_results": {
       "Con": {
@@ -5961,7 +5961,7 @@
     "district": 126,
     "name": "Cheadle",
     "state": "North West",
-    "population": 96396,
+    "population": null,
     "electorate": 74383,
     "party_results": {
       "Con": {
@@ -6009,7 +6009,7 @@
     "district": 127,
     "name": "Chelmsford",
     "state": "East of England",
-    "population": 108155,
+    "population": null,
     "electorate": 76970,
     "party_results": {
       "Con": {
@@ -6057,7 +6057,7 @@
     "district": 128,
     "name": "Chelsea and Fulham",
     "state": "London",
-    "population": 120921,
+    "population": null,
     "electorate": 78468,
     "party_results": {
       "Con": {
@@ -6105,7 +6105,7 @@
     "district": 129,
     "name": "Cheltenham",
     "state": "South West",
-    "population": 100608,
+    "population": null,
     "electorate": 76144,
     "party_results": {
       "Con": {
@@ -6153,7 +6153,7 @@
     "district": 130,
     "name": "Chesham and Amersham",
     "state": "South East",
-    "population": 99904,
+    "population": null,
     "electorate": 74889,
     "party_results": {
       "Con": {
@@ -6201,7 +6201,7 @@
     "district": 131,
     "name": "Chester North and Neston",
     "state": "North West",
-    "population": 95282,
+    "population": null,
     "electorate": 70215,
     "party_results": {
       "Con": {
@@ -6246,7 +6246,7 @@
     "district": 132,
     "name": "Chester South and Eddisbury",
     "state": "North West",
-    "population": 95656,
+    "population": null,
     "electorate": 74284,
     "party_results": {
       "Con": {
@@ -6294,7 +6294,7 @@
     "district": 133,
     "name": "Chesterfield",
     "state": "East Midlands",
-    "population": 93869,
+    "population": null,
     "electorate": 71645,
     "party_results": {
       "Con": {
@@ -6342,7 +6342,7 @@
     "district": 134,
     "name": "Chichester",
     "state": "South East",
-    "population": 106376,
+    "population": null,
     "electorate": 78374,
     "party_results": {
       "Con": {
@@ -6390,7 +6390,7 @@
     "district": 135,
     "name": "Chingford and Woodford Green",
     "state": "London",
-    "population": 110091,
+    "population": null,
     "electorate": 74010,
     "party_results": {
       "Con": {
@@ -6438,7 +6438,7 @@
     "district": 136,
     "name": "Chippenham",
     "state": "South West",
-    "population": 99179,
+    "population": null,
     "electorate": 74107,
     "party_results": {
       "Con": {
@@ -6486,7 +6486,7 @@
     "district": 137,
     "name": "Chipping Barnet",
     "state": "London",
-    "population": 112341,
+    "population": null,
     "electorate": 78038,
     "party_results": {
       "Con": {
@@ -6534,11 +6534,11 @@
     "district": 138,
     "name": "Chorley",
     "state": "North West",
-    "population": 101709,
+    "population": null,
     "electorate": 74801,
     "party_results": {
-      "Speaker": {
-        "member": 1
+      "Spk": {
+        "member": 25238
       },
       "Con": {
         "member": 0
@@ -6582,7 +6582,7 @@
     "district": 139,
     "name": "Christchurch",
     "state": "South West",
-    "population": 87998,
+    "population": null,
     "electorate": 71060,
     "party_results": {
       "Con": {
@@ -6630,7 +6630,7 @@
     "district": 140,
     "name": "Cities of London and Westminster",
     "state": "London",
-    "population": 128061,
+    "population": null,
     "electorate": 73369,
     "party_results": {
       "Con": {
@@ -6678,7 +6678,7 @@
     "district": 141,
     "name": "City of Durham",
     "state": "North East",
-    "population": 102538,
+    "population": null,
     "electorate": 70583,
     "party_results": {
       "Con": {
@@ -6726,7 +6726,7 @@
     "district": 142,
     "name": "Clacton",
     "state": "East of England",
-    "population": 100045,
+    "population": null,
     "electorate": 78245,
     "party_results": {
       "Con": {
@@ -6774,7 +6774,7 @@
     "district": 143,
     "name": "Clapham and Brixton Hill",
     "state": "London",
-    "population": 103853,
+    "population": null,
     "electorate": 83114,
     "party_results": {
       "Con": {
@@ -6822,7 +6822,7 @@
     "district": 144,
     "name": "Clwyd East",
     "state": "Wales",
-    "population": 96534,
+    "population": null,
     "electorate": 76637,
     "party_results": {
       "Con": {
@@ -6870,7 +6870,7 @@
     "district": 145,
     "name": "Clwyd North",
     "state": "Wales",
-    "population": 99781,
+    "population": null,
     "electorate": 75027,
     "party_results": {
       "Con": {
@@ -6915,7 +6915,7 @@
     "district": 146,
     "name": "Coatbridge and Bellshill",
     "state": "Scotland",
-    "population": 95496,
+    "population": null,
     "electorate": 72667,
     "party_results": {
       "Con": {
@@ -6963,7 +6963,7 @@
     "district": 147,
     "name": "Colchester",
     "state": "East of England",
-    "population": 115314,
+    "population": null,
     "electorate": 78662,
     "party_results": {
       "Con": {
@@ -7011,7 +7011,7 @@
     "district": 148,
     "name": "Colne Valley",
     "state": "Yorkshire and The Humber",
-    "population": 94053,
+    "population": null,
     "electorate": 72638,
     "party_results": {
       "Con": {
@@ -7059,7 +7059,7 @@
     "district": 149,
     "name": "Congleton",
     "state": "North West",
-    "population": 92687,
+    "population": null,
     "electorate": 74243,
     "party_results": {
       "Con": {
@@ -7107,7 +7107,7 @@
     "district": 150,
     "name": "Corby and East Northamptonshire",
     "state": "East Midlands",
-    "population": 118206,
+    "population": null,
     "electorate": 78770,
     "party_results": {
       "Con": {
@@ -7155,7 +7155,7 @@
     "district": 151,
     "name": "Coventry East",
     "state": "West Midlands",
-    "population": 121159,
+    "population": null,
     "electorate": 75773,
     "party_results": {
       "Con": {
@@ -7203,7 +7203,7 @@
     "district": 152,
     "name": "Coventry North West",
     "state": "West Midlands",
-    "population": 109006,
+    "population": null,
     "electorate": 75036,
     "party_results": {
       "Con": {
@@ -7251,7 +7251,7 @@
     "district": 153,
     "name": "Coventry South",
     "state": "West Midlands",
-    "population": 125435,
+    "population": null,
     "electorate": 76232,
     "party_results": {
       "Con": {
@@ -7299,7 +7299,7 @@
     "district": 154,
     "name": "Cowdenbeath and Kirkcaldy",
     "state": "Scotland",
-    "population": 94180,
+    "population": null,
     "electorate": 71845,
     "party_results": {
       "Con": {
@@ -7347,7 +7347,7 @@
     "district": 155,
     "name": "Cramlington and Killingworth",
     "state": "North East",
-    "population": 98057,
+    "population": null,
     "electorate": 76228,
     "party_results": {
       "Con": {
@@ -7395,7 +7395,7 @@
     "district": 156,
     "name": "Crawley",
     "state": "South East",
-    "population": 119509,
+    "population": null,
     "electorate": 75569,
     "party_results": {
       "Con": {
@@ -7443,7 +7443,7 @@
     "district": 157,
     "name": "Crewe and Nantwich",
     "state": "North West",
-    "population": 112193,
+    "population": null,
     "electorate": 78423,
     "party_results": {
       "Con": {
@@ -7491,7 +7491,7 @@
     "district": 158,
     "name": "Croydon East",
     "state": "London",
-    "population": 108869,
+    "population": null,
     "electorate": 76595,
     "party_results": {
       "Con": {
@@ -7536,7 +7536,7 @@
     "district": 159,
     "name": "Croydon South",
     "state": "London",
-    "population": 101671,
+    "population": null,
     "electorate": 74889,
     "party_results": {
       "Con": {
@@ -7584,7 +7584,7 @@
     "district": 160,
     "name": "Croydon West",
     "state": "London",
-    "population": 123850,
+    "population": null,
     "electorate": 77891,
     "party_results": {
       "Con": {
@@ -7632,7 +7632,7 @@
     "district": 161,
     "name": "Cumbernauld and Kirkintilloch",
     "state": "Scotland",
-    "population": 90065,
+    "population": null,
     "electorate": 70350,
     "party_results": {
       "Con": {
@@ -7677,7 +7677,7 @@
     "district": 162,
     "name": "Dagenham and Rainham",
     "state": "London",
-    "population": 120583,
+    "population": null,
     "electorate": 76475,
     "party_results": {
       "Con": {
@@ -7725,7 +7725,7 @@
     "district": 163,
     "name": "Darlington",
     "state": "North East",
-    "population": 98710,
+    "population": null,
     "electorate": 70672,
     "party_results": {
       "Con": {
@@ -7770,7 +7770,7 @@
     "district": 164,
     "name": "Dartford",
     "state": "South East",
-    "population": 110952,
+    "population": null,
     "electorate": 75426,
     "party_results": {
       "Con": {
@@ -7815,7 +7815,7 @@
     "district": 165,
     "name": "Daventry",
     "state": "East Midlands",
-    "population": 105946,
+    "population": null,
     "electorate": 80879,
     "party_results": {
       "Con": {
@@ -7860,7 +7860,7 @@
     "district": 166,
     "name": "Derby North",
     "state": "East Midlands",
-    "population": 104362,
+    "population": null,
     "electorate": 71879,
     "party_results": {
       "Con": {
@@ -7905,7 +7905,7 @@
     "district": 167,
     "name": "Derby South",
     "state": "East Midlands",
-    "population": 119588,
+    "population": null,
     "electorate": 72944,
     "party_results": {
       "Con": {
@@ -7953,7 +7953,7 @@
     "district": 168,
     "name": "Derbyshire Dales",
     "state": "East Midlands",
-    "population": 90430,
+    "population": null,
     "electorate": 73324,
     "party_results": {
       "Con": {
@@ -8001,7 +8001,7 @@
     "district": 169,
     "name": "Dewsbury and Batley",
     "state": "Yorkshire and The Humber",
-    "population": 103956,
+    "population": null,
     "electorate": 71685,
     "party_results": {
       "Con": {
@@ -8049,7 +8049,7 @@
     "district": 170,
     "name": "Didcot and Wantage",
     "state": "South East",
-    "population": 109312,
+    "population": null,
     "electorate": 80689,
     "party_results": {
       "Con": {
@@ -8097,7 +8097,7 @@
     "district": 171,
     "name": "Doncaster Central",
     "state": "Yorkshire and The Humber",
-    "population": 113658,
+    "population": null,
     "electorate": 74678,
     "party_results": {
       "Con": {
@@ -8145,7 +8145,7 @@
     "district": 172,
     "name": "Doncaster East and the Isle of Axholme",
     "state": "Yorkshire and The Humber",
-    "population": 94297,
+    "population": null,
     "electorate": 70154,
     "party_results": {
       "Con": {
@@ -8193,7 +8193,7 @@
     "district": 173,
     "name": "Doncaster North",
     "state": "Yorkshire and The Humber",
-    "population": 97680,
+    "population": null,
     "electorate": 69759,
     "party_results": {
       "Con": {
@@ -8241,7 +8241,7 @@
     "district": 174,
     "name": "Dorking and Horley",
     "state": "South East",
-    "population": 94882,
+    "population": null,
     "electorate": 71645,
     "party_results": {
       "Con": {
@@ -8286,7 +8286,7 @@
     "district": 175,
     "name": "Dover and Deal",
     "state": "South East",
-    "population": 103887,
+    "population": null,
     "electorate": 76406,
     "party_results": {
       "Con": {
@@ -8334,7 +8334,7 @@
     "district": 176,
     "name": "Droitwich and Evesham",
     "state": "West Midlands",
-    "population": 103730,
+    "population": null,
     "electorate": 76624,
     "party_results": {
       "Con": {
@@ -8382,7 +8382,7 @@
     "district": 177,
     "name": "Dudley",
     "state": "West Midlands",
-    "population": 101765,
+    "population": null,
     "electorate": 70151,
     "party_results": {
       "Con": {
@@ -8430,7 +8430,7 @@
     "district": 178,
     "name": "Dulwich and West Norwood",
     "state": "London",
-    "population": 105649,
+    "population": null,
     "electorate": 79894,
     "party_results": {
       "Con": {
@@ -8478,7 +8478,7 @@
     "district": 179,
     "name": "Dumfries and Galloway",
     "state": "Scotland",
-    "population": 95866,
+    "population": null,
     "electorate": 78541,
     "party_results": {
       "Con": {
@@ -8526,7 +8526,7 @@
     "district": 180,
     "name": "Dumfriesshire, Clydesdale and Tweeddale",
     "state": "Scotland",
-    "population": 88049,
+    "population": null,
     "electorate": 71900,
     "party_results": {
       "Con": {
@@ -8574,7 +8574,7 @@
     "district": 181,
     "name": "Dundee Central",
     "state": "Scotland",
-    "population": 105103,
+    "population": null,
     "electorate": 74221,
     "party_results": {
       "Con": {
@@ -8622,7 +8622,7 @@
     "district": 182,
     "name": "Dunfermline and Dollar",
     "state": "Scotland",
-    "population": 95731,
+    "population": null,
     "electorate": 72824,
     "party_results": {
       "Con": {
@@ -8670,7 +8670,7 @@
     "district": 183,
     "name": "Dunstable and Leighton Buzzard",
     "state": "East of England",
-    "population": 110912,
+    "population": null,
     "electorate": 76742,
     "party_results": {
       "Con": {
@@ -8718,7 +8718,7 @@
     "district": 184,
     "name": "Dwyfor Meirionnydd",
     "state": "Wales",
-    "population": 94395,
+    "population": null,
     "electorate": 73040,
     "party_results": {
       "Con": {
@@ -8766,7 +8766,7 @@
     "district": 185,
     "name": "Ealing Central and Acton",
     "state": "London",
-    "population": 134291,
+    "population": null,
     "electorate": 78436,
     "party_results": {
       "Con": {
@@ -8814,7 +8814,7 @@
     "district": 186,
     "name": "Ealing North",
     "state": "London",
-    "population": 128409,
+    "population": null,
     "electorate": 74820,
     "party_results": {
       "Con": {
@@ -8862,7 +8862,7 @@
     "district": 187,
     "name": "Ealing Southall",
     "state": "London",
-    "population": 125960,
+    "population": null,
     "electorate": 78669,
     "party_results": {
       "Con": {
@@ -8910,7 +8910,7 @@
     "district": 188,
     "name": "Earley and Woodley",
     "state": "South East",
-    "population": 107434,
+    "population": null,
     "electorate": 73548,
     "party_results": {
       "Con": {
@@ -8958,7 +8958,7 @@
     "district": 189,
     "name": "Easington",
     "state": "North East",
-    "population": 94305,
+    "population": null,
     "electorate": 69395,
     "party_results": {
       "Con": {
@@ -9006,7 +9006,7 @@
     "district": 190,
     "name": "East Antrim",
     "state": "Northern Ireland",
-    "population": 97287,
+    "population": null,
     "electorate": 73302,
     "party_results": {
       "Con": {
@@ -9054,7 +9054,7 @@
     "district": 191,
     "name": "East Grinstead and Uckfield",
     "state": "South East",
-    "population": 97476,
+    "population": null,
     "electorate": 75385,
     "party_results": {
       "Con": {
@@ -9102,7 +9102,7 @@
     "district": 192,
     "name": "East Ham",
     "state": "London",
-    "population": 132906,
+    "population": null,
     "electorate": 79219,
     "party_results": {
       "Con": {
@@ -9150,7 +9150,7 @@
     "district": 193,
     "name": "East Hampshire",
     "state": "South East",
-    "population": 91757,
+    "population": null,
     "electorate": 70659,
     "party_results": {
       "Con": {
@@ -9198,7 +9198,7 @@
     "district": 194,
     "name": "East Kilbride and Strathaven",
     "state": "Scotland",
-    "population": 98033,
+    "population": null,
     "electorate": 76414,
     "party_results": {
       "Con": {
@@ -9246,7 +9246,7 @@
     "district": 195,
     "name": "East Londonderry",
     "state": "Northern Ireland",
-    "population": 102990,
+    "population": null,
     "electorate": 75707,
     "party_results": {
       "Con": {
@@ -9294,7 +9294,7 @@
     "district": 196,
     "name": "East Renfrewshire",
     "state": "Scotland",
-    "population": 97170,
+    "population": null,
     "electorate": 74626,
     "party_results": {
       "Con": {
@@ -9342,7 +9342,7 @@
     "district": 197,
     "name": "East Surrey",
     "state": "South East",
-    "population": 100251,
+    "population": null,
     "electorate": 73307,
     "party_results": {
       "Con": {
@@ -9390,7 +9390,7 @@
     "district": 198,
     "name": "East Thanet",
     "state": "South East",
-    "population": 105304,
+    "population": null,
     "electorate": 74927,
     "party_results": {
       "Con": {
@@ -9438,7 +9438,7 @@
     "district": 199,
     "name": "East Wiltshire",
     "state": "South West",
-    "population": 102866,
+    "population": null,
     "electorate": 74139,
     "party_results": {
       "Con": {
@@ -9486,7 +9486,7 @@
     "district": 200,
     "name": "East Worthing and Shoreham",
     "state": "South East",
-    "population": 99910,
+    "population": null,
     "electorate": 74738,
     "party_results": {
       "Con": {
@@ -9534,7 +9534,7 @@
     "district": 201,
     "name": "Eastbourne",
     "state": "South East",
-    "population": 102247,
+    "population": null,
     "electorate": 72590,
     "party_results": {
       "Con": {
@@ -9582,7 +9582,7 @@
     "district": 202,
     "name": "Eastleigh",
     "state": "South East",
-    "population": 94953,
+    "population": null,
     "electorate": 69965,
     "party_results": {
       "Con": {
@@ -9630,7 +9630,7 @@
     "district": 203,
     "name": "Edinburgh East and Musselburgh",
     "state": "Scotland",
-    "population": 115819,
+    "population": null,
     "electorate": 76188,
     "party_results": {
       "Con": {
@@ -9678,7 +9678,7 @@
     "district": 204,
     "name": "Edinburgh North and Leith",
     "state": "Scotland",
-    "population": 106865,
+    "population": null,
     "electorate": 78411,
     "party_results": {
       "Con": {
@@ -9726,7 +9726,7 @@
     "district": 205,
     "name": "Edinburgh South",
     "state": "Scotland",
-    "population": 98399,
+    "population": null,
     "electorate": 70838,
     "party_results": {
       "Con": {
@@ -9774,7 +9774,7 @@
     "district": 206,
     "name": "Edinburgh South West",
     "state": "Scotland",
-    "population": 106332,
+    "population": null,
     "electorate": 73784,
     "party_results": {
       "Con": {
@@ -9822,7 +9822,7 @@
     "district": 207,
     "name": "Edinburgh West",
     "state": "Scotland",
-    "population": 99990,
+    "population": null,
     "electorate": 76490,
     "party_results": {
       "Con": {
@@ -9870,7 +9870,7 @@
     "district": 208,
     "name": "Edmonton and Winchmore Hill",
     "state": "London",
-    "population": 125161,
+    "population": null,
     "electorate": 75792,
     "party_results": {
       "Con": {
@@ -9918,7 +9918,7 @@
     "district": 209,
     "name": "Ellesmere Port and Bromborough",
     "state": "North West",
-    "population": 96430,
+    "population": null,
     "electorate": 70799,
     "party_results": {
       "Con": {
@@ -9966,7 +9966,7 @@
     "district": 210,
     "name": "Eltham and Chislehurst",
     "state": "London",
-    "population": 111055,
+    "population": null,
     "electorate": 73979,
     "party_results": {
       "Con": {
@@ -10014,7 +10014,7 @@
     "district": 211,
     "name": "Ely and East Cambridgeshire",
     "state": "East of England",
-    "population": 107563,
+    "population": null,
     "electorate": 79112,
     "party_results": {
       "Con": {
@@ -10062,7 +10062,7 @@
     "district": 212,
     "name": "Enfield North",
     "state": "London",
-    "population": 126898,
+    "population": null,
     "electorate": 78770,
     "party_results": {
       "Con": {
@@ -10110,7 +10110,7 @@
     "district": 213,
     "name": "Epping Forest",
     "state": "East of England",
-    "population": 102670,
+    "population": null,
     "electorate": 72229,
     "party_results": {
       "Con": {
@@ -10158,7 +10158,7 @@
     "district": 214,
     "name": "Epsom and Ewell",
     "state": "South East",
-    "population": 108275,
+    "population": null,
     "electorate": 76513,
     "party_results": {
       "Con": {
@@ -10206,7 +10206,7 @@
     "district": 215,
     "name": "Erewash",
     "state": "East Midlands",
-    "population": 95351,
+    "population": null,
     "electorate": 71501,
     "party_results": {
       "Con": {
@@ -10254,7 +10254,7 @@
     "district": 216,
     "name": "Erith and Thamesmead",
     "state": "London",
-    "population": 134250,
+    "population": null,
     "electorate": 78740,
     "party_results": {
       "Con": {
@@ -10302,7 +10302,7 @@
     "district": 217,
     "name": "Esher and Walton",
     "state": "South East",
-    "population": 104341,
+    "population": null,
     "electorate": 74042,
     "party_results": {
       "Con": {
@@ -10350,7 +10350,7 @@
     "district": 218,
     "name": "Exeter",
     "state": "South West",
-    "population": 104747,
+    "population": null,
     "electorate": 67840,
     "party_results": {
       "Con": {
@@ -10398,7 +10398,7 @@
     "district": 219,
     "name": "Exmouth and Exeter East",
     "state": "South West",
-    "population": 103940,
+    "population": null,
     "electorate": 79983,
     "party_results": {
       "Con": {
@@ -10446,7 +10446,7 @@
     "district": 220,
     "name": "Falkirk",
     "state": "Scotland",
-    "population": 96495,
+    "population": null,
     "electorate": 73584,
     "party_results": {
       "Con": {
@@ -10494,7 +10494,7 @@
     "district": 221,
     "name": "Fareham and Waterlooville",
     "state": "South East",
-    "population": 99399,
+    "population": null,
     "electorate": 76947,
     "party_results": {
       "Con": {
@@ -10542,7 +10542,7 @@
     "district": 222,
     "name": "Farnham and Bordon",
     "state": "South East",
-    "population": 101699,
+    "population": null,
     "electorate": 75920,
     "party_results": {
       "Con": {
@@ -10590,7 +10590,7 @@
     "district": 223,
     "name": "Faversham and Mid Kent",
     "state": "South East",
-    "population": 101852,
+    "population": null,
     "electorate": 74301,
     "party_results": {
       "Con": {
@@ -10638,7 +10638,7 @@
     "district": 224,
     "name": "Feltham and Heston",
     "state": "London",
-    "population": 135036,
+    "population": null,
     "electorate": 76982,
     "party_results": {
       "Con": {
@@ -10686,7 +10686,7 @@
     "district": 225,
     "name": "Fermanagh and South Tyrone",
     "state": "Northern Ireland",
-    "population": 112000,
+    "population": null,
     "electorate": 77828,
     "party_results": {
       "Con": {
@@ -10734,7 +10734,7 @@
     "district": 226,
     "name": "Filton and Bradley Stoke",
     "state": "South West",
-    "population": 110234,
+    "population": null,
     "electorate": 77582,
     "party_results": {
       "Con": {
@@ -10779,7 +10779,7 @@
     "district": 227,
     "name": "Finchley and Golders Green",
     "state": "London",
-    "population": 125951,
+    "population": null,
     "electorate": 77500,
     "party_results": {
       "Con": {
@@ -10827,7 +10827,7 @@
     "district": 228,
     "name": "Folkestone and Hythe",
     "state": "South East",
-    "population": 92073,
+    "population": null,
     "electorate": 70056,
     "party_results": {
       "Con": {
@@ -10875,7 +10875,7 @@
     "district": 229,
     "name": "Forest of Dean",
     "state": "South West",
-    "population": 92621,
+    "population": null,
     "electorate": 72857,
     "party_results": {
       "Con": {
@@ -10923,7 +10923,7 @@
     "district": 230,
     "name": "Foyle",
     "state": "Northern Ireland",
-    "population": 97524,
+    "population": null,
     "electorate": 73496,
     "party_results": {
       "Con": {
@@ -10971,7 +10971,7 @@
     "district": 231,
     "name": "Frome and East Somerset",
     "state": "South West",
-    "population": 92800,
+    "population": null,
     "electorate": 71593,
     "party_results": {
       "Con": {
@@ -11019,7 +11019,7 @@
     "district": 232,
     "name": "Fylde",
     "state": "North West",
-    "population": 98407,
+    "population": null,
     "electorate": 77100,
     "party_results": {
       "Con": {
@@ -11067,7 +11067,7 @@
     "district": 233,
     "name": "Gainsborough",
     "state": "East Midlands",
-    "population": 96817,
+    "population": null,
     "electorate": 75836,
     "party_results": {
       "Con": {
@@ -11115,7 +11115,7 @@
     "district": 234,
     "name": "Gateshead Central and Whickham",
     "state": "North East",
-    "population": 98923,
+    "population": null,
     "electorate": 69827,
     "party_results": {
       "Con": {
@@ -11163,7 +11163,7 @@
     "district": 235,
     "name": "Gedling",
     "state": "East Midlands",
-    "population": 101477,
+    "population": null,
     "electorate": 77006,
     "party_results": {
       "Con": {
@@ -11211,7 +11211,7 @@
     "district": 236,
     "name": "Gillingham and Rainham",
     "state": "South East",
-    "population": 103259,
+    "population": null,
     "electorate": 73523,
     "party_results": {
       "Con": {
@@ -11259,7 +11259,7 @@
     "district": 237,
     "name": "Glasgow East",
     "state": "Scotland",
-    "population": 98394,
+    "population": null,
     "electorate": 68987,
     "party_results": {
       "Con": {
@@ -11307,7 +11307,7 @@
     "district": 238,
     "name": "Glasgow North",
     "state": "Scotland",
-    "population": 109405,
+    "population": null,
     "electorate": 67579,
     "party_results": {
       "Con": {
@@ -11355,7 +11355,7 @@
     "district": 239,
     "name": "Glasgow North East",
     "state": "Scotland",
-    "population": 108237,
+    "population": null,
     "electorate": 72610,
     "party_results": {
       "Con": {
@@ -11403,7 +11403,7 @@
     "district": 240,
     "name": "Glasgow South",
     "state": "Scotland",
-    "population": 91190,
+    "population": null,
     "electorate": 70219,
     "party_results": {
       "Con": {
@@ -11451,7 +11451,7 @@
     "district": 241,
     "name": "Glasgow South West",
     "state": "Scotland",
-    "population": 97056,
+    "population": null,
     "electorate": 68871,
     "party_results": {
       "Con": {
@@ -11499,7 +11499,7 @@
     "district": 242,
     "name": "Glasgow West",
     "state": "Scotland",
-    "population": 99420,
+    "population": null,
     "electorate": 69028,
     "party_results": {
       "Con": {
@@ -11547,7 +11547,7 @@
     "district": 243,
     "name": "Glastonbury and Somerton",
     "state": "South West",
-    "population": 93010,
+    "population": null,
     "electorate": 73268,
     "party_results": {
       "Con": {
@@ -11592,7 +11592,7 @@
     "district": 244,
     "name": "Glenrothes and Mid Fife",
     "state": "Scotland",
-    "population": 92755,
+    "population": null,
     "electorate": 70655,
     "party_results": {
       "Con": {
@@ -11637,7 +11637,7 @@
     "district": 245,
     "name": "Gloucester",
     "state": "South West",
-    "population": 117614,
+    "population": null,
     "electorate": 79475,
     "party_results": {
       "Con": {
@@ -11685,7 +11685,7 @@
     "district": 246,
     "name": "Godalming and Ash",
     "state": "South East",
-    "population": 98131,
+    "population": null,
     "electorate": 75816,
     "party_results": {
       "Con": {
@@ -11733,7 +11733,7 @@
     "district": 247,
     "name": "Goole and Pocklington",
     "state": "Yorkshire and The Humber",
-    "population": 104899,
+    "population": null,
     "electorate": 79925,
     "party_results": {
       "Con": {
@@ -11781,7 +11781,7 @@
     "district": 248,
     "name": "Gordon and Buchan",
     "state": "Scotland",
-    "population": 92760,
+    "population": null,
     "electorate": 69605,
     "party_results": {
       "Con": {
@@ -11826,7 +11826,7 @@
     "district": 249,
     "name": "Gorton and Denton",
     "state": "North West",
-    "population": 115037,
+    "population": null,
     "electorate": 76524,
     "party_results": {
       "Con": {
@@ -11874,7 +11874,7 @@
     "district": 250,
     "name": "Gosport",
     "state": "South East",
-    "population": 96807,
+    "population": null,
     "electorate": 73261,
     "party_results": {
       "Con": {
@@ -11922,7 +11922,7 @@
     "district": 251,
     "name": "Gower",
     "state": "Wales",
-    "population": 96686,
+    "population": null,
     "electorate": 76123,
     "party_results": {
       "Con": {
@@ -11970,7 +11970,7 @@
     "district": 252,
     "name": "Grantham and Bourne",
     "state": "East Midlands",
-    "population": 99752,
+    "population": null,
     "electorate": 73285,
     "party_results": {
       "Con": {
@@ -12018,7 +12018,7 @@
     "district": 253,
     "name": "Gravesham",
     "state": "South East",
-    "population": 106970,
+    "population": null,
     "electorate": 73094,
     "party_results": {
       "Con": {
@@ -12063,7 +12063,7 @@
     "district": 254,
     "name": "Great Grimsby and Cleethorpes",
     "state": "Yorkshire and The Humber",
-    "population": 107406,
+    "population": null,
     "electorate": 76157,
     "party_results": {
       "Con": {
@@ -12111,7 +12111,7 @@
     "district": 255,
     "name": "Great Yarmouth",
     "state": "East of England",
-    "population": 99862,
+    "population": null,
     "electorate": 73317,
     "party_results": {
       "Con": {
@@ -12159,7 +12159,7 @@
     "district": 256,
     "name": "Greenwich and Woolwich",
     "state": "London",
-    "population": 119404,
+    "population": null,
     "electorate": 73073,
     "party_results": {
       "Con": {
@@ -12207,7 +12207,7 @@
     "district": 257,
     "name": "Guildford",
     "state": "South East",
-    "population": 103176,
+    "population": null,
     "electorate": 70662,
     "party_results": {
       "Con": {
@@ -12255,7 +12255,7 @@
     "district": 258,
     "name": "Hackney North and Stoke Newington",
     "state": "London",
-    "population": 116638,
+    "population": null,
     "electorate": 77812,
     "party_results": {
       "Con": {
@@ -12303,7 +12303,7 @@
     "district": 259,
     "name": "Hackney South and Shoreditch",
     "state": "London",
-    "population": 114399,
+    "population": null,
     "electorate": 78277,
     "party_results": {
       "Con": {
@@ -12351,7 +12351,7 @@
     "district": 260,
     "name": "Halesowen",
     "state": "West Midlands",
-    "population": 95196,
+    "population": null,
     "electorate": 68549,
     "party_results": {
       "Con": {
@@ -12396,7 +12396,7 @@
     "district": 261,
     "name": "Halifax",
     "state": "Yorkshire and The Humber",
-    "population": 108922,
+    "population": null,
     "electorate": 77516,
     "party_results": {
       "Con": {
@@ -12444,7 +12444,7 @@
     "district": 262,
     "name": "Hamble Valley",
     "state": "South East",
-    "population": 103937,
+    "population": null,
     "electorate": 79478,
     "party_results": {
       "Con": {
@@ -12492,7 +12492,7 @@
     "district": 263,
     "name": "Hamilton and Clyde Valley",
     "state": "Scotland",
-    "population": 97431,
+    "population": null,
     "electorate": 75480,
     "party_results": {
       "Con": {
@@ -12540,7 +12540,7 @@
     "district": 264,
     "name": "Hammersmith and Chiswick",
     "state": "London",
-    "population": 116739,
+    "population": null,
     "electorate": 75860,
     "party_results": {
       "Con": {
@@ -12588,7 +12588,7 @@
     "district": 265,
     "name": "Hampstead and Highgate",
     "state": "London",
-    "population": 118855,
+    "population": null,
     "electorate": 80029,
     "party_results": {
       "Con": {
@@ -12636,7 +12636,7 @@
     "district": 266,
     "name": "Harborough, Oadby and Wigston",
     "state": "East Midlands",
-    "population": 103155,
+    "population": null,
     "electorate": 77075,
     "party_results": {
       "Con": {
@@ -12684,7 +12684,7 @@
     "district": 267,
     "name": "Harlow",
     "state": "East of England",
-    "population": 112137,
+    "population": null,
     "electorate": 74683,
     "party_results": {
       "Con": {
@@ -12732,7 +12732,7 @@
     "district": 268,
     "name": "Harpenden and Berkhamsted",
     "state": "East of England",
-    "population": 95445,
+    "population": null,
     "electorate": 72242,
     "party_results": {
       "Con": {
@@ -12780,7 +12780,7 @@
     "district": 269,
     "name": "Harrogate and Knaresborough",
     "state": "Yorkshire and The Humber",
-    "population": 103221,
+    "population": null,
     "electorate": 77955,
     "party_results": {
       "Con": {
@@ -12828,7 +12828,7 @@
     "district": 270,
     "name": "Harrow East",
     "state": "London",
-    "population": 118266,
+    "population": null,
     "electorate": 76513,
     "party_results": {
       "Con": {
@@ -12876,7 +12876,7 @@
     "district": 271,
     "name": "Harrow West",
     "state": "London",
-    "population": 122230,
+    "population": null,
     "electorate": 79902,
     "party_results": {
       "Con": {
@@ -12924,7 +12924,7 @@
     "district": 272,
     "name": "Hartlepool",
     "state": "North East",
-    "population": 93861,
+    "population": null,
     "electorate": 71437,
     "party_results": {
       "Con": {
@@ -12972,7 +12972,7 @@
     "district": 273,
     "name": "Harwich and North Essex",
     "state": "East of England",
-    "population": 99425,
+    "population": null,
     "electorate": 76296,
     "party_results": {
       "Con": {
@@ -13017,7 +13017,7 @@
     "district": 274,
     "name": "Hastings and Rye",
     "state": "South East",
-    "population": 104498,
+    "population": null,
     "electorate": 75939,
     "party_results": {
       "Con": {
@@ -13065,7 +13065,7 @@
     "district": 275,
     "name": "Havant",
     "state": "South East",
-    "population": 95428,
+    "population": null,
     "electorate": 72323,
     "party_results": {
       "Con": {
@@ -13113,7 +13113,7 @@
     "district": 276,
     "name": "Hayes and Harlington",
     "state": "London",
-    "population": 129441,
+    "population": null,
     "electorate": 74405,
     "party_results": {
       "Con": {
@@ -13161,7 +13161,7 @@
     "district": 277,
     "name": "Hazel Grove",
     "state": "North West",
-    "population": 95425,
+    "population": null,
     "electorate": 72846,
     "party_results": {
       "Con": {
@@ -13209,7 +13209,7 @@
     "district": 278,
     "name": "Hemel Hempstead",
     "state": "East of England",
-    "population": 104046,
+    "population": null,
     "electorate": 71035,
     "party_results": {
       "Con": {
@@ -13254,7 +13254,7 @@
     "district": 279,
     "name": "Hendon",
     "state": "London",
-    "population": 131691,
+    "population": null,
     "electorate": 74865,
     "party_results": {
       "Con": {
@@ -13302,7 +13302,7 @@
     "district": 280,
     "name": "Henley and Thame",
     "state": "South East",
-    "population": 96737,
+    "population": null,
     "electorate": 73749,
     "party_results": {
       "Con": {
@@ -13350,7 +13350,7 @@
     "district": 281,
     "name": "Hereford and South Herefordshire",
     "state": "West Midlands",
-    "population": 97357,
+    "population": null,
     "electorate": 72203,
     "party_results": {
       "Con": {
@@ -13398,7 +13398,7 @@
     "district": 282,
     "name": "Herne Bay and Sandwich",
     "state": "South East",
-    "population": 99257,
+    "population": null,
     "electorate": 77869,
     "party_results": {
       "Con": {
@@ -13443,7 +13443,7 @@
     "district": 283,
     "name": "Hertford and Stortford",
     "state": "East of England",
-    "population": 107107,
+    "population": null,
     "electorate": 78915,
     "party_results": {
       "Con": {
@@ -13491,7 +13491,7 @@
     "district": 284,
     "name": "Hertsmere",
     "state": "East of England",
-    "population": 106213,
+    "population": null,
     "electorate": 73465,
     "party_results": {
       "Con": {
@@ -13539,7 +13539,7 @@
     "district": 285,
     "name": "Hexham",
     "state": "North East",
-    "population": 94195,
+    "population": null,
     "electorate": 76431,
     "party_results": {
       "Con": {
@@ -13587,7 +13587,7 @@
     "district": 286,
     "name": "Heywood and Middleton North",
     "state": "North West",
-    "population": 101554,
+    "population": null,
     "electorate": 73328,
     "party_results": {
       "Con": {
@@ -13635,7 +13635,7 @@
     "district": 287,
     "name": "High Peak",
     "state": "East Midlands",
-    "population": 91109,
+    "population": null,
     "electorate": 74385,
     "party_results": {
       "Con": {
@@ -13680,7 +13680,7 @@
     "district": 288,
     "name": "Hinckley and Bosworth",
     "state": "East Midlands",
-    "population": 99457,
+    "population": null,
     "electorate": 76438,
     "party_results": {
       "Con": {
@@ -13728,7 +13728,7 @@
     "district": 289,
     "name": "Hitchin",
     "state": "East of England",
-    "population": 100547,
+    "population": null,
     "electorate": 75877,
     "party_results": {
       "Con": {
@@ -13776,7 +13776,7 @@
     "district": 290,
     "name": "Holborn and St Pancras",
     "state": "London",
-    "population": 111927,
+    "population": null,
     "electorate": 71300,
     "party_results": {
       "Con": {
@@ -13824,7 +13824,7 @@
     "district": 291,
     "name": "Honiton and Sidmouth",
     "state": "South West",
-    "population": 92665,
+    "population": null,
     "electorate": 75537,
     "party_results": {
       "Con": {
@@ -13872,7 +13872,7 @@
     "district": 292,
     "name": "Hornchurch and Upminster",
     "state": "London",
-    "population": 107933,
+    "population": null,
     "electorate": 75438,
     "party_results": {
       "Con": {
@@ -13920,7 +13920,7 @@
     "district": 293,
     "name": "Hornsey and Friern Barnet",
     "state": "London",
-    "population": 101045,
+    "population": null,
     "electorate": 69885,
     "party_results": {
       "Con": {
@@ -13968,7 +13968,7 @@
     "district": 294,
     "name": "Horsham",
     "state": "South East",
-    "population": 105494,
+    "population": null,
     "electorate": 79150,
     "party_results": {
       "Con": {
@@ -14016,7 +14016,7 @@
     "district": 295,
     "name": "Houghton and Sunderland South",
     "state": "North East",
-    "population": 101499,
+    "population": null,
     "electorate": 78448,
     "party_results": {
       "Con": {
@@ -14061,7 +14061,7 @@
     "district": 296,
     "name": "Hove and Portslade",
     "state": "South East",
-    "population": 101839,
+    "population": null,
     "electorate": 74063,
     "party_results": {
       "Con": {
@@ -14109,7 +14109,7 @@
     "district": 297,
     "name": "Huddersfield",
     "state": "Yorkshire and The Humber",
-    "population": 114278,
+    "population": null,
     "electorate": 77795,
     "party_results": {
       "Con": {
@@ -14154,7 +14154,7 @@
     "district": 298,
     "name": "Huntingdon",
     "state": "East of England",
-    "population": 110470,
+    "population": null,
     "electorate": 79074,
     "party_results": {
       "Con": {
@@ -14202,7 +14202,7 @@
     "district": 299,
     "name": "Hyndburn",
     "state": "North West",
-    "population": 95059,
+    "population": null,
     "electorate": 67147,
     "party_results": {
       "Con": {
@@ -14247,7 +14247,7 @@
     "district": 300,
     "name": "Ilford North",
     "state": "London",
-    "population": 120092,
+    "population": null,
     "electorate": 78657,
     "party_results": {
       "Con": {
@@ -14295,7 +14295,7 @@
     "district": 301,
     "name": "Ilford South",
     "state": "London",
-    "population": 131400,
+    "population": null,
     "electorate": 80993,
     "party_results": {
       "Con": {
@@ -14343,7 +14343,7 @@
     "district": 302,
     "name": "Inverclyde and Renfrewshire West",
     "state": "Scotland",
-    "population": 89425,
+    "population": null,
     "electorate": 70126,
     "party_results": {
       "Con": {
@@ -14391,7 +14391,7 @@
     "district": 303,
     "name": "Inverness, Skye and West Ross-shire",
     "state": "Scotland",
-    "population": 104092,
+    "population": null,
     "electorate": 77927,
     "party_results": {
       "Con": {
@@ -14439,7 +14439,7 @@
     "district": 304,
     "name": "Ipswich",
     "state": "East of England",
-    "population": 114348,
+    "population": null,
     "electorate": 75396,
     "party_results": {
       "Con": {
@@ -14487,7 +14487,7 @@
     "district": 305,
     "name": "Isle of Wight East",
     "state": "South East",
-    "population": 69526,
+    "population": null,
     "electorate": 55855,
     "party_results": {
       "Con": {
@@ -14535,7 +14535,7 @@
     "district": 306,
     "name": "Isle of Wight West",
     "state": "South East",
-    "population": 71268,
+    "population": null,
     "electorate": 55406,
     "party_results": {
       "Con": {
@@ -14583,7 +14583,7 @@
     "district": 307,
     "name": "Islington North",
     "state": "London",
-    "population": 110100,
+    "population": null,
     "electorate": 72852,
     "party_results": {
       "Con": {
@@ -14631,7 +14631,7 @@
     "district": 308,
     "name": "Islington South and Finsbury",
     "state": "London",
-    "population": 119436,
+    "population": null,
     "electorate": 74122,
     "party_results": {
       "Con": {
@@ -14679,7 +14679,7 @@
     "district": 309,
     "name": "Jarrow and Gateshead East",
     "state": "North East",
-    "population": 94456,
+    "population": null,
     "electorate": 70272,
     "party_results": {
       "Con": {
@@ -14727,7 +14727,7 @@
     "district": 310,
     "name": "Keighley and Ilkley",
     "state": "Yorkshire and The Humber",
-    "population": 100610,
+    "population": null,
     "electorate": 74367,
     "party_results": {
       "Con": {
@@ -14775,7 +14775,7 @@
     "district": 311,
     "name": "Kenilworth and Southam",
     "state": "West Midlands",
-    "population": 96162,
+    "population": null,
     "electorate": 74923,
     "party_results": {
       "Con": {
@@ -14823,7 +14823,7 @@
     "district": 312,
     "name": "Kensington and Bayswater",
     "state": "London",
-    "population": 135420,
+    "population": null,
     "electorate": 77306,
     "party_results": {
       "Con": {
@@ -14871,7 +14871,7 @@
     "district": 313,
     "name": "Kettering",
     "state": "East Midlands",
-    "population": 111644,
+    "population": null,
     "electorate": 79360,
     "party_results": {
       "Con": {
@@ -14919,7 +14919,7 @@
     "district": 314,
     "name": "Kilmarnock and Loudoun",
     "state": "Scotland",
-    "population": 96069,
+    "population": null,
     "electorate": 74628,
     "party_results": {
       "Con": {
@@ -14967,7 +14967,7 @@
     "district": 315,
     "name": "Kingston and Surbiton",
     "state": "London",
-    "population": 115224,
+    "population": null,
     "electorate": 77353,
     "party_results": {
       "Con": {
@@ -15015,7 +15015,7 @@
     "district": 316,
     "name": "Kingston upon Hull East",
     "state": "Yorkshire and The Humber",
-    "population": 103118,
+    "population": null,
     "electorate": 70650,
     "party_results": {
       "Con": {
@@ -15060,7 +15060,7 @@
     "district": 317,
     "name": "Kingston upon Hull North and Cottingham",
     "state": "Yorkshire and The Humber",
-    "population": 117518,
+    "population": null,
     "electorate": 75280,
     "party_results": {
       "Con": {
@@ -15108,7 +15108,7 @@
     "district": 318,
     "name": "Kingston upon Hull West and Haltemprice",
     "state": "Yorkshire and The Humber",
-    "population": 105992,
+    "population": null,
     "electorate": 73252,
     "party_results": {
       "Con": {
@@ -15156,7 +15156,7 @@
     "district": 319,
     "name": "Kingswinford and South Staffordshire",
     "state": "West Midlands",
-    "population": 89388,
+    "population": null,
     "electorate": 71645,
     "party_results": {
       "Con": {
@@ -15204,7 +15204,7 @@
     "district": 320,
     "name": "Knowsley",
     "state": "North West",
-    "population": 95466,
+    "population": null,
     "electorate": 71964,
     "party_results": {
       "Con": {
@@ -15252,7 +15252,7 @@
     "district": 321,
     "name": "Lagan Valley",
     "state": "Northern Ireland",
-    "population": 112742,
+    "population": null,
     "electorate": 82201,
     "party_results": {
       "Con": {
@@ -15300,7 +15300,7 @@
     "district": 322,
     "name": "Lancaster and Wyre",
     "state": "North West",
-    "population": 99203,
+    "population": null,
     "electorate": 74760,
     "party_results": {
       "Con": {
@@ -15345,7 +15345,7 @@
     "district": 323,
     "name": "Leeds Central and Headingley",
     "state": "Yorkshire and The Humber",
-    "population": 110466,
+    "population": null,
     "electorate": 70554,
     "party_results": {
       "Con": {
@@ -15393,7 +15393,7 @@
     "district": 324,
     "name": "Leeds East",
     "state": "Yorkshire and The Humber",
-    "population": 114748,
+    "population": null,
     "electorate": 76207,
     "party_results": {
       "Con": {
@@ -15441,7 +15441,7 @@
     "district": 325,
     "name": "Leeds North East",
     "state": "Yorkshire and The Humber",
-    "population": 96825,
+    "population": null,
     "electorate": 70178,
     "party_results": {
       "Con": {
@@ -15489,7 +15489,7 @@
     "district": 326,
     "name": "Leeds North West",
     "state": "Yorkshire and The Humber",
-    "population": 93828,
+    "population": null,
     "electorate": 71592,
     "party_results": {
       "Con": {
@@ -15537,7 +15537,7 @@
     "district": 327,
     "name": "Leeds South",
     "state": "Yorkshire and The Humber",
-    "population": 125907,
+    "population": null,
     "electorate": 75953,
     "party_results": {
       "Con": {
@@ -15585,7 +15585,7 @@
     "district": 328,
     "name": "Leeds South West and Morley",
     "state": "Yorkshire and The Humber",
-    "population": 96204,
+    "population": null,
     "electorate": 71854,
     "party_results": {
       "Con": {
@@ -15633,7 +15633,7 @@
     "district": 329,
     "name": "Leeds West and Pudsey",
     "state": "Yorkshire and The Humber",
-    "population": 100663,
+    "population": null,
     "electorate": 70069,
     "party_results": {
       "Con": {
@@ -15681,7 +15681,7 @@
     "district": 330,
     "name": "Leicester East",
     "state": "East Midlands",
-    "population": 125492,
+    "population": null,
     "electorate": 76560,
     "party_results": {
       "Con": {
@@ -15729,7 +15729,7 @@
     "district": 331,
     "name": "Leicester South",
     "state": "East Midlands",
-    "population": 120087,
+    "population": null,
     "electorate": 70867,
     "party_results": {
       "Con": {
@@ -15777,7 +15777,7 @@
     "district": 332,
     "name": "Leicester West",
     "state": "East Midlands",
-    "population": 127820,
+    "population": null,
     "electorate": 74102,
     "party_results": {
       "Con": {
@@ -15825,7 +15825,7 @@
     "district": 333,
     "name": "Leigh and Atherton",
     "state": "North West",
-    "population": 110496,
+    "population": null,
     "electorate": 79978,
     "party_results": {
       "Con": {
@@ -15873,7 +15873,7 @@
     "district": 334,
     "name": "Lewes",
     "state": "South East",
-    "population": 95752,
+    "population": null,
     "electorate": 76166,
     "party_results": {
       "Con": {
@@ -15921,7 +15921,7 @@
     "district": 335,
     "name": "Lewisham East",
     "state": "London",
-    "population": 116182,
+    "population": null,
     "electorate": 73380,
     "party_results": {
       "Con": {
@@ -15969,7 +15969,7 @@
     "district": 336,
     "name": "Lewisham North",
     "state": "London",
-    "population": 116888,
+    "population": null,
     "electorate": 74205,
     "party_results": {
       "Con": {
@@ -16017,7 +16017,7 @@
     "district": 337,
     "name": "Lewisham West and East Dulwich",
     "state": "London",
-    "population": 98960,
+    "population": null,
     "electorate": 69386,
     "party_results": {
       "Con": {
@@ -16065,7 +16065,7 @@
     "district": 338,
     "name": "Leyton and Wanstead",
     "state": "London",
-    "population": 115828,
+    "population": null,
     "electorate": 71491,
     "party_results": {
       "Con": {
@@ -16113,7 +16113,7 @@
     "district": 339,
     "name": "Lichfield",
     "state": "West Midlands",
-    "population": 98104,
+    "population": null,
     "electorate": 76118,
     "party_results": {
       "Con": {
@@ -16161,7 +16161,7 @@
     "district": 340,
     "name": "Lincoln",
     "state": "East Midlands",
-    "population": 116507,
+    "population": null,
     "electorate": 72315,
     "party_results": {
       "Con": {
@@ -16209,7 +16209,7 @@
     "district": 341,
     "name": "Liverpool Garston",
     "state": "North West",
-    "population": 95178,
+    "population": null,
     "electorate": 69282,
     "party_results": {
       "Con": {
@@ -16257,7 +16257,7 @@
     "district": 342,
     "name": "Liverpool Riverside",
     "state": "North West",
-    "population": 123703,
+    "population": null,
     "electorate": 71380,
     "party_results": {
       "Con": {
@@ -16305,7 +16305,7 @@
     "district": 343,
     "name": "Liverpool Walton",
     "state": "North West",
-    "population": 101915,
+    "population": null,
     "electorate": 69317,
     "party_results": {
       "Con": {
@@ -16353,7 +16353,7 @@
     "district": 344,
     "name": "Liverpool Wavertree",
     "state": "North West",
-    "population": 105388,
+    "population": null,
     "electorate": 70581,
     "party_results": {
       "Con": {
@@ -16401,7 +16401,7 @@
     "district": 345,
     "name": "Liverpool West Derby",
     "state": "North West",
-    "population": 98772,
+    "population": null,
     "electorate": 69934,
     "party_results": {
       "Con": {
@@ -16449,7 +16449,7 @@
     "district": 346,
     "name": "Livingston",
     "state": "Scotland",
-    "population": 102380,
+    "population": null,
     "electorate": 78043,
     "party_results": {
       "Con": {
@@ -16497,7 +16497,7 @@
     "district": 347,
     "name": "Llanelli",
     "state": "Wales",
-    "population": 94816,
+    "population": null,
     "electorate": 71538,
     "party_results": {
       "Con": {
@@ -16545,7 +16545,7 @@
     "district": 348,
     "name": "Lothian East",
     "state": "Scotland",
-    "population": 99625,
+    "population": null,
     "electorate": 75456,
     "party_results": {
       "Con": {
@@ -16593,7 +16593,7 @@
     "district": 349,
     "name": "Loughborough",
     "state": "East Midlands",
-    "population": 101145,
+    "population": null,
     "electorate": 68961,
     "party_results": {
       "Con": {
@@ -16638,7 +16638,7 @@
     "district": 350,
     "name": "Louth and Horncastle",
     "state": "East Midlands",
-    "population": 98149,
+    "population": null,
     "electorate": 76880,
     "party_results": {
       "Con": {
@@ -16686,7 +16686,7 @@
     "district": 351,
     "name": "Lowestoft",
     "state": "East of England",
-    "population": 94722,
+    "population": null,
     "electorate": 74332,
     "party_results": {
       "Con": {
@@ -16731,7 +16731,7 @@
     "district": 352,
     "name": "Luton North",
     "state": "East of England",
-    "population": 115600,
+    "population": null,
     "electorate": 74866,
     "party_results": {
       "Con": {
@@ -16779,7 +16779,7 @@
     "district": 353,
     "name": "Luton South and South Bedfordshire",
     "state": "East of England",
-    "population": 125695,
+    "population": null,
     "electorate": 77312,
     "party_results": {
       "Con": {
@@ -16827,7 +16827,7 @@
     "district": 354,
     "name": "Macclesfield",
     "state": "North West",
-    "population": 96300,
+    "population": null,
     "electorate": 76416,
     "party_results": {
       "Con": {
@@ -16875,7 +16875,7 @@
     "district": 355,
     "name": "Maidenhead",
     "state": "South East",
-    "population": 106091,
+    "population": null,
     "electorate": 75687,
     "party_results": {
       "Con": {
@@ -16923,7 +16923,7 @@
     "district": 356,
     "name": "Maidstone and Malling",
     "state": "South East",
-    "population": 111004,
+    "population": null,
     "electorate": 76449,
     "party_results": {
       "Con": {
@@ -16971,7 +16971,7 @@
     "district": 357,
     "name": "Makerfield",
     "state": "North West",
-    "population": 103742,
+    "population": null,
     "electorate": 76641,
     "party_results": {
       "Con": {
@@ -17019,7 +17019,7 @@
     "district": 358,
     "name": "Maldon",
     "state": "East of England",
-    "population": 101186,
+    "population": null,
     "electorate": 78282,
     "party_results": {
       "Con": {
@@ -17064,7 +17064,7 @@
     "district": 359,
     "name": "Manchester Central",
     "state": "North West",
-    "population": 129176,
+    "population": null,
     "electorate": 85204,
     "party_results": {
       "Con": {
@@ -17112,7 +17112,7 @@
     "district": 360,
     "name": "Manchester Rusholme",
     "state": "North West",
-    "population": 115981,
+    "population": null,
     "electorate": 72608,
     "party_results": {
       "Con": {
@@ -17160,7 +17160,7 @@
     "district": 361,
     "name": "Manchester Withington",
     "state": "North West",
-    "population": 92705,
+    "population": null,
     "electorate": 70555,
     "party_results": {
       "Con": {
@@ -17208,7 +17208,7 @@
     "district": 362,
     "name": "Mansfield",
     "state": "East Midlands",
-    "population": 105514,
+    "population": null,
     "electorate": 74535,
     "party_results": {
       "Con": {
@@ -17256,7 +17256,7 @@
     "district": 363,
     "name": "Melksham and Devizes",
     "state": "South West",
-    "population": 94100,
+    "population": null,
     "electorate": 73482,
     "party_results": {
       "Con": {
@@ -17301,7 +17301,7 @@
     "district": 364,
     "name": "Melton and Syston",
     "state": "East Midlands",
-    "population": 95181,
+    "population": null,
     "electorate": 74316,
     "party_results": {
       "Con": {
@@ -17349,7 +17349,7 @@
     "district": 365,
     "name": "Meriden and Solihull East",
     "state": "West Midlands",
-    "population": 100008,
+    "population": null,
     "electorate": 73659,
     "party_results": {
       "Con": {
@@ -17394,7 +17394,7 @@
     "district": 366,
     "name": "Merthyr Tydfil and Aberdare",
     "state": "Wales",
-    "population": 99698,
+    "population": null,
     "electorate": 74460,
     "party_results": {
       "Con": {
@@ -17442,7 +17442,7 @@
     "district": 367,
     "name": "Mid and South Pembrokeshire",
     "state": "Wales",
-    "population": 101878,
+    "population": null,
     "electorate": 79033,
     "party_results": {
       "Con": {
@@ -17490,7 +17490,7 @@
     "district": 368,
     "name": "Mid Bedfordshire",
     "state": "East of England",
-    "population": 102868,
+    "population": null,
     "electorate": 75457,
     "party_results": {
       "Con": {
@@ -17538,7 +17538,7 @@
     "district": 369,
     "name": "Mid Buckinghamshire",
     "state": "South East",
-    "population": 100008,
+    "population": null,
     "electorate": 75622,
     "party_results": {
       "Con": {
@@ -17586,7 +17586,7 @@
     "district": 370,
     "name": "Mid Cheshire",
     "state": "North West",
-    "population": 95182,
+    "population": null,
     "electorate": 70384,
     "party_results": {
       "Con": {
@@ -17634,7 +17634,7 @@
     "district": 371,
     "name": "Mid Derbyshire",
     "state": "East Midlands",
-    "population": 88007,
+    "population": null,
     "electorate": 69917,
     "party_results": {
       "Con": {
@@ -17682,7 +17682,7 @@
     "district": 372,
     "name": "Mid Dorset and North Poole",
     "state": "South West",
-    "population": 96238,
+    "population": null,
     "electorate": 75294,
     "party_results": {
       "Con": {
@@ -17730,7 +17730,7 @@
     "district": 373,
     "name": "Mid Dunbartonshire",
     "state": "Scotland",
-    "population": 95767,
+    "population": null,
     "electorate": 73603,
     "party_results": {
       "Con": {
@@ -17778,7 +17778,7 @@
     "district": 374,
     "name": "Mid Leicestershire",
     "state": "East Midlands",
-    "population": 102392,
+    "population": null,
     "electorate": 75924,
     "party_results": {
       "Con": {
@@ -17823,7 +17823,7 @@
     "district": 375,
     "name": "Mid Norfolk",
     "state": "East of England",
-    "population": 97447,
+    "population": null,
     "electorate": 75238,
     "party_results": {
       "Con": {
@@ -17868,7 +17868,7 @@
     "district": 376,
     "name": "Mid Sussex",
     "state": "South East",
-    "population": 99553,
+    "population": null,
     "electorate": 75969,
     "party_results": {
       "Con": {
@@ -17916,7 +17916,7 @@
     "district": 377,
     "name": "Mid Ulster",
     "state": "Northern Ireland",
-    "population": 105907,
+    "population": null,
     "electorate": 74000,
     "party_results": {
       "Con": {
@@ -17964,7 +17964,7 @@
     "district": 378,
     "name": "Middlesbrough and Thornaby East",
     "state": "North East",
-    "population": 115067,
+    "population": null,
     "electorate": 75123,
     "party_results": {
       "Con": {
@@ -18012,7 +18012,7 @@
     "district": 379,
     "name": "Middlesbrough South and East Cleveland",
     "state": "North East",
-    "population": 93356,
+    "population": null,
     "electorate": 70331,
     "party_results": {
       "Con": {
@@ -18060,7 +18060,7 @@
     "district": 380,
     "name": "Midlothian",
     "state": "Scotland",
-    "population": 97040,
+    "population": null,
     "electorate": 73554,
     "party_results": {
       "Con": {
@@ -18108,7 +18108,7 @@
     "district": 381,
     "name": "Milton Keynes Central",
     "state": "South East",
-    "population": 129171,
+    "population": null,
     "electorate": 81078,
     "party_results": {
       "Con": {
@@ -18156,7 +18156,7 @@
     "district": 382,
     "name": "Milton Keynes North",
     "state": "South East",
-    "population": 100650,
+    "population": null,
     "electorate": 70709,
     "party_results": {
       "Con": {
@@ -18201,7 +18201,7 @@
     "district": 383,
     "name": "Mitcham and Morden",
     "state": "London",
-    "population": 123572,
+    "population": null,
     "electorate": 77282,
     "party_results": {
       "Con": {
@@ -18249,7 +18249,7 @@
     "district": 384,
     "name": "Monmouthshire",
     "state": "Wales",
-    "population": 93886,
+    "population": null,
     "electorate": 74823,
     "party_results": {
       "Con": {
@@ -18342,7 +18342,7 @@
     "district": 386,
     "name": "Moray West, Nairn and Strathspey",
     "state": "Scotland",
-    "population": 100543,
+    "population": null,
     "electorate": 77243,
     "party_results": {
       "Con": {
@@ -18390,7 +18390,7 @@
     "district": 387,
     "name": "Morecambe and Lunesdale",
     "state": "North West",
-    "population": 98951,
+    "population": null,
     "electorate": 76424,
     "party_results": {
       "Con": {
@@ -18435,7 +18435,7 @@
     "district": 388,
     "name": "Motherwell, Wishaw and Carluke",
     "state": "Scotland",
-    "population": 98589,
+    "population": null,
     "electorate": 71777,
     "party_results": {
       "Con": {
@@ -18483,7 +18483,7 @@
     "district": 389,
     "name": "Na h-Eileanan an Iar",
     "state": "Scotland",
-    "population": 26120,
+    "population": null,
     "electorate": 21325,
     "party_results": {
       "Con": {
@@ -18531,7 +18531,7 @@
     "district": 390,
     "name": "Neath and Swansea East",
     "state": "Wales",
-    "population": 99765,
+    "population": null,
     "electorate": 76291,
     "party_results": {
       "Con": {
@@ -18576,7 +18576,7 @@
     "district": 391,
     "name": "New Forest East",
     "state": "South East",
-    "population": 91150,
+    "population": null,
     "electorate": 70618,
     "party_results": {
       "Con": {
@@ -18624,7 +18624,7 @@
     "district": 392,
     "name": "New Forest West",
     "state": "South East",
-    "population": 84792,
+    "population": null,
     "electorate": 68644,
     "party_results": {
       "Con": {
@@ -18672,7 +18672,7 @@
     "district": 393,
     "name": "Newark",
     "state": "East Midlands",
-    "population": 107221,
+    "population": null,
     "electorate": 79783,
     "party_results": {
       "Con": {
@@ -18720,7 +18720,7 @@
     "district": 394,
     "name": "Newbury",
     "state": "South East",
-    "population": 97983,
+    "population": null,
     "electorate": 71982,
     "party_results": {
       "Con": {
@@ -18768,7 +18768,7 @@
     "district": 395,
     "name": "Newcastle upon Tyne Central and West",
     "state": "North East",
-    "population": 134453,
+    "population": null,
     "electorate": 76822,
     "party_results": {
       "Con": {
@@ -18816,7 +18816,7 @@
     "district": 396,
     "name": "Newcastle upon Tyne East and Wallsend",
     "state": "North East",
-    "population": 116200,
+    "population": null,
     "electorate": 76245,
     "party_results": {
       "Con": {
@@ -18864,7 +18864,7 @@
     "district": 397,
     "name": "Newcastle upon Tyne North",
     "state": "North East",
-    "population": 108626,
+    "population": null,
     "electorate": 74768,
     "party_results": {
       "Con": {
@@ -18912,7 +18912,7 @@
     "district": 398,
     "name": "Newcastle-under-Lyme",
     "state": "West Midlands",
-    "population": 94605,
+    "population": null,
     "electorate": 67815,
     "party_results": {
       "Con": {
@@ -18957,7 +18957,7 @@
     "district": 399,
     "name": "Newport East",
     "state": "Wales",
-    "population": 111847,
+    "population": null,
     "electorate": 76683,
     "party_results": {
       "Con": {
@@ -19005,7 +19005,7 @@
     "district": 400,
     "name": "Newport West and Islwyn",
     "state": "Wales",
-    "population": 101855,
+    "population": null,
     "electorate": 75785,
     "party_results": {
       "Con": {
@@ -19053,7 +19053,7 @@
     "district": 401,
     "name": "Newry and Armagh",
     "state": "Northern Ireland",
-    "population": 112161,
+    "population": null,
     "electorate": 78244,
     "party_results": {
       "Con": {
@@ -19101,7 +19101,7 @@
     "district": 402,
     "name": "Newton Abbot",
     "state": "South West",
-    "population": 93888,
+    "population": null,
     "electorate": 73885,
     "party_results": {
       "Con": {
@@ -19149,7 +19149,7 @@
     "district": 403,
     "name": "Newton Aycliffe and Spennymoor",
     "state": "North East",
-    "population": 95943,
+    "population": null,
     "electorate": 72215,
     "party_results": {
       "Con": {
@@ -19197,7 +19197,7 @@
     "district": 404,
     "name": "Normanton and Hemsworth",
     "state": "Yorkshire and The Humber",
-    "population": 104436,
+    "population": null,
     "electorate": 75645,
     "party_results": {
       "Con": {
@@ -19242,7 +19242,7 @@
     "district": 405,
     "name": "North Antrim",
     "state": "Northern Ireland",
-    "population": 103741,
+    "population": null,
     "electorate": 74697,
     "party_results": {
       "Con": {
@@ -19293,7 +19293,7 @@
     "district": 406,
     "name": "North Ayrshire and Arran",
     "state": "Scotland",
-    "population": 92525,
+    "population": null,
     "electorate": 72176,
     "party_results": {
       "Con": {
@@ -19341,7 +19341,7 @@
     "district": 407,
     "name": "North Bedfordshire",
     "state": "East of England",
-    "population": 104917,
+    "population": null,
     "electorate": 78850,
     "party_results": {
       "Con": {
@@ -19386,7 +19386,7 @@
     "district": 408,
     "name": "North Cornwall",
     "state": "South West",
-    "population": 99822,
+    "population": null,
     "electorate": 76741,
     "party_results": {
       "Con": {
@@ -19434,7 +19434,7 @@
     "district": 409,
     "name": "North Cotswolds",
     "state": "South West",
-    "population": 94105,
+    "population": null,
     "electorate": 73203,
     "party_results": {
       "Con": {
@@ -19482,7 +19482,7 @@
     "district": 410,
     "name": "North Devon",
     "state": "South West",
-    "population": 100505,
+    "population": null,
     "electorate": 79079,
     "party_results": {
       "Con": {
@@ -19530,7 +19530,7 @@
     "district": 411,
     "name": "North Dorset",
     "state": "South West",
-    "population": 94259,
+    "population": null,
     "electorate": 72690,
     "party_results": {
       "Con": {
@@ -19578,7 +19578,7 @@
     "district": 412,
     "name": "North Down",
     "state": "Northern Ireland",
-    "population": 98066,
+    "population": null,
     "electorate": 73885,
     "party_results": {
       "Con": {
@@ -19626,7 +19626,7 @@
     "district": 413,
     "name": "North Durham",
     "state": "North East",
-    "population": 95565,
+    "population": null,
     "electorate": 73226,
     "party_results": {
       "Con": {
@@ -19674,7 +19674,7 @@
     "district": 414,
     "name": "North East Cambridgeshire",
     "state": "East of England",
-    "population": 103035,
+    "population": null,
     "electorate": 71511,
     "party_results": {
       "Con": {
@@ -19722,7 +19722,7 @@
     "district": 415,
     "name": "North East Derbyshire",
     "state": "East Midlands",
-    "population": 93610,
+    "population": null,
     "electorate": 73234,
     "party_results": {
       "Con": {
@@ -19770,7 +19770,7 @@
     "district": 416,
     "name": "North East Fife",
     "state": "Scotland",
-    "population": 92276,
+    "population": null,
     "electorate": 69762,
     "party_results": {
       "Con": {
@@ -19815,7 +19815,7 @@
     "district": 417,
     "name": "North East Hampshire",
     "state": "South East",
-    "population": 102335,
+    "population": null,
     "electorate": 76923,
     "party_results": {
       "Con": {
@@ -19863,7 +19863,7 @@
     "district": 418,
     "name": "North East Hertfordshire",
     "state": "East of England",
-    "population": 103451,
+    "population": null,
     "electorate": 77697,
     "party_results": {
       "Con": {
@@ -19908,7 +19908,7 @@
     "district": 419,
     "name": "North East Somerset and Hanham",
     "state": "South West",
-    "population": 96063,
+    "population": null,
     "electorate": 73889,
     "party_results": {
       "Con": {
@@ -19956,7 +19956,7 @@
     "district": 420,
     "name": "North Herefordshire",
     "state": "West Midlands",
-    "population": 91362,
+    "population": null,
     "electorate": 72797,
     "party_results": {
       "Con": {
@@ -20004,7 +20004,7 @@
     "district": 421,
     "name": "North Norfolk",
     "state": "East of England",
-    "population": 87052,
+    "population": null,
     "electorate": 71438,
     "party_results": {
       "Con": {
@@ -20049,7 +20049,7 @@
     "district": 422,
     "name": "North Northumberland",
     "state": "North East",
-    "population": 92775,
+    "population": null,
     "electorate": 74190,
     "party_results": {
       "Con": {
@@ -20097,7 +20097,7 @@
     "district": 423,
     "name": "North Shropshire",
     "state": "West Midlands",
-    "population": 102001,
+    "population": null,
     "electorate": 77573,
     "party_results": {
       "Con": {
@@ -20145,7 +20145,7 @@
     "district": 424,
     "name": "North Somerset",
     "state": "South West",
-    "population": 94708,
+    "population": null,
     "electorate": 74426,
     "party_results": {
       "Con": {
@@ -20193,7 +20193,7 @@
     "district": 425,
     "name": "North Warwickshire and Bedworth",
     "state": "West Midlands",
-    "population": 94314,
+    "population": null,
     "electorate": 69752,
     "party_results": {
       "Con": {
@@ -20238,7 +20238,7 @@
     "district": 426,
     "name": "North West Cambridgeshire",
     "state": "East of England",
-    "population": 116431,
+    "population": null,
     "electorate": 75915,
     "party_results": {
       "Con": {
@@ -20283,7 +20283,7 @@
     "district": 427,
     "name": "North West Essex",
     "state": "East of England",
-    "population": 106580,
+    "population": null,
     "electorate": 79698,
     "party_results": {
       "Con": {
@@ -20331,7 +20331,7 @@
     "district": 428,
     "name": "North West Hampshire",
     "state": "South East",
-    "population": 109893,
+    "population": null,
     "electorate": 78629,
     "party_results": {
       "Con": {
@@ -20379,7 +20379,7 @@
     "district": 429,
     "name": "North West Leicestershire",
     "state": "East Midlands",
-    "population": 102040,
+    "population": null,
     "electorate": 77750,
     "party_results": {
       "Con": {
@@ -20427,7 +20427,7 @@
     "district": 430,
     "name": "North West Norfolk",
     "state": "East of England",
-    "population": 103352,
+    "population": null,
     "electorate": 74415,
     "party_results": {
       "Con": {
@@ -20472,7 +20472,7 @@
     "district": 431,
     "name": "Northampton North",
     "state": "East Midlands",
-    "population": 129612,
+    "population": null,
     "electorate": 75575,
     "party_results": {
       "Con": {
@@ -20520,7 +20520,7 @@
     "district": 432,
     "name": "Northampton South",
     "state": "East Midlands",
-    "population": 111318,
+    "population": null,
     "electorate": 70393,
     "party_results": {
       "Con": {
@@ -20568,7 +20568,7 @@
     "district": 433,
     "name": "Norwich North",
     "state": "East of England",
-    "population": 99574,
+    "population": null,
     "electorate": 73717,
     "party_results": {
       "Con": {
@@ -20616,7 +20616,7 @@
     "district": 434,
     "name": "Norwich South",
     "state": "East of England",
-    "population": 106359,
+    "population": null,
     "electorate": 76296,
     "party_results": {
       "Con": {
@@ -20664,7 +20664,7 @@
     "district": 435,
     "name": "Nottingham East",
     "state": "East Midlands",
-    "population": 124191,
+    "population": null,
     "electorate": 69395,
     "party_results": {
       "Con": {
@@ -20712,7 +20712,7 @@
     "district": 436,
     "name": "Nottingham North and Kimberley",
     "state": "East Midlands",
-    "population": 108805,
+    "population": null,
     "electorate": 73768,
     "party_results": {
       "Con": {
@@ -20757,7 +20757,7 @@
     "district": 437,
     "name": "Nottingham South",
     "state": "East Midlands",
-    "population": 111911,
+    "population": null,
     "electorate": 64255,
     "party_results": {
       "Con": {
@@ -20805,7 +20805,7 @@
     "district": 438,
     "name": "Nuneaton",
     "state": "West Midlands",
-    "population": 100956,
+    "population": null,
     "electorate": 71843,
     "party_results": {
       "Con": {
@@ -20853,7 +20853,7 @@
     "district": 439,
     "name": "Old Bexley and Sidcup",
     "state": "London",
-    "population": 101531,
+    "population": null,
     "electorate": 73198,
     "party_results": {
       "Con": {
@@ -20901,7 +20901,7 @@
     "district": 440,
     "name": "Oldham East and Saddleworth",
     "state": "North West",
-    "population": 109355,
+    "population": null,
     "electorate": 73460,
     "party_results": {
       "Con": {
@@ -20949,7 +20949,7 @@
     "district": 441,
     "name": "Oldham West, Chadderton and Royton",
     "state": "North West",
-    "population": 113083,
+    "population": null,
     "electorate": 76031,
     "party_results": {
       "Con": {
@@ -20997,7 +20997,7 @@
     "district": 442,
     "name": "Orkney and Shetland",
     "state": "Scotland",
-    "population": 45050,
+    "population": null,
     "electorate": 34236,
     "party_results": {
       "Con": {
@@ -21042,7 +21042,7 @@
     "district": 443,
     "name": "Orpington",
     "state": "London",
-    "population": 98217,
+    "population": null,
     "electorate": 71284,
     "party_results": {
       "Con": {
@@ -21090,7 +21090,7 @@
     "district": 444,
     "name": "Ossett and Denby Dale",
     "state": "Yorkshire and The Humber",
-    "population": 93842,
+    "population": null,
     "electorate": 72312,
     "party_results": {
       "Con": {
@@ -21138,7 +21138,7 @@
     "district": 445,
     "name": "Oxford East",
     "state": "South East",
-    "population": 118578,
+    "population": null,
     "electorate": 71845,
     "party_results": {
       "Con": {
@@ -21186,7 +21186,7 @@
     "district": 446,
     "name": "Oxford West and Abingdon",
     "state": "South East",
-    "population": 106817,
+    "population": null,
     "electorate": 69851,
     "party_results": {
       "Con": {
@@ -21234,7 +21234,7 @@
     "district": 447,
     "name": "Paisley and Renfrewshire North",
     "state": "Scotland",
-    "population": 94650,
+    "population": null,
     "electorate": 71103,
     "party_results": {
       "Con": {
@@ -21279,7 +21279,7 @@
     "district": 448,
     "name": "Paisley and Renfrewshire South",
     "state": "Scotland",
-    "population": 93444,
+    "population": null,
     "electorate": 71574,
     "party_results": {
       "Con": {
@@ -21327,7 +21327,7 @@
     "district": 449,
     "name": "Peckham",
     "state": "London",
-    "population": 110204,
+    "population": null,
     "electorate": 72127,
     "party_results": {
       "Con": {
@@ -21375,7 +21375,7 @@
     "district": 450,
     "name": "Pendle and Clitheroe",
     "state": "North West",
-    "population": 109926,
+    "population": null,
     "electorate": 78796,
     "party_results": {
       "Con": {
@@ -21423,7 +21423,7 @@
     "district": 451,
     "name": "Penistone and Stocksbridge",
     "state": "Yorkshire and The Humber",
-    "population": 89968,
+    "population": null,
     "electorate": 70435,
     "party_results": {
       "Con": {
@@ -21468,7 +21468,7 @@
     "district": 452,
     "name": "Penrith and Solway",
     "state": "North West",
-    "population": 98216,
+    "population": null,
     "electorate": 77935,
     "party_results": {
       "Con": {
@@ -21516,7 +21516,7 @@
     "district": 453,
     "name": "Perth and Kinross-shire",
     "state": "Scotland",
-    "population": 99837,
+    "population": null,
     "electorate": 77261,
     "party_results": {
       "Con": {
@@ -21564,7 +21564,7 @@
     "district": 454,
     "name": "Peterborough",
     "state": "East of England",
-    "population": 129996,
+    "population": null,
     "electorate": 73378,
     "party_results": {
       "Con": {
@@ -21612,7 +21612,7 @@
     "district": 455,
     "name": "Plymouth Moor View",
     "state": "South West",
-    "population": 100876,
+    "population": null,
     "electorate": 74724,
     "party_results": {
       "Con": {
@@ -21657,7 +21657,7 @@
     "district": 456,
     "name": "Plymouth Sutton and Devonport",
     "state": "South West",
-    "population": 109322,
+    "population": null,
     "electorate": 75313,
     "party_results": {
       "Con": {
@@ -21705,7 +21705,7 @@
     "district": 457,
     "name": "Pontefract, Castleford and Knottingley",
     "state": "Yorkshire and The Humber",
-    "population": 102088,
+    "population": null,
     "electorate": 74618,
     "party_results": {
       "Con": {
@@ -21753,7 +21753,7 @@
     "district": 458,
     "name": "Pontypridd",
     "state": "Wales",
-    "population": 102658,
+    "population": null,
     "electorate": 75951,
     "party_results": {
       "Con": {
@@ -21801,7 +21801,7 @@
     "district": 459,
     "name": "Poole",
     "state": "South West",
-    "population": 97508,
+    "population": null,
     "electorate": 72509,
     "party_results": {
       "Con": {
@@ -21849,7 +21849,7 @@
     "district": 460,
     "name": "Poplar and Limehouse",
     "state": "London",
-    "population": 146385,
+    "population": null,
     "electorate": 84116,
     "party_results": {
       "Con": {
@@ -21897,7 +21897,7 @@
     "district": 461,
     "name": "Portsmouth North",
     "state": "South East",
-    "population": 100849,
+    "population": null,
     "electorate": 70446,
     "party_results": {
       "Con": {
@@ -21942,7 +21942,7 @@
     "district": 462,
     "name": "Portsmouth South",
     "state": "South East",
-    "population": 107571,
+    "population": null,
     "electorate": 73711,
     "party_results": {
       "Con": {
@@ -21990,7 +21990,7 @@
     "district": 463,
     "name": "Preston",
     "state": "North West",
-    "population": 117625,
+    "population": null,
     "electorate": 77400,
     "party_results": {
       "Con": {
@@ -22038,7 +22038,7 @@
     "district": 464,
     "name": "Putney",
     "state": "London",
-    "population": 111902,
+    "population": null,
     "electorate": 72686,
     "party_results": {
       "Con": {
@@ -22086,7 +22086,7 @@
     "district": 465,
     "name": "Queen's Park and Maida Vale",
     "state": "London",
-    "population": 123834,
+    "population": null,
     "electorate": 75558,
     "party_results": {
       "Con": {
@@ -22134,7 +22134,7 @@
     "district": 466,
     "name": "Rawmarsh and Conisbrough",
     "state": "Yorkshire and The Humber",
-    "population": 94482,
+    "population": null,
     "electorate": 69133,
     "party_results": {
       "Con": {
@@ -22182,7 +22182,7 @@
     "district": 467,
     "name": "Rayleigh and Wickford",
     "state": "East of England",
-    "population": 97654,
+    "population": null,
     "electorate": 76576,
     "party_results": {
       "Con": {
@@ -22227,7 +22227,7 @@
     "district": 468,
     "name": "Reading Central",
     "state": "South East",
-    "population": 116859,
+    "population": null,
     "electorate": 73600,
     "party_results": {
       "Con": {
@@ -22275,7 +22275,7 @@
     "district": 469,
     "name": "Reading West and Mid Berkshire",
     "state": "South East",
-    "population": 95642,
+    "population": null,
     "electorate": 68781,
     "party_results": {
       "Con": {
@@ -22323,7 +22323,7 @@
     "district": 470,
     "name": "Redcar",
     "state": "North East",
-    "population": 93862,
+    "population": null,
     "electorate": 70241,
     "party_results": {
       "Con": {
@@ -22371,7 +22371,7 @@
     "district": 471,
     "name": "Redditch",
     "state": "West Midlands",
-    "population": 99134,
+    "population": null,
     "electorate": 71042,
     "party_results": {
       "Con": {
@@ -22419,7 +22419,7 @@
     "district": 472,
     "name": "Reigate",
     "state": "South East",
-    "population": 110170,
+    "population": null,
     "electorate": 77102,
     "party_results": {
       "Con": {
@@ -22464,7 +22464,7 @@
     "district": 473,
     "name": "Rhondda and Ogmore",
     "state": "Wales",
-    "population": 100022,
+    "population": null,
     "electorate": 74493,
     "party_results": {
       "Con": {
@@ -22509,7 +22509,7 @@
     "district": 474,
     "name": "Ribble Valley",
     "state": "North West",
-    "population": 101739,
+    "population": null,
     "electorate": 80484,
     "party_results": {
       "Con": {
@@ -22557,7 +22557,7 @@
     "district": 475,
     "name": "Richmond and Northallerton",
     "state": "Yorkshire and The Humber",
-    "population": 93899,
+    "population": null,
     "electorate": 73886,
     "party_results": {
       "Con": {
@@ -22605,7 +22605,7 @@
     "district": 476,
     "name": "Richmond Park",
     "state": "London",
-    "population": 111617,
+    "population": null,
     "electorate": 74988,
     "party_results": {
       "Con": {
@@ -22653,7 +22653,7 @@
     "district": 477,
     "name": "Rochdale",
     "state": "North West",
-    "population": 104444,
+    "population": null,
     "electorate": 72507,
     "party_results": {
       "Con": {
@@ -22701,7 +22701,7 @@
     "district": 478,
     "name": "Rochester and Strood",
     "state": "South East",
-    "population": 104811,
+    "population": null,
     "electorate": 74257,
     "party_results": {
       "Con": {
@@ -22749,7 +22749,7 @@
     "district": 479,
     "name": "Romford",
     "state": "London",
-    "population": 109443,
+    "population": null,
     "electorate": 72928,
     "party_results": {
       "Con": {
@@ -22797,7 +22797,7 @@
     "district": 480,
     "name": "Romsey and Southampton North",
     "state": "South East",
-    "population": 101029,
+    "population": null,
     "electorate": 71871,
     "party_results": {
       "Con": {
@@ -22845,7 +22845,7 @@
     "district": 481,
     "name": "Rossendale and Darwen",
     "state": "North West",
-    "population": 101505,
+    "population": null,
     "electorate": 74440,
     "party_results": {
       "Con": {
@@ -22893,7 +22893,7 @@
     "district": 482,
     "name": "Rother Valley",
     "state": "Yorkshire and The Humber",
-    "population": 92339,
+    "population": null,
     "electorate": 69459,
     "party_results": {
       "Con": {
@@ -22938,7 +22938,7 @@
     "district": 483,
     "name": "Rotherham",
     "state": "Yorkshire and The Humber",
-    "population": 109900,
+    "population": null,
     "electorate": 75929,
     "party_results": {
       "Con": {
@@ -22986,7 +22986,7 @@
     "district": 484,
     "name": "Rugby",
     "state": "West Midlands",
-    "population": 111196,
+    "population": null,
     "electorate": 74901,
     "party_results": {
       "Con": {
@@ -23034,7 +23034,7 @@
     "district": 485,
     "name": "Ruislip, Northwood and Pinner",
     "state": "London",
-    "population": 98995,
+    "population": null,
     "electorate": 71683,
     "party_results": {
       "Con": {
@@ -23079,7 +23079,7 @@
     "district": 486,
     "name": "Runcorn and Helsby",
     "state": "North West",
-    "population": 93517,
+    "population": null,
     "electorate": 70801,
     "party_results": {
       "Con": {
@@ -23127,7 +23127,7 @@
     "district": 487,
     "name": "Runnymede and Weybridge",
     "state": "South East",
-    "population": 106192,
+    "population": null,
     "electorate": 73610,
     "party_results": {
       "Con": {
@@ -23175,7 +23175,7 @@
     "district": 488,
     "name": "Rushcliffe",
     "state": "East Midlands",
-    "population": 102241,
+    "population": null,
     "electorate": 79160,
     "party_results": {
       "Con": {
@@ -23223,7 +23223,7 @@
     "district": 489,
     "name": "Rutherglen",
     "state": "Scotland",
-    "population": 91720,
+    "population": null,
     "electorate": 72674,
     "party_results": {
       "Con": {
@@ -23271,7 +23271,7 @@
     "district": 490,
     "name": "Rutland and Stamford",
     "state": "East Midlands",
-    "population": 94813,
+    "population": null,
     "electorate": 71763,
     "party_results": {
       "Con": {
@@ -23319,7 +23319,7 @@
     "district": 491,
     "name": "Salford",
     "state": "North West",
-    "population": 126801,
+    "population": null,
     "electorate": 83633,
     "party_results": {
       "Con": {
@@ -23367,7 +23367,7 @@
     "district": 492,
     "name": "Salisbury",
     "state": "South West",
-    "population": 92881,
+    "population": null,
     "electorate": 71802,
     "party_results": {
       "Con": {
@@ -23415,7 +23415,7 @@
     "district": 493,
     "name": "Scarborough and Whitby",
     "state": "Yorkshire and The Humber",
-    "population": 97474,
+    "population": null,
     "electorate": 74544,
     "party_results": {
       "Con": {
@@ -23463,7 +23463,7 @@
     "district": 494,
     "name": "Scunthorpe",
     "state": "Yorkshire and The Humber",
-    "population": 105752,
+    "population": null,
     "electorate": 73855,
     "party_results": {
       "Con": {
@@ -23511,7 +23511,7 @@
     "district": 495,
     "name": "Sefton Central",
     "state": "North West",
-    "population": 91809,
+    "population": null,
     "electorate": 74284,
     "party_results": {
       "Con": {
@@ -23559,7 +23559,7 @@
     "district": 496,
     "name": "Selby",
     "state": "Yorkshire and The Humber",
-    "population": 102908,
+    "population": null,
     "electorate": 78043,
     "party_results": {
       "Con": {
@@ -23604,7 +23604,7 @@
     "district": 497,
     "name": "Sevenoaks",
     "state": "South East",
-    "population": 99985,
+    "population": null,
     "electorate": 73708,
     "party_results": {
       "Con": {
@@ -23652,7 +23652,7 @@
     "district": 498,
     "name": "Sheffield Brightside and Hillsborough",
     "state": "Yorkshire and The Humber",
-    "population": 111610,
+    "population": null,
     "electorate": 70389,
     "party_results": {
       "Con": {
@@ -23700,7 +23700,7 @@
     "district": 499,
     "name": "Sheffield Central",
     "state": "Yorkshire and The Humber",
-    "population": 92926,
+    "population": null,
     "electorate": 60594,
     "party_results": {
       "Con": {
@@ -23748,7 +23748,7 @@
     "district": 500,
     "name": "Sheffield Hallam",
     "state": "Yorkshire and The Humber",
-    "population": 94520,
+    "population": null,
     "electorate": 72900,
     "party_results": {
       "Con": {
@@ -23796,7 +23796,7 @@
     "district": 501,
     "name": "Sheffield Heeley",
     "state": "Yorkshire and The Humber",
-    "population": 107477,
+    "population": null,
     "electorate": 73452,
     "party_results": {
       "Con": {
@@ -23844,7 +23844,7 @@
     "district": 502,
     "name": "Sheffield South East",
     "state": "Yorkshire and The Humber",
-    "population": 105370,
+    "population": null,
     "electorate": 74156,
     "party_results": {
       "Con": {
@@ -23892,7 +23892,7 @@
     "district": 503,
     "name": "Sherwood Forest",
     "state": "East Midlands",
-    "population": 104305,
+    "population": null,
     "electorate": 78896,
     "party_results": {
       "Con": {
@@ -23940,7 +23940,7 @@
     "district": 504,
     "name": "Shipley",
     "state": "Yorkshire and The Humber",
-    "population": 98464,
+    "population": null,
     "electorate": 74130,
     "party_results": {
       "Con": {
@@ -23988,7 +23988,7 @@
     "district": 505,
     "name": "Shrewsbury",
     "state": "West Midlands",
-    "population": 101486,
+    "population": null,
     "electorate": 76599,
     "party_results": {
       "Con": {
@@ -24036,7 +24036,7 @@
     "district": 506,
     "name": "Sittingbourne and Sheppey",
     "state": "South East",
-    "population": 114441,
+    "population": null,
     "electorate": 79067,
     "party_results": {
       "Con": {
@@ -24084,7 +24084,7 @@
     "district": 507,
     "name": "Skipton and Ripon",
     "state": "Yorkshire and The Humber",
-    "population": 99314,
+    "population": null,
     "electorate": 79238,
     "party_results": {
       "Con": {
@@ -24132,7 +24132,7 @@
     "district": 508,
     "name": "Sleaford and North Hykeham",
     "state": "East Midlands",
-    "population": 97433,
+    "population": null,
     "electorate": 75651,
     "party_results": {
       "Con": {
@@ -24180,7 +24180,7 @@
     "district": 509,
     "name": "Slough",
     "state": "South East",
-    "population": 138160,
+    "population": null,
     "electorate": 81295,
     "party_results": {
       "Con": {
@@ -24228,7 +24228,7 @@
     "district": 510,
     "name": "Smethwick",
     "state": "West Midlands",
-    "population": 115641,
+    "population": null,
     "electorate": 72863,
     "party_results": {
       "Con": {
@@ -24276,7 +24276,7 @@
     "district": 511,
     "name": "Solihull West and Shirley",
     "state": "West Midlands",
-    "population": 93329,
+    "population": null,
     "electorate": 71816,
     "party_results": {
       "Con": {
@@ -24324,7 +24324,7 @@
     "district": 512,
     "name": "South Antrim",
     "state": "Northern Ireland",
-    "population": 106972,
+    "population": null,
     "electorate": 77058,
     "party_results": {
       "Con": {
@@ -24372,7 +24372,7 @@
     "district": 513,
     "name": "South Basildon and East Thurrock",
     "state": "East of England",
-    "population": 102500,
+    "population": null,
     "electorate": 72673,
     "party_results": {
       "Con": {
@@ -24420,7 +24420,7 @@
     "district": 514,
     "name": "South Cambridgeshire",
     "state": "East of England",
-    "population": 106430,
+    "population": null,
     "electorate": 77327,
     "party_results": {
       "Con": {
@@ -24468,7 +24468,7 @@
     "district": 515,
     "name": "South Cotswolds",
     "state": "South West",
-    "population": 95755,
+    "population": null,
     "electorate": 71971,
     "party_results": {
       "Con": {
@@ -24516,7 +24516,7 @@
     "district": 516,
     "name": "South Derbyshire",
     "state": "East Midlands",
-    "population": 97868,
+    "population": null,
     "electorate": 73714,
     "party_results": {
       "Con": {
@@ -24564,7 +24564,7 @@
     "district": 517,
     "name": "South Devon",
     "state": "South West",
-    "population": 91318,
+    "population": null,
     "electorate": 72261,
     "party_results": {
       "Con": {
@@ -24612,7 +24612,7 @@
     "district": 518,
     "name": "South Dorset",
     "state": "South West",
-    "population": 98533,
+    "population": null,
     "electorate": 75924,
     "party_results": {
       "Con": {
@@ -24660,7 +24660,7 @@
     "district": 519,
     "name": "South Down",
     "state": "Northern Ireland",
-    "population": 105828,
+    "population": null,
     "electorate": 76248,
     "party_results": {
       "Con": {
@@ -24708,7 +24708,7 @@
     "district": 520,
     "name": "South East Cornwall",
     "state": "South West",
-    "population": 92166,
+    "population": null,
     "electorate": 72654,
     "party_results": {
       "Con": {
@@ -24756,7 +24756,7 @@
     "district": 521,
     "name": "South Holland and The Deepings",
     "state": "East Midlands",
-    "population": 111507,
+    "population": null,
     "electorate": 78473,
     "party_results": {
       "Con": {
@@ -24804,7 +24804,7 @@
     "district": 522,
     "name": "South Leicestershire",
     "state": "East Midlands",
-    "population": 103410,
+    "population": null,
     "electorate": 78511,
     "party_results": {
       "Con": {
@@ -24849,7 +24849,7 @@
     "district": 523,
     "name": "South Norfolk",
     "state": "East of England",
-    "population": 94569,
+    "population": null,
     "electorate": 74006,
     "party_results": {
       "Con": {
@@ -24897,7 +24897,7 @@
     "district": 524,
     "name": "South Northamptonshire",
     "state": "East Midlands",
-    "population": 102140,
+    "population": null,
     "electorate": 78233,
     "party_results": {
       "Con": {
@@ -24945,7 +24945,7 @@
     "district": 525,
     "name": "South Ribble",
     "state": "North West",
-    "population": 95699,
+    "population": null,
     "electorate": 73420,
     "party_results": {
       "Con": {
@@ -24990,7 +24990,7 @@
     "district": 526,
     "name": "South Shields",
     "state": "North East",
-    "population": 89133,
+    "population": null,
     "electorate": 68366,
     "party_results": {
       "Con": {
@@ -25038,7 +25038,7 @@
     "district": 527,
     "name": "South Shropshire",
     "state": "West Midlands",
-    "population": 95559,
+    "population": null,
     "electorate": 76677,
     "party_results": {
       "Con": {
@@ -25083,7 +25083,7 @@
     "district": 528,
     "name": "South Suffolk",
     "state": "East of England",
-    "population": 94277,
+    "population": null,
     "electorate": 74619,
     "party_results": {
       "Con": {
@@ -25128,7 +25128,7 @@
     "district": 529,
     "name": "South West Devon",
     "state": "South West",
-    "population": 97848,
+    "population": null,
     "electorate": 77600,
     "party_results": {
       "Con": {
@@ -25176,7 +25176,7 @@
     "district": 530,
     "name": "South West Hertfordshire",
     "state": "East of England",
-    "population": 99463,
+    "population": null,
     "electorate": 71737,
     "party_results": {
       "Con": {
@@ -25224,7 +25224,7 @@
     "district": 531,
     "name": "South West Norfolk",
     "state": "East of England",
-    "population": 105442,
+    "population": null,
     "electorate": 74724,
     "party_results": {
       "Con": {
@@ -25272,7 +25272,7 @@
     "district": 532,
     "name": "South West Wiltshire",
     "state": "South West",
-    "population": 97549,
+    "population": null,
     "electorate": 73071,
     "party_results": {
       "Con": {
@@ -25320,7 +25320,7 @@
     "district": 533,
     "name": "Southampton Itchen",
     "state": "South East",
-    "population": 111709,
+    "population": null,
     "electorate": 68379,
     "party_results": {
       "Con": {
@@ -25368,7 +25368,7 @@
     "district": 534,
     "name": "Southampton Test",
     "state": "South East",
-    "population": 111633,
+    "population": null,
     "electorate": 65520,
     "party_results": {
       "Con": {
@@ -25416,7 +25416,7 @@
     "district": 535,
     "name": "Southend East and Rochford",
     "state": "East of England",
-    "population": 98864,
+    "population": null,
     "electorate": 70217,
     "party_results": {
       "Con": {
@@ -25464,7 +25464,7 @@
     "district": 536,
     "name": "Southend West and Leigh",
     "state": "East of England",
-    "population": 103014,
+    "population": null,
     "electorate": 75154,
     "party_results": {
       "Con": {
@@ -25512,7 +25512,7 @@
     "district": 537,
     "name": "Southgate and Wood Green",
     "state": "London",
-    "population": 127370,
+    "population": null,
     "electorate": 77542,
     "party_results": {
       "Con": {
@@ -25560,7 +25560,7 @@
     "district": 538,
     "name": "Southport",
     "state": "North West",
-    "population": 98239,
+    "population": null,
     "electorate": 73641,
     "party_results": {
       "Con": {
@@ -25608,7 +25608,7 @@
     "district": 539,
     "name": "Spelthorne",
     "state": "South East",
-    "population": 103551,
+    "population": null,
     "electorate": 73782,
     "party_results": {
       "Con": {
@@ -25656,7 +25656,7 @@
     "district": 540,
     "name": "Spen Valley",
     "state": "Yorkshire and The Humber",
-    "population": 95940,
+    "population": null,
     "electorate": 72642,
     "party_results": {
       "Con": {
@@ -25704,7 +25704,7 @@
     "district": 541,
     "name": "St Albans",
     "state": "East of England",
-    "population": 99650,
+    "population": null,
     "electorate": 72739,
     "party_results": {
       "Con": {
@@ -25752,7 +25752,7 @@
     "district": 542,
     "name": "St Austell and Newquay",
     "state": "South West",
-    "population": 100170,
+    "population": null,
     "electorate": 76076,
     "party_results": {
       "Con": {
@@ -25800,7 +25800,7 @@
     "district": 543,
     "name": "St Helens North",
     "state": "North West",
-    "population": 100983,
+    "population": null,
     "electorate": 75483,
     "party_results": {
       "Con": {
@@ -25848,7 +25848,7 @@
     "district": 544,
     "name": "St Helens South and Whiston",
     "state": "North West",
-    "population": 95584,
+    "population": null,
     "electorate": 71569,
     "party_results": {
       "Con": {
@@ -25896,7 +25896,7 @@
     "district": 545,
     "name": "St Ives",
     "state": "South West",
-    "population": 89172,
+    "population": null,
     "electorate": 69978,
     "party_results": {
       "Con": {
@@ -25944,7 +25944,7 @@
     "district": 546,
     "name": "St Neots and Mid Cambridgeshire",
     "state": "East of England",
-    "population": 107460,
+    "population": null,
     "electorate": 78115,
     "party_results": {
       "Con": {
@@ -25992,7 +25992,7 @@
     "district": 547,
     "name": "Stafford",
     "state": "West Midlands",
-    "population": 96002,
+    "population": null,
     "electorate": 70608,
     "party_results": {
       "Con": {
@@ -26040,7 +26040,7 @@
     "district": 548,
     "name": "Staffordshire Moorlands",
     "state": "West Midlands",
-    "population": 85262,
+    "population": null,
     "electorate": 69892,
     "party_results": {
       "Con": {
@@ -26085,7 +26085,7 @@
     "district": 549,
     "name": "Stalybridge and Hyde",
     "state": "North West",
-    "population": 97943,
+    "population": null,
     "electorate": 72265,
     "party_results": {
       "Con": {
@@ -26133,7 +26133,7 @@
     "district": 550,
     "name": "Stevenage",
     "state": "East of England",
-    "population": 100366,
+    "population": null,
     "electorate": 70976,
     "party_results": {
       "Con": {
@@ -26181,7 +26181,7 @@
     "district": 551,
     "name": "Stirling and Strathallan",
     "state": "Scotland",
-    "population": 102321,
+    "population": null,
     "electorate": 76284,
     "party_results": {
       "Con": {
@@ -26226,7 +26226,7 @@
     "district": 552,
     "name": "Stockport",
     "state": "North West",
-    "population": 105286,
+    "population": null,
     "electorate": 76632,
     "party_results": {
       "Con": {
@@ -26274,7 +26274,7 @@
     "district": 553,
     "name": "Stockton North",
     "state": "North East",
-    "population": 101267,
+    "population": null,
     "electorate": 70242,
     "party_results": {
       "Con": {
@@ -26319,7 +26319,7 @@
     "district": 554,
     "name": "Stockton West",
     "state": "North East",
-    "population": 92633,
+    "population": null,
     "electorate": 71868,
     "party_results": {
       "Con": {
@@ -26367,7 +26367,7 @@
     "district": 555,
     "name": "Stoke-on-Trent Central",
     "state": "West Midlands",
-    "population": 113822,
+    "population": null,
     "electorate": 73812,
     "party_results": {
       "Con": {
@@ -26415,7 +26415,7 @@
     "district": 556,
     "name": "Stoke-on-Trent North",
     "state": "West Midlands",
-    "population": 100899,
+    "population": null,
     "electorate": 69854,
     "party_results": {
       "Con": {
@@ -26463,7 +26463,7 @@
     "district": 557,
     "name": "Stoke-on-Trent South",
     "state": "West Midlands",
-    "population": 94651,
+    "population": null,
     "electorate": 70002,
     "party_results": {
       "Con": {
@@ -26511,7 +26511,7 @@
     "district": 558,
     "name": "Stone, Great Wyrley and Penkridge",
     "state": "West Midlands",
-    "population": 93775,
+    "population": null,
     "electorate": 71561,
     "party_results": {
       "Con": {
@@ -26559,7 +26559,7 @@
     "district": 559,
     "name": "Stourbridge",
     "state": "West Midlands",
-    "population": 92974,
+    "population": null,
     "electorate": 68311,
     "party_results": {
       "Con": {
@@ -26607,7 +26607,7 @@
     "district": 560,
     "name": "Strangford",
     "state": "Northern Ireland",
-    "population": 98695,
+    "population": null,
     "electorate": 74525,
     "party_results": {
       "Con": {
@@ -26655,7 +26655,7 @@
     "district": 561,
     "name": "Stratford and Bow",
     "state": "London",
-    "population": 132023,
+    "population": null,
     "electorate": 80735,
     "party_results": {
       "Con": {
@@ -26703,7 +26703,7 @@
     "district": 562,
     "name": "Stratford-on-Avon",
     "state": "West Midlands",
-    "population": 97528,
+    "population": null,
     "electorate": 75714,
     "party_results": {
       "Con": {
@@ -26751,7 +26751,7 @@
     "district": 563,
     "name": "Streatham and Croydon North",
     "state": "London",
-    "population": 118791,
+    "population": null,
     "electorate": 82829,
     "party_results": {
       "Con": {
@@ -26799,7 +26799,7 @@
     "district": 564,
     "name": "Stretford and Urmston",
     "state": "North West",
-    "population": 102594,
+    "population": null,
     "electorate": 75153,
     "party_results": {
       "Con": {
@@ -26847,7 +26847,7 @@
     "district": 565,
     "name": "Stroud",
     "state": "South West",
-    "population": 97407,
+    "population": null,
     "electorate": 77905,
     "party_results": {
       "Con": {
@@ -26895,7 +26895,7 @@
     "district": 566,
     "name": "Suffolk Coastal",
     "state": "East of England",
-    "population": 93824,
+    "population": null,
     "electorate": 74522,
     "party_results": {
       "Con": {
@@ -26940,7 +26940,7 @@
     "district": 567,
     "name": "Sunderland Central",
     "state": "North East",
-    "population": 99595,
+    "population": null,
     "electorate": 76145,
     "party_results": {
       "Con": {
@@ -26985,7 +26985,7 @@
     "district": 568,
     "name": "Surrey Heath",
     "state": "South East",
-    "population": 98933,
+    "population": null,
     "electorate": 71934,
     "party_results": {
       "Con": {
@@ -27033,7 +27033,7 @@
     "district": 569,
     "name": "Sussex Weald",
     "state": "South East",
-    "population": 92620,
+    "population": null,
     "electorate": 72885,
     "party_results": {
       "Con": {
@@ -27081,7 +27081,7 @@
     "district": 570,
     "name": "Sutton and Cheam",
     "state": "London",
-    "population": 105002,
+    "population": null,
     "electorate": 72303,
     "party_results": {
       "Con": {
@@ -27129,7 +27129,7 @@
     "district": 571,
     "name": "Sutton Coldfield",
     "state": "West Midlands",
-    "population": 97423,
+    "population": null,
     "electorate": 74080,
     "party_results": {
       "Con": {
@@ -27177,7 +27177,7 @@
     "district": 572,
     "name": "Swansea West",
     "state": "Wales",
-    "population": 106849,
+    "population": null,
     "electorate": 74236,
     "party_results": {
       "Con": {
@@ -27225,7 +27225,7 @@
     "district": 573,
     "name": "Swindon North",
     "state": "South West",
-    "population": 107721,
+    "population": null,
     "electorate": 73224,
     "party_results": {
       "Con": {
@@ -27273,7 +27273,7 @@
     "district": 574,
     "name": "Swindon South",
     "state": "South West",
-    "population": 113834,
+    "population": null,
     "electorate": 72575,
     "party_results": {
       "Con": {
@@ -27321,7 +27321,7 @@
     "district": 575,
     "name": "Tamworth",
     "state": "West Midlands",
-    "population": 101524,
+    "population": null,
     "electorate": 75055,
     "party_results": {
       "Con": {
@@ -27369,7 +27369,7 @@
     "district": 576,
     "name": "Tatton",
     "state": "North West",
-    "population": 99238,
+    "population": null,
     "electorate": 75978,
     "party_results": {
       "Con": {
@@ -27414,7 +27414,7 @@
     "district": 577,
     "name": "Taunton and Wellington",
     "state": "South West",
-    "population": 109336,
+    "population": null,
     "electorate": 78680,
     "party_results": {
       "Con": {
@@ -27462,7 +27462,7 @@
     "district": 578,
     "name": "Telford",
     "state": "West Midlands",
-    "population": 106909,
+    "population": null,
     "electorate": 73808,
     "party_results": {
       "Con": {
@@ -27507,7 +27507,7 @@
     "district": 579,
     "name": "Tewkesbury",
     "state": "South West",
-    "population": 97711,
+    "population": null,
     "electorate": 73458,
     "party_results": {
       "Con": {
@@ -27555,7 +27555,7 @@
     "district": 580,
     "name": "The Wrekin",
     "state": "West Midlands",
-    "population": 110094,
+    "population": null,
     "electorate": 78942,
     "party_results": {
       "Con": {
@@ -27603,7 +27603,7 @@
     "district": 581,
     "name": "Thirsk and Malton",
     "state": "Yorkshire and The Humber",
-    "population": 97692,
+    "population": null,
     "electorate": 78468,
     "party_results": {
       "Con": {
@@ -27651,7 +27651,7 @@
     "district": 582,
     "name": "Thornbury and Yate",
     "state": "South West",
-    "population": 99475,
+    "population": null,
     "electorate": 78192,
     "party_results": {
       "Con": {
@@ -27696,7 +27696,7 @@
     "district": 583,
     "name": "Thurrock",
     "state": "East of England",
-    "population": 121226,
+    "population": null,
     "electorate": 73392,
     "party_results": {
       "Con": {
@@ -27744,7 +27744,7 @@
     "district": 584,
     "name": "Tipton and Wednesbury",
     "state": "West Midlands",
-    "population": 114582,
+    "population": null,
     "electorate": 74098,
     "party_results": {
       "Con": {
@@ -27792,7 +27792,7 @@
     "district": 585,
     "name": "Tiverton and Minehead",
     "state": "South West",
-    "population": 92152,
+    "population": null,
     "electorate": 72087,
     "party_results": {
       "Con": {
@@ -27837,7 +27837,7 @@
     "district": 586,
     "name": "Tonbridge",
     "state": "South East",
-    "population": 97582,
+    "population": null,
     "electorate": 72799,
     "party_results": {
       "Con": {
@@ -27885,7 +27885,7 @@
     "district": 587,
     "name": "Tooting",
     "state": "London",
-    "population": 106875,
+    "population": null,
     "electorate": 76168,
     "party_results": {
       "Con": {
@@ -27933,7 +27933,7 @@
     "district": 588,
     "name": "Torbay",
     "state": "South West",
-    "population": 104303,
+    "population": null,
     "electorate": 76185,
     "party_results": {
       "Con": {
@@ -27981,7 +27981,7 @@
     "district": 589,
     "name": "Torfaen",
     "state": "Wales",
-    "population": 92860,
+    "population": null,
     "electorate": 71738,
     "party_results": {
       "Con": {
@@ -28029,7 +28029,7 @@
     "district": 590,
     "name": "Torridge and Tavistock",
     "state": "South West",
-    "population": 96538,
+    "population": null,
     "electorate": 74727,
     "party_results": {
       "Con": {
@@ -28077,7 +28077,7 @@
     "district": 591,
     "name": "Tottenham",
     "state": "London",
-    "population": 136237,
+    "population": null,
     "electorate": 75906,
     "party_results": {
       "Con": {
@@ -28125,7 +28125,7 @@
     "district": 592,
     "name": "Truro and Falmouth",
     "state": "South West",
-    "population": 96110,
+    "population": null,
     "electorate": 72982,
     "party_results": {
       "Con": {
@@ -28173,7 +28173,7 @@
     "district": 593,
     "name": "Tunbridge Wells",
     "state": "South East",
-    "population": 106058,
+    "population": null,
     "electorate": 78738,
     "party_results": {
       "Con": {
@@ -28221,7 +28221,7 @@
     "district": 594,
     "name": "Twickenham",
     "state": "London",
-    "population": 107054,
+    "population": null,
     "electorate": 74980,
     "party_results": {
       "Con": {
@@ -28269,7 +28269,7 @@
     "district": 595,
     "name": "Tynemouth",
     "state": "North East",
-    "population": 95738,
+    "population": null,
     "electorate": 73194,
     "party_results": {
       "Con": {
@@ -28317,7 +28317,7 @@
     "district": 596,
     "name": "Upper Bann",
     "state": "Northern Ireland",
-    "population": 123128,
+    "population": null,
     "electorate": 81249,
     "party_results": {
       "Con": {
@@ -28362,7 +28362,7 @@
     "district": 597,
     "name": "Uxbridge and South Ruislip",
     "state": "London",
-    "population": 120265,
+    "population": null,
     "electorate": 74745,
     "party_results": {
       "Con": {
@@ -28410,7 +28410,7 @@
     "district": 598,
     "name": "Vale of Glamorgan",
     "state": "Wales",
-    "population": 95639,
+    "population": null,
     "electorate": 74465,
     "party_results": {
       "Con": {
@@ -28458,7 +28458,7 @@
     "district": 599,
     "name": "Vauxhall and Camberwell Green",
     "state": "London",
-    "population": 105263,
+    "population": null,
     "electorate": 77527,
     "party_results": {
       "Con": {
@@ -28506,7 +28506,7 @@
     "district": 600,
     "name": "Wakefield and Rothwell",
     "state": "Yorkshire and The Humber",
-    "population": 107239,
+    "population": null,
     "electorate": 75067,
     "party_results": {
       "Con": {
@@ -28554,7 +28554,7 @@
     "district": 601,
     "name": "Wallasey",
     "state": "North West",
-    "population": 96852,
+    "population": null,
     "electorate": 74082,
     "party_results": {
       "Con": {
@@ -28602,7 +28602,7 @@
     "district": 602,
     "name": "Walsall and Bloxwich",
     "state": "West Midlands",
-    "population": 118282,
+    "population": null,
     "electorate": 74951,
     "party_results": {
       "Con": {
@@ -28650,7 +28650,7 @@
     "district": 603,
     "name": "Walthamstow",
     "state": "London",
-    "population": 121662,
+    "population": null,
     "electorate": 74474,
     "party_results": {
       "Con": {
@@ -28698,7 +28698,7 @@
     "district": 604,
     "name": "Warrington North",
     "state": "North West",
-    "population": 96005,
+    "population": null,
     "electorate": 70601,
     "party_results": {
       "Con": {
@@ -28746,7 +28746,7 @@
     "district": 605,
     "name": "Warrington South",
     "state": "North West",
-    "population": 102699,
+    "population": null,
     "electorate": 78394,
     "party_results": {
       "Con": {
@@ -28794,7 +28794,7 @@
     "district": 606,
     "name": "Warwick and Leamington",
     "state": "West Midlands",
-    "population": 107448,
+    "population": null,
     "electorate": 76294,
     "party_results": {
       "Con": {
@@ -28842,7 +28842,7 @@
     "district": 607,
     "name": "Washington and Gateshead South",
     "state": "North East",
-    "population": 94766,
+    "population": null,
     "electorate": 70972,
     "party_results": {
       "Con": {
@@ -28890,7 +28890,7 @@
     "district": 608,
     "name": "Watford",
     "state": "East of England",
-    "population": 110956,
+    "population": null,
     "electorate": 73100,
     "party_results": {
       "Con": {
@@ -28938,7 +28938,7 @@
     "district": 609,
     "name": "Waveney Valley",
     "state": "East of England",
-    "population": 89618,
+    "population": null,
     "electorate": 73056,
     "party_results": {
       "Con": {
@@ -28986,7 +28986,7 @@
     "district": 610,
     "name": "Weald of Kent",
     "state": "South East",
-    "population": 96083,
+    "population": null,
     "electorate": 75987,
     "party_results": {
       "Con": {
@@ -29031,7 +29031,7 @@
     "district": 611,
     "name": "Wellingborough and Rushden",
     "state": "East Midlands",
-    "population": 113555,
+    "population": null,
     "electorate": 77542,
     "party_results": {
       "Con": {
@@ -29079,7 +29079,7 @@
     "district": 612,
     "name": "Wells and Mendip Hills",
     "state": "South West",
-    "population": 90307,
+    "population": null,
     "electorate": 73538,
     "party_results": {
       "Con": {
@@ -29127,7 +29127,7 @@
     "district": 613,
     "name": "Welwyn Hatfield",
     "state": "East of England",
-    "population": 114181,
+    "population": null,
     "electorate": 75259,
     "party_results": {
       "Con": {
@@ -29172,7 +29172,7 @@
     "district": 614,
     "name": "West Aberdeenshire and Kincardine",
     "state": "Scotland",
-    "population": 97717,
+    "population": null,
     "electorate": 72994,
     "party_results": {
       "Con": {
@@ -29220,7 +29220,7 @@
     "district": 615,
     "name": "West Bromwich",
     "state": "West Midlands",
-    "population": 111975,
+    "population": null,
     "electorate": 74025,
     "party_results": {
       "Con": {
@@ -29268,7 +29268,7 @@
     "district": 616,
     "name": "West Dorset",
     "state": "South West",
-    "population": 94743,
+    "population": null,
     "electorate": 75998,
     "party_results": {
       "Con": {
@@ -29316,7 +29316,7 @@
     "district": 617,
     "name": "West Dunbartonshire",
     "state": "Scotland",
-    "population": 91819,
+    "population": null,
     "electorate": 69074,
     "party_results": {
       "Con": {
@@ -29364,7 +29364,7 @@
     "district": 618,
     "name": "West Ham and Beckton",
     "state": "London",
-    "population": 140177,
+    "population": null,
     "electorate": 78964,
     "party_results": {
       "Con": {
@@ -29412,7 +29412,7 @@
     "district": 619,
     "name": "West Lancashire",
     "state": "North West",
-    "population": 101950,
+    "population": null,
     "electorate": 74081,
     "party_results": {
       "Con": {
@@ -29457,7 +29457,7 @@
     "district": 620,
     "name": "West Suffolk",
     "state": "East of England",
-    "population": 119754,
+    "population": null,
     "electorate": 77145,
     "party_results": {
       "Con": {
@@ -29505,7 +29505,7 @@
     "district": 621,
     "name": "West Tyrone",
     "state": "Northern Ireland",
-    "population": 99658,
+    "population": null,
     "electorate": 74269,
     "party_results": {
       "Con": {
@@ -29553,7 +29553,7 @@
     "district": 622,
     "name": "West Worcestershire",
     "state": "West Midlands",
-    "population": 99828,
+    "population": null,
     "electorate": 79246,
     "party_results": {
       "Con": {
@@ -29601,7 +29601,7 @@
     "district": 623,
     "name": "Westmorland and Lonsdale",
     "state": "North West",
-    "population": 91298,
+    "population": null,
     "electorate": 72029,
     "party_results": {
       "Con": {
@@ -29649,7 +29649,7 @@
     "district": 624,
     "name": "Weston-super-Mare",
     "state": "South West",
-    "population": 97756,
+    "population": null,
     "electorate": 71396,
     "party_results": {
       "Con": {
@@ -29694,7 +29694,7 @@
     "district": 625,
     "name": "Wetherby and Easingwold",
     "state": "Yorkshire and The Humber",
-    "population": 92325,
+    "population": null,
     "electorate": 74314,
     "party_results": {
       "Con": {
@@ -29742,7 +29742,7 @@
     "district": 626,
     "name": "Whitehaven and Workington",
     "state": "North West",
-    "population": 93716,
+    "population": null,
     "electorate": 73198,
     "party_results": {
       "Con": {
@@ -29787,7 +29787,7 @@
     "district": 627,
     "name": "Widnes and Halewood",
     "state": "North West",
-    "population": 92808,
+    "population": null,
     "electorate": 70161,
     "party_results": {
       "Con": {
@@ -29835,7 +29835,7 @@
     "district": 628,
     "name": "Wigan",
     "state": "North West",
-    "population": 106304,
+    "population": null,
     "electorate": 77538,
     "party_results": {
       "Con": {
@@ -29883,7 +29883,7 @@
     "district": 629,
     "name": "Wimbledon",
     "state": "London",
-    "population": 110012,
+    "population": null,
     "electorate": 76334,
     "party_results": {
       "Con": {
@@ -29931,7 +29931,7 @@
     "district": 630,
     "name": "Winchester",
     "state": "South East",
-    "population": 106517,
+    "population": null,
     "electorate": 78289,
     "party_results": {
       "Con": {
@@ -29979,7 +29979,7 @@
     "district": 631,
     "name": "Windsor",
     "state": "South East",
-    "population": 111585,
+    "population": null,
     "electorate": 73334,
     "party_results": {
       "Con": {
@@ -30027,7 +30027,7 @@
     "district": 632,
     "name": "Wirral West",
     "state": "North West",
-    "population": 88387,
+    "population": null,
     "electorate": 72838,
     "party_results": {
       "Con": {
@@ -30072,7 +30072,7 @@
     "district": 633,
     "name": "Witham",
     "state": "East of England",
-    "population": 104321,
+    "population": null,
     "electorate": 78991,
     "party_results": {
       "Con": {
@@ -30120,7 +30120,7 @@
     "district": 634,
     "name": "Witney",
     "state": "South East",
-    "population": 100352,
+    "population": null,
     "electorate": 75448,
     "party_results": {
       "Con": {
@@ -30168,7 +30168,7 @@
     "district": 635,
     "name": "Woking",
     "state": "South East",
-    "population": 104179,
+    "population": null,
     "electorate": 72969,
     "party_results": {
       "Con": {
@@ -30216,7 +30216,7 @@
     "district": 636,
     "name": "Wokingham",
     "state": "South East",
-    "population": 100084,
+    "population": null,
     "electorate": 75082,
     "party_results": {
       "Con": {
@@ -30261,7 +30261,7 @@
     "district": 637,
     "name": "Wolverhampton North East",
     "state": "West Midlands",
-    "population": 105811,
+    "population": null,
     "electorate": 70715,
     "party_results": {
       "Con": {
@@ -30306,7 +30306,7 @@
     "district": 638,
     "name": "Wolverhampton South East",
     "state": "West Midlands",
-    "population": 122195,
+    "population": null,
     "electorate": 77473,
     "party_results": {
       "Con": {
@@ -30354,7 +30354,7 @@
     "district": 639,
     "name": "Wolverhampton West",
     "state": "West Midlands",
-    "population": 113748,
+    "population": null,
     "electorate": 77851,
     "party_results": {
       "Con": {
@@ -30402,7 +30402,7 @@
     "district": 640,
     "name": "Worcester",
     "state": "West Midlands",
-    "population": 104120,
+    "population": null,
     "electorate": 74931,
     "party_results": {
       "Con": {
@@ -30450,7 +30450,7 @@
     "district": 641,
     "name": "Worsley and Eccles",
     "state": "North West",
-    "population": 107900,
+    "population": null,
     "electorate": 78643,
     "party_results": {
       "Con": {
@@ -30498,7 +30498,7 @@
     "district": 642,
     "name": "Worthing West",
     "state": "South East",
-    "population": 100568,
+    "population": null,
     "electorate": 77039,
     "party_results": {
       "Con": {
@@ -30546,7 +30546,7 @@
     "district": 643,
     "name": "Wrexham",
     "state": "Wales",
-    "population": 99443,
+    "population": null,
     "electorate": 70269,
     "party_results": {
       "Con": {
@@ -30594,7 +30594,7 @@
     "district": 644,
     "name": "Wycombe",
     "state": "South East",
-    "population": 107635,
+    "population": null,
     "electorate": 73415,
     "party_results": {
       "Con": {
@@ -30642,7 +30642,7 @@
     "district": 645,
     "name": "Wyre Forest",
     "state": "West Midlands",
-    "population": 102328,
+    "population": null,
     "electorate": 77329,
     "party_results": {
       "Con": {
@@ -30690,7 +30690,7 @@
     "district": 646,
     "name": "Wythenshawe and Sale East",
     "state": "North West",
-    "population": 113145,
+    "population": null,
     "electorate": 77767,
     "party_results": {
       "Con": {
@@ -30738,7 +30738,7 @@
     "district": 647,
     "name": "Yeovil",
     "state": "South West",
-    "population": 105483,
+    "population": null,
     "electorate": 79918,
     "party_results": {
       "Con": {
@@ -30834,7 +30834,7 @@
     "district": 649,
     "name": "York Central",
     "state": "Yorkshire and The Humber",
-    "population": 110734,
+    "population": null,
     "electorate": 79557,
     "party_results": {
       "Con": {
@@ -30882,7 +30882,7 @@
     "district": 650,
     "name": "York Outer",
     "state": "Yorkshire and The Humber",
-    "population": 93817,
+    "population": null,
     "electorate": 76228,
     "party_results": {
       "Con": {

@@ -39,8 +39,8 @@ def create_voting_district_results(csv_file: str, output_file: str):
             # Check if this is the Speaker's seat
             first_party_col = row.get('First party', '')
             if first_party_col == 'Spk':
-                district["party_results"]['Speaker'] = {
-                    "member": 1  # The Speaker always wins their seat
+                district["party_results"]['Spk'] = {
+                    "member": int(row['Of which other winner']) if row.get('Of which other winner') else 1  # Get actual Speaker votes if available
                 }
                 # Add other parties' votes but don't count them for max_votes
                 for party in party_columns:

@@ -1,5 +1,11 @@
 [
   {
+    "short_name": "Spk",
+    "name": "Speaker",
+    "color": "#808080",
+    "left_to_right": 5
+  },
+  {
     "short_name": "Con",
     "name": "Conservative Party",
     "color": "#0087dc",
@@ -75,12 +81,6 @@
     "short_name": "Ind",
     "name": "Independent",
     "color": "#CCCCCC",
-    "left_to_right": 0
-  },
-  {
-    "short_name": "Speaker",
-    "name": "Speaker",
-    "color": "#000000",
     "left_to_right": 0
   },
   {

@@ -71,39 +71,32 @@ def calculate_seats(results: list, states: list, total_seats: int, participating
     # Count district winners and total votes
     district_count = len(results)
     for district in results:
-        # Check if this is the Speaker's seat
-        if 'Speaker' in district['party_results']:
-            winner = 'Speaker'
-            max_votes = district['party_results']['Speaker']['member']
-            # Don't count other votes for close race calculation
-            second_max_votes = 0
-            second_place = None
-        else:
-            # Find party with most votes in district
-            max_votes = 0
-            second_max_votes = 0
-            winner = None
-            second_place = None
-            all_votes = {}
+        # Find party with most votes in district
+        max_votes = 0
+        second_max_votes = 0
+        winner = None
+        second_place = None
+        all_votes = {}
+        
+        
+        for party_name, results in district['party_results'].items():
+            # Try member votes first, fall back to list votes if not available
+            votes = results.get('member', results.get('list', 0))
+            all_votes[party_name] = votes
             
-            for party_name, results in district['party_results'].items():
-                # Try member votes first, fall back to list votes if not available
-                votes = results.get('member', results.get('list', 0))
-                all_votes[party_name] = votes
-                
-                # Update total votes for the party if it's participating
-                if party_name in party_votes:
-                    party_votes[party_name] += votes
-                
-                # Check if this party won the district
-                if votes > max_votes:
-                    second_max_votes = max_votes
-                    second_place = winner
-                    max_votes = votes
-                    winner = party_name
-                elif votes > second_max_votes:
-                    second_max_votes = votes
-                    second_place = party_name
+            # Update total votes for the party if it's participating
+            if party_name in party_votes:
+                party_votes[party_name] += votes
+            
+            # Check if this party won the district
+            if votes > max_votes:
+                second_max_votes = max_votes
+                second_place = winner
+                max_votes = votes
+                winner = party_name
+            elif votes > second_max_votes:
+                second_max_votes = votes
+                second_place = party_name
         
         # Print close races involving Labour
         margin = max_votes - second_max_votes
@@ -154,8 +147,8 @@ def calculate_seats(results: list, states: list, total_seats: int, participating
     parties = []
     for party_data in participating_parties:
         short_name = party_data['short_name']
-        # Include all parties that got votes or seats (including Speaker)
-        if party_votes[short_name] > 0 or (short_name == 'Speaker' and party_seats.get(short_name, 0) > 0):
+        # Include all parties that got votes
+        if party_votes[short_name] > 0:
             parties.append(Party(
                 name=short_name,
                 color=party_data.get('color', '#CCCCCC'),
@@ -177,6 +170,8 @@ if __name__ == "__main__":
     parties = calculate_seats(results, [], 650, participating_parties)
     
     print("\nSeat Distribution:")
-    for party in parties:
+    # Sort parties by size in descending order
+    sorted_parties = sorted(parties, key=lambda x: x.size, reverse=True)
+    for party in sorted_parties:
         if party.size > 0:
-            print(f"{party.short_name}: {party.size} seats")
+            print(f"{party.name}: {party.size} seats")
