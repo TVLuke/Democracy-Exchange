@@ -1,8 +1,8 @@
 # Democratic System Exchange
 
-There are lots of parlamentary democracies out there. An most likely, for people in them the wy their elections work seems 'normal'. However while in all elections people vote, what they vote exactly, how they do it, wht is actualy counted and how this transforms into parlamemntary seats and mojorities is different in every country.
+There are lots of parlamentary democracies out there. An most likely, for people in them the way their elections work seems 'normal'. However while in all elections people vote, what they vote exactly, how they do it, what is actualy counted and how this transforms into parlamemntary seats and mojorities is different in every country.
 
-This is a stupid idea to learn about the diferent ways we count votes by projecting the votes from one country with the electoral-system in another country.
+**This is a stupid idea to learn about the diferent ways we count votes by projecting the votes from one country with the electoral-system in another country.**
 
 Of course the electoral system shapes the landscape of parties and the way people vote tactically. so these projections are not actually legitimate. But they 
 
@@ -13,17 +13,17 @@ Of course the electoral system shapes the landscape of parties and the way peopl
 
 ### Elections
 
-There is a subfolder for each election names as the country and theyear, like germany2021.
+There is a subfolder for each election named by the country and year, like germany2021.
 
 We start with raw data. There are several things that are true for most democracies today. They have parties and they have divided the country into some sort of electoral districts, in which voting takes place.
 
 We try to collect demographic data on the size of the electorate (people eligible to vote), number of citizens (people who are citizens), and population for each district and state. These may be relevant in some election systems for the distribution of seats (Austria does a distribution of parliament seats per state by number of citizens but calculates vote-share by a factor including the size of the electorate, the US uses distribution by state population). If one is not available, we use another as fallback.
 
-This all is done using open data from the web. Usualy there should be a README.md inside the folder to point to the sources and advice about the licenses.
+This is all done using open data from the web. Usually there should be a README.md inside the folder to point to the sources and provide information about the licenses.
 
 From the raw data we create several files: 
 
-- `participating_parties.json` contains a list of parties with some helpful information for the graphical representation, like the color they are usually represented in. This also has a value left_to_right which is used to determine the seating order of parties in parlament (ans thus, how they should be displayed in a seating graph). Patries can have the flag minority=true. For Electoral systems that have special rules for parties representing minorities.
+- `participating_parties.json` contains a list of parties with some helpful information for the graphical representation, like the color they are usually represented in. This also has a value left_to_right which is used to determine the seating order of parties in parliament (and thus, how they should be displayed in a seating graph). Parties can have the flag minority=true for electoral systems that have special rules for parties representing minorities.
 
 An extract of the file may look like this:
 
@@ -45,7 +45,7 @@ An extract of the file may look like this:
 
 - `voting_district_results.json` contains the results of the electoral districts, with the number of votes for each party in each district. These are categorized either as list votes or member votes, depending if the type of voting is by party-list or voting directly for a member of parliament. Some countries (for example Germany) have both. Also, it contains number of electorate, citizens and population for district if known.
 
-An extract ma ylook like this:
+An extract may look like this:
 
 ```
 {
@@ -219,4 +219,4 @@ This calculates the seat distribution and returns it. There is also a `basic_inf
 ### Graphics
 Graphics are created by `plotparlament.py` and `vote_distribution.py` which are called from `main.py`.
 
-The Graphics for interpteting the german election as a US presidential election are completly seprate from that and all that is in `president.py`.
+The graphics for interpreting the German election as a US presidential election are completely separate from that and are all contained in `president.py`.
