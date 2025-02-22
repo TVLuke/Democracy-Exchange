@@ -222,3 +222,7 @@ This calculates the seat distribution and returns it. There is also a `basic_inf
 Graphics are created by `plotparlament.py` and `vote_distribution.py` which are called from `main.py`.
 
 The graphics for interpreting the German election as a US presidential election are completely separate from that and are all contained in `president.py`.
+
+# Note on Use of LLMs
+
+This code was created using, among other tools, LLM tools like ChatGPT.
