@@ -1,4 +1,6 @@
-# Democratic System Exchange
+**Note: This very much is just a quick thing i threw together in an afternoon or two out of curiosity. It may be useful to someone. But this is not great code and it is not testet and not well checked. Use at your own risk.**
+
+# Democracy Exchange
 
 There are lots of parlamentary democracies out there. An most likely, for people in them the way their elections work seems 'normal'. However while in all elections people vote, what they vote exactly, how they do it, what is actualy counted and how this transforms into parlamemntary seats and mojorities is different in every country.
 
