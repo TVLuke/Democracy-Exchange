@@ -13,7 +13,49 @@ Of course the electoral system shapes the landscape of strategies for a tactical
 - a) may help understand how different ways of counting votes shape the way a paralement can look and
 - b) how different countries systems have advantages and disatvantages.
 
-## How we start
+## How to use
+
+1. Clone the repo:
+```bash
+git clone https://github.com/TVLuke/Democracy-Exchange.git
+cd Democracy-Exchange
+```
+
+2. Create and activate a virtual environment:
+```bash
+# On macOS/Linux
+python -m venv venv
+source venv/bin/activate
+
+# On Windows
+python -m venv venv
+venv\Scripts\activate
+```
+
+3. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+4. Run the script:
+```bash
+python main.py
+```
+
+To change which votes to pair with which electoral system, edit the `country`, `year` and `appointments` variables in `main.py`:
+
+```
+# Set up election parameters
+country = 'germany'
+year = '2021'
+election = country + year
+
+appointments = ['austria']
+```
+
+You can run multiple appointments.
+
+## How to add new Elections and Appointments
 
 ### Elections
 

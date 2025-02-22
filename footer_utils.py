@@ -94,7 +94,7 @@ def add_footer_and_logo(image_path):
         
         # Add license text
         footer_ax.text(0.055, 0.5,
-                      'CC BY TVLuke; tvluke.de. Sourcecode at https://git.chaotikum.org/tvluke/democratic-system-exchange',
+                      'CC BY TVLuke; tvluke.de. Sourcecode at https://github.com/TVLuke/Democracy-Exchange',
                       va='center', ha='left',
                       fontsize=10)
         
