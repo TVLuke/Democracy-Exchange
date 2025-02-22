@@ -1,6 +1,8 @@
-**Note: This very much is just a quick thing i threw together in an afternoon or two out of curiosity. It may be useful to someone. But this is not great code and it is not testet and not well checked. Use at your own risk.**
-
 # Democracy Exchange
+
+[![Tests](https://github.com/tvluke/democratic-system-exchange/actions/workflows/tests.yml/badge.svg)](https://github.com/tvluke/democratic-system-exchange/actions/workflows/tests.yml)
+
+**Note: This very much is just a quick thing i threw together in an afternoon or two out of curiosity. It may be useful to someone. But this is not great code and it is not testet and not well checked. Use at your own risk.**
 
 There are many parliamentary democracies. For people living in them, their elections probably feel normal. But every country does it differently. People vote everywhere, but what they vote for, how they do it, and what gets counted varies. The way votes turn into seats and majorities is different too.
 
@@ -279,7 +281,9 @@ The graphics for interpreting the German election as a US presidential election 
 
 ## Tests
 
-The tests are fairly simple, we just use the data from an election on its own system. The result should the be the actual seat distribution from that election. If that happends we probably got this somewhat right. Or not too wrong.
+The tests are fairly simple, we just use the data from an election on its own system. The result should be the actual seat distribution from that election. If that happens we probably got this somewhat right. Or not too wrong.
+
+Tests are automatically run on GitHub's infrastructure using GitHub Actions whenever code is pushed to the main branch or when a pull request is created. This helps ensure that changes don't break existing functionality. You can see the test results in the "Actions" tab of the repository.
 
 # Note on Use of LLMs
 
