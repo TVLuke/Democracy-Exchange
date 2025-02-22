@@ -12,7 +12,7 @@ country = 'germany'
 year = '2021'
 election = country + year
 
-appointments = ['austria']
+appointments = ['uk']
 
 # Visualization
 

@@ -55,6 +55,16 @@ appointments = ['austria']
 
 You can run multiple appointments.
 
+Examples:
+
+![Example 1](docs/example1.png)
+
+![Example 2](docs/example2.png)
+
+![Example 3](docs/example3.png)
+
+![Example 4](docs/example4.png)
+
 ## How to add new Elections and Appointments
 
 ### Elections
