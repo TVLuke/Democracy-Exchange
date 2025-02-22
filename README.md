@@ -2,7 +2,7 @@
 
 # Democracy Exchange
 
-There are lots of parlamentary democracies out there. An most likely, for people in them the way their elections work seems 'normal'. However while in all elections people vote, what they vote exactly, how they do it, what is actualy counted and how this transforms into parlamemntary seats and mojorities is different in every country.
+There are many parliamentary democracies. For people living in them, their elections probably feel normal. But every country does it differently. People vote everywhere, but what they vote for, how they do it, and what gets counted varies. The way votes turn into seats and majorities is different too.
 
 **This is a stupid idea to learn about the diferent ways we count votes by projecting the votes from one country with the electoral-system in another country.**
 
