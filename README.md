@@ -1,6 +1,6 @@
 # Democracy Exchange
 
-[![Tests](https://github.com/tvluke/democratic-system-exchange/actions/workflows/tests.yml/badge.svg)](https://github.com/tvluke/democratic-system-exchange/actions/workflows/tests.yml)
+[![Tests](https://github.com/TVLuke/Democracy-Exchange/actions/workflows/tests.yml/badge.svg)](https://github.com/TVLuke/Democracy-Exchange/actions/workflows/tests.yml)
 
 **Note: This very much is just a quick thing i threw together in an afternoon or two out of curiosity. It may be useful to someone. But this is not great code and it is not testet and not well checked. Use at your own risk.**
 
