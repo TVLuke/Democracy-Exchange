@@ -4,3 +4,4 @@
 
 ## Images of politicians for the "Electoral College"
 - Armin Laschet https://de.wikipedia.org/wiki/Armin_Laschet#/media/Datei:Armin_Laschet_2023_(cropped).jpg © Raimond Spekking / CC BY-SA 4.0 (via Wikimedia Commons)
+- Others: Auch wikipedia

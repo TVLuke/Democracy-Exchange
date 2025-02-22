@@ -4,6 +4,9 @@ from itertools import combinations
 import numpy as np
 import matplotlib.pyplot as plt
 from collections import namedtuple, defaultdict
+from matplotlib.offsetbox import OffsetImage, AnnotationBbox
+
+from footer_utils import add_footer_and_logo
 
 def calculate_radius(num_rows, initial_radius, radius_increment):
     """Calculate the radius for each row."""
@@ -175,11 +178,9 @@ def plot_coalitions(coalitions, total_seats, output_dir, timestamp, title=None):
     num_cols = min(5, num_coalitions)  # Maximum 5 coalitions per row
     num_rows = (num_coalitions + num_cols - 1) // num_cols
     
-    # Adjust figure size and spacing for more compact layout
-    # Add extra height for explanation text at bottom
-    # For single row, make figure much taller to accommodate explanation and subtitle
-    fig_height = 3.2 * num_rows + (3.0 if num_rows == 1 else 1.0)
-    fig = plt.figure(figsize=(15, fig_height))
+    # Create figure at 1080p resolution
+    dpi = 100  # Standard screen DPI
+    fig = plt.figure(figsize=(1920/dpi, 1080/dpi))
     
     # Add title with more space between lines
     plt.suptitle('Wahrscheinlichste Mehrheitskoalitionen\n(nach ideologischer Distanz)\n\n\n' + (title if title else 'Sitzverteilung im Parlament'), y=0.98, fontsize=12)
@@ -265,8 +266,11 @@ def plot_coalitions(coalitions, total_seats, output_dir, timestamp, title=None):
     
     plt.savefig(coalitions_file, bbox_inches='tight', dpi=300)
     plt.close()
+    
+    # Add footer and logo to saved image
+    add_footer_and_logo(coalitions_file)
 
-def plot_deputies(deputies, parties, POINT_SIZE, output_dir, timestamp, title=None, relevant_vote='list', voting_data=None):
+def plot_deputies(deputies, parties, POINT_SIZE=200, output_dir=None, timestamp=None, title=None, relevant_vote='list', voting_data=None):
     """Plot the deputies on a chart and possible coalitions in separate figures.
     Save the plots as PNG files with timestamps.
     
@@ -287,10 +291,11 @@ def plot_deputies(deputies, parties, POINT_SIZE, output_dir, timestamp, title=No
     
     total_seats = sum(party.size for party in parties)
     
-    # Full parliament plot
-    plt.figure(figsize=(12, 8))
+    # Full parliament plot at 1080p resolution
+    dpi = 100  # Standard screen DPI
+    plt.figure(figsize=(1920/dpi, 1080/dpi))
     current_index = 0
-    point_size = 25  # Smaller point size for main parliament
+    point_size = 200  # Increased point size for main parliament
     
     for party in sorted(parties, key=lambda x: x.left_to_right):
         party_deputies = deputies[current_index:current_index + party.size]
@@ -307,8 +312,11 @@ def plot_deputies(deputies, parties, POINT_SIZE, output_dir, timestamp, title=No
             label = ""  # Only show label once per party
         current_index += party.size
     
-    plt.gca().set_aspect('equal')
-    plt.axis('off')
+    ax = plt.gca()
+    ax.set_aspect('equal')
+    ax.axis('off')
+    
+
     
     if title:
         plt.title(title, pad=20, fontsize=14)
@@ -362,10 +370,16 @@ def plot_deputies(deputies, parties, POINT_SIZE, output_dir, timestamp, title=No
                 fontsize=10,
                 bbox=dict(facecolor='white', alpha=0.8, edgecolor='none'))
     
+    # First adjust layout
+    plt.tight_layout()
+
     # Save parliament plot
     parliament_file = os.path.join(output_dir, f'{timestamp}_parliament.png')
     plt.savefig(parliament_file, bbox_inches='tight', dpi=300)
     plt.close()
+    
+    # Add footer and logo to saved image
+    add_footer_and_logo(parliament_file)
     
     # Generate and save coalition plots if any exist
     coalitions = find_possible_coalitions(parties, total_seats)

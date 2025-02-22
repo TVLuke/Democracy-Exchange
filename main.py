@@ -12,12 +12,14 @@ country = 'germany'
 year = '2021'
 election = country + year
 
-appointments = ['germany']
+appointments = ['austria']
 
 # Visualization
 
 
-POINT_SIZE = 50
+POINT_SIZE = 100  # Doubled point size
+INITIAL_RADIUS = 3.0  # Reduced from 4.0
+RADIUS_INCREMENT = 0.8  # Reduced from 1.11
 
 
 def load_results(folder_path: str) -> list:
@@ -86,7 +88,6 @@ INITIAL_RADIUS = max(2.0, min(4.0, TOTAL_SEATS / 150))
 RADIUS_INCREMENT = INITIAL_RADIUS * (2.5 / max(NUM_ROWS - 2, 1))
 
 print(f"Total seats: {TOTAL_SEATS}, rows: {NUM_ROWS}")
-print(f"Initial radius: {INITIAL_RADIUS:.2f}, increment: {RADIUS_INCREMENT:.2f}")
 
 # Load voting results
 voting_data = load_results(election)
@@ -181,7 +182,8 @@ for appointment in appointments:
         relevant_vote = basic_info.get('relevant_vote', 'list')  # default to list if not specified
     
     # Create plot for this appointment's seat distribution
-    deputies = plot_main(NUM_ROWS, INITIAL_RADIUS, RADIUS_INCREMENT, TOTAL_SEATS)
+    # Create plot for this appointment's seat distribution
+    deputies = plot_main(num_rows=11, initial_radius=4.0, radius_increment=1.11, NUM_DEPUTIES=TOTAL_SEATS)
     plot_deputies(deputies, calculated_parties, POINT_SIZE, 
                  plots_dir, timestamp, title=f"{election_name} {election_title}",
                  relevant_vote=relevant_vote,

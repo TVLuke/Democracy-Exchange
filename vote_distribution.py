@@ -2,6 +2,9 @@ import os
 import matplotlib.pyplot as plt
 import numpy as np
 from datetime import datetime
+from matplotlib.offsetbox import OffsetImage, AnnotationBbox
+
+from footer_utils import add_footer_and_logo
 
 def plot_vote_distribution(all_parties, calculated_parties, timestamp, vote_title, seat_title, output_dir, relevant_vote='list', voting_data=None):
     """Create bar graphs showing vote and seat percentages for parties.
@@ -70,8 +73,9 @@ def plot_vote_distribution(all_parties, calculated_parties, timestamp, vote_titl
             party_data = next((p for p in all_parties if p['short_name'] == party.name), None)
             vs_colors.append(party_data['color'] if party_data else '#CCCCCC')
     
-    # Create the vote percentage plot
-    plt.figure(figsize=(15, 8))
+    # Create the vote percentage plot at 1080p resolution
+    dpi = 100  # Standard screen DPI
+    plt.figure(figsize=(1920/dpi, 1080/dpi))
     bars = plt.bar(range(len(vote_parties)), vote_percentages, color=vote_colors)
     
     # Customize the plot
@@ -138,14 +142,18 @@ def plot_vote_distribution(all_parties, calculated_parties, timestamp, vote_titl
     
     # Adjust layout to prevent label cutoff
     plt.tight_layout(rect=[0, 0, 1, 1])
-    
+
     # Save the plot
     vote_dist_file = os.path.join(output_dir, f'{timestamp}_vote_distribution.png')
     plt.savefig(vote_dist_file, bbox_inches='tight', dpi=300)
     plt.close()
     
-    # Create the vote vs seat percentage plot
-    plt.figure(figsize=(15, 8))
+    # Add footer and logo to saved image
+    add_footer_and_logo(vote_dist_file)
+    
+    # Create the vote vs seat percentage plot at 1080p resolution
+    dpi = 100  # Standard screen DPI
+    plt.figure(figsize=(1920/dpi, 1080/dpi))
     
     # Plot vote percentages slightly behind and to the right
     bar_width = 0.35
@@ -215,11 +223,14 @@ def plot_vote_distribution(all_parties, calculated_parties, timestamp, vote_titl
     
     # Adjust layout to prevent label cutoff and make room for footnote
     plt.tight_layout(rect=[0, 0.1, 1, 1])
-    
+
     # Save the plot
     vote_seat_file = os.path.join(output_dir, f'{timestamp}_vote_seat_distribution.png')
     plt.savefig(vote_seat_file, bbox_inches='tight', dpi=300)
     plt.close()
+    
+    # Add footer and logo to saved image
+    add_footer_and_logo(vote_seat_file)
 
 def adjust_color_alpha(hex_color, alpha):
     """Passt den Alpha-Wert (Transparenz) einer Hex-Farbe an.
