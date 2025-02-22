@@ -2,7 +2,7 @@
 
 [![Tests](https://github.com/TVLuke/Democracy-Exchange/actions/workflows/tests.yml/badge.svg)](https://github.com/TVLuke/Democracy-Exchange/actions/workflows/tests.yml)
 
-**Note: This very much is just a quick thing i threw together in an afternoon or two out of curiosity. It may be useful to someone. But this is not great code and it is not testet and not well checked. Use at your own risk.**
+**Note: This very much is just a quick thing i threw together in an afternoon or two out of curiosity. It may be useful to someone. But this is not great code and it is not completly testet. Use at your own risk.**
 
 There are many parliamentary democracies. For people living in them, their elections probably feel normal. But every country does it differently. People vote everywhere, but what they vote for, how they do it, and what gets counted varies. The way votes turn into seats and majorities is different too.
 
