@@ -1,0 +1,1 @@
+This is just a silly system, where for eacht district the party wins, that has the least member votes. This is the oposite of a winner takes all, its looser takes all.
