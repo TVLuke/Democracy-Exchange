@@ -38,5 +38,4 @@ venv/
 ENV/
 
 # Generated files
-plots/
-*.png
+plots/*
