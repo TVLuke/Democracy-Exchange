@@ -59,7 +59,7 @@ You can run multiple appointments.
 
 ### Elections
 
-There is a subfolder for each election named by the country and year, like germany2021.
+There is a subfolder for each election named by the country and year, like `germany2021`.
 
 We start with raw data. There are several things that are true for most democracies today. They have parties and they have divided the country into some sort of electoral districts, in which voting takes place.
 
