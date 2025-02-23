@@ -1,4 +1,12 @@
 {
     "name": "Deutscher Bundestag", 
+    "data-sources": [ {
+        "name": "Das Wahlsystem (bundeswahlleiterin.de)",
+        "url": "https://www.bundeswahlleiterin.de/bundestagswahlen/2025/informationen-waehler/wahlsystem.html#48635498-9ca6-4a2b-b374-969e5b8371ac"
+    },
+    {
+        "name": "Wahlsystem & Wahlrecht der Bundestagswahlen (bundestagswahl-bw.de)",
+        "url": "https://www.bundestagswahl-bw.de/wahlsystem#c116523"
+    }],
     "relevant_vote": "list"
 }

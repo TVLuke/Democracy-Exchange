@@ -1,4 +1,8 @@
 {
     "name": "French National Assembly", 
+    "data-sources": [ {
+        "name": "Assemblée nationale (National Assembly) (http://archive.ipu.org/)",
+        "url": "http://archive.ipu.org/parline/reports/2113_B.htm"
+    }],
     "relevant_vote": "member"
 }

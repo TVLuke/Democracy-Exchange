@@ -1,4 +1,8 @@
 {
     "name": "House of Commons", 
+    "data-sources": [ {
+        "name": "How MPs are elected (parliament.uk)",
+        "url": "https://www.parliament.uk/about/mps-and-lords/members/electing-mps/"
+    }],
     "relevant_vote": "member"
 }
