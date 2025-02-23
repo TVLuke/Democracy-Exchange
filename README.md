@@ -59,13 +59,13 @@ You can run multiple appointments.
 
 Examples:
 
-![Example 1](docs/example1.png)
+![Example 1: Showing a seat distribution in a parlament](docs/example1.png)
 
-![Example 2](docs/example2.png)
+![Example 2: Showing Bar Charts.](docs/example2.png)
 
-![Example 3](docs/example3.png)
+![Example 3: Showing possible coalitions between parties](docs/example3.png)
 
-![Example 4](docs/example4.png)
+![Example 4: More bar charts](docs/example4.png)
 
 ## How to add new Elections and Appointments
 
