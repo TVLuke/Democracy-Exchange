@@ -1,82 +1,98 @@
 {
   "Schleswig-Holstein": {
     "name": "Schleswig-Holstein",
-    "population": 2668990,
+    "population": 2927542,
+    "citizens": 2668990,
     "electorate": 2272717
   },
   "Mecklenburg-Vorpommern": {
     "name": "Mecklenburg-Vorpommern",
-    "population": 1494603,
+    "population": 1570817,
+    "citizens": 1494603,
     "electorate": 1314435
   },
   "Hamburg": {
     "name": "Hamburg",
-    "population": 1503565,
+    "population": 1808846,
+    "citizens": 1503565,
     "electorate": 1298792
   },
   "Niedersachsen": {
     "name": "Niedersachsen",
-    "population": 7126642,
+    "population": 7943265,
+    "citizens": 7126642,
     "electorate": 6105381
   },
   "Bremen": {
     "name": "Bremen",
-    "population": 550744,
+    "population": 693204,
+    "citizens": 550744,
     "electorate": 459749
   },
   "Brandenburg": {
     "name": "Brandenburg",
-    "population": 2387845,
+    "population": 2534075,
+    "citizens": 2387845,
     "electorate": 2048844
   },
   "Sachsen-Anhalt": {
     "name": "Sachsen-Anhalt",
-    "population": 2266930,
+    "population": 2503762,
+    "citizens": 2266930,
     "electorate": 1789775
   },
   "Berlin": {
     "name": "Berlin",
-    "population": 2856870,
+    "population": 3500858,
+    "citizens": 2856870,
     "electorate": 2460618
   },
   "Nordrhein-Westfalen": {
     "name": "Nordrhein-Westfalen",
-    "population": 15305085,
+    "population": 17829401,
+    "citizens": 15305085,
     "electorate": 13040267
   },
   "Sachsen": {
     "name": "Sachsen",
-    "population": 3804365,
+    "population": 4066747,
+    "citizens": 3804365,
     "electorate": 3253667
   },
   "Hessen": {
     "name": "Hessen",
-    "population": 5203781,
+    "population": 6235317,
+    "citizens": 5203781,
     "electorate": 4383047
   },
   "Thüringen": {
     "name": "Thüringen",
-    "population": 2018585,
+    "population": 2171676,
+    "citizens": 2018585,
     "electorate": 1707726
   },
   "Rheinland-Pfalz": {
     "name": "Rheinland-Pfalz",
-    "population": 3497565,
+    "population": 4007677,
+    "citizens": 3497565,
     "electorate": 3053335
   },
   "Bayern": {
     "name": "Bayern",
-    "population": 10977291,
+    "population": 12807191,
+    "citizens": 10977291,
     "electorate": 9517664
   },
   "Baden-Württemberg": {
     "name": "Baden-Württemberg",
-    "population": 9259790,
+    "population": 11104040,
+    "citizens": 9259790,
     "electorate": 7711531
   },
   "Saarland": {
     "name": "Saarland",
-    "population": 875273,
+    "population": 1006864,
+    "citizens": 875273,
     "electorate": 755223
   }
 }

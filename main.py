@@ -6,20 +6,22 @@ import matplotlib.pyplot as plt
 from load_parties import load_parties, load_basic_information
 from plotparlament import main as plot_main, plot_deputies
 from vote_distribution import plot_vote_distribution
+from election_report import create_election_report
 
 # Set up election parameters
-country = 'germany'
-year = '2021'
+country = 'austria'
+year = '2024'
 election = country + year
 
-appointments = ['uk']
+appointments = ['austria']
 
 # Visualization
-
-
 POINT_SIZE = 100  # Doubled point size
 INITIAL_RADIUS = 3.0  # Reduced from 4.0
 RADIUS_INCREMENT = 0.8  # Reduced from 1.11
+
+# Initialize process dictionary to collect data about the election calculation
+process = {}
 
 
 def load_results(folder_path: str) -> list:
@@ -73,7 +75,9 @@ if not parties:
     exit(1)
 
 # Load basic information
-TOTAL_SEATS, election_name = load_basic_information(election)
+election_basic_info = load_basic_information(election)
+TOTAL_SEATS = election_basic_info.get('seats', 0)
+election_name = election_basic_info.get('name', '')
 
 # Calculate optimal visualization parameters based on total seats
 # For larger parliaments (>400 seats), use more rows to maintain density
@@ -110,7 +114,9 @@ def calculate_election_results(election_id: str, appointments: list) -> dict:
         raise ValueError("Could not load parties from participating_parties.json")
 
     # Load basic information
-    TOTAL_SEATS, election_name = load_basic_information(election_id)
+    election_basic_info = load_basic_information(election_id)
+    TOTAL_SEATS = election_basic_info.get('seats', 0)
+    election_name = election_basic_info.get('name', '')
     
     # Apply country-specific changes
     voting_data, parties = apply_country_changes(election_id, voting_data, parties)
@@ -137,6 +143,21 @@ def calculate_election_results(election_id: str, appointments: list) -> dict:
         states = json.load(f)
 
     results = {}
+    
+    # Get total population, citizens and electorate size
+    def get_total_from_states_or_districts(key):
+        # Try to get from states first
+        if states:
+            state_total = sum((state.get(key) or 0) for state in states.values() if state.get(key) not in [None, 0])
+            if state_total > 0:
+                return state_total
+        # Fall back to districts if state data not available
+        return sum((district.get(key) or 0) for district in voting_data if district.get(key) not in [None, 0])
+    
+    total_population = get_total_from_states_or_districts('population')
+    total_citizens = get_total_from_states_or_districts('citizens')
+    electorate_size = get_total_from_states_or_districts('electorate')
+    total_votes = sum(sum(r.get('member', 0) or 0 for r in d.get('party_results', {}).values()) for d in voting_data)
     
     # Calculate results for each appointment
     for appointment in appointments:
@@ -182,32 +203,31 @@ def calculate_election_results(election_id: str, appointments: list) -> dict:
         # Get the election title from the module
         election_title = getattr(election_module, 'TITLE', '')
         
-        # Read relevant_vote type from the appointment's basic information
-        try:
-            with open(f'{appointment}/basic_information.json', 'r') as f:
-                basic_info = json.load(f)
-        except:
-            basic_info = {'relevant_vote': 'list'}
+        # Load basic information from the appointment directory
+        appointment_basic_info = load_basic_information(appointment)
+        if not appointment_basic_info:
+            appointment_basic_info = {'relevant_vote': 'list'}
             
+
+
         # Store results
         results[appointment] = {
-            'basic_info': basic_info,
+            'basic_info': election_basic_info,
+            'appointment_basic_info': appointment_basic_info,
             'voting_data': voting_data,
             'calculated_parties': calculated_parties,
             'all_parties': parties,
             'election_title': election_title,
-            'election_name': election_name
+            'election_name': election_name,
+            'states': states
         }
     
     return results
 
 
 def main():
-    # Set up election parameters
-    country = 'germany'
-    year = '2021'
-    election = country + year
-    appointments = ['uk', 'germany', 'austria']
+    # Initialize process dictionary to collect data about the election calculation
+    process = {}
     
     # Calculate results
     results = calculate_election_results(election, appointments)
@@ -228,24 +248,87 @@ def main():
         all_parties = result['all_parties']
         election_title = result['election_title']
         election_name = result['election_name']
+        states = result['states']
+        
+        # Load basic information from appointment folder
+        appointment_basic_info = load_basic_information(appointment)
         
         # Get relevant vote type
-        relevant_vote = basic_info.get('relevant_vote', 'list')  # default to list if not specified
+        relevant_vote = appointment_basic_info.get('relevant_vote', 'list')  # default to list if not specified
         
         # Create plot for this appointment's seat distribution
-        deputies = plot_main(num_rows=11, initial_radius=4.0, radius_increment=1.11, NUM_DEPUTIES=733)
-        plot_deputies(deputies, calculated_parties, 200, 
-                     plots_dir, f"{timestamp}_{appointment}", title=f"{election_name} {election_title}",
+        deputies = plot_main(NUM_ROWS, INITIAL_RADIUS, RADIUS_INCREMENT, TOTAL_SEATS)
+        parliament_alt_text, coalitions_alt_text = plot_deputies(deputies, calculated_parties, 200, 
+                     plots_dir, f"{election}_{appointment}", title=f"{election_name} {election_title}",
                      relevant_vote=relevant_vote,
                      voting_data=voting_data)
         
         # Create vote distribution plots
-        plot_vote_distribution(all_parties, calculated_parties, f"{timestamp}_{appointment}",
+        vote_dist_alt_text, vote_seat_alt_text = plot_vote_distribution(
+                             all_parties, calculated_parties, f"{election}_{appointment}",
                              f"{election_name}",  # Title for vote percentage plot
                              f"{election_name} {election_title}",  # Title for vote vs seat percentage plot
-                             plots_dir,
+                             output_dir=plots_dir,
                              relevant_vote=relevant_vote,
                              voting_data=voting_data)
+        
+        # Calculate total population, citizens and electorate from voting data
+        def get_total_from_states_or_districts(key):
+            # Try to get from states first
+            if states:
+                state_total = sum((state.get(key) or 0) for state in states.values() if state.get(key) not in [None, 0])
+                if state_total > 0:
+                    return state_total
+            # Fall back to districts if state data not available
+            return sum((district.get(key) or 0) for district in voting_data if district.get(key) not in [None, 0])
+        
+        total_population = get_total_from_states_or_districts('population')
+        total_citizens = get_total_from_states_or_districts('citizens')
+        electorate_size = get_total_from_states_or_districts('electorate')
+        
+        # Get total votes from calculated parties
+        total_votes = sum(party.votes for party in calculated_parties if hasattr(party, 'votes'))
+        
+        # Prepare party results for the report using calculated_parties
+        party_results = [{
+            'name': party.name,
+            'votes': party.votes if hasattr(party, 'votes') else 0,
+            'seats': party.size
+        } for party in calculated_parties]
+
+        # Generate the report
+        report_data = {
+            'election_name': f"{election_name} {election_title}",
+            'election_date': year,  # Using the year from election data
+            'total_population': total_population,
+            'total_citizens': total_citizens,
+            'electorate_size': electorate_size,
+            'total_votes': total_votes,
+            'party_results': party_results,
+            'total_seats': TOTAL_SEATS,
+            'image_paths': {
+                'parliament': os.path.join(plots_dir, f"{election}_{appointment}_parliament.png"),
+                'vote_distribution': os.path.join(plots_dir, f"{election}_{appointment}_vote_distribution.png"),
+                'vote_seat_distribution': os.path.join(plots_dir, f"{election}_{appointment}_vote_seat_distribution.png"),
+                'coalitions': os.path.join(plots_dir, f"{election}_{appointment}_coalitions.png")
+            },
+            'alt_texts': {
+                'parliament': parliament_alt_text,
+                'coalitions': coalitions_alt_text if coalitions_alt_text else 'No possible coalitions found.',
+                'vote_distribution': vote_dist_alt_text,
+                'vote_seat_distribution': vote_seat_alt_text
+            },
+            'process': process,
+            'data_sources': results[appointment]['basic_info'].get('data-sources', []),
+            'appointment_data_sources': results[appointment]['appointment_basic_info'].get('data-sources', [])
+        }
+        
+        # Create and save the report
+        report = create_election_report(**report_data)
+        os.makedirs('reports', exist_ok=True)
+        report_file = os.path.join('reports', f'{election}_{appointment}_report.md')
+        with open(report_file, 'w', encoding='utf-8') as f:
+            f.write(report)
 
 
 if __name__ == "__main__":

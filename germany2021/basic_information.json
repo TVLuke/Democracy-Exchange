@@ -1,5 +1,13 @@
 {
   "name": "Stimmen der Wahl zum Deutschen Bundestag 2021",
+  "data-sources": [ {
+    "name": "Gesamtergebnis laut Bundeswahlleiterin",
+    "url": "https://www.bundeswahlleiterin.de/bundestagswahlen/2021/ergebnisse/opendata/btw21/20240211_wdhwahl-vgl2021/daten/gesamtergebnis_01.xml"
+  },
+  {
+    "name": "Demografische Daten zu den Wahlkreisen. Statistisches Bundesamt.",
+    "url": "https://ergebnisse.zensus2022.de/datenbank/online/table/4000W-1W11"
+  }],
   "date": 2021,
   "seats": 733
 }

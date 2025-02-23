@@ -1,4 +1,8 @@
 {
     "name": "Wahl zum Österreichischen Nationalrat",
+    "data-sources": [ {
+        "name": "parlament.gv.at",
+        "url": "https://www.parlament.gv.at/verstehen/demokratie-wahlen/parlament-wahlen/wahlen-nr/"
+    }],
     "relevant_vote": "list"
 }

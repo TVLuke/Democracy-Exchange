@@ -17,6 +17,20 @@ def plot_vote_distribution(all_parties, calculated_parties, timestamp, vote_titl
         output_dir: Directory to save the plots
         relevant_vote: Type of vote to display ('list' or 'member')
         voting_data: List of voting district results containing vote type information
+        
+    Returns:
+        tuple: (vote_dist_alt_text, vote_seat_alt_text) - Detailed descriptions of both visualizations
+    """
+    """Create bar graphs showing vote and seat percentages for parties.
+    
+    Args:
+        all_parties: Dictionary of party data from participating_parties.json
+        calculated_parties: List of Party objects that made it into parliament
+        vote_title: Title for the vote percentage plot
+        seat_title: Title for the vote vs seat percentage plot
+        output_dir: Directory to save the plots
+        relevant_vote: Type of vote to display ('list' or 'member')
+        voting_data: List of voting district results containing vote type information
     """
     
     # Get total votes and seats
@@ -151,6 +165,15 @@ def plot_vote_distribution(all_parties, calculated_parties, timestamp, vote_titl
     # Add footer and logo to saved image
     add_footer_and_logo(vote_dist_file)
     
+    # Generate alt text for vote distribution plot
+    vote_dist_alt_text = "Bar chart showing the percentage of votes received by each party, including parties that did not receive seats. "
+    vote_dist_alt_text += "Parties ordered by vote share (descending): "
+    vote_descriptions = []
+    for party, pct in zip(vote_parties, vote_percentages):
+        vote_descriptions.append(f"{party}: {pct:.1f}%")
+    vote_dist_alt_text += ", ".join(vote_descriptions) + ". "
+    vote_dist_alt_text += first_plot_type
+    
     # Create the vote vs seat percentage plot at 1080p resolution
     dpi = 100  # Standard screen DPI
     plt.figure(figsize=(1920/dpi, 1080/dpi))
@@ -231,6 +254,20 @@ def plot_vote_distribution(all_parties, calculated_parties, timestamp, vote_titl
     
     # Add footer and logo to saved image
     add_footer_and_logo(vote_seat_file)
+    
+    # Generate alt text for vote vs seat distribution plot
+    vote_seat_alt_text = "Bar chart comparing each party's vote percentage (darker bars) with their seat percentage (lighter bars). "
+    vote_seat_alt_text += "Parties with significant differences: "
+    diff_descriptions = []
+    for party, vote_pct, seat_pct, diff in zip(vs_parties, vs_vote_percentages, vs_seat_percentages, differences):
+        if diff >= 1.0:  # Only mention differences >= 1%
+            diff_descriptions.append(f"{party} ({vote_pct:.1f}% votes vs {seat_pct:.1f}% seats, Δ{diff:.1f}%)")
+    if diff_descriptions:
+        vote_seat_alt_text += ", ".join(diff_descriptions) + ". "
+    vote_seat_alt_text += f"Total vote-seat difference: {total_difference:.1f}%. "
+    vote_seat_alt_text += second_plot_type
+    
+    return vote_dist_alt_text, vote_seat_alt_text
 
 def adjust_color_alpha(hex_color, alpha):
     """Passt den Alpha-Wert (Transparenz) einer Hex-Farbe an.

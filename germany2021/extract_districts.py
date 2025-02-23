@@ -9,32 +9,46 @@ def read_population_data():
     with open('1000A-1W19_de.csv', 'r', encoding='utf-8') as f:
         lines = f.readlines()
     
-    # Find the line with Deutschland and population data
-    for line in lines:
-        if 'Deutschland' in line:
-            parts = line.strip().split(';')
-            if len(parts) > 2 and parts[1] == 'Deutschland':
-                # The population data starts from index 2
-                populations = parts[2::4]  # Take every 4th value starting from index 2
-                district_populations = {}
-                
-                # Process each population value
-                for i, pop_str in enumerate(populations, start=1):  # Start counting from 1
-                    try:
-                        if pop_str and pop_str != 'e':
-                            # Remove dots (thousand separators) and convert to int
-                            population = int(pop_str.replace('.', ''))
-                            district_populations[i] = population
-                            print(f"District {i}: {population:,} people")
-                    except ValueError as e:
-                        print(f"Error processing district {i}: {e}")
-                        continue
-                
-                print(f"Total districts with population: {len(district_populations)}")
-                return district_populations
+    district_data = {}
     
-    print("Could not find population data")
-    return {}
+    # Find both the Deutschland (citizens) and Insgesamt (total population) lines
+    for line in lines:
+        parts = line.strip().split(';')
+        if len(parts) < 2:
+            continue
+            
+        if parts[1] == 'Deutschland' or parts[1] == 'Insgesamt':
+            # Get the date from the first field if it exists
+            date = parts[0].strip() if parts[0] else ''
+            
+            # Process data - values appear every 4 positions starting at index 2
+            values = []
+            for i in range(2, len(parts), 4):
+                if i < len(parts):
+                    val = parts[i].strip()
+                    if val and val != 'e':
+                        try:
+                            # Remove dots (thousand separators) and convert to int
+                            values.append(int(val.replace('.', '')))
+                        except ValueError:
+                            values.append(0)
+                    else:
+                        values.append(0)
+            
+            # Store values in district_data
+            for i, value in enumerate(values, start=1):
+                if i not in district_data:
+                    district_data[i] = {'citizens': 0, 'population': 0}
+                
+                if parts[1] == 'Deutschland':
+                    district_data[i]['citizens'] = value
+                else:  # Insgesamt
+                    district_data[i]['population'] = value
+                    # Print the data for each district
+                    print(f"District {i}: {value:,} total population, {district_data[i]['citizens']:,} citizens")
+    
+    print(f"Total districts with data: {len(district_data)}")
+    return district_data
 
 # Get population data
 district_populations = read_population_data()
@@ -99,7 +113,8 @@ for gebiet in root.findall('Gebietsergebnis'):
             "district": district_number,
             "name": district_name,
             "state": state_name,
-            "population": district_populations.get(district_number, 0),
+            "population": district_populations.get(district_number, {}).get('population', 0),
+            "citizens": district_populations.get(district_number, {}).get('citizens', 0),
             "electorate": electorate,
             "party_results": {}
         }
@@ -137,9 +152,11 @@ for district in results_list:
         state_results[state_name] = {
             'name': state_name,
             'population': 0,
+            'citizens': 0,
             'electorate': 0
         }
     state_results[state_name]['population'] += district['population']
+    state_results[state_name]['citizens'] += district['citizens']
     state_results[state_name]['electorate'] += district['electorate']
 
 # Write districts to JSON file
@@ -158,7 +175,7 @@ print(f"Found {len(voting_districts)} voting districts")
 print(f"Found {len(state_results)} states")
 print("\nState populations:")
 for state_name, state_data in sorted(state_results.items()):
-    print(f"{state_name}: {state_data['population']:,} people, {state_data['electorate']:,} voters")
+    print(f"{state_name}: {state_data['population']:,} total population, {state_data['citizens']:,} citizens, {state_data['electorate']:,} voters")
 
 print("\nSample of district results:")
 first_district = results_list[0]

@@ -13,22 +13,37 @@ def calculate_district_seats(districts, state_seats, verhaeltniszahl, state_name
     # Group districts by state and calculate their mandates
     state_districts = [d for d in districts if d['state'] == state_name]
     district_calculations = []
-    total_value = 0  # Sum of all population/electorate values
+    total_value = 0  # Sum of all values
     
-    # First determine which value to use (population or electorate) and get total
-    use_electorate = all(d['population'] == 0 for d in state_districts)
+    # First determine which value to use (citizens, electorate, or population) and get total
+    use_citizens = any(d.get('citizens', 0) > 0 for d in state_districts)
+    use_electorate = not use_citizens and any(d.get('electorate', 0) > 0 for d in state_districts)
     
     for district in state_districts:
-        value = district['electorate'] if use_electorate else district['population']
+        # Priority: citizens > electorate > population
+        if use_citizens:
+            value = district.get('citizens', 0)
+        elif use_electorate:
+            value = district.get('electorate', 0)
+        else:
+            value = district.get('population', 0)
+            
         if value == 0:
-            print(f"Error: No valid population or electorate data for district {district['district']}")
+            print(f"Error: No valid citizens, electorate, or population data for district {district['district']}")
             return None
         total_value += value
     
     # Calculate exact mandates for each district
     initial_total = 0
     for district in state_districts:
-        value = district['electorate'] if use_electorate else district['population']
+        # Priority: citizens > electorate > population
+        if use_citizens:
+            value = district.get('citizens', 0)
+        elif use_electorate:
+            value = district.get('electorate', 0)
+        else:
+            value = district.get('population', 0)
+            
         exact_mandate = value / verhaeltniszahl
         decimal_part = exact_mandate - int(exact_mandate)
         initial_seats = round(exact_mandate)
@@ -148,10 +163,22 @@ def calculate_seats(results, states, total_seats, participating_parties):
     print("According to §1 of the Nationalrats-Wahlordnung, the 183 seats")
     print("are distributed among the states based on their citizen population.")
     
-    total_population = sum(state['population'] for state in states.values())
-    verhaeltniszahl = total_population / total_seats
-    print(f"\nTotal citizen population: {total_population:,}")
-    print(f"Verhältniszahl (citizens per mandate): {verhaeltniszahl:,.2f}")
+    # Calculate total using citizens > electorate > population
+    def get_state_value(state):
+        if state.get('citizens', 0) > 0:
+            return state['citizens']
+        elif state.get('electorate', 0) > 0:
+            return state['electorate']
+        return state.get('population', 0)
+    
+    total_value = sum(get_state_value(state) for state in states.values())
+    verhaeltniszahl = total_value / total_seats
+    value_type = 'citizens' if any(s.get('citizens', 0) > 0 for s in states.values()) else \
+                 'electorate' if any(s.get('electorate', 0) > 0 for s in states.values()) else \
+                 'population'
+    
+    print(f"\nTotal {value_type}: {total_value:,}")
+    print(f"Verhältniszahl ({value_type} per mandate): {verhaeltniszahl:,.2f}")
     
     state_seats = {}
     total_predefined_seats = 0
@@ -168,18 +195,19 @@ def calculate_seats(results, states, total_seats, participating_parties):
     # Then calculate remaining seats for states without predefined mandates
     if states_needing_calculation:
         remaining_seats = total_seats - total_predefined_seats
-        remaining_population = sum(states[state]['population'] for state in states_needing_calculation)
-        remaining_verhaeltniszahl = remaining_population / remaining_seats
+        # Use the same value type as above for consistency
+        remaining_value = sum(get_state_value(states[state]) for state in states_needing_calculation)
+        remaining_verhaeltniszahl = remaining_value / remaining_seats
         
         print("\nCalculating state mandates using Hare quota method:")
         # Calculate seats for remaining states
         for state_name in states_needing_calculation:
-            population = states[state_name]['population']
-            exact_seats = population / remaining_verhaeltniszahl
+            value = get_state_value(states[state_name])
+            exact_seats = value / remaining_verhaeltniszahl
             seats = round(exact_seats)
             state_seats[state_name] = seats
             print(f"{state_name}:")
-            print(f"  Population: {population:,}")
+            print(f"  {value_type.title()}: {value:,}")
             print(f"  Exact quota: {exact_seats:.3f}")
             print(f"  Allocated seats: {seats}")
     

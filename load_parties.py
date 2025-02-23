@@ -46,23 +46,23 @@ def load_parties(folder_path: str) -> Optional[list]:
     
     return party_data
 
-def load_basic_information(folder_path: str) -> tuple[int, str]:
+def load_basic_information(folder_path: str) -> dict:
     """Load basic information from a folder.
     
     Args:
         folder_path: Path to the election folder
         
     Returns:
-        Tuple of (total seats, election name)
+        Dictionary containing all basic information including seats, name, and data sources
     """
     basic_info_file = os.path.join(folder_path, 'basic_information.json')
     if not os.path.exists(basic_info_file):
-        return 0, ''  # Or handle the error as needed
+        return {'seats': 0, 'name': ''}  # Or handle the error as needed
     
     with open(basic_info_file, 'r', encoding='utf-8') as file:
         basic_info = json.load(file)
     
-    return basic_info.get('seats', 0), basic_info.get('name', '')
+    return basic_info
 
 if __name__ == '__main__':
     # Example usage

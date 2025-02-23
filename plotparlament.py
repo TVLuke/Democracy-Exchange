@@ -62,15 +62,18 @@ def calculate_coalition_distance(parties):
     return total_distance
 
 def has_majority_subgroup(parties_combo, total_seats):
-    """Check if any subgroup of the coalition already has a majority."""
-    majority = total_seats / 2
+    """Check if any subgroup of the coalition already has a majority.
+    Allow subgroups that have less than 3 seats more than required for a majority."""
+    # Calculate majority threshold - need math.ceil to ensure we get a true majority
+    majority = (total_seats / 2) + 0.5
     n = len(parties_combo)
     
     # Check all possible subgroups (except the full group)
     for size in range(1, n):
         for subgroup in combinations(parties_combo, size):
             seats = sum(party.size for party in subgroup)
-            if seats > majority:
+            # Only consider it a blocking subgroup if it has 3 or more seats over majority
+            if seats > (majority + 3):
                 return True
     return False
 
@@ -78,7 +81,8 @@ def find_possible_coalitions(parties, total_seats):
     """Find all possible coalitions of up to 4 parties that have a majority.
     Sort them by ideological distance (smallest first).
     Only include coalitions where no subgroup already has a majority."""
-    majority = total_seats / 2
+    # Calculate majority threshold - need math.ceil to ensure we get a true majority
+    majority = (total_seats / 2) + 0.5
     coalitions = []
     
     # Filter out parties with 0 seats
@@ -163,6 +167,11 @@ def plot_coalition_parliament(coalition_parties, total_seats, num_rows, initial_
         ax.set_title(full_title, pad=8, fontsize=8)
 
 def plot_coalitions(coalitions, total_seats, output_dir, timestamp, title=None):
+    """Plot possible coalition combinations and return detailed alt text.
+    
+    Returns:
+        str: Detailed description of possible coalitions and their seat counts
+    """
     """Mögliche Koalitionen im Parlamentsstil visualisieren und als Datei speichern.
     
     Args:
@@ -270,7 +279,25 @@ def plot_coalitions(coalitions, total_seats, output_dir, timestamp, title=None):
     # Add footer and logo to saved image
     add_footer_and_logo(coalitions_file)
 
+    # Generate alt text for coalitions
+    alt_text = "Possible coalition combinations that form a majority, sorted by ideological distance (smaller distance means parties are closer on the left-right spectrum): "
+    coalition_descriptions = []
+    for coalition_parties, seats, distance in coalitions:
+        percentage = (seats / total_seats) * 100
+        parties_text = " + ".join(party.name for party in sorted(coalition_parties, key=lambda x: x.left_to_right))
+        coalition_descriptions.append(f"{parties_text} with {seats} seats ({percentage:.1f}%, ideological distance: {distance:.1f})")
+    alt_text += "; ".join(coalition_descriptions) + ". "
+    alt_text += explanation.replace('\n', ' ').replace('\r', '')
+
+    return alt_text
+
 def plot_deputies(deputies, parties, POINT_SIZE=200, output_dir=None, timestamp=None, title=None, relevant_vote='list', voting_data=None):
+    """Plot the deputies on a chart and possible coalitions in separate figures.
+    Save the plots as PNG files with timestamps and return alt texts for accessibility.
+    
+    Returns:
+        tuple: (parliament_alt_text, coalitions_alt_text) - Detailed descriptions of the visualizations
+    """
     """Plot the deputies on a chart and possible coalitions in separate figures.
     Save the plots as PNG files with timestamps.
     
@@ -381,7 +408,23 @@ def plot_deputies(deputies, parties, POINT_SIZE=200, output_dir=None, timestamp=
     # Add footer and logo to saved image
     add_footer_and_logo(parliament_file)
     
+    # Generate parliament alt text
+    parliament_alt_text = f"Parliament seating arrangement with {total_seats} total seats. "
+    parliament_alt_text += "Parties from left to right: "
+    party_descriptions = []
+    for party in sorted(parties, key=lambda x: x.left_to_right):
+        if party.size > 0:
+            percentage = (party.size / total_seats) * 100
+            party_descriptions.append(f"{party.name} with {party.size} seats ({percentage:.1f}%)")
+    parliament_alt_text += ", ".join(party_descriptions) + "."
+
+    if vote_type:
+        parliament_alt_text += f" {vote_type}"
+
     # Generate and save coalition plots if any exist
     coalitions = find_possible_coalitions(parties, total_seats)
+    coalitions_alt_text = None
     if coalitions:
-        plot_coalitions(coalitions, total_seats, output_dir, timestamp, title)
+        coalitions_alt_text = plot_coalitions(coalitions, total_seats, output_dir, timestamp, title)
+
+    return parliament_alt_text, coalitions_alt_text

@@ -159,31 +159,31 @@ def calculate_seats(results: list, states: list, total_seats: int, participating
             if (top_party[1] > total_votes * 0.5 and 
                 top_party[1] >= registered_voters * 0.25):
                 winner = top_party[0]
-                continue
+            else:
             
-            # Find parties that qualify for second round (≥12.5%)
-            qualifying_parties = {party for party, votes in first_round_votes.items()
-                                if votes >= total_votes * 0.125}
-            
-            # If no parties qualify, use top two
-            if not qualifying_parties:
-                qualifying_parties = {p[0] for p in 
-                                    sorted(first_round_votes.items(), 
-                                          key=lambda x: x[1], 
-                                          reverse=True)[:2]}
-            
-            # Simulate second round
-            second_round_votes, transfers = simulate_second_round(
-                first_round_votes, party_positions, qualifying_parties)
-            
-            # Accumulate transfers
-            for (from_party, to_party), votes in transfers.items():
-                if to_party is None:
-                    total_lost_votes[from_party] += votes
-                else:
-                    cumulative_transfers[(from_party, to_party)] += votes
-            
-            winner = max(second_round_votes.items(), key=lambda x: x[1])[0]
+                # Find parties that qualify for second round (≥12.5%)
+                qualifying_parties = {party for party, votes in first_round_votes.items()
+                                    if votes >= total_votes * 0.125}
+                
+                # If no parties qualify, use top two
+                if not qualifying_parties:
+                    qualifying_parties = {p[0] for p in 
+                                        sorted(first_round_votes.items(), 
+                                              key=lambda x: x[1], 
+                                              reverse=True)[:2]}
+                
+                # Simulate second round
+                second_round_votes, transfers = simulate_second_round(
+                    first_round_votes, party_positions, qualifying_parties)
+                
+                # Accumulate transfers
+                for (from_party, to_party), votes in transfers.items():
+                    if to_party is None:
+                        total_lost_votes[from_party] += votes
+                    else:
+                        cumulative_transfers[(from_party, to_party)] += votes
+                
+                winner = max(second_round_votes.items(), key=lambda x: x[1])[0]
         
         # Update vote totals and allocate seat
         for party, votes in get_votes_for_round(district['party_results']).items():
