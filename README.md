@@ -67,6 +67,12 @@ Examples:
 
 ![Example 4: More bar charts](docs/example4.png)
 
+The `main.py` also genrates reports, which can be found in the `reports` folder.
+
+Example:
+
+[The german election using the uk election system](reports/germany2021_uk_report.md)
+
 ## How to add new Elections and Appointments
 
 ### Elections
