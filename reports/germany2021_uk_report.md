@@ -11,16 +11,16 @@ Year: 2021
 
 ## Visualizations
 ### Parliament Seating
-![Parliament seating arrangement with 733 total seats. Parties from left to right: DIE LINKE with 7 seats (1.0%), GRÜNE with 39 seats (5.3%), SPD with 297 seats (40.5%), CDU/CSU with 351 seats (47.9%), AfD with 39 seats (5.3%). Hinweis: Verteilung nutzt nur Listenstimmen (Zweitstimmen).](plots/germany2021_uk_parliament.png)
+![Parliament seating arrangement with 733 total seats. Parties from left to right: DIE LINKE with 7 seats (1.0%), GRÜNE with 39 seats (5.3%), SPD with 297 seats (40.5%), CDU/CSU with 351 seats (47.9%), AfD with 39 seats (5.3%). Hinweis: Verteilung nutzt nur Mandatsstimmen (Erststimmen) .](plots/germany2021_uk_parliament.png)
 
 ### Coalition Possibilities
 ![Possible coalition combinations that form a majority, sorted by ideological distance (smaller distance means parties are closer on the left-right spectrum): SPD + CDU/CSU with 648 seats (88.4%, ideological distance: 2.0); CDU/CSU + AfD with 390 seats (53.2%, ideological distance: 2.0); GRÜNE + CDU/CSU with 390 seats (53.2%, ideological distance: 4.0); GRÜNE + SPD + AfD with 375 seats (51.2%, ideological distance: 12.0). Die "Ideologische Distanz": Für die Darstellung in korrekter Reihenfolge hat jede Partei einen left_to_right-Wert, mit 1 für die Partei, welche üblicherweise im Parlament ganz links sitzt, dann aufsteigend: Dieser Wert wird hier auch einfach als Distanzwert gewertet, um wahrscheinliche Koalitionen darzustellen. Diese Berechnung ist natürlich stark vereinfachend und in vielen Fällen einfach falsch.  Beispiel für die Koalition GRÜNE-SPD-AfD: GRÜNE: left_to_right = 2 SPD: left_to_right = 4 AfD: left_to_right = 8 Ideologische Distanz = |2-4| + |2-8| + |4-8| = 12](plots/germany2021_uk_coalitions.png)
 
 ### Vote vs Seat Distribution
-![Bar chart comparing each party's vote percentage (darker bars) with their seat percentage (lighter bars). Parties with significant differences: CDU/CSU (28.7% votes vs 47.9% seats, Δ19.2%), SPD (26.4% votes vs 40.5% seats, Δ14.1%), GRÜNE (14.0% votes vs 5.3% seats, Δ8.6%), AfD (10.2% votes vs 5.3% seats, Δ4.9%), FDP (8.7% votes vs 0.0% seats, Δ8.7%), DIE LINKE (5.0% votes vs 1.0% seats, Δ4.0%), FREIE WÄHLER (2.9% votes vs 0.0% seats, Δ2.9%), dieBasis (1.6% votes vs 0.0% seats, Δ1.6%), Die PARTEI (1.2% votes vs 0.0% seats, Δ1.2%). Total vote-seat difference: 66.6%. (Listenstimmen)](plots/germany2021_uk_vote_seat_distribution.png)
+![Bar chart comparing each party's vote percentage (darker bars) with their seat percentage (lighter bars). Parties with significant differences: CDU/CSU (28.7% votes vs 47.9% seats, Δ19.2%), SPD (26.4% votes vs 40.5% seats, Δ14.1%), GRÜNE (14.0% votes vs 5.3% seats, Δ8.6%), AfD (10.2% votes vs 5.3% seats, Δ4.9%), FDP (8.7% votes vs 0.0% seats, Δ8.7%), DIE LINKE (5.0% votes vs 1.0% seats, Δ4.0%), FREIE WÄHLER (2.9% votes vs 0.0% seats, Δ2.9%), dieBasis (1.6% votes vs 0.0% seats, Δ1.6%), Die PARTEI (1.2% votes vs 0.0% seats, Δ1.2%). Total vote-seat difference: 66.6%. (Mandatsstimmen)](plots/germany2021_uk_vote_seat_distribution.png)
 
 ### Party Vote Distribution
-![Bar chart showing the percentage of votes received by each party, including parties that did not receive seats. Parties ordered by vote share (descending): CDU/CSU: 28.7%, SPD: 26.4%, GRÜNE: 14.0%, AfD: 10.2%, DIE LINKE: 5.0%, Sonstige: 15.8%. (Listenstimmen)](plots/germany2021_uk_vote_distribution.png)
+![Bar chart showing the percentage of votes received by each party, including parties that did not receive seats. Parties ordered by vote share (descending): CDU/CSU: 28.7%, SPD: 26.4%, GRÜNE: 14.0%, AfD: 10.2%, DIE LINKE: 5.0%, Sonstige: 15.8%. (Mandatsstimmen)](plots/germany2021_uk_vote_distribution.png)
 
 ## Detailed Results
 | Party | Votes | Vote Share | Seats | Seat Share | Representation Gap |
