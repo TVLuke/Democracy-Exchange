@@ -83,7 +83,7 @@ def calculate_sainte_lague_seats(party_votes: Dict[str, int], total_seats: int) 
             # Too few seats, decrease divisor
             divisor *= 0.999
 
-def calculate_seats(results: list, states: list, total_seats: int, participating_parties: list) -> List[Party]:
+def calculate_seats(results: list, states: list, total_seats: int, participating_parties: list, process: dict = None) -> List[Party]:
     """
     Calculate seat distribution for German elections using Sainte-Laguë method.
 

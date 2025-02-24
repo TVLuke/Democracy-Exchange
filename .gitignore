@@ -3,7 +3,7 @@
 **/.DS_Store
 
 # Python
-__pycache__/
+**/__pycache__/
 *.py[cod]
 *$py.class
 *.so
@@ -36,6 +36,3 @@ wheels/
 env/
 venv/
 ENV/
-
-__pycache__/
-**/__pycache__/

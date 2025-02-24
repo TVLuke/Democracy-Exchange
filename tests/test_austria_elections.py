@@ -22,7 +22,7 @@ def test_austria2024_seat_distribution():
     appointments = ["austria"]
     
     # Calculate results
-    results = calculate_election_results(election_id, appointments)
+    results, process = calculate_election_results(election_id, appointments)
     
     # Basic assertions
     assert results is not None

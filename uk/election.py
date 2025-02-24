@@ -63,6 +63,7 @@ def calculate_seats(results: list, states: list, total_seats: int, participating
     party_votes = {}
     party_seats = {}
     parties_with_seats = set()
+    total_votes = 0  # Track total votes for vote summary
     # Count district winners and total votes
     district_count = len(results)
         
@@ -105,12 +106,15 @@ This constituency demonstrates how First-Past-The-Post works:""")
         
         for party_name, results in district['party_results'].items():
             # Try member votes first, fall back to list votes if not available
-            votes = results.get('member', results.get('list', 0))
+            member_votes = results.get('member', 0)
+            list_votes = results.get('list', 0)
+            votes = member_votes if member_votes > 0 else list_votes
             all_votes[party_name] = votes
             
             # Update total votes for the party if it's participating
             if party_name in party_votes:
                 party_votes[party_name] += votes
+                print(f"District {district['name']}: {party_name} got {member_votes} member votes, {list_votes} list votes, using {votes} votes")
             
             # Check if this party won the district
             if votes > max_votes:

@@ -18,9 +18,9 @@ from main import calculate_election_results
 def test_invalid_election_id():
     """Test that using a non-existent election ID raises an exception."""
     with pytest.raises(Exception):  # Should raise some kind of exception
-        calculate_election_results("nonexistent_election", ["uk"])
+        results, process = calculate_election_results("nonexistent_election", ["uk"])
 
 def test_invalid_appointment_method():
-    """Test that invalid appointment methods are gracefully ignored."""
-    results = calculate_election_results("germany2021", ["nonexistent_appointment"])
-    assert "nonexistent_appointment" not in results
+    """Test that invalid appointment methods raise an error."""
+    with pytest.raises(ValueError):
+        results, process = calculate_election_results("germany2025", ["nonexistent_appointment"])

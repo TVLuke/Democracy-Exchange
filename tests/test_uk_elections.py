@@ -22,11 +22,12 @@ def test_uk2024_seat_distribution():
     appointments = ["uk"]
     
     # Calculate results
-    results = calculate_election_results(election_id, appointments)
+    results, process = calculate_election_results(election_id, appointments)
     
     # Basic assertions
     assert results is not None
-    assert "uk" in results
+    assert isinstance(results, dict), f"results should be a dict but is {type(results)}"
+    assert "uk" in results.keys(), f"'uk' not found in results keys: {list(results.keys())}"
     
     uk_result = results["uk"]
     
