@@ -96,9 +96,9 @@ To illustrate how the French two-round system works in practice, here are three 
 - MFG: 0 votes (0.0% of votes, 0.0% of registered)
 
 **Second Round:** Parties qualifying (≥12.5%):
-- ÖVP: 28,057 votes (27.4%)
-- FPÖ: 28,903 votes (28.2%)
 - SPÖ: 27,636 votes (27.0%)
+- FPÖ: 28,903 votes (28.2%)
+- ÖVP: 28,057 votes (27.4%)
 
 **Vote Redistribution Simulation:**
 Vote Transfers:
@@ -143,9 +143,9 @@ Vote Transfers:
 - MFG: 0 votes (0.0% of votes, 0.0% of registered)
 
 **Second Round:** Parties qualifying (≥12.5%):
-- ÖVP: 26,323 votes (29.8%)
-- FPÖ: 25,955 votes (29.4%)
 - SPÖ: 23,881 votes (27.0%)
+- FPÖ: 25,955 votes (29.4%)
+- ÖVP: 26,323 votes (29.8%)
 
 **Vote Redistribution Simulation:**
 Vote Transfers:
@@ -190,9 +190,9 @@ Vote Transfers:
 - GAZA: 0 votes (0.0% of votes, 0.0% of registered)
 
 **Second Round:** Parties qualifying (≥12.5%):
-- ÖVP: 18,694 votes (20.9%)
-- FPÖ: 29,456 votes (32.9%)
 - SPÖ: 21,275 votes (23.8%)
+- FPÖ: 29,456 votes (32.9%)
+- ÖVP: 18,694 votes (20.9%)
 
 **Vote Redistribution Simulation:**
 Vote Transfers:

@@ -123,9 +123,9 @@ To illustrate how the French two-round system works in practice, here are three 
 - PPB: 0 votes (0.0% of votes, 0.0% of registered)
 
 **Second Round:** Parties qualifying (≥12.5%):
-- PVV: 79,811 votes (21.8%)
 - GL-PvdA: 73,774 votes (20.2%)
 - NSC: 53,539 votes (14.6%)
+- PVV: 79,811 votes (21.8%)
 
 **Vote Redistribution Simulation:**
 Vote Transfers:
@@ -215,8 +215,8 @@ Vote Transfers:
 - PPB: 0 votes (0.0% of votes, 0.0% of registered)
 
 **Second Round:** Parties qualifying (≥12.5%):
-- PVV: 163,887 votes (22.0%)
 - NSC: 163,693 votes (22.0%)
+- PVV: 163,887 votes (22.0%)
 
 **Vote Redistribution Simulation:**
 Vote Transfers:
@@ -303,9 +303,9 @@ Vote Transfers:
 - PvdS: 0 votes (0.0% of votes, 0.0% of registered)
 
 **Second Round:** Parties qualifying (≥12.5%):
-- PVV: 102,524 votes (24.4%)
 - GL-PvdA: 61,194 votes (14.6%)
 - NSC: 68,451 votes (16.3%)
+- PVV: 102,524 votes (24.4%)
 
 **Vote Redistribution Simulation:**
 Vote Transfers:
