@@ -102,10 +102,56 @@ def calculate_state_wahlzahl(results, state_name, state_seats, vote_type):
     # Calculate Wahlzahl
     return state_total_votes / state_seats if state_seats > 0 else 0
 
-def calculate_seats(results, states, total_seats, participating_parties):
+def calculate_seats(results, states, total_seats, participating_parties, process=None):
+    if process is None:
+        process = {}
+    
+    process['seat_calculation'] = []
+    
+    # Add system explanation
+    # Count number of districts and states
+    districts_by_state = {}
+    for district in results:
+        state = district.get('state')
+        if state:
+            if state not in districts_by_state:
+                districts_by_state[state] = 0
+            districts_by_state[state] += 1
+    
+    process['seat_calculation'].append(f"""
+## Austrian Electoral System Explanation
+
+This election is calculated using the Austrian three-tier proportional representation system:
+
+1. **Regional Constituency Level (Regionalwahlkreise)**
+   - In this election: {len(results)} regional constituencies across {len(districts_by_state)} states
+     (The Austrian system typically has 39 constituencies across 9 states)
+   - First distribution of seats using the Hare quota
+   - Only parties that reach 4% nationally can receive seats
+   - Direct mandates are awarded at this level
+
+2. **State Level (Landeswahlkreise)**
+   - States in this election:
+{chr(10).join(f'     - {state}: {count} constituencies' for state, count in sorted(districts_by_state.items()))}
+   - Second distribution using state-level electoral numbers
+   - Remaining seats distributed using D'Hondt method
+   - Takes into account seats already won at regional level
+
+3. **Federal Level (Bundesebene)**
+   - Final distribution of remaining seats
+   - Uses Hare quota at national level
+   - Ensures overall proportional representation
+   - Compensates for any disproportions from lower levels
+
+Key Features:
+- 4% threshold nationally or one direct mandate required
+- {total_seats} total seats to be distributed (Austrian National Council has 183)
+- Seats first allocated to states based on citizen population
+""")
+
     print("\nAustrian National Council Election Calculation")
     print("==========================================\n")
-    print("The Austrian National Council (Nationalrat) consists of 183 seats.")
+    print(f"The parliament consists of {total_seats} seats.")
     print("The election uses a three-level proportional representation system:")
     print("1. Regional constituency level (Regionalwahlkreise)")
     print("2. State level (Landeswahlkreise)")
@@ -113,16 +159,34 @@ def calculate_seats(results, states, total_seats, participating_parties):
     
     # Determine whether to use list or member votes
     use_list_votes = False
+    has_member_votes = False
     for district in results:
         if 'party_results' in district:
             for result in district['party_results'].values():
                 if 'list' in result:
                     use_list_votes = True
+                if 'member' in result:
+                    has_member_votes = True
+                if use_list_votes and has_member_votes:
                     break
-            if use_list_votes:
+            if use_list_votes and has_member_votes:
                 break
     
     vote_type = 'list' if use_list_votes else 'member'
+    
+    # Add vote type explanation to the process documentation
+    vote_explanation = """
+## Vote Type Used for Calculation
+
+"""
+    if use_list_votes:
+        vote_explanation += "Using list votes (Zweitstimmen) for calculations. "
+        if has_member_votes:
+            vote_explanation += "Although mandate votes (Erststimmen) are present, they are not used for proportional seat distribution in the Austrian system."
+    else:
+        vote_explanation += "Using mandate votes (Erststimmen) for calculations since no list votes are available. In the Austrian system, list votes would typically be used if available."
+    
+    process['seat_calculation'].append(vote_explanation)
     print(f"Using {vote_type} votes for calculations\n")
     
     # Step 0: Calculate total votes and which parties are over 4%
@@ -144,6 +208,59 @@ def calculate_seats(results, states, total_seats, participating_parties):
     qualified_parties = {party: votes for party, votes in party_total_votes.items() 
                        if votes >= threshold}
     
+    # Document threshold check
+    threshold_text = f"""
+## Initial Threshold Check
+
+Total valid votes cast: {total_votes:,}
+4% threshold: {threshold:,.0f} votes
+
+Party Results and Qualification Status:
+"""
+    
+    for party, votes in sorted(party_total_votes.items(), key=lambda x: x[1], reverse=True):
+        percentage = (votes / total_votes) * 100
+        status = "Qualified" if votes >= threshold else "Did not qualify"
+        threshold_text += f"- {party}: {votes:,} votes ({percentage:.2f}%) - {status}\n"
+        if votes >= threshold:
+            threshold_text += "  → Eligible for mandate distribution at all levels\n"
+        else:
+            threshold_text += "  → Can only receive direct mandates in regional constituencies\n"
+    
+    process['seat_calculation'].append(threshold_text)
+    
+    # Add example regional constituencies
+    example_districts = []
+    for district in results[:3]:  # Take first 3 districts as examples
+        if 'party_results' not in district:
+            continue
+            
+        district_text = f"""
+## Example Regional Constituency: {district['name']}
+
+This example shows how votes are counted at the regional constituency level:
+
+Total votes cast: {sum(result.get(vote_type, 0) for result in district['party_results'].values()):,}
+
+Party Results:
+"""
+        
+        total_district_votes = sum(result.get(vote_type, 0) for result in district['party_results'].values())
+        for party, result in sorted(district['party_results'].items(), 
+                                  key=lambda x: x[1].get(vote_type, 0), 
+                                  reverse=True):
+            votes = result.get(vote_type, 0)
+            pct = (votes / total_district_votes * 100) if total_district_votes > 0 else 0
+            district_text += f"- {party}: {votes:,} votes ({pct:.1f}%)\n"
+            
+        district_text += """
+The Hare quota is used to determine direct mandates.
+Parties must either win a direct mandate or reach the 4% national threshold."""
+        
+        example_districts.append(district_text)
+        
+    process['seat_calculation'].extend(example_districts)
+    
     print("Initial Vote Count and 4% Threshold Check")
     print("---------------------------------------")
     print(f"Total valid votes cast: {total_votes:,}")
@@ -157,6 +274,45 @@ def calculate_seats(results, states, total_seats, participating_parties):
             print("   → Qualifies for mandate distribution at all levels")
         else:
             print("   → Can only receive direct mandates in regional constituencies")
+    
+    # Calculate total using citizens > electorate > population
+    def get_state_value(state):
+        if state.get('citizens', 0) > 0:
+            return state['citizens']
+        elif state.get('electorate', 0) > 0:
+            return state['electorate']
+        return state.get('population', 0)
+    
+    total_value = sum(get_state_value(state) for state in states.values())
+    verhaeltniszahl = total_value / total_seats
+    value_type = 'citizens' if any(s.get('citizens', 0) > 0 for s in states.values()) else \
+                 'electorate' if any(s.get('electorate', 0) > 0 for s in states.values()) else \
+                 'population'
+
+    # Document state distribution with detailed calculations
+    state_text = f"""
+## State Level Distribution
+
+According to §1 of the Nationalrats-Wahlordnung, the {total_seats} seats are distributed among the states based on their citizen population.
+
+The process:
+1. Calculate state-level electoral number (Wahlzahl)
+   For each state, the Wahlzahl is calculated as: Total valid votes ÷ (Number of seats + 1)
+   Example for a state with 100,000 votes and 4 seats:
+   Wahlzahl = 100,000 ÷ (4 + 1) = 20,000
+
+2. Calculate Verhältniszahl (proportional number)
+   Total population value: {total_value:,}
+   Total seats: {total_seats}
+   Verhältniszahl = {total_value:,} ÷ {total_seats} = {verhaeltniszahl:,.2f}
+   This number represents how many {value_type} one mandate represents.
+
+3. Determine remaining seats after direct mandates
+4. Use D'Hondt method for remaining seats
+5. Take into account party threshold requirement
+"""
+    
+    process['seat_calculation'].append(state_text)
     
     print("\nState Mandate Distribution")
     print("------------------------")
@@ -192,12 +348,29 @@ def calculate_seats(results, states, total_seats, participating_parties):
         else:
             states_needing_calculation.append(state_name)
     
+    # Document state seat allocation
+    state_allocation_text = f"""
+## State Mandate Distribution
+
+The {total_seats} parliament seats are first distributed among the states based on their citizen population.
+
+Total {value_type}: {total_value:,}
+Verhältniszahl ({value_type} per mandate): {verhaeltniszahl:,.2f}
+
+State Allocations:
+"""
+
     # Then calculate remaining seats for states without predefined mandates
     if states_needing_calculation:
         remaining_seats = total_seats - total_predefined_seats
         # Use the same value type as above for consistency
         remaining_value = sum(get_state_value(states[state]) for state in states_needing_calculation)
         remaining_verhaeltniszahl = remaining_value / remaining_seats
+        
+        state_allocation_text += "\nStates without predefined mandates:\n"
+        state_allocation_text += f"Remaining seats: {remaining_seats}\n"
+        state_allocation_text += f"Remaining {value_type}: {remaining_value:,}\n"
+        state_allocation_text += f"Remaining Verhältniszahl: {remaining_verhaeltniszahl:,.2f}\n"
         
         print("\nCalculating state mandates using Hare quota method:")
         # Calculate seats for remaining states
@@ -366,6 +539,37 @@ def calculate_seats(results, states, total_seats, participating_parties):
                 print(f"  Note: Qualified through direct mandate")
             elif party in qualified_parties:
                 print(f"  Note: Qualified through 4% threshold")
+    
+    # Document final distribution for report
+    final_text = f"""
+## Final Distribution Summary
+
+After completing all three levels of calculation:
+1. Regional constituency direct mandates
+2. State-level D'Hondt distribution
+3. Federal level compensation
+
+Final Results:
+"""
+    
+    for party, seats in sorted(party_seats.items(), key=lambda x: x[1], reverse=True):
+        if seats > 0:  # Only show parties that got seats
+            vote_share = (party_total_votes[party] / total_votes) * 100
+            seat_share = (seats / total_seats) * 100
+            final_text += f"- {party}: {seats} seats ({seat_share:.1f}%) from {party_total_votes[party]:,} votes ({vote_share:.1f}%)\n"
+            if party in direct_mandate_parties and party not in qualified_parties:
+                final_text += "  → Qualified through direct mandate\n"
+            elif party in qualified_parties:
+                final_text += "  → Qualified through 4% threshold\n"
+    
+    final_text += """
+This distribution reflects the principles of proportional representation while accounting for:
+- The 4% threshold requirement or direct mandate qualification
+- Regional constituency direct mandates
+- State-level proportionality using D'Hondt method
+- Federal level compensation to ensure overall proportionality"""
+    
+    process['seat_calculation'].append(final_text)
     
     # Create Party objects for all parties that received votes
     party_metadata = {p['short_name']: p for p in participating_parties}

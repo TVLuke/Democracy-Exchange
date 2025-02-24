@@ -9,11 +9,11 @@ from vote_distribution import plot_vote_distribution
 from election_report import create_election_report
 
 # Set up election parameters
-country = 'austria'
-year = '2024'
+country = 'germany'
+year = '2025'
 election = country + year
 
-appointments = ['austria']
+appointments = ['italy']
 
 # Visualization
 POINT_SIZE = 100  # Doubled point size
@@ -93,6 +93,45 @@ RADIUS_INCREMENT = INITIAL_RADIUS * (2.5 / max(NUM_ROWS - 2, 1))
 
 print(f"Total seats: {TOTAL_SEATS}, rows: {NUM_ROWS}")
 
+def generate_vote_summary(party_totals: dict, electorate_size: int) -> str:
+    """Generate a markdown summary of voting data including party vote totals and percentages.
+    
+    Args:
+        party_totals: Dictionary mapping party names to their total votes
+        electorate_size: Total size of the electorate
+        
+    Returns:
+        Markdown formatted string containing vote summary
+    """
+    total_votes = sum(party_totals.values())
+    turnout_percentage = (total_votes / electorate_size) * 100 if electorate_size > 0 else 0
+    
+    # Start building the markdown text
+    markdown = []
+    
+    # Overview section
+    markdown.append(f"### Vote Summary")
+    markdown.append(f"")
+    markdown.append(f"A total of {total_votes:,} votes were cast, representing a turnout of {turnout_percentage:.1f}% of the electorate.")
+    markdown.append(f"")
+    
+    # Party results table
+    markdown.append("| Party | Votes | Percentage |")
+    markdown.append("|-------|--------|------------|")
+    
+    # Add rows for each party
+    for party_name, votes in sorted(party_totals.items(), key=lambda x: x[1], reverse=True):
+        percentage = (votes / total_votes) * 100 if total_votes > 0 else 0
+        markdown.append(f"| {party_name} | {votes:,} | {percentage:.1f}% |")
+    
+    # Add winning party statement
+    markdown.append(f"")
+    winning_party = max(party_totals.items(), key=lambda x: x[1])
+    markdown.append(f"**{winning_party[0]}** received the most votes with {winning_party[1]:,} votes "
+                   f"({(winning_party[1]/total_votes*100):.1f}% of total votes).")
+    
+    return '\n'.join(markdown)
+
 def calculate_election_results(election_id: str, appointments: list) -> dict:
     """Calculate election results for given election and appointments.
     
@@ -157,7 +196,9 @@ def calculate_election_results(election_id: str, appointments: list) -> dict:
     total_population = get_total_from_states_or_districts('population')
     total_citizens = get_total_from_states_or_districts('citizens')
     electorate_size = get_total_from_states_or_districts('electorate')
-    total_votes = sum(sum(r.get('member', 0) or 0 for r in d.get('party_results', {}).values()) for d in voting_data)
+    
+    # Generate vote summary and add to process dictionary
+    process['vote_summary'] = generate_vote_summary(party_totals, electorate_size)
     
     # Calculate results for each appointment
     for appointment in appointments:
@@ -175,7 +216,7 @@ def calculate_election_results(election_id: str, appointments: list) -> dict:
         spec.loader.exec_module(election_module)
         
         # Calculate seats
-        calculated_parties = election_module.calculate_seats(voting_data, states, TOTAL_SEATS, parties)
+        calculated_parties = election_module.calculate_seats(voting_data, states, TOTAL_SEATS, parties, process)
         
         # Sort parties from left to right
         calculated_parties.sort(key=lambda p: p.left_to_right)
@@ -222,7 +263,7 @@ def calculate_election_results(election_id: str, appointments: list) -> dict:
             'states': states
         }
     
-    return results
+    return results, process
 
 
 def main():
@@ -230,7 +271,7 @@ def main():
     process = {}
     
     # Calculate results
-    results = calculate_election_results(election, appointments)
+    results, process = calculate_election_results(election, appointments)
     
     # Create plots directory if it doesn't exist
     plots_dir = "plots"
@@ -307,10 +348,10 @@ def main():
             'party_results': party_results,
             'total_seats': TOTAL_SEATS,
             'image_paths': {
-                'parliament': os.path.join(plots_dir, f"{election}_{appointment}_parliament.png"),
-                'vote_distribution': os.path.join(plots_dir, f"{election}_{appointment}_vote_distribution.png"),
-                'vote_seat_distribution': os.path.join(plots_dir, f"{election}_{appointment}_vote_seat_distribution.png"),
-                'coalitions': os.path.join(plots_dir, f"{election}_{appointment}_coalitions.png")
+                'parliament': f"../plots/{election}_{appointment}_parliament.png",
+                'vote_distribution': f"../plots/{election}_{appointment}_vote_distribution.png",
+                'vote_seat_distribution': f"../plots/{election}_{appointment}_vote_seat_distribution.png",
+                'coalitions': f"../plots/{election}_{appointment}_coalitions.png"
             },
             'alt_texts': {
                 'parliament': parliament_alt_text,
@@ -323,6 +364,9 @@ def main():
             'appointment_data_sources': results[appointment]['appointment_basic_info'].get('data-sources', [])
         }
         
+        # Store report data in results
+        results[appointment]['report_data'] = report_data
+
         # Create and save the report
         report = create_election_report(**report_data)
         os.makedirs('reports', exist_ok=True)

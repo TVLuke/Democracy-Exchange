@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 from matplotlib.offsetbox import OffsetImage, AnnotationBbox
 from PIL import Image
-from germany2021.country_specific_voting_data_changes import changes_for_country
+from germany2025.country_specific_voting_data_changes import changes_for_country
 
 def calculate_electoral_votes(states):
     """Calculate electoral votes for each state based on population.
@@ -104,9 +104,9 @@ def plot_electoral_results(state_winners, electoral_votes_per_state, output_dir,
     """Create a horizontal bar chart showing electoral college results."""
     # Sum up total electoral votes per candidate
     candidate_votes = {
-        'Armin Laschet (CDU/CSU)': sum(state['CDU/CSU'] for state in state_winners.values()),
+        'Friedrich Merz (CDU/CSU)': sum(state['CDU/CSU'] for state in state_winners.values()),
         'Olaf Scholz (SPD)': sum(state['SPD'] for state in state_winners.values()),
-        'Annalena Baerbock (GRÜNE)': sum(state['GRÜNE'] for state in state_winners.values()),
+        'Robert Habeck (GRÜNE)': sum(state['GRÜNE'] for state in state_winners.values()),
         'Alice Weidel (AfD)': sum(state['AfD'] for state in state_winners.values())
     }
     
@@ -122,9 +122,9 @@ def plot_electoral_results(state_winners, electoral_votes_per_state, output_dir,
     
     # Define colors matching the parties
     colors = {
-        'Armin Laschet (CDU/CSU)': '#000000',
+        'Friedrich Merz (CDU/CSU)': '#000000',
         'Olaf Scholz (SPD)': '#eb001f',
-        'Annalena Baerbock (GRÜNE)': '#64a12d',
+        'Robert Habeck (GRÜNE)': '#64a12d',
         'Alice Weidel (AfD)': '#009EE0'
     }
     
@@ -135,10 +135,10 @@ def plot_electoral_results(state_winners, electoral_votes_per_state, output_dir,
     
     # Load and add candidate images
     image_files = {
-        'Armin Laschet (CDU/CSU)': 'germany2021/electoralcollege/laschet.jpg',
-        'Olaf Scholz (SPD)': 'germany2021/electoralcollege/scholz.jpg',
-        'Annalena Baerbock (GRÜNE)': 'germany2021/electoralcollege/baerbock.jpg',
-        'Alice Weidel (AfD)': 'germany2021/electoralcollege/weidel.jpg'
+        'Friedrich Merz (CDU/CSU)': 'germany2025/electoralcollege/merz.jpg',
+        'Olaf Scholz (SPD)': 'germany2025/electoralcollege/scholz.jpg',
+        'Robert Habeck (GRÜNE)': 'germany2025/electoralcollege/habeck.jpg',
+        'Alice Weidel (AfD)': 'germany2025/electoralcollege/weidel.jpg'
     }
     
     # Create bars with extra space on the left for images
@@ -283,13 +283,13 @@ def plot_electoral_results(state_winners, electoral_votes_per_state, output_dir,
 
 if __name__ == "__main__":
     # Load state data
-    with open('germany2021/states.json', 'r') as f:
+    with open('germany2025/states.json', 'r') as f:
         states = json.load(f)
     
     # Load voting data and parties
-    with open('germany2021/voting_district_results.json', 'r') as f:
+    with open('germany2025/voting_district_results.json', 'r') as f:
         voting_data = json.load(f)
-    with open('germany2021/participating_parties.json', 'r') as f:
+    with open('germany2025/participating_parties.json', 'r') as f:
         parties = json.load(f)
         
     # Apply country-specific changes

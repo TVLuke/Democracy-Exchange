@@ -43,14 +43,25 @@ def changes_for_country(voting_data: list, parties: list) -> tuple[list, list]:
     
     # Update parties list to match changes
     # Remove CDU and CSU, add CDU/CSU if not already present
+    cdu = next((p for p in parties if p['short_name'] == 'CDU'), None)
+    csu = next((p for p in parties if p['short_name'] == 'CSU'), None)
     parties = [p for p in parties if p['short_name'] not in ['CDU', 'CSU']]
     cdu_csu = next((p for p in parties if p['short_name'] == 'CDU/CSU'), None)
     if not cdu_csu:
-        parties.append({
+        coalition = None
+        if cdu and 'coalition' in cdu:
+            coalition = cdu['coalition']
+        elif csu and 'coalition' in csu:
+            coalition = csu['coalition']
+            
+        new_party = {
             'short_name': 'CDU/CSU',
             'color': '#000000',  # Black
             'left_to_right': 6  # Center-right
-        })
+        }
+        if coalition:
+            new_party['coalition'] = coalition
+        parties.append(new_party)
     
     # Remove GRÜNE/B 90 if it exists (already handled by rename)
     parties = [p for p in parties if p['short_name'] != 'GRÜNE/B 90']

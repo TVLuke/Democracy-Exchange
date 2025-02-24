@@ -37,5 +37,5 @@ env/
 venv/
 ENV/
 
-# Generated files
-plots/*
+__pycache__/
+**/__pycache__/

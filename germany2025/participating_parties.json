@@ -3,7 +3,8 @@
     "short_name": "AfD",
     "name": "",
     "color": "#009ee0",
-    "left_to_right": 8
+    "left_to_right": 8,
+    "coalition": "Extreme Rechte"
   },
   {
     "short_name": "BP",
@@ -14,14 +15,15 @@
   {
     "short_name": "BSW",
     "name": "",
-    "color": "",
+    "color": "#781775",
     "left_to_right": 0
   },
   {
     "short_name": "BÜNDNIS DEUTSCHLAND",
     "name": "",
     "color": "#8B4513",
-    "left_to_right": 0
+    "left_to_right": 0,
+    "coalition": "Extreme Rechte"
   },
   {
     "short_name": "BüSo",
@@ -39,13 +41,15 @@
     "short_name": "CDU",
     "name": "",
     "color": "#000000",
-    "left_to_right": 6
+    "left_to_right": 6,
+    "coalition": "Konservativ"
   },
   {
     "short_name": "CSU",
     "name": "",
     "color": "#000000",
-    "left_to_right": 6
+    "left_to_right": 6,
+    "coalition": "Konservativ"
   },
   {
     "short_name": "Die Linke",
@@ -63,25 +67,29 @@
     "short_name": "FDP",
     "name": "",
     "color": "#ffed00",
-    "left_to_right": 7
+    "left_to_right": 7,
+    "coalition": "Liberale"
   },
   {
     "short_name": "FREIE WÄHLER",
     "name": "",
     "color": "",
-    "left_to_right": 6
+    "left_to_right": 6,
+    "coalition": "Konservativ"
   },
   {
     "short_name": "GRÜNE",
     "name": "",
     "color": "#64a12d",
-    "left_to_right": 2
+    "left_to_right": 2,
+    "coalition": "Klimaliste"
   },
   {
     "short_name": "GRÜNE/B 90",
     "name": "",
     "color": "#64a12d",
-    "left_to_right": 2
+    "left_to_right": 2,
+    "coalition": "Klimaliste"
   },
   {
     "short_name": "MENSCHLICHE WELT",
@@ -105,7 +113,8 @@
     "short_name": "PIRATEN",
     "name": "",
     "color": "",
-    "left_to_right": 2
+    "left_to_right": 2,
+    "coalition": "Liberale"
   },
   {
     "short_name": "PdF",
@@ -148,7 +157,8 @@
     "short_name": "Tierschutzpartei",
     "name": "",
     "color": "",
-    "left_to_right": 2
+    "left_to_right": 2,
+    "coalition": "Klimaliste"
   },
   {
     "short_name": "Verjüngungsforschung",
@@ -160,13 +170,15 @@
     "short_name": "Volt",
     "name": "",
     "color": "",
-    "left_to_right": 1
+    "left_to_right": 1,
+    "coalition": "Klimaliste"
   },
   {
     "short_name": "WerteUnion",
     "name": "",
     "color": "",
-    "left_to_right": 0
+    "left_to_right": 0,
+    "coalition": "Extreme Rechte"
   },
   {
     "short_name": "dieBasis",
@@ -178,6 +190,7 @@
     "short_name": "ÖDP",
     "name": "",
     "color": "",
-    "left_to_right": 2
+    "left_to_right": 2,
+    "coalition": "Klimaliste"
   }
 ]

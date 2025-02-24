@@ -96,6 +96,8 @@ def create_election_report(
     
     # Basic Statistics
     md.append("## Election Statistics")
+    
+    # Add detailed statistics
     if total_population:
         md.append(f"- **Total Population**: {format_number(total_population)}")
     if total_citizens:
@@ -108,6 +110,24 @@ def create_election_report(
     if total_seats > 0:
         md.append(f"- **Parliament Size**: {format_number(total_seats)} seats")
     md.append("")
+
+    # Add vote summary if available
+    if process and 'vote_summary' in process:
+        md.append(process['vote_summary'])
+        md.append("")
+    
+    # Add seat calculation explanation if available
+    if process and 'seat_calculation' in process:
+        md.append("## Seat Calculation Process")
+        if isinstance(process['seat_calculation'], list):
+            for step in process['seat_calculation']:
+                # Split step into lines and add each line separately
+                for line in step.split('\n'):
+                    md.append(line)
+                md.append("")
+        else:
+            md.append(process['seat_calculation'])
+        md.append("")
     
     # Visualizations
     md.append("## Visualizations")

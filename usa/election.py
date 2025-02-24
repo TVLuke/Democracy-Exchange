@@ -5,7 +5,7 @@ import os
 import random
 from typing import Dict, List
 
-TITLE = "nach britischem Wahlrecht."
+TITLE = "nach US-amerikanischem Wahlrecht."
 
 # Add parent directory to path to import party.py
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -42,52 +42,55 @@ def calculate_sainte_lague_seats(party_votes: Dict[str, int], total_seats: int) 
     return seats
 
 def calculate_seats(results: list, states: list, total_seats: int, participating_parties: list, process: dict) -> List[Party]:
-    """Calculate seat distribution for UK elections using first-past-the-post system.
+    """Calculate seat distribution for US House of Representatives elections using first-past-the-post system.
     
-    In the UK system, each constituency (district) elects one MP using first-past-the-post.
-    Only parties that win at least one district get seats. If total_seats parameter is
-    provided and different from the number of constituencies, only the seats of parties
-    that won districts are scaled using the Sainte-Laguë method.
+    In the US system:
+    - Each congressional district elects one Representative using first-past-the-post
+    - The candidate with the most votes (plurality) wins the seat
+    - No minimum threshold is required
+    - Districts are redrawn every 10 years based on census data
+    - Each state is guaranteed at least one Representative
     
     Args:
         results: List of district results with voting data
-        states: List of states (not used in UK system)
+        states: List of states (not used in US system)
         total_seats: Total number of seats to distribute (0 means use district count)
         participating_parties: List of parties participating in the election
         
     Returns:
         List of Party objects with their allocated seats
     """
-
     # Initialize tracking dictionaries
     party_votes = {}
     party_seats = {}
     parties_with_seats = set()
-    # Count district winners and total votes
     district_count = len(results)
         
     # Add system explanation to process
     process['seat_calculation'] = []
     process['seat_calculation'].append(f"""
-# United Kingdom Electoral System
-The UK uses First-Past-The-Post (FPTP) voting where:
-- Each constituency (district) elects one Member of Parliament (MP)
-- The candidate with the most votes in each constituency wins that seat
-- No minimum threshold is required
-- Normally, the total number of seats equals the number of constituencies ({district_count} in this dataset)
+# United States House of Representatives Electoral System
+The US uses First-Past-The-Post (FPTP) voting where:
+- Each congressional district elects one Representative
+- The candidate with the most votes (plurality) in each district wins that seat
+- No minimum vote threshold is required
+- Districts are redrawn every 10 years following the census
+- Each state is guaranteed at least one Representative
 
-In this calculation, the target number of seats is {total_seats}, which differs from the number of constituencies. This means we will need to scale the results proportionally after determining constituency winners.
-""")  # Track parties that won at least one district
+In this calculation:
+- Number of districts: {district_count}
+- Target number of seats: {total_seats}
+""")
     
     # Initialize vote and seat counts for all participating parties
     for party in participating_parties:
         party_votes[party['short_name']] = 0
         party_seats[party['short_name']] = 0
     
-
-    
     # Randomly select 3 districts to document in detail
     example_districts = random.sample(results, min(3, len(results)))
+    
+    # Process each district
     for district in results:
         # Find party with most votes in district
         max_votes = 0
@@ -99,9 +102,8 @@ In this calculation, the target number of seats is {total_seats}, which differs 
         # Document example districts
         if district in example_districts:
             process['seat_calculation'].append(f"""
-## Constituency: {district['name']}
-This constituency demonstrates how First-Past-The-Post works:""")
-        
+## Congressional District: {district['name']}
+This district demonstrates how First-Past-The-Post works in US House elections:""")
         
         for party_name, results in district['party_results'].items():
             # Try member votes first, fall back to list votes if not available
@@ -130,8 +132,8 @@ This constituency demonstrates how First-Past-The-Post works:""")
                                     for party, votes in sorted(all_votes.items(), key=lambda x: x[1], reverse=True)])
             
             process['seat_calculation'].append(f"""
-## Example Constituency: {district['name']}
-This example shows how First-Past-The-Post determines the winner:
+## Example Congressional District: {district['name']}
+This example shows how the Representative is determined:
 
 Total votes cast: {total_district_votes:,}
 {vote_details}
@@ -141,7 +143,7 @@ Winner determination:
 - Second place: {second_place} with {second_max_votes:,} votes ({second_max_votes/total_district_votes*100:.1f}%)
 - Margin of victory: {margin:,} votes ({(margin/total_district_votes*100):.1f}% of total votes)
 
-Result: {winner} wins this constituency's single seat, regardless of the margin of victory.
+Result: {winner} wins this district's seat in the House of Representatives.
 """)
         
         # Allocate seat to winning party if it's participating
@@ -163,11 +165,11 @@ Result: {winner} wins this constituency's single seat, regardless of the margin 
         
         process['seat_calculation'].append(f"""
 ## Scaling Process Explanation
-The UK system needs to scale from {district_count} constituencies to {total_seats} total seats.
+The US House system needs to scale from {district_count} districts to {total_seats} total seats.
 
 This scaling maintains proportionality through these steps:
-1. Calculate scaling factor: {total_seats} seats ÷ {district_count} constituencies = {scale_factor:.4f}
-2. Multiply each party's constituency seats by this factor
+1. Calculate scaling factor: {total_seats} seats ÷ {district_count} districts = {scale_factor:.4f}
+2. Multiply each party's district seats by this factor
 3. Take the integer part first (floor)
 4. Distribute remaining seats by highest decimal remainder
 
@@ -200,55 +202,29 @@ Original seat distribution (showing only parties that won seats):
             
             # Distribute remaining seats
             for i in range(remaining_seats):
-                party = sorted_parties[i][0]
+                party = sorted_parties[i % len(sorted_parties)][0]
                 new_seats[party] += 1
+            
+            # Document final distribution
+            process['seat_calculation'].append(f"""
+Final seat distribution after scaling:
+{json.dumps({party: seats for party, seats in new_seats.items() if seats > 0}, indent=2)}
+""")
         
-        # Update seats with new scaled distribution
+        # Update party seats with scaled values
         party_seats = new_seats
-        
-        # Calculate final percentages
-        final_total = sum(party_seats.values())
-        final_with_pct = {party: {'seats': seats, 
-                                 'percentage': (seats/final_total*100 if final_total > 0 else 0)} 
-                        for party, seats in party_seats.items() if seats > 0}
-        
-        process['seat_calculation'].append(f"""
-Final seat distribution after scaling (showing only parties that won seats):
-{json.dumps({party: f"{data['seats']} seats ({data['percentage']:.1f}%)" 
-            for party, data in final_with_pct.items()}, indent=2)}
-
-Note how the percentage of seats for each party remains nearly identical after scaling,
-demonstrating that the proportional relationships are preserved.""")
     
-    # Create Party objects with final vote and seat counts
-    parties = []
-    for party_data in participating_parties:
-        short_name = party_data['short_name']
-        # Include all parties that got votes
-        if party_votes[short_name] > 0:
-            parties.append(Party(
-                name=short_name,
-                color=party_data.get('color', '#CCCCCC'),
-                size=party_seats.get(short_name, 0),  # 0 seats if party didn't win any districts
-                left_to_right=party_data.get('left_to_right', 0),
-                votes=party_votes[short_name]
+    # Create Party objects with final seat counts
+    final_parties = []
+    for party in participating_parties:
+        party_name = party['short_name']
+        if party_name in party_votes:
+            final_parties.append(Party(
+                name=party_name,
+                color=party.get('color', '#808080'),
+                size=party_seats[party_name],  # size is used for seats
+                left_to_right=party.get('left_to_right', 0),
+                votes=party_votes[party_name]
             ))
     
-    return parties
-
-if __name__ == "__main__":
-    # Test code
-    with open(os.path.join('uk2024', 'voting_district_results.json'), 'r') as f:
-        results = json.load(f)
-    
-    with open(os.path.join('uk2024', 'participating_parties.json'), 'r') as f:
-        participating_parties = json.load(f)
-    
-    parties = calculate_seats(results, [], 650, participating_parties)
-    
-    print("\nSeat Distribution:")
-    # Sort parties by size in descending order
-    sorted_parties = sorted(parties, key=lambda x: x.size, reverse=True)
-    for party in sorted_parties:
-        if party.size > 0:
-            print(f"{party.name}: {party.size} seats")
+    return final_parties
