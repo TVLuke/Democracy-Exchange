@@ -11,207 +11,285 @@ Year: 2025
 
 ### Vote Summary
 
-A total of 49,642,087 votes were cast, representing a turnout of 82.1% of the electorate.
+A total of 247,782,413 votes were cast, representing a turnout of 409.6% of the electorate.
 
 | Party | Votes | Percentage |
 |-------|--------|------------|
-| CDU/CSU | 14,158,432 | 28.5% |
-| AfD | 10,327,148 | 20.8% |
-| SPD | 8,148,284 | 16.4% |
-| GRÜNE | 5,761,476 | 11.6% |
-| Die Linke | 4,355,382 | 8.8% |
-| BSW | 2,468,670 | 5.0% |
-| FDP | 2,148,878 | 4.3% |
-| FREIE WÄHLER | 769,170 | 1.5% |
-| Tierschutzpartei | 482,032 | 1.0% |
-| Volt | 355,146 | 0.7% |
-| Die PARTEI | 242,806 | 0.5% |
-| dieBasis | 85,557 | 0.2% |
-| BÜNDNIS DEUTSCHLAND | 79,012 | 0.2% |
-| SSW | 76,126 | 0.2% |
-| ÖDP | 49,730 | 0.1% |
-| Team Todenhöfer | 24,558 | 0.0% |
-| PdF | 21,377 | 0.0% |
-| MLPD | 19,876 | 0.0% |
-| PdH | 14,446 | 0.0% |
-| PIRATEN | 13,809 | 0.0% |
-| BP | 12,315 | 0.0% |
-| Bündnis C | 11,784 | 0.0% |
-| MERA25 | 7,128 | 0.0% |
-| WerteUnion | 6,803 | 0.0% |
-| BüSo | 719 | 0.0% |
-| MENSCHLICHE WELT | 694 | 0.0% |
-| SGP | 425 | 0.0% |
-| Verjüngungsforschung | 304 | 0.0% |
+| CDU/CSU | 74,222,690 | 30.0% |
+| AfD | 51,332,320 | 20.7% |
+| SPD | 44,314,080 | 17.9% |
+| GRÜNE | 28,170,252 | 11.4% |
+| Die Linke | 20,931,314 | 8.4% |
+| FDP | 9,693,336 | 3.9% |
+| BSW | 8,004,462 | 3.2% |
+| FREIE WÄHLER | 4,816,486 | 1.9% |
+| Volt | 1,848,592 | 0.7% |
+| Tierschutzpartei | 1,611,066 | 0.7% |
+| Die PARTEI | 973,190 | 0.4% |
+| BÜNDNIS DEUTSCHLAND | 413,128 | 0.2% |
+| SSW | 345,924 | 0.1% |
+| dieBasis | 340,477 | 0.1% |
+| ÖDP | 258,472 | 0.1% |
+| MLPD | 108,044 | 0.0% |
+| Team Todenhöfer | 93,188 | 0.0% |
+| PdF | 66,695 | 0.0% |
+| BP | 48,513 | 0.0% |
+| PdH | 47,084 | 0.0% |
+| PIRATEN | 45,731 | 0.0% |
+| Bündnis C | 39,394 | 0.0% |
+| WerteUnion | 26,097 | 0.0% |
+| MERA25 | 22,700 | 0.0% |
+| BüSo | 4,763 | 0.0% |
+| MENSCHLICHE WELT | 2,082 | 0.0% |
+| SGP | 1,421 | 0.0% |
+| Verjüngungsforschung | 912 | 0.0% |
 
-**CDU/CSU** received the most votes with 14,158,432 votes (28.5% of total votes).
+**CDU/CSU** received the most votes with 74,222,690 votes (30.0% of total votes).
 
 ## Seat Calculation Process
 
-# United States House of Representatives Electoral System
-The US uses First-Past-The-Post (FPTP) voting where:
-- Each congressional district elects one Representative
-- The candidate with the most votes (plurality) in each district wins that seat
-- No minimum vote threshold is required
-- Districts are redrawn every 10 years following the census
-- Each state is guaranteed at least one Representative
-- The total number of Representatives is fixed at 435 (plus 6 non-voting delegates)
+## French Electoral System Explanation
 
-In this calculation:
-- Number of districts: 299
-- Target number of seats: 630
+This election uses the French two-round voting system (scrutin uninominal majoritaire à deux tours):
 
+1. **First Round**
+   - All candidates can participate
+   - If a candidate receives >50% of votes AND ≥25% of registered voters, they win immediately
+   - Otherwise, qualified candidates proceed to second round
 
+2. **Second Round Qualification**
+   - Candidates need ≥12.5% of votes to qualify
+   - If no candidates reach 12.5%, top two advance
+   - When no second round data is provided, votes are simulated:
+     * 80% of votes from eliminated parties go to parties with same left-right position
+     * 30% of remaining votes go to parties within 1 position on left-right scale
+     * Other votes are considered lost/abstentions
 
-## Congressional District: Essen II
-This district demonstrates how First-Past-The-Post works in US House elections:
+Key Features:
+- 630 total seats to be distributed
+- Single-member constituencies
+- Two rounds if no absolute majority in first round
 
-
-## Example Congressional District: Essen II
-This example shows how the Representative is determined:
-
-Total votes cast: 112,923
-- SPD: 34,227 votes (30.3%)
-- CDU/CSU: 27,842 votes (24.7%)
-- AfD: 26,058 votes (23.1%)
-- Die Linke: 10,655 votes (9.4%)
-- GRÜNE: 9,316 votes (8.2%)
-- FDP: 2,683 votes (2.4%)
-- FREIE WÄHLER: 1,681 votes (1.5%)
-- MLPD: 461 votes (0.4%)
-- Tierschutzpartei: 0 votes (0.0%)
-- Die PARTEI: 0 votes (0.0%)
-- dieBasis: 0 votes (0.0%)
-- Team Todenhöfer: 0 votes (0.0%)
-- Volt: 0 votes (0.0%)
-- PdF: 0 votes (0.0%)
-- BÜNDNIS DEUTSCHLAND: 0 votes (0.0%)
-- BSW: 0 votes (0.0%)
-- MERA25: 0 votes (0.0%)
-- WerteUnion: 0 votes (0.0%)
-- Bündnis C: 0 votes (0.0%)
-- ÖDP: 0 votes (0.0%)
-- PdH: 0 votes (0.0%)
-- Verjüngungsforschung: 0 votes (0.0%)
-- PIRATEN: 0 votes (0.0%)
-- SGP: 0 votes (0.0%)
-
-Winner determination:
-- Highest vote count: SPD with 34,227 votes (30.3%)
-- Second place: CDU/CSU with 27,842 votes (24.7%)
-- Margin of victory: 6,385 votes (5.7% of total votes)
-
-Result: SPD wins this district's seat in the House of Representatives.
+3. **Seat Scaling**
+   When the required number of seats (630) differs from the number of districts (299),
+   we use proportional scaling to maintain fair representation:
+   - First calculate results for all districts
+   - Then multiply each party's seats by (total_seats / number_of_districts)
+   - Round to nearest whole number while preserving total seats
+   - This maintains the proportional representation from the district results
+   
+   Example: If we have 100 districts but need 200 seats:
+   - Party A wins 60 districts → scaled to 120 seats (60 * 200/100)
+   - Party B wins 40 districts → scaled to 80 seats (40 * 200/100)
+   The relative strength of each party remains the same.
 
 
 
-## Congressional District: Fürth
-This district demonstrates how First-Past-The-Post works in US House elections:
 
+## Example Districts
 
-## Example Congressional District: Fürth
-This example shows how the Representative is determined:
-
-Total votes cast: 207,150
-- CDU/CSU: 77,540 votes (37.4%)
-- AfD: 38,338 votes (18.5%)
-- SPD: 36,976 votes (17.8%)
-- GRÜNE: 22,507 votes (10.9%)
-- Die Linke: 12,636 votes (6.1%)
-- FREIE WÄHLER: 8,042 votes (3.9%)
-- FDP: 6,095 votes (2.9%)
-- ÖDP: 2,737 votes (1.3%)
-- Volt: 2,279 votes (1.1%)
-- dieBasis: 0 votes (0.0%)
-- Tierschutzpartei: 0 votes (0.0%)
-- Die PARTEI: 0 votes (0.0%)
-- BP: 0 votes (0.0%)
-- PdH: 0 votes (0.0%)
-- MLPD: 0 votes (0.0%)
-- BÜNDNIS DEUTSCHLAND: 0 votes (0.0%)
-- BSW: 0 votes (0.0%)
-- Bündnis C: 0 votes (0.0%)
-- Team Todenhöfer: 0 votes (0.0%)
-- Verjüngungsforschung: 0 votes (0.0%)
-- PIRATEN: 0 votes (0.0%)
-
-Winner determination:
-- Highest vote count: CDU/CSU with 77,540 votes (37.4%)
-- Second place: AfD with 38,338 votes (18.5%)
-- Margin of victory: 39,202 votes (18.9% of total votes)
-
-Result: CDU/CSU wins this district's seat in the House of Representatives.
+To illustrate how the French two-round system works in practice, here are three example districts:
 
 
 
-## Congressional District: Karlsruhe-Stadt
-This district demonstrates how First-Past-The-Post works in US House elections:
+### Example 1: Flensburg – Schleswig
+
+**First Round Results:**
+- Total votes cast: 191,262
+- Registered voters: 382,524
+
+**Party Results:**
+- CDU/CSU: 50,822 votes (26.6% of votes, 13.3% of registered)
+- GRÜNE: 43,290 votes (22.6% of votes, 11.3% of registered)
+- AfD: 28,824 votes (15.1% of votes, 7.5% of registered)
+- SPD: 28,366 votes (14.8% of votes, 7.4% of registered)
+- SSW: 21,465 votes (11.2% of votes, 5.6% of registered)
+- Die Linke: 10,370 votes (5.4% of votes, 2.7% of registered)
+- FDP: 4,484 votes (2.3% of votes, 1.2% of registered)
+- FREIE WÄHLER: 1,544 votes (0.8% of votes, 0.4% of registered)
+- Volt: 1,451 votes (0.8% of votes, 0.4% of registered)
+- BÜNDNIS DEUTSCHLAND: 646 votes (0.3% of votes, 0.2% of registered)
+- Die PARTEI: 0 votes (0.0% of votes, 0.0% of registered)
+- MLPD: 0 votes (0.0% of votes, 0.0% of registered)
+- BSW: 0 votes (0.0% of votes, 0.0% of registered)
+- dieBasis: 0 votes (0.0% of votes, 0.0% of registered)
+- Team Todenhöfer: 0 votes (0.0% of votes, 0.0% of registered)
+- ÖDP: 0 votes (0.0% of votes, 0.0% of registered)
+- PdH: 0 votes (0.0% of votes, 0.0% of registered)
+- Tierschutzpartei: 0 votes (0.0% of votes, 0.0% of registered)
+
+**Second Round:** Parties qualifying (≥12.5%):
+- AfD: 28,824 votes (15.1%)
+- GRÜNE: 43,290 votes (22.6%)
+- SPD: 28,366 votes (14.8%)
+- CDU/CSU: 50,822 votes (26.6%)
+
+**Vote Redistribution Simulation:**
+Vote Transfers:
+- FDP → AfD: 336 votes
+- FDP → CDU/CSU: 336 votes
+- FDP: 3,812 votes lost/abstained
+- Die Linke → GRÜNE: 124 votes
+- Die Linke: 10,246 votes lost/abstained
+- SSW → GRÜNE: 1,073 votes
+- SSW → SPD: 1,073 votes
+- SSW: 19,319 votes lost/abstained
+- Die PARTEI → GRÜNE: 0 votes
+- FREIE WÄHLER → CDU/CSU: 1,235 votes
+- FREIE WÄHLER: 309 votes lost/abstained
+- Volt → GRÜNE: 17 votes
+- Volt: 1,434 votes lost/abstained
+- BÜNDNIS DEUTSCHLAND: 646 votes lost/abstained
+- dieBasis → AfD: 0 votes
+- ÖDP → GRÜNE: 0 votes
+- Tierschutzpartei → GRÜNE: 0 votes
+
+**Final Second Round Result:**
+- CDU/CSU: 52,393 votes (27.4%)
+- GRÜNE: 44,504 votes (23.3%)
+- SPD: 29,439 votes (15.4%)
+- AfD: 29,160 votes (15.2%)
+
+**Result:** CDU/CSU wins the simulated second round
 
 
-## Example Congressional District: Karlsruhe-Stadt
-This example shows how the Representative is determined:
 
-Total votes cast: 167,430
-- GRÜNE: 51,305 votes (30.6%)
-- CDU/CSU: 39,599 votes (23.7%)
-- SPD: 25,553 votes (15.3%)
-- AfD: 22,985 votes (13.7%)
-- Die Linke: 13,354 votes (8.0%)
-- FDP: 6,399 votes (3.8%)
-- Volt: 4,020 votes (2.4%)
-- FREIE WÄHLER: 2,015 votes (1.2%)
-- Die PARTEI: 1,945 votes (1.2%)
-- MLPD: 255 votes (0.2%)
-- dieBasis: 0 votes (0.0%)
-- Tierschutzpartei: 0 votes (0.0%)
-- ÖDP: 0 votes (0.0%)
-- Bündnis C: 0 votes (0.0%)
-- BÜNDNIS DEUTSCHLAND: 0 votes (0.0%)
-- BSW: 0 votes (0.0%)
-- Team Todenhöfer: 0 votes (0.0%)
-- PdH: 0 votes (0.0%)
-- Verjüngungsforschung: 0 votes (0.0%)
-- PIRATEN: 0 votes (0.0%)
+### Example 2: Nordfriesland – Dithmarschen Nord
 
-Winner determination:
-- Highest vote count: GRÜNE with 51,305 votes (30.6%)
-- Second place: CDU/CSU with 39,599 votes (23.7%)
-- Margin of victory: 11,706 votes (7.0% of total votes)
+**First Round Results:**
+- Total votes cast: 152,712
+- Registered voters: 305,424
 
-Result: GRÜNE wins this district's seat in the House of Representatives.
+**Party Results:**
+- CDU/CSU: 49,866 votes (32.7% of votes, 16.3% of registered)
+- SPD: 31,169 votes (20.4% of votes, 10.2% of registered)
+- AfD: 24,472 votes (16.0% of votes, 8.0% of registered)
+- GRÜNE: 16,627 votes (10.9% of votes, 5.4% of registered)
+- SSW: 14,253 votes (9.3% of votes, 4.7% of registered)
+- Die Linke: 7,919 votes (5.2% of votes, 2.6% of registered)
+- FDP: 5,749 votes (3.8% of votes, 1.9% of registered)
+- FREIE WÄHLER: 1,485 votes (1.0% of votes, 0.5% of registered)
+- Volt: 1,172 votes (0.8% of votes, 0.4% of registered)
+- Die PARTEI: 0 votes (0.0% of votes, 0.0% of registered)
+- MLPD: 0 votes (0.0% of votes, 0.0% of registered)
+- BÜNDNIS DEUTSCHLAND: 0 votes (0.0% of votes, 0.0% of registered)
+- BSW: 0 votes (0.0% of votes, 0.0% of registered)
+- dieBasis: 0 votes (0.0% of votes, 0.0% of registered)
+- Team Todenhöfer: 0 votes (0.0% of votes, 0.0% of registered)
+- ÖDP: 0 votes (0.0% of votes, 0.0% of registered)
+- PdH: 0 votes (0.0% of votes, 0.0% of registered)
+- Tierschutzpartei: 0 votes (0.0% of votes, 0.0% of registered)
+
+**Second Round:** Parties qualifying (≥12.5%):
+- AfD: 24,472 votes (16.0%)
+- SPD: 31,169 votes (20.4%)
+- CDU/CSU: 49,866 votes (32.7%)
+
+**Vote Redistribution Simulation:**
+Vote Transfers:
+- GRÜNE: 16,627 votes lost/abstained
+- FDP → AfD: 431 votes
+- FDP → CDU/CSU: 431 votes
+- FDP: 4,887 votes lost/abstained
+- Die Linke: 7,919 votes lost/abstained
+- SSW → SPD: 712 votes
+- SSW: 13,541 votes lost/abstained
+- FREIE WÄHLER → CDU/CSU: 1,188 votes
+- FREIE WÄHLER: 297 votes lost/abstained
+- Volt: 1,172 votes lost/abstained
+- dieBasis → AfD: 0 votes
+
+**Final Second Round Result:**
+- CDU/CSU: 51,485 votes (33.7%)
+- SPD: 31,881 votes (20.9%)
+- AfD: 24,903 votes (16.3%)
+
+**Result:** CDU/CSU wins the simulated second round
 
 
 
-## Scaling Process Explanation
-The US House system needs to scale from 299 districts to 630 total seats.
+### Example 3: Steinburg – Dithmarschen Süd
 
-This scaling maintains proportionality through these steps:
-1. Calculate scaling factor: 630 seats ÷ 299 districts = 2.1070
-2. Multiply each party's district seats by this factor
-3. Take the integer part first (floor)
-4. Distribute remaining seats by highest decimal remainder
+**First Round Results:**
+- Total votes cast: 145,435
+- Registered voters: 290,870
 
-This preserves the proportional relationship between parties while reaching the target seat count.
+**Party Results:**
+- CDU/CSU: 50,928 votes (35.0% of votes, 17.5% of registered)
+- SPD: 30,733 votes (21.1% of votes, 10.6% of registered)
+- AfD: 29,693 votes (20.4% of votes, 10.2% of registered)
+- GRÜNE: 14,468 votes (9.9% of votes, 5.0% of registered)
+- Die Linke: 8,709 votes (6.0% of votes, 3.0% of registered)
+- FDP: 5,647 votes (3.9% of votes, 1.9% of registered)
+- FREIE WÄHLER: 3,120 votes (2.1% of votes, 1.1% of registered)
+- Volt: 2,137 votes (1.5% of votes, 0.7% of registered)
+- SSW: 0 votes (0.0% of votes, 0.0% of registered)
+- Die PARTEI: 0 votes (0.0% of votes, 0.0% of registered)
+- MLPD: 0 votes (0.0% of votes, 0.0% of registered)
+- BÜNDNIS DEUTSCHLAND: 0 votes (0.0% of votes, 0.0% of registered)
+- BSW: 0 votes (0.0% of votes, 0.0% of registered)
+- dieBasis: 0 votes (0.0% of votes, 0.0% of registered)
+- Team Todenhöfer: 0 votes (0.0% of votes, 0.0% of registered)
+- ÖDP: 0 votes (0.0% of votes, 0.0% of registered)
+- PdH: 0 votes (0.0% of votes, 0.0% of registered)
+- Tierschutzpartei: 0 votes (0.0% of votes, 0.0% of registered)
 
-Original seat distribution (showing only parties that won seats):
-{
-  "AfD": "46 seats (15.4%)",
-  "Die Linke": "6 seats (2.0%)",
-  "GR\u00dcNE": "12 seats (4.0%)",
-  "SPD": "45 seats (15.1%)",
-  "CDU/CSU": "190 seats (63.5%)"
-}
+**Second Round:** Parties qualifying (≥12.5%):
+- AfD: 29,693 votes (20.4%)
+- SPD: 30,733 votes (21.1%)
+- CDU/CSU: 50,928 votes (35.0%)
+
+**Vote Redistribution Simulation:**
+Vote Transfers:
+- GRÜNE: 14,468 votes lost/abstained
+- FDP → AfD: 423 votes
+- FDP → CDU/CSU: 423 votes
+- FDP: 4,801 votes lost/abstained
+- Die Linke: 8,709 votes lost/abstained
+- SSW → SPD: 0 votes
+- FREIE WÄHLER → CDU/CSU: 2,496 votes
+- FREIE WÄHLER: 624 votes lost/abstained
+- Volt: 2,137 votes lost/abstained
+- dieBasis → AfD: 0 votes
+
+**Final Second Round Result:**
+- CDU/CSU: 53,847 votes (37.0%)
+- SPD: 30,733 votes (21.1%)
+- AfD: 30,116 votes (20.7%)
+
+**Result:** CDU/CSU wins the simulated second round
 
 
-Final seat distribution after scaling:
-{
-  "AfD": 97,
-  "Die Linke": 13,
-  "GR\u00dcNE": 25,
-  "SPD": 95,
-  "CDU/CSU": 400
-}
 
+## Seat Scaling Applied
+
+Scaling from 299 districts to 630 total seats:
+
+### Before Scaling (299 seats)
+| Party | Seats | Percentage |
+|-------|--------|------------|
+| CDU/CSU | 198 | 66.2% |
+| AfD | 45 | 15.1% |
+| SPD | 39 | 13.0% |
+| GRÜNE | 11 | 3.7% |
+| Die Linke | 6 | 2.0% |
+
+
+### After Scaling (630 seats)
+| Party | Seats | Percentage | Change |
+|-------|--------|------------|---------|
+| CDU/CSU | 417 | 66.2% | -0.0% |
+| AfD | 95 | 15.1% | +0.0% |
+| SPD | 82 | 13.0% | -0.0% |
+| GRÜNE | 23 | 3.7% | -0.0% |
+| Die Linke | 13 | 2.1% | +0.1% |
+
+
+Scaling Details:
+- Scaling factor: 2.107
+- Each party's seats multiplied by this factor and rounded
+- Total seats preserved through rounding adjustments
+- Percentages of total seats remain nearly identical
 
 
 ## Visualizations

@@ -1,4 +1,4 @@
-# Stimmen der Wahl zum Deutschen Bundestag 2025 
+# Stimmen der Wahl zum Deutschen Bundestag 2025 nach niederländischem Wahlrecht.
 Year: 2025
 
 ## Election Statistics

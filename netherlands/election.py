@@ -2,6 +2,8 @@ from typing import List
 import os
 import sys
 
+TITLE = "nach niederländischem Wahlrecht."
+
 # Add parent directory to path to import party.py
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from party import Party
@@ -32,7 +34,7 @@ def calculate_seats(results: list, states: list, total_seats: int, participating
     total_votes = 0
     for district in results:
         for party_name, result in district['party_results'].items():
-            votes = result.get('list', 0)
+            votes = result.get('list', result.get('member', 0))
             if party_name in party_votes:
                 party_votes[party_name] += votes
                 total_votes += votes

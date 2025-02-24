@@ -11,40 +11,40 @@ Year: 2025
 
 ### Vote Summary
 
-A total of 49,642,087 votes were cast, representing a turnout of 82.1% of the electorate.
+A total of 247,782,413 votes were cast, representing a turnout of 409.6% of the electorate.
 
 | Party | Votes | Percentage |
 |-------|--------|------------|
-| CDU/CSU | 14,158,432 | 28.5% |
-| AfD | 10,327,148 | 20.8% |
-| SPD | 8,148,284 | 16.4% |
-| GRÜNE | 5,761,476 | 11.6% |
-| Die Linke | 4,355,382 | 8.8% |
-| BSW | 2,468,670 | 5.0% |
-| FDP | 2,148,878 | 4.3% |
-| FREIE WÄHLER | 769,170 | 1.5% |
-| Tierschutzpartei | 482,032 | 1.0% |
-| Volt | 355,146 | 0.7% |
-| Die PARTEI | 242,806 | 0.5% |
-| dieBasis | 85,557 | 0.2% |
-| BÜNDNIS DEUTSCHLAND | 79,012 | 0.2% |
-| SSW | 76,126 | 0.2% |
-| ÖDP | 49,730 | 0.1% |
-| Team Todenhöfer | 24,558 | 0.0% |
-| PdF | 21,377 | 0.0% |
-| MLPD | 19,876 | 0.0% |
-| PdH | 14,446 | 0.0% |
-| PIRATEN | 13,809 | 0.0% |
-| BP | 12,315 | 0.0% |
-| Bündnis C | 11,784 | 0.0% |
-| MERA25 | 7,128 | 0.0% |
-| WerteUnion | 6,803 | 0.0% |
-| BüSo | 719 | 0.0% |
-| MENSCHLICHE WELT | 694 | 0.0% |
-| SGP | 425 | 0.0% |
-| Verjüngungsforschung | 304 | 0.0% |
+| CDU/CSU | 74,222,690 | 30.0% |
+| AfD | 51,332,320 | 20.7% |
+| SPD | 44,314,080 | 17.9% |
+| GRÜNE | 28,170,252 | 11.4% |
+| Die Linke | 20,931,314 | 8.4% |
+| FDP | 9,693,336 | 3.9% |
+| BSW | 8,004,462 | 3.2% |
+| FREIE WÄHLER | 4,816,486 | 1.9% |
+| Volt | 1,848,592 | 0.7% |
+| Tierschutzpartei | 1,611,066 | 0.7% |
+| Die PARTEI | 973,190 | 0.4% |
+| BÜNDNIS DEUTSCHLAND | 413,128 | 0.2% |
+| SSW | 345,924 | 0.1% |
+| dieBasis | 340,477 | 0.1% |
+| ÖDP | 258,472 | 0.1% |
+| MLPD | 108,044 | 0.0% |
+| Team Todenhöfer | 93,188 | 0.0% |
+| PdF | 66,695 | 0.0% |
+| BP | 48,513 | 0.0% |
+| PdH | 47,084 | 0.0% |
+| PIRATEN | 45,731 | 0.0% |
+| Bündnis C | 39,394 | 0.0% |
+| WerteUnion | 26,097 | 0.0% |
+| MERA25 | 22,700 | 0.0% |
+| BüSo | 4,763 | 0.0% |
+| MENSCHLICHE WELT | 2,082 | 0.0% |
+| SGP | 1,421 | 0.0% |
+| Verjüngungsforschung | 912 | 0.0% |
 
-**CDU/CSU** received the most votes with 14,158,432 votes (28.5% of total votes).
+**CDU/CSU** received the most votes with 74,222,690 votes (30.0% of total votes).
 
 ## Seat Calculation Process
 
@@ -120,8 +120,8 @@ To illustrate how the French two-round system works in practice, here are three 
 
 **Second Round:** Parties qualifying (≥12.5%):
 - AfD: 28,824 votes (15.1%)
-- SPD: 28,366 votes (14.8%)
 - GRÜNE: 43,290 votes (22.6%)
+- SPD: 28,366 votes (14.8%)
 - CDU/CSU: 50,822 votes (26.6%)
 
 **Vote Redistribution Simulation:**
@@ -181,8 +181,8 @@ Vote Transfers:
 - Tierschutzpartei: 0 votes (0.0% of votes, 0.0% of registered)
 
 **Second Round:** Parties qualifying (≥12.5%):
-- SPD: 31,169 votes (20.4%)
 - AfD: 24,472 votes (16.0%)
+- SPD: 31,169 votes (20.4%)
 - CDU/CSU: 49,866 votes (32.7%)
 
 **Vote Redistribution Simulation:**
@@ -235,8 +235,8 @@ Vote Transfers:
 - Tierschutzpartei: 0 votes (0.0% of votes, 0.0% of registered)
 
 **Second Round:** Parties qualifying (≥12.5%):
-- SPD: 30,733 votes (21.1%)
 - AfD: 29,693 votes (20.4%)
+- SPD: 30,733 votes (21.1%)
 - CDU/CSU: 50,928 votes (35.0%)
 
 **Vote Redistribution Simulation:**
