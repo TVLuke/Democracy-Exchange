@@ -1,0 +1,98 @@
+{
+  "Schleswig-Holstein": {
+    "name": "Schleswig-Holstein",
+    "population": 29532000,
+    "citizens": 26583000,
+    "electorate": 2262785
+  },
+  "Mecklenburg-Vorpommern": {
+    "name": "Mecklenburg-Vorpommern",
+    "population": 15780000,
+    "citizens": 14833000,
+    "electorate": 1293732
+  },
+  "Hamburg": {
+    "name": "Hamburg",
+    "population": 18515000,
+    "citizens": 15023000,
+    "electorate": 1299260
+  },
+  "Niedersachsen": {
+    "name": "Niedersachsen",
+    "population": 80081000,
+    "citizens": 70915000,
+    "electorate": 6042951
+  },
+  "Bremen": {
+    "name": "Bremen",
+    "population": 7026000,
+    "citizens": 5461000,
+    "electorate": 450509
+  },
+  "Brandenburg": {
+    "name": "Brandenburg",
+    "population": 25546000,
+    "citizens": 23791000,
+    "electorate": 2034083
+  },
+  "Sachsen-Anhalt": {
+    "name": "Sachsen-Anhalt",
+    "population": 21447000,
+    "citizens": 19914000,
+    "electorate": 1734716
+  },
+  "Berlin": {
+    "name": "Berlin",
+    "population": 36624000,
+    "citizens": 28621000,
+    "electorate": 2442031
+  },
+  "Nordrhein-Westfalen": {
+    "name": "Nordrhein-Westfalen",
+    "population": 180176000,
+    "citizens": 152194000,
+    "electorate": 12883912
+  },
+  "Sachsen": {
+    "name": "Sachsen",
+    "population": 40549000,
+    "citizens": 37406000,
+    "electorate": 3184219
+  },
+  "Hessen": {
+    "name": "Hessen",
+    "population": 62676000,
+    "citizens": 51329000,
+    "electorate": 4343264
+  },
+  "Thüringen": {
+    "name": "Thüringen",
+    "population": 21147000,
+    "citizens": 19463000,
+    "electorate": 1652367
+  },
+  "Rheinland-Pfalz": {
+    "name": "Rheinland-Pfalz",
+    "population": 41252000,
+    "citizens": 35660000,
+    "electorate": 3013681
+  },
+  "Bayern": {
+    "name": "Bayern",
+    "population": 131767000,
+    "citizens": 111503000,
+    "electorate": 9464900
+  },
+  "Baden-Württemberg": {
+    "name": "Baden-Württemberg",
+    "population": 112308000,
+    "citizens": 92134000,
+    "electorate": 7653940
+  },
+  "Saarland": {
+    "name": "Saarland",
+    "population": 10140000,
+    "citizens": 8648000,
+    "electorate": 734253
+  }
+}

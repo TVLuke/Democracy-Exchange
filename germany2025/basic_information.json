@@ -1,0 +1,13 @@
+{
+  "name": "Stimmen der Wahl zum Deutschen Bundestag 2025",
+  "data-sources": [ {
+    "name": "Gesamtergebnis laut Bundeswahlleiterin",
+    "url": "https://www.bundeswahlleiterin.de/bundestagswahlen/2025/ergebnisse/opendata.html"
+  },
+  {
+    "name": "XML Vorläufiges Amtliches Ergebnis",
+    "url": "https://www.bundeswahlleiterin.de/bundestagswahlen/2025/ergebnisse/opendata/btw25/daten/gesamtergebnis_01.xml"
+  }],
+  "date": 2025,
+  "seats": 630
+}

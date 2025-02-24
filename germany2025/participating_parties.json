@@ -1,0 +1,183 @@
+[
+  {
+    "short_name": "AfD",
+    "name": "",
+    "color": "#009ee0",
+    "left_to_right": 8
+  },
+  {
+    "short_name": "BP",
+    "name": "",
+    "color": "",
+    "left_to_right": 0
+  },
+  {
+    "short_name": "BSW",
+    "name": "",
+    "color": "",
+    "left_to_right": 0
+  },
+  {
+    "short_name": "BÜNDNIS DEUTSCHLAND",
+    "name": "",
+    "color": "#8B4513",
+    "left_to_right": 0
+  },
+  {
+    "short_name": "BüSo",
+    "name": "",
+    "color": "",
+    "left_to_right": 0
+  },
+  {
+    "short_name": "Bündnis C",
+    "name": "",
+    "color": "",
+    "left_to_right": 0
+  },
+  {
+    "short_name": "CDU",
+    "name": "",
+    "color": "#000000",
+    "left_to_right": 6
+  },
+  {
+    "short_name": "CSU",
+    "name": "",
+    "color": "#000000",
+    "left_to_right": 6
+  },
+  {
+    "short_name": "Die Linke",
+    "name": "",
+    "color": "#be3075",
+    "left_to_right": 1
+  },
+  {
+    "short_name": "Die PARTEI",
+    "name": "",
+    "color": "",
+    "left_to_right": 2
+  },
+  {
+    "short_name": "FDP",
+    "name": "",
+    "color": "#ffed00",
+    "left_to_right": 7
+  },
+  {
+    "short_name": "FREIE WÄHLER",
+    "name": "",
+    "color": "",
+    "left_to_right": 6
+  },
+  {
+    "short_name": "GRÜNE",
+    "name": "",
+    "color": "#64a12d",
+    "left_to_right": 2
+  },
+  {
+    "short_name": "GRÜNE/B 90",
+    "name": "",
+    "color": "#64a12d",
+    "left_to_right": 2
+  },
+  {
+    "short_name": "MENSCHLICHE WELT",
+    "name": "",
+    "color": "",
+    "left_to_right": 0
+  },
+  {
+    "short_name": "MERA25",
+    "name": "",
+    "color": "",
+    "left_to_right": 0
+  },
+  {
+    "short_name": "MLPD",
+    "name": "",
+    "color": "",
+    "left_to_right": 0
+  },
+  {
+    "short_name": "PIRATEN",
+    "name": "",
+    "color": "",
+    "left_to_right": 2
+  },
+  {
+    "short_name": "PdF",
+    "name": "",
+    "color": "",
+    "left_to_right": 0
+  },
+  {
+    "short_name": "PdH",
+    "name": "",
+    "color": "",
+    "left_to_right": 0
+  },
+  {
+    "short_name": "SGP",
+    "name": "",
+    "color": "",
+    "left_to_right": 0
+  },
+  {
+    "short_name": "SPD",
+    "name": "",
+    "color": "#eb001f",
+    "left_to_right": 4
+  },
+  {
+    "short_name": "SSW",
+    "name": "",
+    "color": "#EFEFEF",
+    "left_to_right": 3,
+    "minority": true
+  },
+  {
+    "short_name": "Team Todenhöfer",
+    "name": "",
+    "color": "",
+    "left_to_right": 0
+  },
+  {
+    "short_name": "Tierschutzpartei",
+    "name": "",
+    "color": "",
+    "left_to_right": 2
+  },
+  {
+    "short_name": "Verjüngungsforschung",
+    "name": "",
+    "color": "",
+    "left_to_right": 0
+  },
+  {
+    "short_name": "Volt",
+    "name": "",
+    "color": "",
+    "left_to_right": 1
+  },
+  {
+    "short_name": "WerteUnion",
+    "name": "",
+    "color": "",
+    "left_to_right": 0
+  },
+  {
+    "short_name": "dieBasis",
+    "name": "",
+    "color": "",
+    "left_to_right": 8
+  },
+  {
+    "short_name": "ÖDP",
+    "name": "",
+    "color": "",
+    "left_to_right": 2
+  }
+]
