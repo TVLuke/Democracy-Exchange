@@ -13,7 +13,7 @@ country = 'germany'
 year = '2025'
 election = country + year
 
-appointments = ['italy']
+appointments = ['italy', 'netherlands']
 
 # Visualization
 POINT_SIZE = 100  # Doubled point size
@@ -163,6 +163,14 @@ def calculate_election_results(election_id: str, appointments: list) -> dict:
     if not isinstance(voting_data, list) or not voting_data or not isinstance(voting_data[0], dict):
         raise ValueError("Voting data is not in the expected format")
 
+    # Load appointment basic info
+    appointment_info = {}
+    for appointment in appointments:
+        info_file = os.path.join(appointment, 'basic_information.json')
+        if os.path.exists(info_file):
+            with open(info_file, 'r', encoding='utf-8') as f:
+                appointment_info[appointment] = json.load(f)
+    
     # Get total votes per party across all districts
     party_totals = {}
     for district in voting_data:
@@ -170,7 +178,12 @@ def calculate_election_results(election_id: str, appointments: list) -> dict:
             for party_name, results in district['party_results'].items():
                 if party_name not in party_totals:
                     party_totals[party_name] = 0
-                party_totals[party_name] += results.get('list', 0)
+                # Use the correct vote type based on appointment's basic_information
+                for appointment in appointments:
+                    if appointment in appointment_info:
+                        vote_type = appointment_info[appointment].get('relevant_vote', 'list')
+                        votes = results.get(vote_type, 0)
+                        party_totals[party_name] += votes
 
     # Print totals sorted by votes
     for party_name, total_votes in sorted(party_totals.items(), key=lambda x: x[1], reverse=True):
@@ -197,10 +210,16 @@ def calculate_election_results(election_id: str, appointments: list) -> dict:
     total_citizens = get_total_from_states_or_districts('citizens')
     electorate_size = get_total_from_states_or_districts('electorate')
     
+    # Validate appointments first
+    for appointment in appointments:
+        appointment_path = os.path.join(appointment)
+        if not os.path.exists(appointment_path):
+            raise ValueError(f"Invalid appointment method: {appointment}")
+    
     # Generate vote summary and add to process dictionary
     process['vote_summary'] = generate_vote_summary(party_totals, electorate_size)
     
-    # Calculate results for each appointment
+    # Calculate results for each appointment (now validated)
     for appointment in appointments:
         print(f"\nCalculating seats using {appointment} method...")
         print("=" * 50)
