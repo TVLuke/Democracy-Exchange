@@ -1,0 +1,8 @@
+{
+    "name": "Niederländisches wahlsystem", 
+    "data-sources": [ {
+        "name": "Wahlrecht",
+        "url": "https://www.wahlrecht.de/ausland/kieswet.html"
+    }],
+    "relevant_vote": "list"
+}

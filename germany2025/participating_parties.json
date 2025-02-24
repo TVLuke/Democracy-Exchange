@@ -73,7 +73,7 @@
   {
     "short_name": "FREIE WÄHLER",
     "name": "",
-    "color": "",
+    "color": "#FFA500",
     "left_to_right": 6,
     "coalition": "Konservativ"
   },
@@ -112,7 +112,7 @@
   {
     "short_name": "PIRATEN",
     "name": "",
-    "color": "",
+    "color": "#FFA500",
     "left_to_right": 2,
     "coalition": "Liberale"
   },

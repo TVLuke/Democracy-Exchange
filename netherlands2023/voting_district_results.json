@@ -1,0 +1,1598 @@
+[
+  {
+    "district": 1,
+    "name": "Groningen",
+    "state": "Groningen",
+    "population": 596075,
+    "electorate": 476860,
+    "party_results": {
+      "VVD": {
+        "list": 36092
+      },
+      "D66": {
+        "list": 20899
+      },
+      "GL-PvdA": {
+        "list": 73774
+      },
+      "PVV": {
+        "list": 79811
+      },
+      "CDA": {
+        "list": 10792
+      },
+      "SP": {
+        "list": 16564
+      },
+      "FVD": {
+        "list": 8358
+      },
+      "PvdD": {
+        "list": 9828
+      },
+      "CU": {
+        "list": 12374
+      },
+      "Volt": {
+        "list": 7082
+      },
+      "JA21": {
+        "list": 2013
+      },
+      "SGP": {
+        "list": 3280
+      },
+      "DENK": {
+        "list": 2794
+      },
+      "50PLUS": {
+        "list": 1432
+      },
+      "BBB": {
+        "list": 22356
+      },
+      "Bij1": {
+        "list": 1182
+      },
+      "Piratenpartij": {
+        "list": 370
+      },
+      "BVNL": {
+        "list": 1870
+      },
+      "NSC": {
+        "list": 53539
+      },
+      "Splinter": {
+        "list": 377
+      },
+      "LEF": {
+        "list": 212
+      },
+      "Samen voor Nederland": {
+        "list": 295
+      },
+      "PLAN": {
+        "list": 191
+      },
+      "PvdS": {
+        "list": 0
+      },
+      "PPB": {
+        "list": 0
+      }
+    }
+  },
+  {
+    "district": 2,
+    "name": "Leeuwarden",
+    "state": "Friesland",
+    "population": 915789,
+    "electorate": 732631,
+    "party_results": {
+      "VVD": {
+        "list": 47098
+      },
+      "D66": {
+        "list": 18249
+      },
+      "GL-PvdA": {
+        "list": 61194
+      },
+      "PVV": {
+        "list": 102524
+      },
+      "CDA": {
+        "list": 22478
+      },
+      "SP": {
+        "list": 14266
+      },
+      "FVD": {
+        "list": 11312
+      },
+      "PvdD": {
+        "list": 7635
+      },
+      "CU": {
+        "list": 11469
+      },
+      "Volt": {
+        "list": 3689
+      },
+      "JA21": {
+        "list": 2737
+      },
+      "SGP": {
+        "list": 4197
+      },
+      "DENK": {
+        "list": 1675
+      },
+      "50PLUS": {
+        "list": 1756
+      },
+      "BBB": {
+        "list": 35010
+      },
+      "Bij1": {
+        "list": 685
+      },
+      "Piratenpartij": {
+        "list": 377
+      },
+      "BVNL": {
+        "list": 3450
+      },
+      "NSC": {
+        "list": 68451
+      },
+      "Splinter": {
+        "list": 437
+      },
+      "LEF": {
+        "list": 202
+      },
+      "Samen voor Nederland": {
+        "list": 263
+      },
+      "PLAN": {
+        "list": 161
+      },
+      "PvdS": {
+        "list": 0
+      },
+      "PPB": {
+        "list": 102
+      }
+    }
+  },
+  {
+    "district": 3,
+    "name": "Assen",
+    "state": "Drenthe",
+    "population": 502051,
+    "electorate": 401640,
+    "party_results": {
+      "VVD": {
+        "list": 40761
+      },
+      "D66": {
+        "list": 14467
+      },
+      "GL-PvdA": {
+        "list": 45404
+      },
+      "PVV": {
+        "list": 84505
+      },
+      "CDA": {
+        "list": 11928
+      },
+      "SP": {
+        "list": 10736
+      },
+      "FVD": {
+        "list": 7729
+      },
+      "PvdD": {
+        "list": 5967
+      },
+      "CU": {
+        "list": 8541
+      },
+      "Volt": {
+        "list": 3254
+      },
+      "JA21": {
+        "list": 1993
+      },
+      "SGP": {
+        "list": 2569
+      },
+      "DENK": {
+        "list": 1487
+      },
+      "50PLUS": {
+        "list": 1470
+      },
+      "BBB": {
+        "list": 28602
+      },
+      "Bij1": {
+        "list": 449
+      },
+      "Piratenpartij": {
+        "list": 217
+      },
+      "BVNL": {
+        "list": 1965
+      },
+      "NSC": {
+        "list": 51907
+      },
+      "Splinter": {
+        "list": 306
+      },
+      "LEF": {
+        "list": 126
+      },
+      "Samen voor Nederland": {
+        "list": 399
+      },
+      "PLAN": {
+        "list": 0
+      },
+      "PvdS": {
+        "list": 0
+      },
+      "PPB": {
+        "list": 0
+      }
+    }
+  },
+  {
+    "district": 4,
+    "name": "Zwolle",
+    "state": "Overijssel",
+    "population": 1184333,
+    "electorate": 947466,
+    "party_results": {
+      "VVD": {
+        "list": 83052
+      },
+      "D66": {
+        "list": 32251
+      },
+      "GL-PvdA": {
+        "list": 86650
+      },
+      "PVV": {
+        "list": 163887
+      },
+      "CDA": {
+        "list": 26019
+      },
+      "SP": {
+        "list": 18051
+      },
+      "FVD": {
+        "list": 15816
+      },
+      "PvdD": {
+        "list": 11264
+      },
+      "CU": {
+        "list": 25645
+      },
+      "Volt": {
+        "list": 9850
+      },
+      "JA21": {
+        "list": 4230
+      },
+      "SGP": {
+        "list": 22334
+      },
+      "DENK": {
+        "list": 10138
+      },
+      "50PLUS": {
+        "list": 2154
+      },
+      "BBB": {
+        "list": 63533
+      },
+      "Bij1": {
+        "list": 1347
+      },
+      "Piratenpartij": {
+        "list": 466
+      },
+      "BVNL": {
+        "list": 3375
+      },
+      "NSC": {
+        "list": 163693
+      },
+      "Splinter": {
+        "list": 617
+      },
+      "LEF": {
+        "list": 278
+      },
+      "Samen voor Nederland": {
+        "list": 321
+      },
+      "PLAN": {
+        "list": 283
+      },
+      "PvdS": {
+        "list": 314
+      },
+      "PPB": {
+        "list": 0
+      }
+    }
+  },
+  {
+    "district": 5,
+    "name": "Lelystad",
+    "state": "Flevoland",
+    "population": 444701,
+    "electorate": 355760,
+    "party_results": {
+      "VVD": {
+        "list": 33539
+      },
+      "D66": {
+        "list": 10232
+      },
+      "GL-PvdA": {
+        "list": 26859
+      },
+      "PVV": {
+        "list": 60434
+      },
+      "CDA": {
+        "list": 5716
+      },
+      "SP": {
+        "list": 7193
+      },
+      "FVD": {
+        "list": 7422
+      },
+      "PvdD": {
+        "list": 4389
+      },
+      "CU": {
+        "list": 5963
+      },
+      "Volt": {
+        "list": 2392
+      },
+      "JA21": {
+        "list": 1597
+      },
+      "SGP": {
+        "list": 8656
+      },
+      "DENK": {
+        "list": 7505
+      },
+      "50PLUS": {
+        "list": 1498
+      },
+      "BBB": {
+        "list": 11774
+      },
+      "Bij1": {
+        "list": 1900
+      },
+      "Piratenpartij": {
+        "list": 252
+      },
+      "BVNL": {
+        "list": 1447
+      },
+      "NSC": {
+        "list": 27822
+      },
+      "Splinter": {
+        "list": 342
+      },
+      "LEF": {
+        "list": 153
+      },
+      "Samen voor Nederland": {
+        "list": 173
+      },
+      "PLAN": {
+        "list": 180
+      },
+      "PvdS": {
+        "list": 0
+      },
+      "PPB": {
+        "list": 67
+      }
+    }
+  },
+  {
+    "district": 6,
+    "name": "Nijmegen",
+    "state": "Gelderland",
+    "population": 1066854,
+    "electorate": 853483,
+    "party_results": {
+      "VVD": {
+        "list": 52272
+      },
+      "D66": {
+        "list": 25200
+      },
+      "GL-PvdA": {
+        "list": 69483
+      },
+      "PVV": {
+        "list": 85943
+      },
+      "CDA": {
+        "list": 9976
+      },
+      "SP": {
+        "list": 11852
+      },
+      "FVD": {
+        "list": 6308
+      },
+      "PvdD": {
+        "list": 9068
+      },
+      "CU": {
+        "list": 4464
+      },
+      "Volt": {
+        "list": 7111
+      },
+      "JA21": {
+        "list": 2205
+      },
+      "SGP": {
+        "list": 12668
+      },
+      "DENK": {
+        "list": 5220
+      },
+      "50PLUS": {
+        "list": 1543
+      },
+      "BBB": {
+        "list": 13369
+      },
+      "Bij1": {
+        "list": 1265
+      },
+      "Piratenpartij": {
+        "list": 271
+      },
+      "BVNL": {
+        "list": 1571
+      },
+      "NSC": {
+        "list": 40648
+      },
+      "Splinter": {
+        "list": 350
+      },
+      "LEF": {
+        "list": 162
+      },
+      "Samen voor Nederland": {
+        "list": 134
+      },
+      "PLAN": {
+        "list": 158
+      },
+      "PvdS": {
+        "list": 178
+      },
+      "PPB": {
+        "list": 0
+      }
+    }
+  },
+  {
+    "district": 7,
+    "name": "Arnhem",
+    "state": "Gelderland",
+    "population": 1066854,
+    "electorate": 853483,
+    "party_results": {
+      "VVD": {
+        "list": 139971
+      },
+      "D66": {
+        "list": 54342
+      },
+      "GL-PvdA": {
+        "list": 137007
+      },
+      "PVV": {
+        "list": 213507
+      },
+      "CDA": {
+        "list": 38824
+      },
+      "SP": {
+        "list": 27147
+      },
+      "FVD": {
+        "list": 20296
+      },
+      "PvdD": {
+        "list": 20058
+      },
+      "CU": {
+        "list": 33325
+      },
+      "Volt": {
+        "list": 13517
+      },
+      "JA21": {
+        "list": 6059
+      },
+      "SGP": {
+        "list": 43277
+      },
+      "DENK": {
+        "list": 14383
+      },
+      "50PLUS": {
+        "list": 3971
+      },
+      "BBB": {
+        "list": 69882
+      },
+      "Bij1": {
+        "list": 2132
+      },
+      "Piratenpartij": {
+        "list": 712
+      },
+      "BVNL": {
+        "list": 4415
+      },
+      "NSC": {
+        "list": 137796
+      },
+      "Splinter": {
+        "list": 1038
+      },
+      "LEF": {
+        "list": 409
+      },
+      "Samen voor Nederland": {
+        "list": 546
+      },
+      "PLAN": {
+        "list": 494
+      },
+      "PvdS": {
+        "list": 0
+      },
+      "PPB": {
+        "list": 0
+      }
+    }
+  },
+  {
+    "district": 8,
+    "name": "Utrecht",
+    "state": "Utrecht",
+    "population": 1387643,
+    "electorate": 1110114,
+    "party_results": {
+      "VVD": {
+        "list": 136880
+      },
+      "D66": {
+        "list": 70842
+      },
+      "GL-PvdA": {
+        "list": 172801
+      },
+      "PVV": {
+        "list": 148706
+      },
+      "CDA": {
+        "list": 28464
+      },
+      "SP": {
+        "list": 19566
+      },
+      "FVD": {
+        "list": 14872
+      },
+      "PvdD": {
+        "list": 23493
+      },
+      "CU": {
+        "list": 25108
+      },
+      "Volt": {
+        "list": 21620
+      },
+      "JA21": {
+        "list": 5229
+      },
+      "SGP": {
+        "list": 23436
+      },
+      "DENK": {
+        "list": 26230
+      },
+      "50PLUS": {
+        "list": 3362
+      },
+      "BBB": {
+        "list": 24167
+      },
+      "Bij1": {
+        "list": 4173
+      },
+      "Piratenpartij": {
+        "list": 706
+      },
+      "BVNL": {
+        "list": 3361
+      },
+      "NSC": {
+        "list": 88727
+      },
+      "Splinter": {
+        "list": 1184
+      },
+      "LEF": {
+        "list": 394
+      },
+      "Samen voor Nederland": {
+        "list": 295
+      },
+      "PLAN": {
+        "list": 376
+      },
+      "PvdS": {
+        "list": 383
+      },
+      "PPB": {
+        "list": 160
+      }
+    }
+  },
+  {
+    "district": 9,
+    "name": "Amsterdam",
+    "state": "Amsterdam",
+    "population": 918117,
+    "electorate": 734493,
+    "party_results": {
+      "VVD": {
+        "list": 49517
+      },
+      "D66": {
+        "list": 41418
+      },
+      "GL-PvdA": {
+        "list": 141976
+      },
+      "PVV": {
+        "list": 40470
+      },
+      "CDA": {
+        "list": 3717
+      },
+      "SP": {
+        "list": 13383
+      },
+      "FVD": {
+        "list": 8672
+      },
+      "PvdD": {
+        "list": 20059
+      },
+      "CU": {
+        "list": 4113
+      },
+      "Volt": {
+        "list": 16062
+      },
+      "JA21": {
+        "list": 1736
+      },
+      "SGP": {
+        "list": 527
+      },
+      "DENK": {
+        "list": 31609
+      },
+      "50PLUS": {
+        "list": 1236
+      },
+      "BBB": {
+        "list": 4183
+      },
+      "Bij1": {
+        "list": 9707
+      },
+      "Piratenpartij": {
+        "list": 793
+      },
+      "BVNL": {
+        "list": 1447
+      },
+      "NSC": {
+        "list": 27787
+      },
+      "Splinter": {
+        "list": 521
+      },
+      "LEF": {
+        "list": 357
+      },
+      "Samen voor Nederland": {
+        "list": 128
+      },
+      "PLAN": {
+        "list": 342
+      },
+      "PvdS": {
+        "list": 195
+      },
+      "PPB": {
+        "list": 149
+      }
+    }
+  },
+  {
+    "district": 10,
+    "name": "Haarlem",
+    "state": "Noord-Holland",
+    "population": 1476311,
+    "electorate": 1181048,
+    "party_results": {
+      "VVD": {
+        "list": 116494
+      },
+      "D66": {
+        "list": 48721
+      },
+      "GL-PvdA": {
+        "list": 98975
+      },
+      "PVV": {
+        "list": 115220
+      },
+      "CDA": {
+        "list": 14626
+      },
+      "SP": {
+        "list": 15826
+      },
+      "FVD": {
+        "list": 13072
+      },
+      "PvdD": {
+        "list": 15379
+      },
+      "CU": {
+        "list": 6771
+      },
+      "Volt": {
+        "list": 12466
+      },
+      "JA21": {
+        "list": 4178
+      },
+      "SGP": {
+        "list": 2289
+      },
+      "DENK": {
+        "list": 12464
+      },
+      "50PLUS": {
+        "list": 3124
+      },
+      "BBB": {
+        "list": 13936
+      },
+      "Bij1": {
+        "list": 2332
+      },
+      "Piratenpartij": {
+        "list": 553
+      },
+      "BVNL": {
+        "list": 3166
+      },
+      "NSC": {
+        "list": 61026
+      },
+      "Splinter": {
+        "list": 847
+      },
+      "LEF": {
+        "list": 313
+      },
+      "Samen voor Nederland": {
+        "list": 279
+      },
+      "PLAN": {
+        "list": 389
+      },
+      "PvdS": {
+        "list": 401
+      },
+      "PPB": {
+        "list": 0
+      }
+    }
+  },
+  {
+    "district": 11,
+    "name": "Den Helder",
+    "state": "Noord-Holland",
+    "population": 1476311,
+    "electorate": 1181048,
+    "party_results": {
+      "VVD": {
+        "list": 108848
+      },
+      "D66": {
+        "list": 37593
+      },
+      "GL-PvdA": {
+        "list": 91075
+      },
+      "PVV": {
+        "list": 161596
+      },
+      "CDA": {
+        "list": 18301
+      },
+      "SP": {
+        "list": 21314
+      },
+      "FVD": {
+        "list": 17873
+      },
+      "PvdD": {
+        "list": 14753
+      },
+      "CU": {
+        "list": 5605
+      },
+      "Volt": {
+        "list": 8766
+      },
+      "JA21": {
+        "list": 5365
+      },
+      "SGP": {
+        "list": 1989
+      },
+      "DENK": {
+        "list": 10323
+      },
+      "50PLUS": {
+        "list": 4439
+      },
+      "BBB": {
+        "list": 33151
+      },
+      "Bij1": {
+        "list": 2066
+      },
+      "Piratenpartij": {
+        "list": 775
+      },
+      "BVNL": {
+        "list": 4346
+      },
+      "NSC": {
+        "list": 73081
+      },
+      "Splinter": {
+        "list": 969
+      },
+      "LEF": {
+        "list": 351
+      },
+      "Samen voor Nederland": {
+        "list": 401
+      },
+      "PLAN": {
+        "list": 441
+      },
+      "PvdS": {
+        "list": 449
+      },
+      "PPB": {
+        "list": 0
+      }
+    }
+  },
+  {
+    "district": 12,
+    "name": "'s-Gravenhage",
+    "state": "Zuid-Holland",
+    "population": 1268302,
+    "electorate": 1014641,
+    "party_results": {
+      "VVD": {
+        "list": 48959
+      },
+      "D66": {
+        "list": 27653
+      },
+      "GL-PvdA": {
+        "list": 67045
+      },
+      "PVV": {
+        "list": 57582
+      },
+      "CDA": {
+        "list": 5971
+      },
+      "SP": {
+        "list": 7741
+      },
+      "FVD": {
+        "list": 8577
+      },
+      "PvdD": {
+        "list": 11045
+      },
+      "CU": {
+        "list": 3992
+      },
+      "Volt": {
+        "list": 9150
+      },
+      "JA21": {
+        "list": 1706
+      },
+      "SGP": {
+        "list": 1423
+      },
+      "DENK": {
+        "list": 21200
+      },
+      "50PLUS": {
+        "list": 1206
+      },
+      "BBB": {
+        "list": 5334
+      },
+      "Bij1": {
+        "list": 2456
+      },
+      "Piratenpartij": {
+        "list": 395
+      },
+      "BVNL": {
+        "list": 1419
+      },
+      "NSC": {
+        "list": 29181
+      },
+      "Splinter": {
+        "list": 497
+      },
+      "LEF": {
+        "list": 300
+      },
+      "Samen voor Nederland": {
+        "list": 136
+      },
+      "PLAN": {
+        "list": 258
+      },
+      "PvdS": {
+        "list": 0
+      },
+      "PPB": {
+        "list": 100
+      }
+    }
+  },
+  {
+    "district": 13,
+    "name": "Rotterdam",
+    "state": "Rotterdam",
+    "population": 915789,
+    "electorate": 732631,
+    "party_results": {
+      "VVD": {
+        "list": 34543
+      },
+      "D66": {
+        "list": 20606
+      },
+      "GL-PvdA": {
+        "list": 58867
+      },
+      "PVV": {
+        "list": 63126
+      },
+      "CDA": {
+        "list": 5820
+      },
+      "SP": {
+        "list": 9564
+      },
+      "FVD": {
+        "list": 7576
+      },
+      "PvdD": {
+        "list": 9177
+      },
+      "CU": {
+        "list": 4266
+      },
+      "Volt": {
+        "list": 7587
+      },
+      "JA21": {
+        "list": 2572
+      },
+      "SGP": {
+        "list": 1873
+      },
+      "DENK": {
+        "list": 29175
+      },
+      "50PLUS": {
+        "list": 1251
+      },
+      "BBB": {
+        "list": 3858
+      },
+      "Bij1": {
+        "list": 4917
+      },
+      "Piratenpartij": {
+        "list": 330
+      },
+      "BVNL": {
+        "list": 1201
+      },
+      "NSC": {
+        "list": 26561
+      },
+      "Splinter": {
+        "list": 408
+      },
+      "LEF": {
+        "list": 168
+      },
+      "Samen voor Nederland": {
+        "list": 134
+      },
+      "PLAN": {
+        "list": 324
+      },
+      "PvdS": {
+        "list": 0
+      },
+      "PPB": {
+        "list": 0
+      }
+    }
+  },
+  {
+    "district": 14,
+    "name": "Dordrecht",
+    "state": "Zuid-Holland",
+    "population": 1268302,
+    "electorate": 1014641,
+    "party_results": {
+      "VVD": {
+        "list": 117000
+      },
+      "D66": {
+        "list": 36879
+      },
+      "GL-PvdA": {
+        "list": 85660
+      },
+      "PVV": {
+        "list": 207280
+      },
+      "CDA": {
+        "list": 27933
+      },
+      "SP": {
+        "list": 21122
+      },
+      "FVD": {
+        "list": 18318
+      },
+      "PvdD": {
+        "list": 13630
+      },
+      "CU": {
+        "list": 22318
+      },
+      "Volt": {
+        "list": 9637
+      },
+      "JA21": {
+        "list": 6434
+      },
+      "SGP": {
+        "list": 35340
+      },
+      "DENK": {
+        "list": 21766
+      },
+      "50PLUS": {
+        "list": 4019
+      },
+      "BBB": {
+        "list": 21989
+      },
+      "Bij1": {
+        "list": 2276
+      },
+      "Piratenpartij": {
+        "list": 545
+      },
+      "BVNL": {
+        "list": 3567
+      },
+      "NSC": {
+        "list": 87980
+      },
+      "Splinter": {
+        "list": 1033
+      },
+      "LEF": {
+        "list": 282
+      },
+      "Samen voor Nederland": {
+        "list": 385
+      },
+      "PLAN": {
+        "list": 374
+      },
+      "PvdS": {
+        "list": 451
+      },
+      "PPB": {
+        "list": 0
+      }
+    }
+  },
+  {
+    "district": 15,
+    "name": "Leiden",
+    "state": "Zuid-Holland",
+    "population": 1268302,
+    "electorate": 1014641,
+    "party_results": {
+      "VVD": {
+        "list": 141131
+      },
+      "D66": {
+        "list": 53360
+      },
+      "GL-PvdA": {
+        "list": 111504
+      },
+      "PVV": {
+        "list": 178943
+      },
+      "CDA": {
+        "list": 29614
+      },
+      "SP": {
+        "list": 19320
+      },
+      "FVD": {
+        "list": 16728
+      },
+      "PvdD": {
+        "list": 16839
+      },
+      "CU": {
+        "list": 19814
+      },
+      "Volt": {
+        "list": 13761
+      },
+      "JA21": {
+        "list": 6698
+      },
+      "SGP": {
+        "list": 23628
+      },
+      "DENK": {
+        "list": 13627
+      },
+      "50PLUS": {
+        "list": 3833
+      },
+      "BBB": {
+        "list": 24110
+      },
+      "Bij1": {
+        "list": 2466
+      },
+      "Piratenpartij": {
+        "list": 594
+      },
+      "BVNL": {
+        "list": 3728
+      },
+      "NSC": {
+        "list": 88347
+      },
+      "Splinter": {
+        "list": 1040
+      },
+      "LEF": {
+        "list": 318
+      },
+      "Samen voor Nederland": {
+        "list": 344
+      },
+      "PLAN": {
+        "list": 458
+      },
+      "PvdS": {
+        "list": 406
+      },
+      "PPB": {
+        "list": 125
+      }
+    }
+  },
+  {
+    "district": 16,
+    "name": "Middelburg",
+    "state": "Zeeland",
+    "population": 391124,
+    "electorate": 312899,
+    "party_results": {
+      "VVD": {
+        "list": 33962
+      },
+      "D66": {
+        "list": 9537
+      },
+      "GL-PvdA": {
+        "list": 25606
+      },
+      "PVV": {
+        "list": 55151
+      },
+      "CDA": {
+        "list": 10015
+      },
+      "SP": {
+        "list": 7068
+      },
+      "FVD": {
+        "list": 5711
+      },
+      "PvdD": {
+        "list": 4166
+      },
+      "CU": {
+        "list": 6799
+      },
+      "Volt": {
+        "list": 1655
+      },
+      "JA21": {
+        "list": 1612
+      },
+      "SGP": {
+        "list": 22384
+      },
+      "DENK": {
+        "list": 1818
+      },
+      "50PLUS": {
+        "list": 1297
+      },
+      "BBB": {
+        "list": 13535
+      },
+      "Bij1": {
+        "list": 327
+      },
+      "Piratenpartij": {
+        "list": 169
+      },
+      "BVNL": {
+        "list": 1434
+      },
+      "NSC": {
+        "list": 28102
+      },
+      "Splinter": {
+        "list": 185
+      },
+      "LEF": {
+        "list": 92
+      },
+      "Samen voor Nederland": {
+        "list": 143
+      },
+      "PLAN": {
+        "list": 0
+      },
+      "PvdS": {
+        "list": 0
+      },
+      "PPB": {
+        "list": 0
+      }
+    }
+  },
+  {
+    "district": 17,
+    "name": "Tilburg",
+    "state": "Noord-Brabant",
+    "population": 1313105,
+    "electorate": 1050484,
+    "party_results": {
+      "VVD": {
+        "list": 122323
+      },
+      "D66": {
+        "list": 41777
+      },
+      "GL-PvdA": {
+        "list": 86338
+      },
+      "PVV": {
+        "list": 184391
+      },
+      "CDA": {
+        "list": 21472
+      },
+      "SP": {
+        "list": 24055
+      },
+      "FVD": {
+        "list": 12977
+      },
+      "PvdD": {
+        "list": 12045
+      },
+      "CU": {
+        "list": 5430
+      },
+      "Volt": {
+        "list": 9572
+      },
+      "JA21": {
+        "list": 4999
+      },
+      "SGP": {
+        "list": 5698
+      },
+      "DENK": {
+        "list": 13477
+      },
+      "50PLUS": {
+        "list": 4371
+      },
+      "BBB": {
+        "list": 26429
+      },
+      "Bij1": {
+        "list": 1654
+      },
+      "Piratenpartij": {
+        "list": 460
+      },
+      "BVNL": {
+        "list": 3314
+      },
+      "NSC": {
+        "list": 81678
+      },
+      "Splinter": {
+        "list": 859
+      },
+      "LEF": {
+        "list": 305
+      },
+      "Samen voor Nederland": {
+        "list": 306
+      },
+      "PLAN": {
+        "list": 316
+      },
+      "PvdS": {
+        "list": 371
+      },
+      "PPB": {
+        "list": 147
+      }
+    }
+  },
+  {
+    "district": 18,
+    "name": "'s-Hertogenbosch",
+    "state": "Noord-Brabant",
+    "population": 1313105,
+    "electorate": 1050484,
+    "party_results": {
+      "VVD": {
+        "list": 156370
+      },
+      "D66": {
+        "list": 59652
+      },
+      "GL-PvdA": {
+        "list": 114183
+      },
+      "PVV": {
+        "list": 230161
+      },
+      "CDA": {
+        "list": 31807
+      },
+      "SP": {
+        "list": 39458
+      },
+      "FVD": {
+        "list": 16165
+      },
+      "PvdD": {
+        "list": 15009
+      },
+      "CU": {
+        "list": 3907
+      },
+      "Volt": {
+        "list": 15061
+      },
+      "JA21": {
+        "list": 6078
+      },
+      "SGP": {
+        "list": 1021
+      },
+      "DENK": {
+        "list": 13850
+      },
+      "50PLUS": {
+        "list": 5405
+      },
+      "BBB": {
+        "list": 41274
+      },
+      "Bij1": {
+        "list": 1738
+      },
+      "Piratenpartij": {
+        "list": 640
+      },
+      "BVNL": {
+        "list": 4218
+      },
+      "NSC": {
+        "list": 114442
+      },
+      "Splinter": {
+        "list": 1110
+      },
+      "LEF": {
+        "list": 402
+      },
+      "Samen voor Nederland": {
+        "list": 375
+      },
+      "PLAN": {
+        "list": 453
+      },
+      "PvdS": {
+        "list": 441
+      },
+      "PPB": {
+        "list": 188
+      }
+    }
+  },
+  {
+    "district": 19,
+    "name": "Maastricht",
+    "state": "Limburg",
+    "population": 1128367,
+    "electorate": 902693,
+    "party_results": {
+      "VVD": {
+        "list": 90273
+      },
+      "D66": {
+        "list": 31572
+      },
+      "GL-PvdA": {
+        "list": 88122
+      },
+      "PVV": {
+        "list": 217216
+      },
+      "CDA": {
+        "list": 22287
+      },
+      "SP": {
+        "list": 23940
+      },
+      "FVD": {
+        "list": 15092
+      },
+      "PvdD": {
+        "list": 11258
+      },
+      "CU": {
+        "list": 2164
+      },
+      "Volt": {
+        "list": 6515
+      },
+      "JA21": {
+        "list": 3893
+      },
+      "SGP": {
+        "list": 665
+      },
+      "DENK": {
+        "list": 8007
+      },
+      "50PLUS": {
+        "list": 3670
+      },
+      "BBB": {
+        "list": 28862
+      },
+      "Bij1": {
+        "list": 1137
+      },
+      "Piratenpartij": {
+        "list": 482
+      },
+      "BVNL": {
+        "list": 3562
+      },
+      "NSC": {
+        "list": 92191
+      },
+      "Splinter": {
+        "list": 703
+      },
+      "LEF": {
+        "list": 298
+      },
+      "Samen voor Nederland": {
+        "list": 268
+      },
+      "PLAN": {
+        "list": 289
+      },
+      "PvdS": {
+        "list": 377
+      },
+      "PPB": {
+        "list": 0
+      }
+    }
+  }
+]

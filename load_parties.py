@@ -1,14 +1,16 @@
 import os
 import json
-import random
+import hashlib
 from typing import Optional
 
-def generate_random_color() -> str:
-    """Generate a random hex color code."""
-    r = random.randint(0, 255)
-    g = random.randint(0, 255)
-    b = random.randint(0, 255)
-    return f'#{r:02x}{g:02x}{b:02x}'
+def generate_color_from_name(name: str) -> str:
+    """Generate a deterministic hex color code from a name using its hash."""
+    # Get the hash of the name
+    hash_object = hashlib.sha256(name.encode())
+    hex_hash = hash_object.hexdigest()
+    
+    # Take the first 6 characters of the hash for the color
+    return f'#{hex_hash[:6]}'
 
 def load_parties(folder_path: str) -> Optional[list]:
     """
@@ -39,10 +41,10 @@ def load_parties(folder_path: str) -> Optional[list]:
         print(f"Error reading file: {e}")
         return None
     
-    # Add random colors for parties that don't have one
+    # Add hash-based colors for parties that don't have one
     for party in party_data:
         if not party.get('color'):
-            party['color'] = generate_random_color()
+            party['color'] = generate_color_from_name(party['name'])
     
     return party_data
 

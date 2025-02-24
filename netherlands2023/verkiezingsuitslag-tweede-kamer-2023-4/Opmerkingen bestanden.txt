@@ -1,0 +1,119 @@
+#########################################################################
+#
+# Gebruik OSV2020 in kieskring Bonaire
+#
+#########################################################################
+
+Saba en Sint Eustatius hebben geen digitaal tellingsbestand gemaakt, deze gemeenten zijn opgenomen in het tellingsbestand van kieskring 20 (Bonaire).
+Door een tijdzoneverschil staat de 'ElectionDate' in het tellingsbestand van Openbaar Lichaam Bonaire op dinsdag 2023-11-21, de juiste waarde is woensdag 2023-11-22.
+
+#########################################################################
+#
+# Verwerking resultaten NBSB
+#
+#########################################################################
+ 
+De resultaten van het NBSB zijn als GSB-telling terug te vinden, en zijn samen met de resultaten van HSB-Den Haag gecombineerd in de uitslag van Kieskring 12. Het combineren van de resultaten van HSB-Den Haag met de uitslag van het NBSB is door het centraal stembureau gebeurd.
+
+#########################################################################
+#
+# Verschillen EML-bestanden op GSB- en HSB-niveau
+#
+#########################################################################
+
+Bij een aantal gemeenten was er een verschil tussen het proces-verbaal van de GSB-uitslag in EML-formaat. Hierdoor is het proces-verbaal gebruikt op het hoofdstembureau (papier is leidend), en is er een verschil ontstaan tussen de GSB-uitslag in EML-formaat en de HSB-uitslag in EML-formaat van de kieskring waartoe de gemeente behoort. De betreffende verschillen zijn hieronder terug te vinden:  
+
+In Alblasserdam is te veel uitgereikte stembiljetten niet gelijk. Waarde was 0 maar is overgenomen als 1
+In Albrandswaard is geen verklaring niet gelijk. Waarde was 0 maar is overgenomen als 2
+In Almere is geen verklaring niet gelijk. Waarde was 31 maar is overgenomen als 34
+In Alphen aan den Rijn is meegenomen stembiljetten niet gelijk. Waarde was 2 maar is overgenomen als 0
+In Alphen aan den Rijn is geen verklaring niet gelijk. Waarde was 12 maar is overgenomen als 11
+In Alphen aan den Rijn is andere verklaring niet gelijk. Waarde was 1 maar is overgenomen als 0
+In Amstelveen is geen verklaring niet gelijk. Waarde was 89 maar is overgenomen als 86
+In Dalfsen is te weinig uitgereikte stembiljetten niet gelijk. Waarde was 1 maar is overgenomen als 2
+In Deventer is te veel uitgereikte stembiljetten niet gelijk. Waarde was 8 maar is overgenomen als 10
+In Deventer is geen verklaring niet gelijk. Waarde was 75 maar is overgenomen als 81
+In Doetinchem is geen verklaring niet gelijk. Waarde was 7 maar is overgenomen als 11
+In Dronten is geen verklaring niet gelijk. Waarde was 4 maar is overgenomen als 3
+In Dronten is andere verklaring niet gelijk. Waarde was 1 maar is overgenomen als 2
+In Druten is geen verklaring niet gelijk. Waarde was 3 maar is overgenomen als 1
+In Edam-Volendam is geen verklaring niet gelijk. Waarde was 6 maar is overgenomen als 12
+In Eemnes is geen verklaring niet gelijk. Waarde was 1 maar is overgenomen als 8
+In Enschede is geen verklaring niet gelijk. Waarde was 5 maar is overgenomen als 22
+In Groningen is geen verklaring niet gelijk. Waarde was 91 maar is overgenomen als 92
+In Haarlemmermeer is geen verklaring niet gelijk. Waarde was 140 maar is overgenomen als 161
+In Harlingen is geen verklaring niet gelijk. Waarde was 0 maar is overgenomen als 6
+In Hellendoorn is geen verklaring niet gelijk. Waarde was 2 maar is overgenomen als 3
+In Hengelo (O) is geen verklaring niet gelijk. Waarde was 3 maar is overgenomen als 32
+In Het Hogeland is geen verklaring niet gelijk. Waarde was 11 maar is overgenomen als 10
+In Hof van Twente is geen verklaring niet gelijk. Waarde was 0 maar is overgenomen als 1
+In Kampen is geen verklaring niet gelijk. Waarde was 25 maar is overgenomen als 31
+In Krimpenerwaard is meegenomen stembiljetten niet gelijk. Waarde was 9 maar is overgenomen als 10
+In Landgraaf is geen verklaring niet gelijk. Waarde was 5 maar is overgenomen als 8
+In Losser is te veel uitgereikte stembiljetten niet gelijk. Waarde was 0 maar is overgenomen als 2
+In Maassluis is minder getelde stembiljetten niet gelijk. Waarde was 14 maar is overgenomen als 13
+In Midden-Drenthe is te veel uitgereikte stembiljetten niet gelijk. Waarde was 0 maar is overgenomen als 1
+In Midden-Groningen is te weinig uitgereikte stembiljetten niet gelijk. Waarde was 0 maar is overgenomen als 58
+In Midden-Groningen is te veel uitgereikte stembiljetten niet gelijk. Waarde was 4 maar is overgenomen als 3
+In Olst-Wijhe is geen verklaring niet gelijk. Waarde was 12 maar is overgenomen als 21
+In Oost Gelre is geen verklaring niet gelijk. Waarde was 9 maar is overgenomen als 27
+In Opsterland is geen verklaring niet gelijk. Waarde was 0 maar is overgenomen als 2
+In Raalte is geen verklaring niet gelijk. Waarde was 0 maar is overgenomen als 13
+In Raalte is andere verklaring niet gelijk. Waarde was 0 maar is overgenomen als 1
+In Roermond is geen verklaring niet gelijk. Waarde was 53 maar is overgenomen als 52
+In Roermond is andere verklaring niet gelijk. Waarde was 0 maar is overgenomen als 13
+In Rotterdam is meegenomen stembiljetten niet gelijk. Waarde was 8 maar is overgenomen als 9
+In Rotterdam is geen verklaring niet gelijk. Waarde was 595 maar is overgenomen als 607
+In Steenwijkerland is geen verklaring niet gelijk. Waarde was 7 maar is overgenomen als 12
+In Utrecht is geen verklaring niet gelijk. Waarde was 137 maar is overgenomen als 139
+In Voorne aan Zee is geen verklaring niet gelijk. Waarde was 5 maar is overgenomen als 13
+In Westerwolde is minder getelde stembiljetten niet gelijk. Waarde was 0 maar is overgenomen als 3
+In Westerwolde is geen verklaring niet gelijk. Waarde was 0 maar is overgenomen als 2
+In Wierden is geldige volmachtbewijzen niet gelijk. Waarde was 1535 maar is overgenomen als 1536
+In Wierden is geldige kiezerspassen niet gelijk. Waarde was 61 maar is overgenomen als 60
+In Wierden is meer getelde stembiljetten niet gelijk. Waarde was 3 maar is overgenomen als 1
+In Wierden is geen verklaring niet gelijk. Waarde was 1 maar is overgenomen als 5
+In Woensdrecht is te weinig uitgereikte stembiljetten niet gelijk. Waarde was 0 maar is overgenomen als 1
+In Zeewolde is geen verklaring niet gelijk. Waarde was 0 maar is overgenomen als 1
+In Zwartewaterland is geen verklaring niet gelijk. Waarde was 1 maar is overgenomen als 5
+In Zwartewaterland is andere verklaring niet gelijk. Waarde was 0 maar is overgenomen als 2
+
+#########################################################################
+#
+# Verwerking corrigenda
+#
+#########################################################################
+
+Bij Kampen, Maassluis, Roermond en Wierden hebben hun gecorrigeerde tellingen niet geleid tot een nieuw EML-bestand, maar zijn de gecorrigeerde tellingen wel doorgevoerd bij het komen tot een nieuwe HSB-uitslag in EML-formaat. Hierdoor is er een verschil ontstaan tussen de GSB-uitslag in EML-formaat en de HSB-uitslag in EML-formaat van de kieskring waartoe de gemeente behoort. De betreffende verschillen zijn hieronder terug te vinden:  
+
+In Kampen is het aantal stemmen voor lijst 9 kandidaat 2 niet gelijk. Waarde was 63 maar is overgenomen als 62
+In Kampen is het aantal stemmen voor lijst 9 kandidaat 4 niet gelijk. Waarde was 43 maar is overgenomen als 44
+In Kampen is het aantal stemmen voor lijst 9 kandidaat 6 niet gelijk. Waarde was 25 maar is overgenomen als 24
+In Kampen is het aantal stemmen voor lijst 9 kandidaat 8 niet gelijk. Waarde was 4 maar is overgenomen als 5
+In Kampen is het aantal stemmen voor lijst 9 kandidaat 9 niet gelijk. Waarde was 165 maar is overgenomen als 173
+In Kampen is het aantal stemmen voor lijst 9 kandidaat 10 niet gelijk. Waarde was 9 maar is overgenomen als 1
+In Kampen is het aantal stemmen voor lijst 19 kandidaat 40 niet gelijk. Waarde was 0 maar is overgenomen als 2
+In Kampen is het aantal stemmen voor lijst 19 kandidaat 42 niet gelijk. Waarde was 3 maar is overgenomen als 1
+In Maassluis is het aantal stemmen voor lijst 1 kandidaat 1 niet gelijk. Waarde was 3017 maar is overgenomen als 3016
+In Maassluis is het aantal stemmen voor lijst 1 kandidaat 2 niet gelijk. Waarde was 120 maar is overgenomen als 119
+In Maassluis is het aantal stemmen voor lijst 1 kandidaat 3 niet gelijk. Waarde was 34 maar is overgenomen als 35
+In Maassluis is het aantal stemmen voor lijst 1 kandidaat 4 niet gelijk. Waarde was 53 maar is overgenomen als 54
+In Maassluis is het aantal stemmen voor lijst 2 kandidaat 1 niet gelijk. Waarde was 705 maar is overgenomen als 704
+In Maassluis is het aantal stemmen voor lijst 2 kandidaat 4 niet gelijk. Waarde was 84 maar is overgenomen als 85
+In Maassluis is het aantal stemmen voor lijst 4 kandidaat 1 niet gelijk. Waarde was 5000 maar is overgenomen als 4999
+In Maassluis is het aantal stemmen voor lijst 5 kandidaat 1 niet gelijk. Waarde was 816 maar is overgenomen als 815
+In Maassluis is het aantal stemmen voor lijst 19 kandidaat 2 niet gelijk. Waarde was 99 maar is overgenomen als 100
+In Roermond is het aantal stemmen voor lijst 7 kandidaat 2 niet gelijk. Waarde was 6 maar is overgenomen als 11
+In Roermond is het aantal stemmen voor lijst 7 kandidaat 3 niet gelijk. Waarde was 166 maar is overgenomen als 161
+In Wierden is het aantal stemmen voor lijst 4 kandidaat 1 niet gelijk. Waarde was 3558 maar is overgenomen als 3559
+
+#########################################################################
+#
+# Verwerking hertelling Tilburg dd 2 december 2023
+#
+#########################################################################
+
+Op 2 december heeft een additionele hertelling plaatsgevonden op 4 stembureau's binnen de gemeente Tilburg. Bij het overnemen van de resultaten door het centraal stembureau zijn de volgende getallen incorrect overgenomen:
+
+In Tilburg is te veel uitgereikte stembiljetten niet gelijk. Waarde was 11 maar is overgenomen als 12
+In Tilburg is geen verklaring niet gelijk. Waarde was 282 maar is overgenomen als 353

@@ -1,0 +1,74 @@
+{
+    "Drenthe": {
+        "name": "Drenthe",
+        "population": 493682,
+        "citizens": 468997,
+        "electorate": 401532
+    },
+    "Flevoland": {
+        "name": "Flevoland",
+        "population": 428226,
+        "citizens": 406814,
+        "electorate": 316543
+    },
+    "Friesland": {
+        "name": "Friesland",
+        "population": 651435,
+        "citizens": 618863,
+        "electorate": 519876
+    },
+    "Gelderland": {
+        "name": "Gelderland",
+        "population": 2096603,
+        "citizens": 1991772,
+        "electorate": 1621234
+    },
+    "Groningen": {
+        "name": "Groningen",
+        "population": 590277,
+        "citizens": 560763,
+        "electorate": 465842
+    },
+    "Limburg": {
+        "name": "Limburg",
+        "population": 1115872,
+        "citizens": 1060078,
+        "electorate": 876543
+    },
+    "Noord-Brabant": {
+        "name": "Noord-Brabant",
+        "population": 2562955,
+        "citizens": 2434807,
+        "electorate": 1987654
+    },
+    "Noord-Holland": {
+        "name": "Noord-Holland",
+        "population": 2879527,
+        "citizens": 2735550,
+        "electorate": 2187654
+    },
+    "Overijssel": {
+        "name": "Overijssel",
+        "population": 1166627,
+        "citizens": 1108295,
+        "electorate": 894765
+    },
+    "Utrecht": {
+        "name": "Utrecht",
+        "population": 1361466,
+        "citizens": 1293392,
+        "electorate": 1023456
+    },
+    "Zeeland": {
+        "name": "Zeeland",
+        "population": 385400,
+        "citizens": 366130,
+        "electorate": 305432
+    },
+    "Zuid-Holland": {
+        "name": "Zuid-Holland",
+        "population": 3726050,
+        "citizens": 3539747,
+        "electorate": 2798765
+    }
+}

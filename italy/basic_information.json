@@ -1,0 +1,8 @@
+{
+    "name": "Italienisches Wahlsystem", 
+    "data-sources": [ {
+        "name": "polyas.de",
+        "url": "https://www.polyas.de/blog/de/online-wahlen/wahlsystem-italien"
+    }],
+    "relevant_vote": "rosatellum"
+}

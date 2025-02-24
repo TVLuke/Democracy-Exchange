@@ -1,0 +1,158 @@
+[
+    {
+        "short_name": "50PLUS",
+        "name": "50PLUS",
+        "color": "#FFC000",
+        "left_to_right": 5
+    },
+    {
+        "short_name": "BBB",
+        "name": "BoerBurgerBeweging",
+        "color": "#92D050",
+        "left_to_right": 6
+    },
+    {
+        "short_name": "BVNL",
+        "name": "Belang van Nederland",
+        "color": "#FF0000",
+        "left_to_right": 7
+    },
+    {
+        "short_name": "Bij1",
+        "name": "Bij1",
+        "color": "#7030A0",
+        "left_to_right": 1
+    },
+    {
+        "short_name": "CDA",
+        "name": "Christen-Democratisch Appèl",
+        "color": "#008000",
+        "left_to_right": 5
+    },
+    {
+        "short_name": "CU",
+        "name": "ChristenUnie",
+        "color": "#00B050",
+        "left_to_right": 5
+    },
+    {
+        "short_name": "D66",
+        "name": "Democraten 66",
+        "color": "#00FF00",
+        "left_to_right": 4
+    },
+    {
+        "short_name": "DENK",
+        "name": "DENK",
+        "color": "#00B0F0",
+        "left_to_right": 4
+    },
+    {
+        "short_name": "FVD",
+        "name": "Forum voor Democratie",
+        "color": "#7030A0",
+        "left_to_right": 8
+    },
+    {
+        "short_name": "GL-PvdA",
+        "name": "GroenLinks-PvdA",
+        "color": "#FF0000",
+        "left_to_right": 2
+    },
+    {
+        "short_name": "JA21",
+        "name": "JA21",
+        "color": "#0070C0",
+        "left_to_right": 7
+    },
+    {
+        "short_name": "LEF",
+        "name": "LEF - Voor de Nieuwe Generatie",
+        "color": "#A5A5A5",
+        "left_to_right": 4
+    },
+    {
+        "short_name": "LP",
+        "name": "Libertaire Partij",
+        "color": "#A5A5A5",
+        "left_to_right": 6
+    },
+    {
+        "short_name": "NSC",
+        "name": "Nieuw Sociaal Contract",
+        "color": "#00B0F0",
+        "left_to_right": 5
+    },
+    {
+        "short_name": "PLAN",
+        "name": "Nederland met een PLAN",
+        "color": "#A5A5A5",
+        "left_to_right": 4
+    },
+    {
+        "short_name": "PPB",
+        "name": "Politieke Partij voor Basisinkomen",
+        "color": "#A5A5A5",
+        "left_to_right": 3
+    },
+    {
+        "short_name": "PVV",
+        "name": "Partij voor de Vrijheid",
+        "color": "#000000",
+        "left_to_right": 8
+    },
+    {
+        "short_name": "Piratenpartij",
+        "name": "Piratenpartij - De Groenen",
+        "color": "#7030A0",
+        "left_to_right": 4
+    },
+    {
+        "short_name": "PvdD",
+        "name": "Partij voor de Dieren",
+        "color": "#7030A0",
+        "left_to_right": 3
+    },
+    {
+        "short_name": "PvdS",
+        "name": "Partij van de Sport",
+        "color": "#A5A5A5",
+        "left_to_right": 4
+    },
+    {
+        "short_name": "SGP",
+        "name": "Staatkundig Gereformeerde Partij",
+        "color": "#FFC000",
+        "left_to_right": 7
+    },
+    {
+        "short_name": "SP",
+        "name": "Socialistische Partij",
+        "color": "#FF0000",
+        "left_to_right": 2
+    },
+    {
+        "short_name": "Samen voor Nederland",
+        "name": "Samen voor Nederland",
+        "color": "#808080",
+        "left_to_right": 4
+    },
+    {
+        "short_name": "Splinter",
+        "name": "Splinter",
+        "color": "#7030A0",
+        "left_to_right": 4
+    },
+    {
+        "short_name": "VVD",
+        "name": "Volkspartij voor Vrijheid en Democratie",
+        "color": "#0000FF",
+        "left_to_right": 6
+    },
+    {
+        "short_name": "Volt",
+        "name": "Volt Nederland",
+        "color": "#7030A0",
+        "left_to_right": 4
+    }
+]
