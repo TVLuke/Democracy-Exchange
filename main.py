@@ -9,11 +9,11 @@ from vote_distribution import plot_vote_distribution
 from election_report import create_election_report
 
 # Set up election parameters
-country = 'germany'
-year = '2025'
+country = 'netherlands'
+year = '2023'
 election = country + year
 
-appointments = ['italy', 'netherlands']
+appointments = ['netherlands', 'italy', 'germany', 'austria', 'usa', 'uk', 'france']
 
 # Visualization
 POINT_SIZE = 100  # Doubled point size
@@ -81,17 +81,22 @@ election_name = election_basic_info.get('name', '')
 
 # Calculate optimal visualization parameters based on total seats
 # For larger parliaments (>400 seats), use more rows to maintain density
-NUM_ROWS = max(3, min(15, TOTAL_SEATS // 65))  # Between 3 and 15 rows
+NUM_ROWS = max(4, min(17, TOTAL_SEATS // 65))  # Increase the upper limit for more rows
 
 # Scale initial radius based on total seats
-# Start with a larger base radius for better spread
-INITIAL_RADIUS = max(2.0, min(4.0, TOTAL_SEATS / 150))
+# Start with a smaller base radius for better spread
+INITIAL_RADIUS = max(1.5, min(3.0, TOTAL_SEATS / 150))  # Decrease the base radius
 
-# Make increment smaller for more rows to maintain density
-# This creates a denser, more filled appearance
-RADIUS_INCREMENT = INITIAL_RADIUS * (2.5 / max(NUM_ROWS - 2, 1))
+# Adjust the radius and increment based on TOTAL_SEATS
+if TOTAL_SEATS < 200:
+    INITIAL_RADIUS = max(1.5, TOTAL_SEATS / 100)  # Smaller base radius for smaller parliaments
+    RADIUS_INCREMENT = 0.2  # Smaller increment for closer rows
+else:
+    # Make increment smaller for more rows to maintain density
+    RADIUS_INCREMENT = INITIAL_RADIUS * (2.5 / max(NUM_ROWS - 2, 1))
 
-print(f"Total seats: {TOTAL_SEATS}, rows: {NUM_ROWS}")
+# Print for debugging
+print(f"TOTAL_SEATS: {TOTAL_SEATS}, NUM_ROWS: {NUM_ROWS}, INITIAL_RADIUS: {INITIAL_RADIUS}, RADIUS_INCREMENT: {RADIUS_INCREMENT}")
 
 def generate_vote_summary(party_totals: dict, electorate_size: int) -> str:
     """Generate a markdown summary of voting data including party vote totals and percentages.
@@ -182,12 +187,15 @@ def calculate_election_results(election_id: str, appointments: list) -> dict:
                 for appointment in appointments:
                     if appointment in appointment_info:
                         vote_type = appointment_info[appointment].get('relevant_vote', 'list')
+                        # if vote_type is not list or member throw an exception 
+                        if vote_type not in ['list', 'member']:
+                            raise ValueError(f"Vote type {vote_type} not found in results for appointment {appointment}")
                         votes = results.get(vote_type, 0)
                         party_totals[party_name] += votes
 
     # Print totals sorted by votes
     for party_name, total_votes in sorted(party_totals.items(), key=lambda x: x[1], reverse=True):
-        print(f"{party_name}: {total_votes:,} list votes")
+        print(f"{party_name}: {total_votes:,} votes")
 
     # Load states data
     states_file = os.path.join(election_id, 'states.json')
@@ -215,7 +223,7 @@ def calculate_election_results(election_id: str, appointments: list) -> dict:
         appointment_path = os.path.join(appointment)
         if not os.path.exists(appointment_path):
             raise ValueError(f"Invalid appointment method: {appointment}")
-    
+
     # Generate vote summary and add to process dictionary
     process['vote_summary'] = generate_vote_summary(party_totals, electorate_size)
     

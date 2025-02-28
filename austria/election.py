@@ -403,6 +403,8 @@ State Allocations:
     
     for district in results:
         state = district['state']
+        if state not in state_seats:
+            state_seats[state] = 1
         state_wahlzahl = calculate_state_wahlzahl(results, state, state_seats[state], vote_type)
         
         if 'party_results' in district:
