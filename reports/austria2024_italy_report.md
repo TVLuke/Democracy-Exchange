@@ -10,235 +10,614 @@ Year: 2024
 
 ### Vote Summary
 
-A total of 19,640,788 votes were cast, representing a turnout of 309.5% of the electorate.
+A total of 4,910,197 votes were cast, representing a turnout of 77.4% of the electorate.
 
 | Party | Votes | Percentage |
 |-------|--------|------------|
-| FPÖ | 5,654,372 | 28.8% |
-| ÖVP | 5,150,492 | 26.2% |
-| SPÖ | 4,155,316 | 21.2% |
-| NEOS | 1,801,140 | 9.2% |
-| GRÜNE | 1,626,312 | 8.3% |
-| KPÖ | 472,352 | 2.4% |
-| BIER | 395,956 | 2.0% |
-| LMP | 115,048 | 0.6% |
-| KEINE | 111,836 | 0.6% |
-| MFG | 79,568 | 0.4% |
-| GAZA | 77,772 | 0.4% |
-| BGE | 624 | 0.0% |
+| FPÖ | 1,413,593 | 28.8% |
+| ÖVP | 1,287,623 | 26.2% |
+| SPÖ | 1,038,829 | 21.2% |
+| NEOS | 450,285 | 9.2% |
+| GRÜNE | 406,578 | 8.3% |
+| KPÖ | 118,088 | 2.4% |
+| BIER | 98,989 | 2.0% |
+| LMP | 28,762 | 0.6% |
+| KEINE | 27,959 | 0.6% |
+| MFG | 19,892 | 0.4% |
+| GAZA | 19,443 | 0.4% |
+| BGE | 156 | 0.0% |
 
-**FPÖ** received the most votes with 5,654,372 votes (28.8% of total votes).
+**FPÖ** received the most votes with 1,413,593 votes (28.8% of total votes).
 
 ## Seat Calculation Process
+## Electoral System Description
 
-## French Electoral System Explanation
 
-This election uses the French two-round voting system (scrutin uninominal majoritaire à deux tours):
+Das italienische Wahlsystem 'Rosatellum' für die Abgeordnetenkammer (Camera dei deputati):
 
-1. **First Round**
-   - All candidates can participate
-   - If a candidate receives >50% of votes AND ≥25% of registered voters, they win immediately
-   - Otherwise, qualified candidates proceed to second round
+Grundsätze:
+- Gemischtes Wahlsystem mit zwei Komponenten:
+  * 36% der Sitze durch Mehrheitswahl in Einerwahlkreisen (FPTP)
+  * 64% der Sitze durch Verhältniswahl mit Parteilisten (PR)
 
-2. **Second Round Qualification**
-   - Candidates need ≥12.5% of votes to qualify
-   - If no candidates reach 12.5%, top two advance
-   - When no second round data is provided, votes are simulated:
-     * 80% of votes from eliminated parties go to parties with same left-right position
-     * 30% of remaining votes go to parties within 1 position on left-right scale
-     * Other votes are considered lost/abstentions
+Sperrklauseln:
+- Einzelne Parteien: 3% der Gesamtstimmen
+- Wahlbündnisse (Koalitionen): 10% der Gesamtstimmen
+  * Mindestens eine Partei im Bündnis muss 3% erreichen
 
-Key Features:
-- 183 total seats to be distributed
-- Single-member constituencies
-- Two rounds if no absolute majority in first round
+Besonderheiten:
+- Eine Stimme zählt sowohl für Direkt- als auch Listenmandat
+- Stimmen von Parteien zwischen 1-3% werden auf Koalitionspartner über 3% verteilt
+- Parteien müssen Koalitionszugehörigkeit vor der Wahl erklären
+- Verteilung der Verhältniswahlsitze nach dem Hare-Niemeyer-Verfahren
+- Insgesamt 630 Sitze in der Abgeordnetenkammer
 
-3. **Seat Scaling**
-   When the required number of seats (183) differs from the number of districts (39),
-   we use proportional scaling to maintain fair representation:
-   - First calculate results for all districts
-   - Then multiply each party's seats by (total_seats / number_of_districts)
-   - Round to nearest whole number while preserving total seats
-   - This maintains the proportional representation from the district results
-   
-   Example: If we have 100 districts but need 200 seats:
-   - Party A wins 60 districts → scaled to 120 seats (60 * 200/100)
-   - Party B wins 40 districts → scaled to 80 seats (40 * 200/100)
-   The relative strength of each party remains the same.
+Ablauf der Sitzverteilung:
+1. Direktmandate (36%):
+   - In jedem Wahlkreis gewinnt der Kandidat mit den meisten Stimmen
+   - 36% der Sitze werden durch Direktmandate vergeben (bei 630 Sitzen: 226 Sitze)
+
+2. Verhältniswahlmandate (64%):
+   - Nur Parteien über der Sperrklausel werden berücksichtigt
+   - 404 Sitze nach Verhältniswahl mit Hare-Niemeyer
+   - Restmandate nach größten Dezimalstellen
+
+Dieses System wurde 2017 eingeführt und nach seinem Autor Ettore Rosato benannt.
 
 
 
 
-## Example Districts
 
-To illustrate how the French two-round system works in practice, here are three example districts:
+Seat allocation:
+
+Direct allocation seats (36%): 65
+
+Proportional seats (64%): 118
 
 
-
-### Example 1: Burgenland Nord
-
-**First Round Results:**
-- Total votes cast: 102,327
-- Registered voters: 204,654
-
-**Party Results:**
-- FPÖ: 28,903 votes (28.2% of votes, 14.1% of registered)
-- ÖVP: 28,057 votes (27.4% of votes, 13.7% of registered)
-- SPÖ: 27,636 votes (27.0% of votes, 13.5% of registered)
-- NEOS: 7,480 votes (7.3% of votes, 3.7% of registered)
-- GRÜNE: 5,329 votes (5.2% of votes, 2.6% of registered)
-- BIER: 2,218 votes (2.2% of votes, 1.1% of registered)
-- KPÖ: 1,375 votes (1.3% of votes, 0.7% of registered)
-- KEINE: 517 votes (0.5% of votes, 0.3% of registered)
-- LMP: 479 votes (0.5% of votes, 0.2% of registered)
-- GAZA: 293 votes (0.3% of votes, 0.1% of registered)
-- BGE: 40 votes (0.0% of votes, 0.0% of registered)
-- MFG: 0 votes (0.0% of votes, 0.0% of registered)
-
-**Second Round:** Parties qualifying (≥12.5%):
-- SPÖ: 27,636 votes (27.0%)
-- FPÖ: 28,903 votes (28.2%)
-- ÖVP: 28,057 votes (27.4%)
-
-**Vote Redistribution Simulation:**
-Vote Transfers:
-- GRÜNE → SPÖ: 799 votes
-- GRÜNE: 4,530 votes lost/abstained
-- NEOS → ÖVP: 1,122 votes
-- NEOS: 6,358 votes lost/abstained
-- BIER: 2,218 votes lost/abstained
-- BGE: 40 votes lost/abstained
-- LMP: 479 votes lost/abstained
-- GAZA: 293 votes lost/abstained
-- KPÖ: 1,375 votes lost/abstained
-- KEINE: 517 votes lost/abstained
-
-**Final Second Round Result:**
-- ÖVP: 29,179 votes (28.5%)
-- FPÖ: 28,903 votes (28.2%)
-- SPÖ: 28,435 votes (27.8%)
-
-**Result:** ÖVP wins the simulated second round
+=== Example Districts ===
+Here are three randomly selected districts showing how votes are counted and allocated:
 
 
 
-### Example 2: Burgenland Süd
+## District: Mostviertel
+This district demonstrates how votes are split between direct mandate (36%) and proportional representation (64%):
 
-**First Round Results:**
-- Total votes cast: 88,363
-- Registered voters: 176,726
+Total votes cast: 162,336
+- ÖVP: 51,756 votes (31.9%)
+- FPÖ: 49,804 votes (30.7%)
+- SPÖ: 30,162 votes (18.6%)
+- NEOS: 11,475 votes (7.1%)
+- GRÜNE: 10,028 votes (6.2%)
+- BIER: 3,256 votes (2.0%)
+- KPÖ: 2,621 votes (1.6%)
+- KEINE: 1,156 votes (0.7%)
+- LMP: 1,000 votes (0.6%)
+- MFG: 896 votes (0.6%)
+- GAZA: 182 votes (0.1%)
+- BGE: 0 votes (0.0%)
 
-**Party Results:**
-- ÖVP: 26,323 votes (29.8% of votes, 14.9% of registered)
-- FPÖ: 25,955 votes (29.4% of votes, 14.7% of registered)
-- SPÖ: 23,881 votes (27.0% of votes, 13.5% of registered)
-- NEOS: 4,894 votes (5.5% of votes, 2.8% of registered)
-- GRÜNE: 3,693 votes (4.2% of votes, 2.1% of registered)
-- BIER: 1,613 votes (1.8% of votes, 0.9% of registered)
-- KPÖ: 1,070 votes (1.2% of votes, 0.6% of registered)
-- LMP: 384 votes (0.4% of votes, 0.2% of registered)
-- KEINE: 381 votes (0.4% of votes, 0.2% of registered)
-- BGE: 116 votes (0.1% of votes, 0.1% of registered)
-- GAZA: 53 votes (0.1% of votes, 0.0% of registered)
-- MFG: 0 votes (0.0% of votes, 0.0% of registered)
+Direct mandate winner:
+- ÖVP: 51,756 votes (31.9%)
 
-**Second Round:** Parties qualifying (≥12.5%):
-- SPÖ: 23,881 votes (27.0%)
-- FPÖ: 25,955 votes (29.4%)
-- ÖVP: 26,323 votes (29.8%)
-
-**Vote Redistribution Simulation:**
-Vote Transfers:
-- GRÜNE → SPÖ: 553 votes
-- GRÜNE: 3,140 votes lost/abstained
-- NEOS → ÖVP: 734 votes
-- NEOS: 4,160 votes lost/abstained
-- BIER: 1,613 votes lost/abstained
-- BGE: 116 votes lost/abstained
-- LMP: 384 votes lost/abstained
-- GAZA: 53 votes lost/abstained
-- KPÖ: 1,070 votes lost/abstained
-- KEINE: 381 votes lost/abstained
-
-**Final Second Round Result:**
-- ÖVP: 27,057 votes (30.6%)
-- FPÖ: 25,955 votes (29.4%)
-- SPÖ: 24,434 votes (27.7%)
-
-**Result:** ÖVP wins the simulated second round
+Vote allocation:
+- Direct votes (36%): 58,440 votes for FPTP allocation
+- Proportional votes (64%): 103,895 votes for PR allocation
 
 
 
-### Example 3: Klagenfurt
 
-**First Round Results:**
-- Total votes cast: 89,557
-- Registered voters: 179,114
+## District: Niederösterreich Süd
+This district demonstrates how votes are split between direct mandate (36%) and proportional representation (64%):
 
-**Party Results:**
-- FPÖ: 29,456 votes (32.9% of votes, 16.4% of registered)
-- SPÖ: 21,275 votes (23.8% of votes, 11.9% of registered)
-- ÖVP: 18,694 votes (20.9% of votes, 10.4% of registered)
-- NEOS: 9,077 votes (10.1% of votes, 5.1% of registered)
-- GRÜNE: 5,821 votes (6.5% of votes, 3.2% of registered)
-- BIER: 2,005 votes (2.2% of votes, 1.1% of registered)
-- KPÖ: 1,981 votes (2.2% of votes, 1.1% of registered)
-- LMP: 679 votes (0.8% of votes, 0.4% of registered)
-- KEINE: 569 votes (0.6% of votes, 0.3% of registered)
-- MFG: 0 votes (0.0% of votes, 0.0% of registered)
-- BGE: 0 votes (0.0% of votes, 0.0% of registered)
-- GAZA: 0 votes (0.0% of votes, 0.0% of registered)
+Total votes cast: 126,523
+- FPÖ: 42,270 votes (33.4%)
+- ÖVP: 33,791 votes (26.7%)
+- SPÖ: 27,344 votes (21.6%)
+- NEOS: 8,953 votes (7.1%)
+- GRÜNE: 6,319 votes (5.0%)
+- BIER: 2,648 votes (2.1%)
+- KPÖ: 2,117 votes (1.7%)
+- GAZA: 995 votes (0.8%)
+- LMP: 850 votes (0.7%)
+- KEINE: 758 votes (0.6%)
+- MFG: 478 votes (0.4%)
+- BGE: 0 votes (0.0%)
 
-**Second Round:** Parties qualifying (≥12.5%):
-- SPÖ: 21,275 votes (23.8%)
-- FPÖ: 29,456 votes (32.9%)
-- ÖVP: 18,694 votes (20.9%)
+Direct mandate winner:
+- FPÖ: 42,270 votes (33.4%)
 
-**Vote Redistribution Simulation:**
-Vote Transfers:
-- GRÜNE → SPÖ: 873 votes
-- GRÜNE: 4,948 votes lost/abstained
-- NEOS → ÖVP: 1,361 votes
-- NEOS: 7,716 votes lost/abstained
-- BIER: 2,005 votes lost/abstained
-- LMP: 679 votes lost/abstained
-- KPÖ: 1,981 votes lost/abstained
-- KEINE: 569 votes lost/abstained
-
-**Final Second Round Result:**
-- FPÖ: 29,456 votes (32.9%)
-- SPÖ: 22,148 votes (24.7%)
-- ÖVP: 20,055 votes (22.4%)
-
-**Result:** FPÖ wins the simulated second round
+Vote allocation:
+- Direct votes (36%): 45,548 votes for FPTP allocation
+- Proportional votes (64%): 80,974 votes for PR allocation
 
 
 
-## Seat Scaling Applied
 
-Scaling from 39 districts to 183 total seats:
+## District: Wien Nord-West
+This district demonstrates how votes are split between direct mandate (36%) and proportional representation (64%):
 
-### Before Scaling (39 seats)
-| Party | Seats | Percentage |
-|-------|--------|------------|
-| ÖVP | 18 | 46.2% |
-| FPÖ | 12 | 30.8% |
-| SPÖ | 9 | 23.1% |
+Total votes cast: 124,331
+- SPÖ: 33,741 votes (27.1%)
+- ÖVP: 24,716 votes (19.9%)
+- FPÖ: 19,569 votes (15.7%)
+- GRÜNE: 19,223 votes (15.5%)
+- NEOS: 17,269 votes (13.9%)
+- KPÖ: 5,072 votes (4.1%)
+- BIER: 2,121 votes (1.7%)
+- GAZA: 983 votes (0.8%)
+- LMP: 957 votes (0.8%)
+- KEINE: 463 votes (0.4%)
+- MFG: 217 votes (0.2%)
+- BGE: 0 votes (0.0%)
+
+Direct mandate winner:
+- SPÖ: 33,741 votes (27.1%)
+
+Vote allocation:
+- Direct votes (36%): 44,759 votes for FPTP allocation
+- Proportional votes (64%): 79,571 votes for PR allocation
 
 
-### After Scaling (183 seats)
-| Party | Seats | Percentage | Change |
-|-------|--------|------------|---------|
-| ÖVP | 85 | 46.4% | +0.3% |
-| FPÖ | 56 | 30.6% | -0.2% |
-| SPÖ | 42 | 23.0% | -0.1% |
+
+=== Party Vote Totals ===
 
 
-Scaling Details:
-- Scaling factor: 4.692
-- Each party's seats multiplied by this factor and rounded
-- Total seats preserved through rounding adjustments
-- Percentages of total seats remain nearly identical
+ÖVP: 1,287,623 total votes
+  - Direct votes (36%): 463,526
+  - Proportional votes (64%): 824,060
+
+
+SPÖ: 1,038,829 total votes
+  - Direct votes (36%): 373,960
+  - Proportional votes (64%): 664,832
+
+
+FPÖ: 1,413,593 total votes
+  - Direct votes (36%): 508,875
+  - Proportional votes (64%): 904,682
+
+
+GRÜNE: 406,578 total votes
+  - Direct votes (36%): 146,349
+  - Proportional votes (64%): 260,190
+
+
+NEOS: 450,285 total votes
+  - Direct votes (36%): 162,086
+  - Proportional votes (64%): 288,163
+
+
+BIER: 98,989 total votes
+  - Direct votes (36%): 35,615
+  - Proportional votes (64%): 63,336
+
+
+MFG: 19,892 total votes
+  - Direct votes (36%): 7,149
+  - Proportional votes (64%): 12,711
+
+
+BGE: 156 total votes
+  - Direct votes (36%): 55
+  - Proportional votes (64%): 99
+
+
+LMP: 28,762 total votes
+  - Direct votes (36%): 10,339
+  - Proportional votes (64%): 18,389
+
+
+GAZA: 19,443 total votes
+  - Direct votes (36%): 6,986
+  - Proportional votes (64%): 12,429
+
+
+KPÖ: 118,088 total votes
+  - Direct votes (36%): 42,494
+  - Proportional votes (64%): 75,557
+
+
+KEINE: 27,959 total votes
+  - Direct votes (36%): 10,048
+  - Proportional votes (64%): 17,873
+
+
+Direct vote counts (36% of total votes):
+
+FPÖ: 508,875 votes (28.8%)
+
+ÖVP: 463,526 votes (26.2%)
+
+SPÖ: 373,960 votes (21.2%)
+
+NEOS: 162,086 votes (9.2%)
+
+GRÜNE: 146,349 votes (8.3%)
+
+KPÖ: 42,494 votes (2.4%)
+
+BIER: 35,615 votes (2.0%)
+
+LMP: 10,339 votes (0.6%)
+
+KEINE: 10,048 votes (0.6%)
+
+MFG: 7,149 votes (0.4%)
+
+GAZA: 6,986 votes (0.4%)
+
+BGE: 55 votes (0.0%)
+
+
+=== DIRECT SEAT ALLOCATION (36% = 65 seats) ===
+
+Using 36% of member votes (if available) or list votes
+
+
+Direct votes (36% of total votes):
+
+FPÖ: 508,875 votes (28.79%)
+
+ÖVP: 463,526 votes (26.22%)
+
+SPÖ: 373,960 votes (21.16%)
+
+NEOS: 162,086 votes (9.17%)
+
+GRÜNE: 146,349 votes (8.28%)
+
+KPÖ: 42,494 votes (2.40%)
+
+BIER: 35,615 votes (2.01%)
+
+LMP: 10,339 votes (0.58%)
+
+KEINE: 10,048 votes (0.57%)
+
+MFG: 7,149 votes (0.40%)
+
+GAZA: 6,986 votes (0.40%)
+
+BGE: 55 votes (0.00%)
+
+
+Initial direct seat allocation:
+
+FPÖ: 18 seats (fair share: 18.712, remainder: 0.712)
+
+ÖVP: 17 seats (fair share: 17.045, remainder: 0.045)
+
+SPÖ: 13 seats (fair share: 13.751, remainder: 0.751)
+
+NEOS: 5 seats (fair share: 5.960, remainder: 0.960)
+
+GRÜNE: 5 seats (fair share: 5.382, remainder: 0.382)
+
+KPÖ: 1 seats (fair share: 1.563, remainder: 0.563)
+
+BIER: 1 seats (fair share: 1.310, remainder: 0.310)
+
+LMP: 0 seats (fair share: 0.380, remainder: 0.380)
+
+KEINE: 0 seats (fair share: 0.369, remainder: 0.369)
+
+MFG: 0 seats (fair share: 0.263, remainder: 0.263)
+
+GAZA: 0 seats (fair share: 0.257, remainder: 0.257)
+
+BGE: 0 seats (fair share: 0.002, remainder: 0.002)
+
+
+Distributing 5 remaining direct seats by largest remainder:
+
+NEOS: +1 seat (remainder was 0.960)
+
+SPÖ: +1 seat (remainder was 0.751)
+
+FPÖ: +1 seat (remainder was 0.712)
+
+KPÖ: +1 seat (remainder was 0.563)
+
+GRÜNE: +1 seat (remainder was 0.382)
+
+
+Final direct seat allocation:
+
+FPÖ: 19 seats (29.23% of seats, 28.79% of direct votes)
+
+ÖVP: 17 seats (26.15% of seats, 26.22% of direct votes)
+
+SPÖ: 14 seats (21.54% of seats, 21.16% of direct votes)
+
+NEOS: 6 seats (9.23% of seats, 9.17% of direct votes)
+
+GRÜNE: 6 seats (9.23% of seats, 8.28% of direct votes)
+
+KPÖ: 2 seats (3.08% of seats, 2.40% of direct votes)
+
+BIER: 1 seats (1.54% of seats, 2.01% of direct votes)
+
+
+Proportional vote counts (64% of total votes):
+
+FPÖ: 904,682 votes (28.8%)
+
+ÖVP: 824,060 votes (26.2%)
+
+SPÖ: 664,832 votes (21.2%)
+
+NEOS: 288,163 votes (9.2%)
+
+GRÜNE: 260,190 votes (8.3%)
+
+KPÖ: 75,557 votes (2.4%)
+
+BIER: 63,336 votes (2.0%)
+
+LMP: 18,389 votes (0.6%)
+
+KEINE: 17,873 votes (0.6%)
+
+MFG: 12,711 votes (0.4%)
+
+GAZA: 12,429 votes (0.4%)
+
+BGE: 99 votes (0.0%)
+
+
+Vote shares and thresholds:
+
+Total proportional votes: 3,142,509
+
+
+ÖVP:
+
+  Proportional votes: 824,060 (26.22%)
+
+  ELIGIBLE: Above 3% threshold
+
+
+SPÖ:
+
+  Proportional votes: 664,832 (21.16%)
+
+  ELIGIBLE: Above 3% threshold
+
+
+FPÖ:
+
+  Proportional votes: 904,682 (28.79%)
+
+  ELIGIBLE: Above 3% threshold
+
+
+GRÜNE:
+
+  Proportional votes: 260,190 (8.28%)
+
+  ELIGIBLE: Above 3% threshold
+
+
+NEOS:
+
+  Proportional votes: 288,163 (9.17%)
+
+  ELIGIBLE: Above 3% threshold
+
+
+BIER:
+
+  Proportional votes: 63,336 (2.02%)
+
+  NOT ELIGIBLE: Below 3% threshold
+
+
+MFG:
+
+  Proportional votes: 12,711 (0.40%)
+
+  NOT ELIGIBLE: Below 3% threshold
+
+
+BGE:
+
+  Proportional votes: 99 (0.00%)
+
+  NOT ELIGIBLE: Below 3% threshold
+
+
+LMP:
+
+  Proportional votes: 18,389 (0.59%)
+
+  NOT ELIGIBLE: Below 3% threshold
+
+
+GAZA:
+
+  Proportional votes: 12,429 (0.40%)
+
+  NOT ELIGIBLE: Below 3% threshold
+
+
+KPÖ:
+
+  Proportional votes: 75,557 (2.40%)
+
+  NOT ELIGIBLE: Below 3% threshold
+
+
+KEINE:
+
+  Proportional votes: 17,873 (0.57%)
+
+  NOT ELIGIBLE: Below 3% threshold
+
+
+Eligible parties: ['ÖVP', 'SPÖ', 'FPÖ', 'GRÜNE', 'NEOS']
+
+
+FPTP Seats (36%): 65
+Proportional Seats (64%): 118
+
+
+
+FPTP allocation (65 seats):
+
+Total eligible votes: 2,941,927
+
+ÖVP: 18 seats (28.0% of votes)
+
+SPÖ: 14 seats (22.6% of votes)
+
+FPÖ: 19 seats (30.8% of votes)
+
+GRÜNE: 5 seats (8.8% of votes)
+
+NEOS: 6 seats (9.8% of votes)
+
+
+Distributing 3 remaining FPTP seats:
+
+FPÖ: +1 seat (remainder was 0.988)
+
+GRÜNE: +1 seat (remainder was 0.749)
+
+SPÖ: +1 seat (remainder was 0.689)
+
+
+Final FPTP allocation:
+
+FPÖ: 20 seats (30.8% of seats, 30.8% of votes)
+
+ÖVP: 18 seats (27.7% of seats, 28.0% of votes)
+
+SPÖ: 15 seats (23.1% of seats, 22.6% of votes)
+
+GRÜNE: 6 seats (9.2% of seats, 8.8% of votes)
+
+NEOS: 6 seats (9.2% of seats, 9.8% of votes)
+
+Total FPTP seats allocated: 65 of 65
+
+
+=== PROPORTIONAL ALLOCATION (64% = 118 seats) ===
+
+
+Proportional votes (64% of total votes):
+
+FPÖ: 904,682 votes (28.79%)
+
+ÖVP: 824,060 votes (26.22%)
+
+SPÖ: 664,832 votes (21.16%)
+
+NEOS: 288,163 votes (9.17%)
+
+GRÜNE: 260,190 votes (8.28%)
+
+
+Initial proportional seat allocation:
+
+FPÖ: 33 seats (fair share: 33.970, remainder: 0.970)
+
+ÖVP: 30 seats (fair share: 30.943, remainder: 0.943)
+
+SPÖ: 24 seats (fair share: 24.964, remainder: 0.964)
+
+NEOS: 10 seats (fair share: 10.820, remainder: 0.820)
+
+GRÜNE: 9 seats (fair share: 9.770, remainder: 0.770)
+
+
+Distributing 12 remaining proportional seats:
+
+FPÖ: +1 seat (remainder was 0.970)
+
+SPÖ: +1 seat (remainder was 0.964)
+
+ÖVP: +1 seat (remainder was 0.943)
+
+NEOS: +1 seat (remainder was 0.820)
+
+GRÜNE: +1 seat (remainder was 0.770)
+
+FPÖ: +1 seat (remainder was 0.970)
+
+SPÖ: +1 seat (remainder was 0.964)
+
+ÖVP: +1 seat (remainder was 0.943)
+
+NEOS: +1 seat (remainder was 0.820)
+
+GRÜNE: +1 seat (remainder was 0.770)
+
+FPÖ: +1 seat (remainder was 0.970)
+
+SPÖ: +1 seat (remainder was 0.964)
+
+
+Final proportional allocation:
+
+FPÖ: 36 seats (30.5% of seats, 28.8% of proportional votes)
+
+ÖVP: 32 seats (27.1% of seats, 26.2% of proportional votes)
+
+SPÖ: 27 seats (22.9% of seats, 21.2% of proportional votes)
+
+NEOS: 12 seats (10.2% of seats, 9.2% of proportional votes)
+
+GRÜNE: 11 seats (9.3% of seats, 8.3% of proportional votes)
+
+Total proportional seats allocated: 118 of 118
+
+
+Final party allocations:
+
+FPÖ: 56 seats (30.6% of seats, 28.8% of votes)
+
+NEOS: 18 seats (9.8% of seats, 9.2% of votes)
+
+GRÜNE: 17 seats (9.3% of seats, 8.3% of votes)
+
+SPÖ: 42 seats (23.0% of seats, 21.2% of votes)
+
+ÖVP: 50 seats (27.3% of seats, 26.2% of votes)
+
+
+Total allocated seats: 183 of 183
+
+
+=== FINAL SEAT DISTRIBUTION SUMMARY ===
+- Total seats allocated: 183 of 183 (100.0%)
+- FPTP seats: 65 of 65 (100.0%)
+- Proportional seats: 118 of 118 (100.0%)
+- Number of parties represented: 5
+
+Party-by-Party Breakdown:
+- FPÖ : 56 seats (30.6%)
+- ÖVP : 50 seats (27.3%)
+- SPÖ : 42 seats (23.0%)
+- NEOS : 18 seats (9.8%)
+- GRÜNE : 17 seats (9.3%)
+
+Threshold Effects:
+- Independent parties needed 3% of total votes
+- Coalitions needed 10% of total votes collectively
+- Parties in coalitions above 10% needed only 1% individually
+- Parties in coalitions below 10% needed 3% individually
+
+System Details:
+- Direct mandate seats: 36% of total seats
+- Proportional seats: 64% of total seats
+- Threshold for representation: 3% of total votes (or 1% if in coalition above 10%)
+- Coalition threshold: 10% of total votes
+
+
+
+==================================================
+
 
 
 ## Visualizations

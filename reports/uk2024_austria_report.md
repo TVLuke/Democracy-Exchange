@@ -10,203 +10,240 @@ Year: 2024
 
 ### Vote Summary
 
-A total of 57,610,554 votes were cast, representing a turnout of 119.4% of the electorate.
+A total of 28,805,277 votes were cast, representing a turnout of 59.7% of the electorate.
 
 | Party | Votes | Percentage |
 |-------|--------|------------|
-| Lab | 19,417,432 | 33.7% |
-| Con | 13,657,850 | 23.7% |
-| RUK | 8,235,220 | 14.3% |
-| LD | 7,038,286 | 12.2% |
-| Green | 3,889,002 | 6.8% |
-| Ind | 2,088,918 | 3.6% |
-| SNP | 1,449,516 | 2.5% |
-| SF | 421,782 | 0.7% |
-| PC | 389,622 | 0.7% |
-| DUP | 344,116 | 0.6% |
-| APNI | 234,382 | 0.4% |
-| UUP | 189,558 | 0.3% |
-| SDLP | 173,722 | 0.3% |
-| Ind1 | 28,932 | 0.1% |
-| Ind2 | 28,932 | 0.1% |
-| TUV | 23,284 | 0.0% |
+| Lab | 9,708,716 | 33.7% |
+| Con | 6,828,925 | 23.7% |
+| RUK | 4,117,610 | 14.3% |
+| LD | 3,519,143 | 12.2% |
+| Green | 1,944,501 | 6.8% |
+| Ind | 1,044,459 | 3.6% |
+| SNP | 724,758 | 2.5% |
+| SF | 210,891 | 0.7% |
+| PC | 194,811 | 0.7% |
+| DUP | 172,058 | 0.6% |
+| APNI | 117,191 | 0.4% |
+| UUP | 94,779 | 0.3% |
+| SDLP | 86,861 | 0.3% |
+| Ind1 | 14,466 | 0.1% |
+| Ind2 | 14,466 | 0.1% |
+| TUV | 11,642 | 0.0% |
 
-**Lab** received the most votes with 19,417,432 votes (33.7% of total votes).
+**Lab** received the most votes with 9,708,716 votes (33.7% of total votes).
 
 ## Seat Calculation Process
 
-## French Electoral System Explanation
+## Austrian Electoral System Explanation
 
-This election uses the French two-round voting system (scrutin uninominal majoritaire à deux tours):
+This election is calculated using the Austrian three-tier proportional representation system:
 
-1. **First Round**
-   - All candidates can participate
-   - If a candidate receives >50% of votes AND ≥25% of registered voters, they win immediately
-   - Otherwise, qualified candidates proceed to second round
+1. **Regional Constituency Level (Regionalwahlkreise)**
+   - In this election: 650 regional constituencies across 12 states
+     (The Austrian system typically has 39 constituencies across 9 states)
+   - First distribution of seats using the Hare quota
+   - Only parties that reach 4% nationally can receive seats
+   - Direct mandates are awarded at this level
 
-2. **Second Round Qualification**
-   - Candidates need ≥12.5% of votes to qualify
-   - If no candidates reach 12.5%, top two advance
-   - When no second round data is provided, votes are simulated:
-     * 80% of votes from eliminated parties go to parties with same left-right position
-     * 30% of remaining votes go to parties within 1 position on left-right scale
-     * Other votes are considered lost/abstentions
+2. **State Level (Landeswahlkreise)**
+   - States in this election:
+     - East Midlands: 47 constituencies
+     - East of England: 61 constituencies
+     - London: 75 constituencies
+     - North East: 27 constituencies
+     - North West: 73 constituencies
+     - Northern Ireland: 18 constituencies
+     - Scotland: 57 constituencies
+     - South East: 91 constituencies
+     - South West: 58 constituencies
+     - Wales: 32 constituencies
+     - West Midlands: 57 constituencies
+     - Yorkshire and The Humber: 54 constituencies
+   - Second distribution using state-level electoral numbers
+   - Remaining seats distributed using D'Hondt method
+   - Takes into account seats already won at regional level
+
+3. **Federal Level (Bundesebene)**
+   - Final distribution of remaining seats
+   - Uses Hare quota at national level
+   - Ensures overall proportional representation
+   - Compensates for any disproportions from lower levels
 
 Key Features:
-- 650 total seats to be distributed
-- Single-member constituencies
-- Two rounds if no absolute majority in first round
-
-3. **Seat Scaling**
-   When the required number of seats (650) differs from the number of districts (650),
-   we use proportional scaling to maintain fair representation:
-   - First calculate results for all districts
-   - Then multiply each party's seats by (total_seats / number_of_districts)
-   - Round to nearest whole number while preserving total seats
-   - This maintains the proportional representation from the district results
-   
-   Example: If we have 100 districts but need 200 seats:
-   - Party A wins 60 districts → scaled to 120 seats (60 * 200/100)
-   - Party B wins 40 districts → scaled to 80 seats (40 * 200/100)
-   The relative strength of each party remains the same.
+- 4% threshold nationally or one direct mandate required
+- 650 total seats to be distributed (Austrian National Council has 183)
+- Seats first allocated to states based on citizen population
 
 
 
+## Vote Type Used for Calculation
 
-## Example Districts
-
-To illustrate how the French two-round system works in practice, here are three example districts:
-
+Using mandate votes (Erststimmen) for calculations since no list votes are available. In the Austrian system, list votes would typically be used if available.
 
 
-### Example 1: Airdrie and Shotts
+## Initial Threshold Check
 
-**First Round Results:**
-- Total votes cast: 36,666
-- Registered voters: 73,332
+Total valid votes cast: 28,805,277
+4% threshold: 1,152,211 votes
 
-**Party Results:**
-- Lab: 18,871 votes (51.5% of votes, 25.7% of registered)
-- SNP: 11,324 votes (30.9% of votes, 15.4% of registered)
-- RUK: 2,971 votes (8.1% of votes, 4.1% of registered)
-- Con: 1,696 votes (4.6% of votes, 2.3% of registered)
-- Ind: 1,079 votes (2.9% of votes, 1.5% of registered)
-- LD: 725 votes (2.0% of votes, 1.0% of registered)
-- Green: 0 votes (0.0% of votes, 0.0% of registered)
-- PC: 0 votes (0.0% of votes, 0.0% of registered)
-- DUP: 0 votes (0.0% of votes, 0.0% of registered)
-- SF: 0 votes (0.0% of votes, 0.0% of registered)
-- SDLP: 0 votes (0.0% of votes, 0.0% of registered)
-- UUP: 0 votes (0.0% of votes, 0.0% of registered)
-- APNI: 0 votes (0.0% of votes, 0.0% of registered)
+Party Results and Qualification Status:
+- Lab: 9,708,716 votes (33.70%) - Qualified
+  → Eligible for mandate distribution at all levels
+- Con: 6,828,925 votes (23.71%) - Qualified
+  → Eligible for mandate distribution at all levels
+- RUK: 4,117,610 votes (14.29%) - Qualified
+  → Eligible for mandate distribution at all levels
+- LD: 3,519,143 votes (12.22%) - Qualified
+  → Eligible for mandate distribution at all levels
+- Green: 1,944,501 votes (6.75%) - Qualified
+  → Eligible for mandate distribution at all levels
+- Ind: 1,044,459 votes (3.63%) - Did not qualify
+  → Can only receive direct mandates in regional constituencies
+- SNP: 724,758 votes (2.52%) - Did not qualify
+  → Can only receive direct mandates in regional constituencies
+- SF: 210,891 votes (0.73%) - Did not qualify
+  → Can only receive direct mandates in regional constituencies
+- PC: 194,811 votes (0.68%) - Did not qualify
+  → Can only receive direct mandates in regional constituencies
+- DUP: 172,058 votes (0.60%) - Did not qualify
+  → Can only receive direct mandates in regional constituencies
+- APNI: 117,191 votes (0.41%) - Did not qualify
+  → Can only receive direct mandates in regional constituencies
+- UUP: 94,779 votes (0.33%) - Did not qualify
+  → Can only receive direct mandates in regional constituencies
+- SDLP: 86,861 votes (0.30%) - Did not qualify
+  → Can only receive direct mandates in regional constituencies
+- Ind1: 14,466 votes (0.05%) - Did not qualify
+  → Can only receive direct mandates in regional constituencies
+- Ind2: 14,466 votes (0.05%) - Did not qualify
+  → Can only receive direct mandates in regional constituencies
+- TUV: 11,642 votes (0.04%) - Did not qualify
+  → Can only receive direct mandates in regional constituencies
 
-**Result:** Lab wins in first round with absolute majority and ≥25% of registered voters
 
 
+## Example Regional Constituency: Aberafan Maesteg
 
-### Example 2: Aberafan Maesteg
+This example shows how votes are counted at the regional constituency level:
 
-**First Round Results:**
-- Total votes cast: 35,755
-- Registered voters: 71,510
+Total votes cast: 35,755
 
-**Party Results:**
-- Lab: 17,838 votes (49.9% of votes, 24.9% of registered)
-- RUK: 7,484 votes (20.9% of votes, 10.5% of registered)
-- PC: 4,719 votes (13.2% of votes, 6.6% of registered)
-- Con: 2,903 votes (8.1% of votes, 4.1% of registered)
-- Green: 1,094 votes (3.1% of votes, 1.5% of registered)
-- LD: 916 votes (2.6% of votes, 1.3% of registered)
-- Ind: 801 votes (2.2% of votes, 1.1% of registered)
-- SNP: 0 votes (0.0% of votes, 0.0% of registered)
-- DUP: 0 votes (0.0% of votes, 0.0% of registered)
-- SF: 0 votes (0.0% of votes, 0.0% of registered)
-- SDLP: 0 votes (0.0% of votes, 0.0% of registered)
-- UUP: 0 votes (0.0% of votes, 0.0% of registered)
-- APNI: 0 votes (0.0% of votes, 0.0% of registered)
-
-**Second Round:** Parties qualifying (≥12.5%):
-- PC: 4,719 votes (13.2%)
+Party Results:
 - Lab: 17,838 votes (49.9%)
 - RUK: 7,484 votes (20.9%)
+- PC: 4,719 votes (13.2%)
+- Con: 2,903 votes (8.1%)
+- Green: 1,094 votes (3.1%)
+- LD: 916 votes (2.6%)
+- Ind: 801 votes (2.2%)
+- SNP: 0 votes (0.0%)
+- DUP: 0 votes (0.0%)
+- SF: 0 votes (0.0%)
+- SDLP: 0 votes (0.0%)
+- UUP: 0 votes (0.0%)
+- APNI: 0 votes (0.0%)
 
-**Vote Redistribution Simulation:**
-Vote Transfers:
-- Con → RUK: 87 votes
-- Con: 2,816 votes lost/abstained
-- LD → Lab: 13 votes
-- LD → PC: 13 votes
-- LD: 890 votes lost/abstained
-- Green → Lab: 65 votes
-- Green → PC: 65 votes
-- Green: 964 votes lost/abstained
-- SNP → Lab: 0 votes
-- SNP → PC: 0 votes
-- DUP → RUK: 0 votes
-- SDLP → Lab: 0 votes
-- SDLP → PC: 0 votes
-- APNI → Lab: 0 votes
-- APNI → PC: 0 votes
-- Ind: 801 votes lost/abstained
-
-**Final Second Round Result:**
-- Lab: 17,916 votes (50.1%)
-- RUK: 7,571 votes (21.2%)
-- PC: 4,797 votes (13.4%)
-
-**Result:** Lab wins the simulated second round
+The Hare quota is used to determine direct mandates.
+Parties must either win a direct mandate or reach the 4% national threshold.
 
 
+## Example Regional Constituency: Aberdeen North
 
-### Example 3: Alloa and Grangemouth
+This example shows how votes are counted at the regional constituency level:
 
-**First Round Results:**
-- Total votes cast: 41,201
-- Registered voters: 82,402
+Total votes cast: 42,095
 
-**Party Results:**
-- Lab: 18,039 votes (43.8% of votes, 21.9% of registered)
-- SNP: 11,917 votes (28.9% of votes, 14.5% of registered)
-- RUK: 3,804 votes (9.2% of votes, 4.6% of registered)
-- Con: 3,127 votes (7.6% of votes, 3.8% of registered)
-- Ind: 1,742 votes (4.2% of votes, 2.1% of registered)
-- Green: 1,421 votes (3.4% of votes, 1.7% of registered)
-- LD: 1,151 votes (2.8% of votes, 1.4% of registered)
-- PC: 0 votes (0.0% of votes, 0.0% of registered)
-- DUP: 0 votes (0.0% of votes, 0.0% of registered)
-- SF: 0 votes (0.0% of votes, 0.0% of registered)
-- SDLP: 0 votes (0.0% of votes, 0.0% of registered)
-- UUP: 0 votes (0.0% of votes, 0.0% of registered)
-- APNI: 0 votes (0.0% of votes, 0.0% of registered)
+Party Results:
+- SNP: 14,533 votes (34.5%)
+- Lab: 12,773 votes (30.3%)
+- Con: 5,881 votes (14.0%)
+- RUK: 3,781 votes (9.0%)
+- LD: 2,583 votes (6.1%)
+- Green: 1,275 votes (3.0%)
+- Ind: 1,269 votes (3.0%)
+- PC: 0 votes (0.0%)
+- DUP: 0 votes (0.0%)
+- SF: 0 votes (0.0%)
+- SDLP: 0 votes (0.0%)
+- UUP: 0 votes (0.0%)
+- APNI: 0 votes (0.0%)
 
-**Second Round:** Parties qualifying (≥12.5%):
-- SNP: 11,917 votes (28.9%)
-- Lab: 18,039 votes (43.8%)
+The Hare quota is used to determine direct mandates.
+Parties must either win a direct mandate or reach the 4% national threshold.
 
-**Vote Redistribution Simulation:**
-Vote Transfers:
-- Con: 3,127 votes lost/abstained
-- LD → Lab: 17 votes
-- LD → SNP: 17 votes
-- LD: 1,117 votes lost/abstained
-- RUK: 3,804 votes lost/abstained
-- Green → Lab: 85 votes
-- Green → SNP: 85 votes
-- Green: 1,251 votes lost/abstained
-- PC → Lab: 0 votes
-- PC → SNP: 0 votes
-- SDLP → Lab: 0 votes
-- SDLP → SNP: 0 votes
-- APNI → Lab: 0 votes
-- APNI → SNP: 0 votes
-- Ind: 1,742 votes lost/abstained
 
-**Final Second Round Result:**
-- Lab: 18,141 votes (44.0%)
-- SNP: 12,019 votes (29.2%)
+## Example Regional Constituency: Aberdeen South
 
-**Result:** Lab wins the simulated second round
+This example shows how votes are counted at the regional constituency level:
 
+Total votes cast: 46,345
+
+Party Results:
+- SNP: 15,213 votes (32.8%)
+- Lab: 11,455 votes (24.7%)
+- Con: 11,300 votes (24.4%)
+- RUK: 3,199 votes (6.9%)
+- LD: 2,921 votes (6.3%)
+- Green: 1,609 votes (3.5%)
+- Ind: 648 votes (1.4%)
+- PC: 0 votes (0.0%)
+- DUP: 0 votes (0.0%)
+- SF: 0 votes (0.0%)
+- SDLP: 0 votes (0.0%)
+- UUP: 0 votes (0.0%)
+- APNI: 0 votes (0.0%)
+
+The Hare quota is used to determine direct mandates.
+Parties must either win a direct mandate or reach the 4% national threshold.
+
+
+## State Level Distribution
+
+According to §1 of the Nationalrats-Wahlordnung, the 650 seats are distributed among the states based on their citizen population.
+
+The process:
+1. Calculate state-level electoral number (Wahlzahl)
+   For each state, the Wahlzahl is calculated as: Total valid votes ÷ (Number of seats + 1)
+   Example for a state with 100,000 votes and 4 seats:
+   Wahlzahl = 100,000 ÷ (4 + 1) = 20,000
+
+2. Calculate Verhältniszahl (proportional number)
+   Total population value: 67,595,581
+   Total seats: 650
+   Verhältniszahl = 67,595,581 ÷ 650 = 103,993.20
+   This number represents how many population one mandate represents.
+
+3. Determine remaining seats after direct mandates
+4. Use D'Hondt method for remaining seats
+5. Take into account party threshold requirement
+
+
+
+## Final Distribution Summary
+
+After completing all three levels of calculation:
+1. Regional constituency direct mandates
+2. State-level D'Hondt distribution
+3. Federal level compensation
+
+Final Results:
+- Lab: 242 seats (37.2%) from 9,708,716 votes (33.7%)
+  → Qualified through 4% threshold
+- Con: 170 seats (26.2%) from 6,828,925 votes (23.7%)
+  → Qualified through 4% threshold
+- RUK: 102 seats (15.7%) from 4,117,610 votes (14.3%)
+  → Qualified through 4% threshold
+- LD: 88 seats (13.5%) from 3,519,143 votes (12.2%)
+  → Qualified through 4% threshold
+- Green: 48 seats (7.4%) from 1,944,501 votes (6.8%)
+  → Qualified through 4% threshold
+
+This distribution reflects the principles of proportional representation while accounting for:
+- The 4% threshold requirement or direct mandate qualification
+- Regional constituency direct mandates
+- State-level proportionality using D'Hondt method
+- Federal level compensation to ensure overall proportionality
 
 
 ## Visualizations

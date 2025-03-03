@@ -10,235 +10,222 @@ Year: 2024
 
 ### Vote Summary
 
-A total of 19,640,788 votes were cast, representing a turnout of 309.5% of the electorate.
+A total of 4,910,197 votes were cast, representing a turnout of 77.4% of the electorate.
 
 | Party | Votes | Percentage |
 |-------|--------|------------|
-| FPÖ | 5,654,372 | 28.8% |
-| ÖVP | 5,150,492 | 26.2% |
-| SPÖ | 4,155,316 | 21.2% |
-| NEOS | 1,801,140 | 9.2% |
-| GRÜNE | 1,626,312 | 8.3% |
-| KPÖ | 472,352 | 2.4% |
-| BIER | 395,956 | 2.0% |
-| LMP | 115,048 | 0.6% |
-| KEINE | 111,836 | 0.6% |
-| MFG | 79,568 | 0.4% |
-| GAZA | 77,772 | 0.4% |
-| BGE | 624 | 0.0% |
+| FPÖ | 1,413,593 | 28.8% |
+| ÖVP | 1,287,623 | 26.2% |
+| SPÖ | 1,038,829 | 21.2% |
+| NEOS | 450,285 | 9.2% |
+| GRÜNE | 406,578 | 8.3% |
+| KPÖ | 118,088 | 2.4% |
+| BIER | 98,989 | 2.0% |
+| LMP | 28,762 | 0.6% |
+| KEINE | 27,959 | 0.6% |
+| MFG | 19,892 | 0.4% |
+| GAZA | 19,443 | 0.4% |
+| BGE | 156 | 0.0% |
 
-**FPÖ** received the most votes with 5,654,372 votes (28.8% of total votes).
+**FPÖ** received the most votes with 1,413,593 votes (28.8% of total votes).
 
 ## Seat Calculation Process
 
-## French Electoral System Explanation
+## Austrian Electoral System Explanation
 
-This election uses the French two-round voting system (scrutin uninominal majoritaire à deux tours):
+This election is calculated using the Austrian three-tier proportional representation system:
 
-1. **First Round**
-   - All candidates can participate
-   - If a candidate receives >50% of votes AND ≥25% of registered voters, they win immediately
-   - Otherwise, qualified candidates proceed to second round
+1. **Regional Constituency Level (Regionalwahlkreise)**
+   - In this election: 39 regional constituencies across 9 states
+     (The Austrian system typically has 39 constituencies across 9 states)
+   - First distribution of seats using the Hare quota
+   - Only parties that reach 4% nationally can receive seats
+   - Direct mandates are awarded at this level
 
-2. **Second Round Qualification**
-   - Candidates need ≥12.5% of votes to qualify
-   - If no candidates reach 12.5%, top two advance
-   - When no second round data is provided, votes are simulated:
-     * 80% of votes from eliminated parties go to parties with same left-right position
-     * 30% of remaining votes go to parties within 1 position on left-right scale
-     * Other votes are considered lost/abstentions
+2. **State Level (Landeswahlkreise)**
+   - States in this election:
+     - Burgenland: 2 constituencies
+     - Kärnten: 4 constituencies
+     - Niederösterreich: 7 constituencies
+     - Oberösterreich: 5 constituencies
+     - Salzburg: 3 constituencies
+     - Steiermark: 4 constituencies
+     - Tirol: 5 constituencies
+     - Vorarlberg: 2 constituencies
+     - Wien: 7 constituencies
+   - Second distribution using state-level electoral numbers
+   - Remaining seats distributed using D'Hondt method
+   - Takes into account seats already won at regional level
+
+3. **Federal Level (Bundesebene)**
+   - Final distribution of remaining seats
+   - Uses Hare quota at national level
+   - Ensures overall proportional representation
+   - Compensates for any disproportions from lower levels
 
 Key Features:
-- 183 total seats to be distributed
-- Single-member constituencies
-- Two rounds if no absolute majority in first round
-
-3. **Seat Scaling**
-   When the required number of seats (183) differs from the number of districts (39),
-   we use proportional scaling to maintain fair representation:
-   - First calculate results for all districts
-   - Then multiply each party's seats by (total_seats / number_of_districts)
-   - Round to nearest whole number while preserving total seats
-   - This maintains the proportional representation from the district results
-   
-   Example: If we have 100 districts but need 200 seats:
-   - Party A wins 60 districts → scaled to 120 seats (60 * 200/100)
-   - Party B wins 40 districts → scaled to 80 seats (40 * 200/100)
-   The relative strength of each party remains the same.
+- 4% threshold nationally or one direct mandate required
+- 183 total seats to be distributed (Austrian National Council has 183)
+- Seats first allocated to states based on citizen population
 
 
 
+## Vote Type Used for Calculation
 
-## Example Districts
-
-To illustrate how the French two-round system works in practice, here are three example districts:
-
+Using list votes (Zweitstimmen) for calculations. 
 
 
-### Example 1: Burgenland Nord
+## Initial Threshold Check
 
-**First Round Results:**
-- Total votes cast: 102,327
-- Registered voters: 204,654
+Total valid votes cast: 4,910,197
+4% threshold: 196,408 votes
 
-**Party Results:**
-- FPÖ: 28,903 votes (28.2% of votes, 14.1% of registered)
-- ÖVP: 28,057 votes (27.4% of votes, 13.7% of registered)
-- SPÖ: 27,636 votes (27.0% of votes, 13.5% of registered)
-- NEOS: 7,480 votes (7.3% of votes, 3.7% of registered)
-- GRÜNE: 5,329 votes (5.2% of votes, 2.6% of registered)
-- BIER: 2,218 votes (2.2% of votes, 1.1% of registered)
-- KPÖ: 1,375 votes (1.3% of votes, 0.7% of registered)
-- KEINE: 517 votes (0.5% of votes, 0.3% of registered)
-- LMP: 479 votes (0.5% of votes, 0.2% of registered)
-- GAZA: 293 votes (0.3% of votes, 0.1% of registered)
-- BGE: 40 votes (0.0% of votes, 0.0% of registered)
-- MFG: 0 votes (0.0% of votes, 0.0% of registered)
+Party Results and Qualification Status:
+- FPÖ: 1,413,593 votes (28.79%) - Qualified
+  → Eligible for mandate distribution at all levels
+- ÖVP: 1,287,623 votes (26.22%) - Qualified
+  → Eligible for mandate distribution at all levels
+- SPÖ: 1,038,829 votes (21.16%) - Qualified
+  → Eligible for mandate distribution at all levels
+- NEOS: 450,285 votes (9.17%) - Qualified
+  → Eligible for mandate distribution at all levels
+- GRÜNE: 406,578 votes (8.28%) - Qualified
+  → Eligible for mandate distribution at all levels
+- KPÖ: 118,088 votes (2.40%) - Did not qualify
+  → Can only receive direct mandates in regional constituencies
+- BIER: 98,989 votes (2.02%) - Did not qualify
+  → Can only receive direct mandates in regional constituencies
+- LMP: 28,762 votes (0.59%) - Did not qualify
+  → Can only receive direct mandates in regional constituencies
+- KEINE: 27,959 votes (0.57%) - Did not qualify
+  → Can only receive direct mandates in regional constituencies
+- MFG: 19,892 votes (0.41%) - Did not qualify
+  → Can only receive direct mandates in regional constituencies
+- GAZA: 19,443 votes (0.40%) - Did not qualify
+  → Can only receive direct mandates in regional constituencies
+- BGE: 156 votes (0.00%) - Did not qualify
+  → Can only receive direct mandates in regional constituencies
 
-**Second Round:** Parties qualifying (≥12.5%):
-- SPÖ: 27,636 votes (27.0%)
+
+
+## Example Regional Constituency: Burgenland Nord
+
+This example shows how votes are counted at the regional constituency level:
+
+Total votes cast: 102,327
+
+Party Results:
 - FPÖ: 28,903 votes (28.2%)
 - ÖVP: 28,057 votes (27.4%)
+- SPÖ: 27,636 votes (27.0%)
+- NEOS: 7,480 votes (7.3%)
+- GRÜNE: 5,329 votes (5.2%)
+- BIER: 2,218 votes (2.2%)
+- KPÖ: 1,375 votes (1.3%)
+- KEINE: 517 votes (0.5%)
+- LMP: 479 votes (0.5%)
+- GAZA: 293 votes (0.3%)
+- BGE: 40 votes (0.0%)
+- MFG: 0 votes (0.0%)
 
-**Vote Redistribution Simulation:**
-Vote Transfers:
-- GRÜNE → SPÖ: 799 votes
-- GRÜNE: 4,530 votes lost/abstained
-- NEOS → ÖVP: 1,122 votes
-- NEOS: 6,358 votes lost/abstained
-- BIER: 2,218 votes lost/abstained
-- BGE: 40 votes lost/abstained
-- LMP: 479 votes lost/abstained
-- GAZA: 293 votes lost/abstained
-- KPÖ: 1,375 votes lost/abstained
-- KEINE: 517 votes lost/abstained
-
-**Final Second Round Result:**
-- ÖVP: 29,179 votes (28.5%)
-- FPÖ: 28,903 votes (28.2%)
-- SPÖ: 28,435 votes (27.8%)
-
-**Result:** ÖVP wins the simulated second round
+The Hare quota is used to determine direct mandates.
+Parties must either win a direct mandate or reach the 4% national threshold.
 
 
+## Example Regional Constituency: Burgenland Süd
 
-### Example 2: Burgenland Süd
+This example shows how votes are counted at the regional constituency level:
 
-**First Round Results:**
-- Total votes cast: 88,363
-- Registered voters: 176,726
+Total votes cast: 88,363
 
-**Party Results:**
-- ÖVP: 26,323 votes (29.8% of votes, 14.9% of registered)
-- FPÖ: 25,955 votes (29.4% of votes, 14.7% of registered)
-- SPÖ: 23,881 votes (27.0% of votes, 13.5% of registered)
-- NEOS: 4,894 votes (5.5% of votes, 2.8% of registered)
-- GRÜNE: 3,693 votes (4.2% of votes, 2.1% of registered)
-- BIER: 1,613 votes (1.8% of votes, 0.9% of registered)
-- KPÖ: 1,070 votes (1.2% of votes, 0.6% of registered)
-- LMP: 384 votes (0.4% of votes, 0.2% of registered)
-- KEINE: 381 votes (0.4% of votes, 0.2% of registered)
-- BGE: 116 votes (0.1% of votes, 0.1% of registered)
-- GAZA: 53 votes (0.1% of votes, 0.0% of registered)
-- MFG: 0 votes (0.0% of votes, 0.0% of registered)
-
-**Second Round:** Parties qualifying (≥12.5%):
-- SPÖ: 23,881 votes (27.0%)
-- FPÖ: 25,955 votes (29.4%)
+Party Results:
 - ÖVP: 26,323 votes (29.8%)
-
-**Vote Redistribution Simulation:**
-Vote Transfers:
-- GRÜNE → SPÖ: 553 votes
-- GRÜNE: 3,140 votes lost/abstained
-- NEOS → ÖVP: 734 votes
-- NEOS: 4,160 votes lost/abstained
-- BIER: 1,613 votes lost/abstained
-- BGE: 116 votes lost/abstained
-- LMP: 384 votes lost/abstained
-- GAZA: 53 votes lost/abstained
-- KPÖ: 1,070 votes lost/abstained
-- KEINE: 381 votes lost/abstained
-
-**Final Second Round Result:**
-- ÖVP: 27,057 votes (30.6%)
 - FPÖ: 25,955 votes (29.4%)
-- SPÖ: 24,434 votes (27.7%)
+- SPÖ: 23,881 votes (27.0%)
+- NEOS: 4,894 votes (5.5%)
+- GRÜNE: 3,693 votes (4.2%)
+- BIER: 1,613 votes (1.8%)
+- KPÖ: 1,070 votes (1.2%)
+- LMP: 384 votes (0.4%)
+- KEINE: 381 votes (0.4%)
+- BGE: 116 votes (0.1%)
+- GAZA: 53 votes (0.1%)
+- MFG: 0 votes (0.0%)
 
-**Result:** ÖVP wins the simulated second round
+The Hare quota is used to determine direct mandates.
+Parties must either win a direct mandate or reach the 4% national threshold.
 
 
+## Example Regional Constituency: Klagenfurt
 
-### Example 3: Klagenfurt
+This example shows how votes are counted at the regional constituency level:
 
-**First Round Results:**
-- Total votes cast: 89,557
-- Registered voters: 179,114
+Total votes cast: 89,557
 
-**Party Results:**
-- FPÖ: 29,456 votes (32.9% of votes, 16.4% of registered)
-- SPÖ: 21,275 votes (23.8% of votes, 11.9% of registered)
-- ÖVP: 18,694 votes (20.9% of votes, 10.4% of registered)
-- NEOS: 9,077 votes (10.1% of votes, 5.1% of registered)
-- GRÜNE: 5,821 votes (6.5% of votes, 3.2% of registered)
-- BIER: 2,005 votes (2.2% of votes, 1.1% of registered)
-- KPÖ: 1,981 votes (2.2% of votes, 1.1% of registered)
-- LMP: 679 votes (0.8% of votes, 0.4% of registered)
-- KEINE: 569 votes (0.6% of votes, 0.3% of registered)
-- MFG: 0 votes (0.0% of votes, 0.0% of registered)
-- BGE: 0 votes (0.0% of votes, 0.0% of registered)
-- GAZA: 0 votes (0.0% of votes, 0.0% of registered)
-
-**Second Round:** Parties qualifying (≥12.5%):
+Party Results:
+- FPÖ: 29,456 votes (32.9%)
 - SPÖ: 21,275 votes (23.8%)
-- FPÖ: 29,456 votes (32.9%)
 - ÖVP: 18,694 votes (20.9%)
+- NEOS: 9,077 votes (10.1%)
+- GRÜNE: 5,821 votes (6.5%)
+- BIER: 2,005 votes (2.2%)
+- KPÖ: 1,981 votes (2.2%)
+- LMP: 679 votes (0.8%)
+- KEINE: 569 votes (0.6%)
+- MFG: 0 votes (0.0%)
+- BGE: 0 votes (0.0%)
+- GAZA: 0 votes (0.0%)
 
-**Vote Redistribution Simulation:**
-Vote Transfers:
-- GRÜNE → SPÖ: 873 votes
-- GRÜNE: 4,948 votes lost/abstained
-- NEOS → ÖVP: 1,361 votes
-- NEOS: 7,716 votes lost/abstained
-- BIER: 2,005 votes lost/abstained
-- LMP: 679 votes lost/abstained
-- KPÖ: 1,981 votes lost/abstained
-- KEINE: 569 votes lost/abstained
-
-**Final Second Round Result:**
-- FPÖ: 29,456 votes (32.9%)
-- SPÖ: 22,148 votes (24.7%)
-- ÖVP: 20,055 votes (22.4%)
-
-**Result:** FPÖ wins the simulated second round
+The Hare quota is used to determine direct mandates.
+Parties must either win a direct mandate or reach the 4% national threshold.
 
 
+## State Level Distribution
 
-## Seat Scaling Applied
+According to §1 of the Nationalrats-Wahlordnung, the 183 seats are distributed among the states based on their citizen population.
 
-Scaling from 39 districts to 183 total seats:
+The process:
+1. Calculate state-level electoral number (Wahlzahl)
+   For each state, the Wahlzahl is calculated as: Total valid votes ÷ (Number of seats + 1)
+   Example for a state with 100,000 votes and 4 seats:
+   Wahlzahl = 100,000 ÷ (4 + 1) = 20,000
 
-### Before Scaling (39 seats)
-| Party | Seats | Percentage |
-|-------|--------|------------|
-| ÖVP | 18 | 46.2% |
-| FPÖ | 12 | 30.8% |
-| SPÖ | 9 | 23.1% |
+2. Calculate Verhältniszahl (proportional number)
+   Total population value: 6,346,059
+   Total seats: 183
+   Verhältniszahl = 6,346,059 ÷ 183 = 34,677.92
+   This number represents how many electorate one mandate represents.
+
+3. Determine remaining seats after direct mandates
+4. Use D'Hondt method for remaining seats
+5. Take into account party threshold requirement
 
 
-### After Scaling (183 seats)
-| Party | Seats | Percentage | Change |
-|-------|--------|------------|---------|
-| ÖVP | 85 | 46.4% | +0.3% |
-| FPÖ | 56 | 30.6% | -0.2% |
-| SPÖ | 42 | 23.0% | -0.1% |
 
+## Final Distribution Summary
 
-Scaling Details:
-- Scaling factor: 4.692
-- Each party's seats multiplied by this factor and rounded
-- Total seats preserved through rounding adjustments
-- Percentages of total seats remain nearly identical
+After completing all three levels of calculation:
+1. Regional constituency direct mandates
+2. State-level D'Hondt distribution
+3. Federal level compensation
+
+Final Results:
+- FPÖ: 57 seats (31.1%) from 1,413,593 votes (28.8%)
+  → Qualified through 4% threshold
+- ÖVP: 51 seats (27.9%) from 1,287,623 votes (26.2%)
+  → Qualified through 4% threshold
+- SPÖ: 41 seats (22.4%) from 1,038,829 votes (21.2%)
+  → Qualified through 4% threshold
+- NEOS: 18 seats (9.8%) from 450,285 votes (9.2%)
+  → Qualified through 4% threshold
+- GRÜNE: 16 seats (8.7%) from 406,578 votes (8.3%)
+  → Qualified through 4% threshold
+
+This distribution reflects the principles of proportional representation while accounting for:
+- The 4% threshold requirement or direct mandate qualification
+- Regional constituency direct mandates
+- State-level proportionality using D'Hondt method
+- Federal level compensation to ensure overall proportionality
 
 
 ## Visualizations

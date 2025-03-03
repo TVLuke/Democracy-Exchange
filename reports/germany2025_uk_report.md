@@ -59,109 +59,115 @@ In this calculation, the target number of seats is 630, which differs from the n
 
 
 
-## Constituency: Hamburg-Wandsbek
+## Constituency: Elbe-Elster – Oberspreewald-Lausitz
 This constituency demonstrates how First-Past-The-Post works:
 
 
-## Example Constituency: Hamburg-Wandsbek
+## Example Constituency: Elbe-Elster – Oberspreewald-Lausitz
 This example shows how First-Past-The-Post determines the winner:
 
-Total votes cast: 192,514
-- SPD: 57,591 votes (29.9%)
-- CDU/CSU: 43,928 votes (22.8%)
-- AfD: 25,873 votes (13.4%)
-- GRÜNE: 23,210 votes (12.1%)
-- Die Linke: 18,926 votes (9.8%)
-- BSW: 8,464 votes (4.4%)
-- FDP: 5,710 votes (3.0%)
-- Volt: 2,656 votes (1.4%)
-- FREIE WÄHLER: 2,455 votes (1.3%)
-- Tierschutzpartei: 2,168 votes (1.1%)
-- Die PARTEI: 830 votes (0.4%)
-- MLPD: 449 votes (0.2%)
-- BÜNDNIS DEUTSCHLAND: 254 votes (0.1%)
+Total votes cast: 150,926
+- AfD: 57,194 votes (37.9%)
+- CDU/CSU: 24,330 votes (16.1%)
+- SPD: 22,087 votes (14.6%)
+- Die Linke: 15,939 votes (10.6%)
+- BSW: 15,592 votes (10.3%)
+- FREIE WÄHLER: 6,999 votes (4.6%)
+- FDP: 3,821 votes (2.5%)
+- GRÜNE: 2,703 votes (1.8%)
+- Die PARTEI: 1,045 votes (0.7%)
+- Volt: 738 votes (0.5%)
+- BÜNDNIS DEUTSCHLAND: 393 votes (0.3%)
+- MLPD: 85 votes (0.1%)
 - dieBasis: 0 votes (0.0%)
 - Team Todenhöfer: 0 votes (0.0%)
 - ÖDP: 0 votes (0.0%)
 - PdH: 0 votes (0.0%)
+- Tierschutzpartei: 0 votes (0.0%)
 - PIRATEN: 0 votes (0.0%)
 
 Winner determination:
-- Highest vote count: SPD with 57,591 votes (29.9%)
-- Second place: CDU/CSU with 43,928 votes (22.8%)
-- Margin of victory: 13,663 votes (7.1% of total votes)
+- Highest vote count: AfD with 57,194 votes (37.9%)
+- Second place: CDU/CSU with 24,330 votes (16.1%)
+- Margin of victory: 32,864 votes (21.8% of total votes)
 
-Result: SPD wins this constituency's single seat, regardless of the margin of victory.
+Result: AfD wins this constituency's single seat, regardless of the margin of victory.
 
 
 
-## Constituency: Mosel/Rhein-Hunsrück
+## Constituency: Bad Tölz-Wolfratshausen – Miesbach
 This constituency demonstrates how First-Past-The-Post works:
 
 
-## Example Constituency: Mosel/Rhein-Hunsrück
+## Example Constituency: Bad Tölz-Wolfratshausen – Miesbach
 This example shows how First-Past-The-Post determines the winner:
 
-Total votes cast: 148,446
-- CDU/CSU: 53,505 votes (36.0%)
-- SPD: 27,079 votes (18.2%)
-- AfD: 27,058 votes (18.2%)
-- GRÜNE: 10,039 votes (6.8%)
-- FDP: 7,588 votes (5.1%)
-- Die Linke: 6,495 votes (4.4%)
-- FREIE WÄHLER: 6,009 votes (4.0%)
-- BSW: 5,594 votes (3.8%)
-- Tierschutzpartei: 1,709 votes (1.2%)
-- Volt: 1,279 votes (0.9%)
-- ÖDP: 1,130 votes (0.8%)
-- Die PARTEI: 685 votes (0.5%)
-- BÜNDNIS DEUTSCHLAND: 254 votes (0.2%)
-- MLPD: 22 votes (0.0%)
-- dieBasis: 0 votes (0.0%)
+Total votes cast: 147,181
+- CDU/CSU: 65,482 votes (44.5%)
+- AfD: 23,293 votes (15.8%)
+- GRÜNE: 20,820 votes (14.1%)
+- SPD: 10,901 votes (7.4%)
+- FREIE WÄHLER: 7,225 votes (4.9%)
+- FDP: 4,754 votes (3.2%)
+- Die Linke: 4,695 votes (3.2%)
+- BSW: 3,863 votes (2.6%)
+- BP: 1,602 votes (1.1%)
+- ÖDP: 1,271 votes (0.9%)
+- Volt: 1,107 votes (0.8%)
+- Tierschutzpartei: 930 votes (0.6%)
+- Die PARTEI: 539 votes (0.4%)
+- dieBasis: 512 votes (0.3%)
+- BÜNDNIS DEUTSCHLAND: 104 votes (0.1%)
+- PdH: 62 votes (0.0%)
+- MLPD: 21 votes (0.0%)
+- Bündnis C: 0 votes (0.0%)
 - Team Todenhöfer: 0 votes (0.0%)
-- PdH: 0 votes (0.0%)
+- Verjüngungsforschung: 0 votes (0.0%)
 - PIRATEN: 0 votes (0.0%)
 
 Winner determination:
-- Highest vote count: CDU/CSU with 53,505 votes (36.0%)
-- Second place: SPD with 27,079 votes (18.2%)
-- Margin of victory: 26,426 votes (17.8% of total votes)
+- Highest vote count: CDU/CSU with 65,482 votes (44.5%)
+- Second place: AfD with 23,293 votes (15.8%)
+- Margin of victory: 42,189 votes (28.7% of total votes)
 
 Result: CDU/CSU wins this constituency's single seat, regardless of the margin of victory.
 
 
 
-## Constituency: Kreuznach
+## Constituency: Bad Kissingen
 This constituency demonstrates how First-Past-The-Post works:
 
 
-## Example Constituency: Kreuznach
+## Example Constituency: Bad Kissingen
 This example shows how First-Past-The-Post determines the winner:
 
-Total votes cast: 147,826
-- CDU/CSU: 46,766 votes (31.6%)
-- SPD: 38,085 votes (25.8%)
-- AfD: 30,689 votes (20.8%)
-- GRÜNE: 7,764 votes (5.3%)
-- Die Linke: 6,352 votes (4.3%)
-- BSW: 4,719 votes (3.2%)
-- FDP: 4,714 votes (3.2%)
-- FREIE WÄHLER: 4,407 votes (3.0%)
-- Tierschutzpartei: 1,816 votes (1.2%)
-- Volt: 1,441 votes (1.0%)
-- Die PARTEI: 621 votes (0.4%)
-- ÖDP: 202 votes (0.1%)
-- BÜNDNIS DEUTSCHLAND: 181 votes (0.1%)
-- MLPD: 69 votes (0.0%)
-- dieBasis: 0 votes (0.0%)
+Total votes cast: 223,283
+- CDU/CSU: 87,357 votes (39.1%)
+- AfD: 41,399 votes (18.5%)
+- SPD: 25,127 votes (11.3%)
+- FREIE WÄHLER: 22,295 votes (10.0%)
+- GRÜNE: 10,616 votes (4.8%)
+- Die Linke: 9,962 votes (4.5%)
+- FDP: 8,443 votes (3.8%)
+- BÜNDNIS DEUTSCHLAND: 6,880 votes (3.1%)
+- BSW: 5,247 votes (2.3%)
+- ÖDP: 2,239 votes (1.0%)
+- Tierschutzpartei: 1,261 votes (0.6%)
+- Volt: 717 votes (0.3%)
+- dieBasis: 697 votes (0.3%)
+- Die PARTEI: 671 votes (0.3%)
+- BP: 226 votes (0.1%)
+- PdH: 112 votes (0.1%)
+- MLPD: 34 votes (0.0%)
+- Bündnis C: 0 votes (0.0%)
 - Team Todenhöfer: 0 votes (0.0%)
-- PdH: 0 votes (0.0%)
+- Verjüngungsforschung: 0 votes (0.0%)
 - PIRATEN: 0 votes (0.0%)
 
 Winner determination:
-- Highest vote count: CDU/CSU with 46,766 votes (31.6%)
-- Second place: SPD with 38,085 votes (25.8%)
-- Margin of victory: 8,681 votes (5.9% of total votes)
+- Highest vote count: CDU/CSU with 87,357 votes (39.1%)
+- Second place: AfD with 41,399 votes (18.5%)
+- Margin of victory: 45,958 votes (20.6% of total votes)
 
 Result: CDU/CSU wins this constituency's single seat, regardless of the margin of victory.
 

@@ -11,331 +11,243 @@ Year: 2021
 
 ### Vote Summary
 
-A total of 277,409,520 votes were cast, representing a turnout of 453.5% of the electorate.
+A total of 46,107,986 votes were cast, representing a turnout of 75.4% of the electorate.
 
 | Party | Votes | Percentage |
 |-------|--------|------------|
-| SPD | 71,974,424 | 25.9% |
-| CDU/CSU | 71,178,924 | 25.7% |
-| GRÜNE | 40,128,392 | 14.5% |
-| FDP | 29,203,182 | 10.5% |
-| AfD | 28,636,784 | 10.3% |
-| DIE LINKE | 13,595,596 | 4.9% |
-| FREIE WÄHLER | 7,168,088 | 2.6% |
-| dieBasis | 3,985,852 | 1.4% |
-| Tierschutzpartei | 3,016,406 | 1.1% |
-| Die PARTEI | 2,922,064 | 1.1% |
-| Team Todenhöfer | 858,260 | 0.3% |
-| Volt | 812,388 | 0.3% |
-| PIRATEN | 799,444 | 0.3% |
-| ÖDP | 753,600 | 0.3% |
-| SSW | 292,366 | 0.1% |
-| HEIMAT (2021: NPD) | 259,620 | 0.1% |
-| Die Humanisten | 215,440 | 0.1% |
-| BP | 204,656 | 0.1% |
-| Verjüngungsforschung (2021: Gesundheitsforschung) | 198,326 | 0.1% |
-| Bündnis C | 171,916 | 0.1% |
-| V-Partei³ | 148,340 | 0.1% |
-| UNABHÄNGIGE | 117,786 | 0.0% |
-| MLPD | 116,350 | 0.0% |
-| du. | 74,732 | 0.0% |
-| Die Grauen | 73,140 | 0.0% |
-| DKP | 70,720 | 0.0% |
-| Tierschutzallianz | 69,430 | 0.0% |
-| Wir Bürger (2021: LKR) | 67,322 | 0.0% |
-| LIEBE | 53,614 | 0.0% |
-| LfK | 36,756 | 0.0% |
-| Gartenpartei | 34,634 | 0.0% |
-| DiB | 33,954 | 0.0% |
-| BÜRGERBEWEGUNG | 33,076 | 0.0% |
-| III. Weg | 32,358 | 0.0% |
-| MENSCHLICHE WELT | 16,448 | 0.0% |
-| BÜNDNIS21 | 14,696 | 0.0% |
-| PdF | 12,912 | 0.0% |
-| KlimalisteBW | 7,934 | 0.0% |
-| SGP | 5,596 | 0.0% |
-| BüSo | 4,282 | 0.0% |
-| FAMILIE | 3,634 | 0.0% |
-| Volksabstimmung | 2,172 | 0.0% |
-| Graue Panther | 1,922 | 0.0% |
-| THP | 1,098 | 0.0% |
-| sonstige | 502 | 0.0% |
-| B* | 384 | 0.0% |
+| CDU/CSU | 13,233,968 | 28.7% |
+| SPD | 12,184,096 | 26.4% |
+| GRÜNE | 6,435,380 | 14.0% |
+| AfD | 4,699,926 | 10.2% |
+| FDP | 4,019,565 | 8.7% |
+| DIE LINKE | 2,286,070 | 5.0% |
+| FREIE WÄHLER | 1,332,710 | 2.9% |
+| dieBasis | 732,620 | 1.6% |
+| Die PARTEI | 540,170 | 1.2% |
+| Tierschutzpartei | 160,865 | 0.3% |
+| ÖDP | 152,542 | 0.3% |
+| Volt | 77,594 | 0.2% |
+| PIRATEN | 60,548 | 0.1% |
+| BP | 36,748 | 0.1% |
+| SSW | 35,027 | 0.1% |
+| MLPD | 22,535 | 0.0% |
+| UNABHÄNGIGE | 13,421 | 0.0% |
+| Die Humanisten | 12,672 | 0.0% |
+| Wir Bürger (2021: LKR) | 11,005 | 0.0% |
+| V-Partei³ | 10,644 | 0.0% |
+| Tierschutzallianz | 7,371 | 0.0% |
+| Bündnis C | 6,222 | 0.0% |
+| DKP | 5,446 | 0.0% |
+| Team Todenhöfer | 5,422 | 0.0% |
+| KlimalisteBW | 3,967 | 0.0% |
+| DiB | 2,609 | 0.0% |
+| Verjüngungsforschung (2021: Gesundheitsforschung) | 2,171 | 0.0% |
+| Gartenpartei | 2,095 | 0.0% |
+| Die Grauen | 1,962 | 0.0% |
+| du. | 1,890 | 0.0% |
+| FAMILIE | 1,817 | 0.0% |
+| BÜRGERBEWEGUNG | 1,556 | 0.0% |
+| HEIMAT (2021: NPD) | 1,090 | 0.0% |
+| Volksabstimmung | 1,086 | 0.0% |
+| Graue Panther | 961 | 0.0% |
+| LIEBE | 873 | 0.0% |
+| BüSo | 811 | 0.0% |
+| MENSCHLICHE WELT | 652 | 0.0% |
+| THP | 549 | 0.0% |
+| III. Weg | 515 | 0.0% |
+| BÜNDNIS21 | 372 | 0.0% |
+| sonstige | 251 | 0.0% |
+| B* | 192 | 0.0% |
+| SGP | 0 | 0.0% |
+| PdF | 0 | 0.0% |
+| LfK | 0 | 0.0% |
 
-**SPD** received the most votes with 71,974,424 votes (25.9% of total votes).
+**CDU/CSU** received the most votes with 13,233,968 votes (28.7% of total votes).
 
 ## Seat Calculation Process
 
-## French Electoral System Explanation
+# United States House of Representatives Electoral System
+The US uses First-Past-The-Post (FPTP) voting where:
+- Each congressional district elects one Representative
+- The candidate with the most votes (plurality) in each district wins that seat
+- No minimum vote threshold is required
+- Districts are redrawn every 10 years following the census
+- Each state is guaranteed at least one Representative
 
-This election uses the French two-round voting system (scrutin uninominal majoritaire à deux tours):
-
-1. **First Round**
-   - All candidates can participate
-   - If a candidate receives >50% of votes AND ≥25% of registered voters, they win immediately
-   - Otherwise, qualified candidates proceed to second round
-
-2. **Second Round Qualification**
-   - Candidates need ≥12.5% of votes to qualify
-   - If no candidates reach 12.5%, top two advance
-   - When no second round data is provided, votes are simulated:
-     * 80% of votes from eliminated parties go to parties with same left-right position
-     * 30% of remaining votes go to parties within 1 position on left-right scale
-     * Other votes are considered lost/abstentions
-
-Key Features:
-- 598 total seats to be distributed
-- Single-member constituencies
-- Two rounds if no absolute majority in first round
-
-3. **Seat Scaling**
-   When the required number of seats (598) differs from the number of districts (299),
-   we use proportional scaling to maintain fair representation:
-   - First calculate results for all districts
-   - Then multiply each party's seats by (total_seats / number_of_districts)
-   - Round to nearest whole number while preserving total seats
-   - This maintains the proportional representation from the district results
-   
-   Example: If we have 100 districts but need 200 seats:
-   - Party A wins 60 districts → scaled to 120 seats (60 * 200/100)
-   - Party B wins 40 districts → scaled to 80 seats (40 * 200/100)
-   The relative strength of each party remains the same.
+In this calculation:
+- Number of districts: 299
+- Target number of seats: 598
 
 
 
-
-## Example Districts
-
-To illustrate how the French two-round system works in practice, here are three example districts:
+## Congressional District: Düsseldorf II
+This district demonstrates how First-Past-The-Post works in US House elections:
 
 
+## Example Congressional District: Düsseldorf II
+This example shows how the Representative is determined:
 
-### Example 1: Flensburg – Schleswig
+Total votes cast: 141,134
+- SPD: 41,169 votes (29.2%)
+- CDU/CSU: 34,801 votes (24.7%)
+- GRÜNE: 30,201 votes (21.4%)
+- FDP: 14,143 votes (10.0%)
+- AfD: 8,214 votes (5.8%)
+- DIE LINKE: 5,418 votes (3.8%)
+- Die PARTEI: 2,967 votes (2.1%)
+- dieBasis: 1,549 votes (1.1%)
+- FREIE WÄHLER: 1,307 votes (0.9%)
+- Volt: 1,189 votes (0.8%)
+- MLPD: 176 votes (0.1%)
+- Tierschutzpartei: 0 votes (0.0%)
+- PIRATEN: 0 votes (0.0%)
+- HEIMAT (2021: NPD): 0 votes (0.0%)
+- ÖDP: 0 votes (0.0%)
+- V-Partei³: 0 votes (0.0%)
+- Verjüngungsforschung (2021: Gesundheitsforschung): 0 votes (0.0%)
+- Die Humanisten: 0 votes (0.0%)
+- DKP: 0 votes (0.0%)
+- SGP: 0 votes (0.0%)
+- Bündnis C: 0 votes (0.0%)
+- du.: 0 votes (0.0%)
+- LIEBE: 0 votes (0.0%)
+- Wir Bürger (2021: LKR): 0 votes (0.0%)
+- PdF: 0 votes (0.0%)
+- LfK: 0 votes (0.0%)
+- Team Todenhöfer: 0 votes (0.0%)
 
-**First Round Results:**
-- Total votes cast: 178,575
-- Registered voters: 357,150
+Winner determination:
+- Highest vote count: SPD with 41,169 votes (29.2%)
+- Second place: CDU/CSU with 34,801 votes (24.7%)
+- Margin of victory: 6,368 votes (4.5% of total votes)
 
-**Party Results:**
-- GRÜNE: 50,231 votes (28.1% of votes, 14.1% of registered)
-- CDU/CSU: 41,721 votes (23.4% of votes, 11.7% of registered)
-- SPD: 38,927 votes (21.8% of votes, 10.9% of registered)
-- SSW: 13,020 votes (7.3% of votes, 3.6% of registered)
-- FDP: 12,299 votes (6.9% of votes, 3.4% of registered)
-- AfD: 9,768 votes (5.5% of votes, 2.7% of registered)
-- DIE LINKE: 6,544 votes (3.7% of votes, 1.8% of registered)
-- dieBasis: 3,357 votes (1.9% of votes, 0.9% of registered)
-- FREIE WÄHLER: 2,324 votes (1.3% of votes, 0.7% of registered)
-- du.: 227 votes (0.1% of votes, 0.1% of registered)
-- Wir Bürger (2021: LKR): 157 votes (0.1% of votes, 0.0% of registered)
-- Die PARTEI: 0 votes (0.0% of votes, 0.0% of registered)
-- HEIMAT (2021: NPD): 0 votes (0.0% of votes, 0.0% of registered)
-- ÖDP: 0 votes (0.0% of votes, 0.0% of registered)
-- MLPD: 0 votes (0.0% of votes, 0.0% of registered)
-- DKP: 0 votes (0.0% of votes, 0.0% of registered)
-- Die Humanisten: 0 votes (0.0% of votes, 0.0% of registered)
-- Tierschutzpartei: 0 votes (0.0% of votes, 0.0% of registered)
-- Team Todenhöfer: 0 votes (0.0% of votes, 0.0% of registered)
-- Volt: 0 votes (0.0% of votes, 0.0% of registered)
-- V-Partei³: 0 votes (0.0% of votes, 0.0% of registered)
-
-**Second Round:** Parties qualifying (≥12.5%):
-- GRÜNE: 50,231 votes (28.1%)
-- SPD: 38,927 votes (21.8%)
-- CDU/CSU: 41,721 votes (23.4%)
-
-**Vote Redistribution Simulation:**
-Vote Transfers:
-- FDP → CDU/CSU: 922 votes
-- FDP: 11,377 votes lost/abstained
-- AfD: 9,768 votes lost/abstained
-- DIE LINKE → GRÜNE: 78 votes
-- DIE LINKE: 6,466 votes lost/abstained
-- Die PARTEI → GRÜNE: 0 votes
-- FREIE WÄHLER → CDU/CSU: 1,859 votes
-- FREIE WÄHLER: 465 votes lost/abstained
-- ÖDP → GRÜNE: 0 votes
-- dieBasis: 3,357 votes lost/abstained
-- du.: 227 votes lost/abstained
-- Wir Bürger (2021: LKR): 157 votes lost/abstained
-- Tierschutzpartei → GRÜNE: 0 votes
-- SSW → GRÜNE: 651 votes
-- SSW → SPD: 651 votes
-- SSW: 11,718 votes lost/abstained
-- Volt → GRÜNE: 0 votes
-
-**Final Second Round Result:**
-- GRÜNE: 50,960 votes (28.5%)
-- CDU/CSU: 44,502 votes (24.9%)
-- SPD: 39,578 votes (22.2%)
-
-**Result:** GRÜNE wins the simulated second round
+Result: SPD wins this district's seat in the House of Representatives.
 
 
 
-### Example 2: Nordfriesland – Dithmarschen Nord
+## Congressional District: Herford – Minden-Lübbecke II
+This district demonstrates how First-Past-The-Post works in US House elections:
 
-**First Round Results:**
-- Total votes cast: 144,050
-- Registered voters: 288,100
 
-**Party Results:**
-- CDU/CSU: 43,745 votes (30.4% of votes, 15.2% of registered)
-- SPD: 40,026 votes (27.8% of votes, 13.9% of registered)
-- GRÜNE: 20,611 votes (14.3% of votes, 7.2% of registered)
-- FDP: 13,958 votes (9.7% of votes, 4.8% of registered)
-- SSW: 9,410 votes (6.5% of votes, 3.3% of registered)
-- AfD: 8,274 votes (5.7% of votes, 2.9% of registered)
-- DIE LINKE: 4,060 votes (2.8% of votes, 1.4% of registered)
-- dieBasis: 2,254 votes (1.6% of votes, 0.8% of registered)
-- FREIE WÄHLER: 1,510 votes (1.0% of votes, 0.5% of registered)
-- Wir Bürger (2021: LKR): 202 votes (0.1% of votes, 0.1% of registered)
-- Die PARTEI: 0 votes (0.0% of votes, 0.0% of registered)
-- HEIMAT (2021: NPD): 0 votes (0.0% of votes, 0.0% of registered)
-- ÖDP: 0 votes (0.0% of votes, 0.0% of registered)
-- MLPD: 0 votes (0.0% of votes, 0.0% of registered)
-- DKP: 0 votes (0.0% of votes, 0.0% of registered)
-- du.: 0 votes (0.0% of votes, 0.0% of registered)
-- Die Humanisten: 0 votes (0.0% of votes, 0.0% of registered)
-- Tierschutzpartei: 0 votes (0.0% of votes, 0.0% of registered)
-- Team Todenhöfer: 0 votes (0.0% of votes, 0.0% of registered)
-- Volt: 0 votes (0.0% of votes, 0.0% of registered)
-- V-Partei³: 0 votes (0.0% of votes, 0.0% of registered)
+## Example Congressional District: Herford – Minden-Lübbecke II
+This example shows how the Representative is determined:
 
-**Second Round:** Parties qualifying (≥12.5%):
-- GRÜNE: 20,611 votes (14.3%)
-- SPD: 40,026 votes (27.8%)
-- CDU/CSU: 43,745 votes (30.4%)
+Total votes cast: 167,584
+- SPD: 61,554 votes (36.7%)
+- CDU/CSU: 45,138 votes (26.9%)
+- GRÜNE: 18,090 votes (10.8%)
+- AfD: 15,855 votes (9.5%)
+- FDP: 14,021 votes (8.4%)
+- DIE LINKE: 5,332 votes (3.2%)
+- Die PARTEI: 3,440 votes (2.1%)
+- dieBasis: 2,187 votes (1.3%)
+- FREIE WÄHLER: 1,967 votes (1.2%)
+- Tierschutzpartei: 0 votes (0.0%)
+- PIRATEN: 0 votes (0.0%)
+- HEIMAT (2021: NPD): 0 votes (0.0%)
+- ÖDP: 0 votes (0.0%)
+- V-Partei³: 0 votes (0.0%)
+- Verjüngungsforschung (2021: Gesundheitsforschung): 0 votes (0.0%)
+- MLPD: 0 votes (0.0%)
+- Die Humanisten: 0 votes (0.0%)
+- DKP: 0 votes (0.0%)
+- SGP: 0 votes (0.0%)
+- Bündnis C: 0 votes (0.0%)
+- du.: 0 votes (0.0%)
+- LIEBE: 0 votes (0.0%)
+- Wir Bürger (2021: LKR): 0 votes (0.0%)
+- PdF: 0 votes (0.0%)
+- LfK: 0 votes (0.0%)
+- Team Todenhöfer: 0 votes (0.0%)
+- Volt: 0 votes (0.0%)
 
-**Vote Redistribution Simulation:**
-Vote Transfers:
-- FDP → CDU/CSU: 1,046 votes
-- FDP: 12,912 votes lost/abstained
-- AfD: 8,274 votes lost/abstained
-- DIE LINKE → GRÜNE: 48 votes
-- DIE LINKE: 4,012 votes lost/abstained
-- Die PARTEI → GRÜNE: 0 votes
-- FREIE WÄHLER → CDU/CSU: 1,208 votes
-- FREIE WÄHLER: 302 votes lost/abstained
-- ÖDP → GRÜNE: 0 votes
-- dieBasis: 2,254 votes lost/abstained
-- Wir Bürger (2021: LKR): 202 votes lost/abstained
-- Tierschutzpartei → GRÜNE: 0 votes
-- SSW → GRÜNE: 470 votes
-- SSW → SPD: 470 votes
-- SSW: 8,470 votes lost/abstained
-- Volt → GRÜNE: 0 votes
+Winner determination:
+- Highest vote count: SPD with 61,554 votes (36.7%)
+- Second place: CDU/CSU with 45,138 votes (26.9%)
+- Margin of victory: 16,416 votes (9.8% of total votes)
 
-**Final Second Round Result:**
-- CDU/CSU: 45,999 votes (31.9%)
-- SPD: 40,496 votes (28.1%)
-- GRÜNE: 21,129 votes (14.7%)
-
-**Result:** CDU/CSU wins the simulated second round
+Result: SPD wins this district's seat in the House of Representatives.
 
 
 
-### Example 3: Steinburg – Dithmarschen Süd
+## Congressional District: Dortmund I
+This district demonstrates how First-Past-The-Post works in US House elections:
 
-**First Round Results:**
-- Total votes cast: 134,980
-- Registered voters: 269,960
 
-**Party Results:**
-- CDU/CSU: 39,431 votes (29.2% of votes, 14.6% of registered)
-- SPD: 39,379 votes (29.2% of votes, 14.6% of registered)
-- FDP: 19,315 votes (14.3% of votes, 7.2% of registered)
-- GRÜNE: 16,686 votes (12.4% of votes, 6.2% of registered)
-- AfD: 10,429 votes (7.7% of votes, 3.9% of registered)
-- DIE LINKE: 4,339 votes (3.2% of votes, 1.6% of registered)
-- FREIE WÄHLER: 2,566 votes (1.9% of votes, 1.0% of registered)
-- dieBasis: 2,040 votes (1.5% of votes, 0.8% of registered)
-- V-Partei³: 581 votes (0.4% of votes, 0.2% of registered)
-- Wir Bürger (2021: LKR): 214 votes (0.2% of votes, 0.1% of registered)
-- Die PARTEI: 0 votes (0.0% of votes, 0.0% of registered)
-- HEIMAT (2021: NPD): 0 votes (0.0% of votes, 0.0% of registered)
-- ÖDP: 0 votes (0.0% of votes, 0.0% of registered)
-- MLPD: 0 votes (0.0% of votes, 0.0% of registered)
-- DKP: 0 votes (0.0% of votes, 0.0% of registered)
-- du.: 0 votes (0.0% of votes, 0.0% of registered)
-- Die Humanisten: 0 votes (0.0% of votes, 0.0% of registered)
-- Tierschutzpartei: 0 votes (0.0% of votes, 0.0% of registered)
-- SSW: 0 votes (0.0% of votes, 0.0% of registered)
-- Team Todenhöfer: 0 votes (0.0% of votes, 0.0% of registered)
-- Volt: 0 votes (0.0% of votes, 0.0% of registered)
+## Example Congressional District: Dortmund I
+This example shows how the Representative is determined:
 
-**Second Round:** Parties qualifying (≥12.5%):
-- SPD: 39,379 votes (29.2%)
-- CDU/CSU: 39,431 votes (29.2%)
-- FDP: 19,315 votes (14.3%)
+Total votes cast: 153,840
+- SPD: 51,037 votes (33.2%)
+- CDU/CSU: 30,051 votes (19.5%)
+- GRÜNE: 26,308 votes (17.1%)
+- Die PARTEI: 13,361 votes (8.7%)
+- AfD: 10,577 votes (6.9%)
+- FDP: 10,416 votes (6.8%)
+- DIE LINKE: 5,908 votes (3.8%)
+- Tierschutzpartei: 3,097 votes (2.0%)
+- dieBasis: 1,226 votes (0.8%)
+- FREIE WÄHLER: 935 votes (0.6%)
+- Volt: 660 votes (0.4%)
+- MLPD: 151 votes (0.1%)
+- DKP: 113 votes (0.1%)
+- PIRATEN: 0 votes (0.0%)
+- HEIMAT (2021: NPD): 0 votes (0.0%)
+- ÖDP: 0 votes (0.0%)
+- V-Partei³: 0 votes (0.0%)
+- Verjüngungsforschung (2021: Gesundheitsforschung): 0 votes (0.0%)
+- Die Humanisten: 0 votes (0.0%)
+- SGP: 0 votes (0.0%)
+- Bündnis C: 0 votes (0.0%)
+- du.: 0 votes (0.0%)
+- LIEBE: 0 votes (0.0%)
+- Wir Bürger (2021: LKR): 0 votes (0.0%)
+- PdF: 0 votes (0.0%)
+- LfK: 0 votes (0.0%)
+- Team Todenhöfer: 0 votes (0.0%)
 
-**Vote Redistribution Simulation:**
-Vote Transfers:
-- GRÜNE: 16,686 votes lost/abstained
-- AfD → FDP: 208 votes
-- AfD: 10,221 votes lost/abstained
-- DIE LINKE: 4,339 votes lost/abstained
-- FREIE WÄHLER → CDU/CSU: 2,052 votes
-- FREIE WÄHLER → FDP: 77 votes
-- FREIE WÄHLER: 437 votes lost/abstained
-- dieBasis → FDP: 40 votes
-- dieBasis: 2,000 votes lost/abstained
-- Wir Bürger (2021: LKR): 214 votes lost/abstained
-- SSW → SPD: 0 votes
-- V-Partei³: 581 votes lost/abstained
+Winner determination:
+- Highest vote count: SPD with 51,037 votes (33.2%)
+- Second place: CDU/CSU with 30,051 votes (19.5%)
+- Margin of victory: 20,986 votes (13.6% of total votes)
 
-**Final Second Round Result:**
-- CDU/CSU: 41,483 votes (30.7%)
-- SPD: 39,379 votes (29.2%)
-- FDP: 19,640 votes (14.6%)
-
-**Result:** CDU/CSU wins the simulated second round
+Result: SPD wins this district's seat in the House of Representatives.
 
 
 
-## Seat Scaling Applied
+## Scaling Process Explanation
+The US House system needs to scale from 299 districts to 598 total seats.
 
-Scaling from 299 districts to 598 total seats:
+This scaling maintains proportionality through these steps:
+1. Calculate scaling factor: 598 seats ÷ 299 districts = 2.0000
+2. Multiply each party's district seats by this factor
+3. Take the integer part first (floor)
+4. Distribute remaining seats by highest decimal remainder
 
-### Before Scaling (299 seats)
-| Party | Seats | Percentage |
-|-------|--------|------------|
-| CDU/CSU | 158 | 52.8% |
-| SPD | 104 | 34.8% |
-| AfD | 19 | 6.4% |
-| GRÜNE | 15 | 5.0% |
-| DIE LINKE | 3 | 1.0% |
+This preserves the proportional relationship between parties while reaching the target seat count.
 
-
-### After Scaling (598 seats)
-| Party | Seats | Percentage | Change |
-|-------|--------|------------|---------|
-| CDU/CSU | 316 | 52.8% | +0.0% |
-| SPD | 208 | 34.8% | +0.0% |
-| AfD | 38 | 6.4% | +0.0% |
-| GRÜNE | 30 | 5.0% | +0.0% |
-| DIE LINKE | 6 | 1.0% | +0.0% |
-
-
-Scaling Details:
-- Scaling factor: 2.000
-- Each party's seats multiplied by this factor and rounded
-- Total seats preserved through rounding adjustments
-- Percentages of total seats remain nearly identical
+Original seat distribution (showing only parties that won seats):
+{
+  "AfD": "16 seats (5.4%)",
+  "DIE LINKE": "3 seats (1.0%)",
+  "GR\u00dcNE": "16 seats (5.4%)",
+  "SPD": "121 seats (40.5%)",
+  "CDU/CSU": "143 seats (47.8%)"
+}
 
 
 ## Visualizations
 ### Parliament Seating
-![Parliament seating arrangement with 598 total seats. Parties from left to right: DIE LINKE with 6 seats (1.0%), GRÜNE with 32 seats (5.4%), SPD with 242 seats (40.5%), CDU/CSU with 286 seats (47.8%), AfD with 32 seats (5.4%). Hinweis: Verteilung nutzt nur Listenstimmen (Zweitstimmen).](../plots/germany2021_usa_parliament.png)
+![Parliament seating arrangement with 598 total seats. Parties from left to right: DIE LINKE with 6 seats (1.0%), GRÜNE with 32 seats (5.4%), SPD with 242 seats (40.5%), CDU/CSU with 286 seats (47.8%), AfD with 32 seats (5.4%). Hinweis: Verteilung nutzt nur Mandatsstimmen (Erststimmen) .](../plots/germany2021_usa_parliament.png)
 
 ### Coalition Possibilities
 ![Possible coalition combinations that form a majority, sorted by ideological distance (smaller distance means parties are closer on the left-right spectrum): SPD + CDU/CSU with 528 seats (88.3%, ideological distance: 2.0); CDU/CSU + AfD with 318 seats (53.2%, ideological distance: 2.0); GRÜNE + CDU/CSU with 318 seats (53.2%, ideological distance: 4.0); GRÜNE + SPD + AfD with 306 seats (51.2%, ideological distance: 12.0). Die "Ideologische Distanz": Für die Darstellung in korrekter Reihenfolge hat jede Partei einen left_to_right-Wert, mit 1 für die Partei, welche üblicherweise im Parlament ganz links sitzt, dann aufsteigend: Dieser Wert wird hier auch einfach als Distanzwert gewertet, um wahrscheinliche Koalitionen darzustellen. Diese Berechnung ist natürlich stark vereinfachend und in vielen Fällen einfach falsch.  Beispiel für die Koalition GRÜNE-SPD-AfD: GRÜNE: left_to_right = 2 SPD: left_to_right = 4 AfD: left_to_right = 8 Ideologische Distanz = |2-4| + |2-8| + |4-8| = 12](../plots/germany2021_usa_coalitions.png)
 
 ### Vote vs Seat Distribution
-![Bar chart comparing each party's vote percentage (darker bars) with their seat percentage (lighter bars). Parties with significant differences: CDU/CSU (28.7% votes vs 47.8% seats, Δ19.1%), SPD (26.4% votes vs 40.5% seats, Δ14.0%), GRÜNE (14.0% votes vs 5.4% seats, Δ8.6%), AfD (10.2% votes vs 5.4% seats, Δ4.8%), FDP (8.7% votes vs 0.0% seats, Δ8.7%), DIE LINKE (5.0% votes vs 1.0% seats, Δ4.0%), FREIE WÄHLER (2.9% votes vs 0.0% seats, Δ2.9%), dieBasis (1.6% votes vs 0.0% seats, Δ1.6%), Die PARTEI (1.2% votes vs 0.0% seats, Δ1.2%). Total vote-seat difference: 66.3%. (Listenstimmen)](../plots/germany2021_usa_vote_seat_distribution.png)
+![Bar chart comparing each party's vote percentage (darker bars) with their seat percentage (lighter bars). Parties with significant differences: CDU/CSU (28.7% votes vs 47.8% seats, Δ19.1%), SPD (26.4% votes vs 40.5% seats, Δ14.0%), GRÜNE (14.0% votes vs 5.4% seats, Δ8.6%), AfD (10.2% votes vs 5.4% seats, Δ4.8%), FDP (8.7% votes vs 0.0% seats, Δ8.7%), DIE LINKE (5.0% votes vs 1.0% seats, Δ4.0%), FREIE WÄHLER (2.9% votes vs 0.0% seats, Δ2.9%), dieBasis (1.6% votes vs 0.0% seats, Δ1.6%), Die PARTEI (1.2% votes vs 0.0% seats, Δ1.2%). Total vote-seat difference: 66.3%. (Mandatsstimmen)](../plots/germany2021_usa_vote_seat_distribution.png)
 
 ### Party Vote Distribution
-![Bar chart showing the percentage of votes received by each party, including parties that did not receive seats. Parties ordered by vote share (descending): CDU/CSU: 28.7%, SPD: 26.4%, GRÜNE: 14.0%, AfD: 10.2%, DIE LINKE: 5.0%, Sonstige: 15.8%. (Listenstimmen)](../plots/germany2021_usa_vote_distribution.png)
+![Bar chart showing the percentage of votes received by each party, including parties that did not receive seats. Parties ordered by vote share (descending): CDU/CSU: 28.7%, SPD: 26.4%, GRÜNE: 14.0%, AfD: 10.2%, DIE LINKE: 5.0%, Sonstige: 15.8%. (Mandatsstimmen)](../plots/germany2021_usa_vote_distribution.png)
 
 ## Detailed Results
 | Party | Votes | Vote Share | Seats | Seat Share | Representation Gap |

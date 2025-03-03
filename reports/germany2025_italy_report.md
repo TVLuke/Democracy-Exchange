@@ -97,65 +97,101 @@ Here are three randomly selected districts showing how votes are counted and all
 
 
 
-## District: Berlin-Pankow
+## District: Bremen I
 This district demonstrates how votes are split between direct mandate (36%) and proportional representation (64%):
 
-Total votes cast: 198,140
-- Die Linke: 43,182 votes (21.8%)
-- GRÜNE: 38,821 votes (19.6%)
-- AfD: 31,087 votes (15.7%)
-- CDU/CSU: 28,627 votes (14.4%)
-- SPD: 26,046 votes (13.1%)
-- BSW: 15,123 votes (7.6%)
-- FDP: 6,555 votes (3.3%)
-- Tierschutzpartei: 2,778 votes (1.4%)
-- Volt: 2,235 votes (1.1%)
-- Die PARTEI: 1,573 votes (0.8%)
-- FREIE WÄHLER: 761 votes (0.4%)
-- PdF: 371 votes (0.2%)
-- BÜNDNIS DEUTSCHLAND: 294 votes (0.1%)
-- Team Todenhöfer: 224 votes (0.1%)
-- MERA25: 201 votes (0.1%)
-- BüSo: 125 votes (0.1%)
-- MLPD: 83 votes (0.0%)
-- SGP: 54 votes (0.0%)
+Total votes cast: 193,799
+- SPD: 42,455 votes (21.9%)
+- CDU/CSU: 41,196 votes (21.3%)
+- GRÜNE: 35,822 votes (18.5%)
+- Die Linke: 30,834 votes (15.9%)
+- AfD: 22,792 votes (11.8%)
+- BSW: 7,973 votes (4.1%)
+- FDP: 7,417 votes (3.8%)
+- Volt: 2,194 votes (1.1%)
+- Die PARTEI: 1,341 votes (0.7%)
+- FREIE WÄHLER: 598 votes (0.3%)
+- BÜNDNIS DEUTSCHLAND: 483 votes (0.2%)
+- MENSCHLICHE WELT: 305 votes (0.2%)
+- MERA25: 159 votes (0.1%)
+- Verjüngungsforschung: 148 votes (0.1%)
+- MLPD: 82 votes (0.0%)
+- dieBasis: 0 votes (0.0%)
+- Team Todenhöfer: 0 votes (0.0%)
+- ÖDP: 0 votes (0.0%)
+- PdH: 0 votes (0.0%)
+- Tierschutzpartei: 0 votes (0.0%)
+
+Direct mandate winner:
+- SPD: 42,455 votes (21.9%)
+
+Vote allocation:
+- Direct votes (36%): 69,767 votes for FPTP allocation
+- Proportional votes (64%): 124,031 votes for PR allocation
+
+
+
+
+## District: Berlin-Reinickendorf
+This district demonstrates how votes are split between direct mandate (36%) and proportional representation (64%):
+
+Total votes cast: 133,055
+- CDU/CSU: 35,167 votes (26.4%)
+- AfD: 23,118 votes (17.4%)
+- SPD: 22,996 votes (17.3%)
+- GRÜNE: 17,074 votes (12.8%)
+- Die Linke: 15,729 votes (11.8%)
+- BSW: 7,059 votes (5.3%)
+- FDP: 5,986 votes (4.5%)
+- Tierschutzpartei: 2,535 votes (1.9%)
+- Volt: 1,012 votes (0.8%)
+- Die PARTEI: 742 votes (0.6%)
+- FREIE WÄHLER: 455 votes (0.3%)
+- Team Todenhöfer: 421 votes (0.3%)
+- BÜNDNIS DEUTSCHLAND: 293 votes (0.2%)
+- PdF: 247 votes (0.2%)
+- MERA25: 112 votes (0.1%)
+- MLPD: 40 votes (0.0%)
+- BüSo: 40 votes (0.0%)
+- SGP: 29 votes (0.0%)
+- dieBasis: 0 votes (0.0%)
 - ÖDP: 0 votes (0.0%)
 - PdH: 0 votes (0.0%)
 - Verjüngungsforschung: 0 votes (0.0%)
 - PIRATEN: 0 votes (0.0%)
 
 Direct mandate winner:
-- Die Linke: 43,182 votes (21.8%)
+- CDU/CSU: 35,167 votes (26.4%)
 
 Vote allocation:
-- Direct votes (36%): 71,330 votes for FPTP allocation
-- Proportional votes (64%): 126,809 votes for PR allocation
+- Direct votes (36%): 47,899 votes for FPTP allocation
+- Proportional votes (64%): 85,155 votes for PR allocation
 
 
 
 
-## District: Duisburg I
+## District: Rhein-Sieg-Kreis II
 This district demonstrates how votes are split between direct mandate (36%) and proportional representation (64%):
 
-Total votes cast: 126,308
-- SPD: 32,468 votes (25.7%)
-- CDU/CSU: 28,994 votes (23.0%)
-- AfD: 21,867 votes (17.3%)
-- GRÜNE: 13,470 votes (10.7%)
-- Die Linke: 13,149 votes (10.4%)
-- BSW: 6,412 votes (5.1%)
-- FDP: 4,228 votes (3.3%)
-- Tierschutzpartei: 2,083 votes (1.6%)
-- Die PARTEI: 882 votes (0.7%)
-- Volt: 755 votes (0.6%)
-- FREIE WÄHLER: 582 votes (0.5%)
-- Team Todenhöfer: 455 votes (0.4%)
-- dieBasis: 267 votes (0.2%)
-- PdF: 260 votes (0.2%)
-- BÜNDNIS DEUTSCHLAND: 153 votes (0.1%)
-- MLPD: 118 votes (0.1%)
-- MERA25: 102 votes (0.1%)
-- WerteUnion: 63 votes (0.0%)
+Total votes cast: 182,279
+- CDU/CSU: 63,717 votes (35.0%)
+- SPD: 30,333 votes (16.6%)
+- GRÜNE: 26,800 votes (14.7%)
+- AfD: 26,034 votes (14.3%)
+- Die Linke: 11,888 votes (6.5%)
+- FDP: 10,261 votes (5.6%)
+- BSW: 6,637 votes (3.6%)
+- Tierschutzpartei: 1,853 votes (1.0%)
+- Volt: 1,650 votes (0.9%)
+- FREIE WÄHLER: 898 votes (0.5%)
+- Die PARTEI: 821 votes (0.5%)
+- dieBasis: 436 votes (0.2%)
+- PdF: 278 votes (0.2%)
+- Team Todenhöfer: 269 votes (0.1%)
+- BÜNDNIS DEUTSCHLAND: 205 votes (0.1%)
+- WerteUnion: 129 votes (0.1%)
+- MERA25: 46 votes (0.0%)
+- MLPD: 24 votes (0.0%)
 - Bündnis C: 0 votes (0.0%)
 - ÖDP: 0 votes (0.0%)
 - PdH: 0 votes (0.0%)
@@ -164,46 +200,11 @@ Total votes cast: 126,308
 - SGP: 0 votes (0.0%)
 
 Direct mandate winner:
-- SPD: 32,468 votes (25.7%)
+- CDU/CSU: 63,717 votes (35.0%)
 
 Vote allocation:
-- Direct votes (36%): 45,470 votes for FPTP allocation
-- Proportional votes (64%): 80,837 votes for PR allocation
-
-
-
-
-## District: Lahn-Dill
-This district demonstrates how votes are split between direct mandate (36%) and proportional representation (64%):
-
-Total votes cast: 164,698
-- CDU/CSU: 49,667 votes (30.2%)
-- AfD: 37,483 votes (22.8%)
-- SPD: 31,086 votes (18.9%)
-- GRÜNE: 14,492 votes (8.8%)
-- Die Linke: 10,932 votes (6.6%)
-- BSW: 7,007 votes (4.3%)
-- FDP: 6,699 votes (4.1%)
-- FREIE WÄHLER: 2,415 votes (1.5%)
-- Tierschutzpartei: 2,252 votes (1.4%)
-- Volt: 1,178 votes (0.7%)
-- Die PARTEI: 1,023 votes (0.6%)
-- BÜNDNIS DEUTSCHLAND: 277 votes (0.2%)
-- PdH: 123 votes (0.1%)
-- MLPD: 64 votes (0.0%)
-- dieBasis: 0 votes (0.0%)
-- Bündnis C: 0 votes (0.0%)
-- Team Todenhöfer: 0 votes (0.0%)
-- ÖDP: 0 votes (0.0%)
-- Verjüngungsforschung: 0 votes (0.0%)
-- PIRATEN: 0 votes (0.0%)
-
-Direct mandate winner:
-- CDU/CSU: 49,667 votes (30.2%)
-
-Vote allocation:
-- Direct votes (36%): 59,291 votes for FPTP allocation
-- Proportional votes (64%): 105,406 votes for PR allocation
+- Direct votes (36%): 65,620 votes for FPTP allocation
+- Proportional votes (64%): 116,658 votes for PR allocation
 
 
 
@@ -1018,19 +1019,19 @@ Total proportional seats allocated: 404 of 404
 
 Final party allocations:
 
-Die Linke: 57 seats (9.0% of seats, 8.8% of votes)
-
-AfD: 135 seats (21.4% of seats, 20.8% of votes)
+SPD: 106 seats (16.8% of seats, 16.4% of votes)
 
 BSW: 34 seats (5.4% of seats, 5.0% of votes)
 
-GRÜNE: 76 seats (12.1% of seats, 11.6% of votes)
+CDU/CSU: 193 seats (30.6% of seats, 30.1% of votes)
 
-SPD: 106 seats (16.8% of seats, 16.4% of votes)
+AfD: 135 seats (21.4% of seats, 20.8% of votes)
+
+Die Linke: 57 seats (9.0% of seats, 8.8% of votes)
 
 FDP: 29 seats (4.6% of seats, 4.3% of votes)
 
-CDU/CSU: 193 seats (30.6% of seats, 30.1% of votes)
+GRÜNE: 76 seats (12.1% of seats, 11.6% of votes)
 
 
 Total allocated seats: 630 of 630

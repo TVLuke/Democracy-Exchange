@@ -10,28 +10,28 @@ Year: 2024
 
 ### Vote Summary
 
-A total of 57,610,554 votes were cast, representing a turnout of 119.4% of the electorate.
+A total of 28,805,277 votes were cast, representing a turnout of 59.7% of the electorate.
 
 | Party | Votes | Percentage |
 |-------|--------|------------|
-| Lab | 19,417,432 | 33.7% |
-| Con | 13,657,850 | 23.7% |
-| RUK | 8,235,220 | 14.3% |
-| LD | 7,038,286 | 12.2% |
-| Green | 3,889,002 | 6.8% |
-| Ind | 2,088,918 | 3.6% |
-| SNP | 1,449,516 | 2.5% |
-| SF | 421,782 | 0.7% |
-| PC | 389,622 | 0.7% |
-| DUP | 344,116 | 0.6% |
-| APNI | 234,382 | 0.4% |
-| UUP | 189,558 | 0.3% |
-| SDLP | 173,722 | 0.3% |
-| Ind1 | 28,932 | 0.1% |
-| Ind2 | 28,932 | 0.1% |
-| TUV | 23,284 | 0.0% |
+| Lab | 9,708,716 | 33.7% |
+| Con | 6,828,925 | 23.7% |
+| RUK | 4,117,610 | 14.3% |
+| LD | 3,519,143 | 12.2% |
+| Green | 1,944,501 | 6.8% |
+| Ind | 1,044,459 | 3.6% |
+| SNP | 724,758 | 2.5% |
+| SF | 210,891 | 0.7% |
+| PC | 194,811 | 0.7% |
+| DUP | 172,058 | 0.6% |
+| APNI | 117,191 | 0.4% |
+| UUP | 94,779 | 0.3% |
+| SDLP | 86,861 | 0.3% |
+| Ind1 | 14,466 | 0.1% |
+| Ind2 | 14,466 | 0.1% |
+| TUV | 11,642 | 0.0% |
 
-**Lab** received the most votes with 19,417,432 votes (33.7% of total votes).
+**Lab** received the most votes with 9,708,716 votes (33.7% of total votes).
 
 ## Seat Calculation Process
 
@@ -79,20 +79,20 @@ To illustrate how the French two-round system works in practice, here are three 
 
 
 
-### Example 1: Airdrie and Shotts
+### Example 1: York Outer
 
 **First Round Results:**
-- Total votes cast: 36,666
-- Registered voters: 73,332
+- Total votes cast: 51,106
+- Registered voters: 102,212
 
 **Party Results:**
-- Lab: 18,871 votes (51.5% of votes, 25.7% of registered)
-- SNP: 11,324 votes (30.9% of votes, 15.4% of registered)
-- RUK: 2,971 votes (8.1% of votes, 4.1% of registered)
-- Con: 1,696 votes (4.6% of votes, 2.3% of registered)
-- Ind: 1,079 votes (2.9% of votes, 1.5% of registered)
-- LD: 725 votes (2.0% of votes, 1.0% of registered)
-- Green: 0 votes (0.0% of votes, 0.0% of registered)
+- Lab: 23,161 votes (45.3% of votes, 22.7% of registered)
+- Con: 13,770 votes (26.9% of votes, 13.5% of registered)
+- RUK: 5,912 votes (11.6% of votes, 5.8% of registered)
+- LD: 5,496 votes (10.8% of votes, 5.4% of registered)
+- Green: 2,212 votes (4.3% of votes, 2.2% of registered)
+- Ind: 555 votes (1.1% of votes, 0.5% of registered)
+- SNP: 0 votes (0.0% of votes, 0.0% of registered)
 - PC: 0 votes (0.0% of votes, 0.0% of registered)
 - DUP: 0 votes (0.0% of votes, 0.0% of registered)
 - SF: 0 votes (0.0% of votes, 0.0% of registered)
@@ -100,78 +100,48 @@ To illustrate how the French two-round system works in practice, here are three 
 - UUP: 0 votes (0.0% of votes, 0.0% of registered)
 - APNI: 0 votes (0.0% of votes, 0.0% of registered)
 
-**Result:** Lab wins in first round with absolute majority and ≥25% of registered voters
-
-
-
-### Example 2: Aberafan Maesteg
-
-**First Round Results:**
-- Total votes cast: 35,755
-- Registered voters: 71,510
-
-**Party Results:**
-- Lab: 17,838 votes (49.9% of votes, 24.9% of registered)
-- RUK: 7,484 votes (20.9% of votes, 10.5% of registered)
-- PC: 4,719 votes (13.2% of votes, 6.6% of registered)
-- Con: 2,903 votes (8.1% of votes, 4.1% of registered)
-- Green: 1,094 votes (3.1% of votes, 1.5% of registered)
-- LD: 916 votes (2.6% of votes, 1.3% of registered)
-- Ind: 801 votes (2.2% of votes, 1.1% of registered)
-- SNP: 0 votes (0.0% of votes, 0.0% of registered)
-- DUP: 0 votes (0.0% of votes, 0.0% of registered)
-- SF: 0 votes (0.0% of votes, 0.0% of registered)
-- SDLP: 0 votes (0.0% of votes, 0.0% of registered)
-- UUP: 0 votes (0.0% of votes, 0.0% of registered)
-- APNI: 0 votes (0.0% of votes, 0.0% of registered)
-
 **Second Round:** Parties qualifying (≥12.5%):
-- PC: 4,719 votes (13.2%)
-- Lab: 17,838 votes (49.9%)
-- RUK: 7,484 votes (20.9%)
+- Con: 13,770 votes (26.9%)
+- Lab: 23,161 votes (45.3%)
 
 **Vote Redistribution Simulation:**
 Vote Transfers:
-- Con → RUK: 87 votes
-- Con: 2,816 votes lost/abstained
-- LD → Lab: 13 votes
-- LD → PC: 13 votes
-- LD: 890 votes lost/abstained
-- Green → Lab: 65 votes
-- Green → PC: 65 votes
-- Green: 964 votes lost/abstained
+- LD → Lab: 82 votes
+- LD: 5,414 votes lost/abstained
+- RUK → Con: 591 votes
+- RUK: 5,321 votes lost/abstained
+- Green → Lab: 132 votes
+- Green: 2,080 votes lost/abstained
 - SNP → Lab: 0 votes
-- SNP → PC: 0 votes
-- DUP → RUK: 0 votes
+- PC → Lab: 0 votes
+- DUP → Con: 0 votes
 - SDLP → Lab: 0 votes
-- SDLP → PC: 0 votes
+- UUP → Con: 0 votes
 - APNI → Lab: 0 votes
-- APNI → PC: 0 votes
-- Ind: 801 votes lost/abstained
+- Ind: 555 votes lost/abstained
 
 **Final Second Round Result:**
-- Lab: 17,916 votes (50.1%)
-- RUK: 7,571 votes (21.2%)
-- PC: 4,797 votes (13.4%)
+- Lab: 23,375 votes (45.7%)
+- Con: 14,361 votes (28.1%)
 
 **Result:** Lab wins the simulated second round
 
 
 
-### Example 3: Alloa and Grangemouth
+### Example 2: York Outer
 
 **First Round Results:**
-- Total votes cast: 41,201
-- Registered voters: 82,402
+- Total votes cast: 51,106
+- Registered voters: 102,212
 
 **Party Results:**
-- Lab: 18,039 votes (43.8% of votes, 21.9% of registered)
-- SNP: 11,917 votes (28.9% of votes, 14.5% of registered)
-- RUK: 3,804 votes (9.2% of votes, 4.6% of registered)
-- Con: 3,127 votes (7.6% of votes, 3.8% of registered)
-- Ind: 1,742 votes (4.2% of votes, 2.1% of registered)
-- Green: 1,421 votes (3.4% of votes, 1.7% of registered)
-- LD: 1,151 votes (2.8% of votes, 1.4% of registered)
+- Lab: 23,161 votes (45.3% of votes, 22.7% of registered)
+- Con: 13,770 votes (26.9% of votes, 13.5% of registered)
+- RUK: 5,912 votes (11.6% of votes, 5.8% of registered)
+- LD: 5,496 votes (10.8% of votes, 5.4% of registered)
+- Green: 2,212 votes (4.3% of votes, 2.2% of registered)
+- Ind: 555 votes (1.1% of votes, 0.5% of registered)
+- SNP: 0 votes (0.0% of votes, 0.0% of registered)
 - PC: 0 votes (0.0% of votes, 0.0% of registered)
 - DUP: 0 votes (0.0% of votes, 0.0% of registered)
 - SF: 0 votes (0.0% of votes, 0.0% of registered)
@@ -180,30 +150,77 @@ Vote Transfers:
 - APNI: 0 votes (0.0% of votes, 0.0% of registered)
 
 **Second Round:** Parties qualifying (≥12.5%):
-- SNP: 11,917 votes (28.9%)
-- Lab: 18,039 votes (43.8%)
+- Con: 13,770 votes (26.9%)
+- Lab: 23,161 votes (45.3%)
 
 **Vote Redistribution Simulation:**
 Vote Transfers:
-- Con: 3,127 votes lost/abstained
-- LD → Lab: 17 votes
-- LD → SNP: 17 votes
-- LD: 1,117 votes lost/abstained
-- RUK: 3,804 votes lost/abstained
-- Green → Lab: 85 votes
-- Green → SNP: 85 votes
-- Green: 1,251 votes lost/abstained
+- LD → Lab: 82 votes
+- LD: 5,414 votes lost/abstained
+- RUK → Con: 591 votes
+- RUK: 5,321 votes lost/abstained
+- Green → Lab: 132 votes
+- Green: 2,080 votes lost/abstained
+- SNP → Lab: 0 votes
 - PC → Lab: 0 votes
-- PC → SNP: 0 votes
+- DUP → Con: 0 votes
 - SDLP → Lab: 0 votes
-- SDLP → SNP: 0 votes
+- UUP → Con: 0 votes
 - APNI → Lab: 0 votes
-- APNI → SNP: 0 votes
-- Ind: 1,742 votes lost/abstained
+- Ind: 555 votes lost/abstained
 
 **Final Second Round Result:**
-- Lab: 18,141 votes (44.0%)
-- SNP: 12,019 votes (29.2%)
+- Lab: 23,375 votes (45.7%)
+- Con: 14,361 votes (28.1%)
+
+**Result:** Lab wins the simulated second round
+
+
+
+### Example 3: York Outer
+
+**First Round Results:**
+- Total votes cast: 51,106
+- Registered voters: 102,212
+
+**Party Results:**
+- Lab: 23,161 votes (45.3% of votes, 22.7% of registered)
+- Con: 13,770 votes (26.9% of votes, 13.5% of registered)
+- RUK: 5,912 votes (11.6% of votes, 5.8% of registered)
+- LD: 5,496 votes (10.8% of votes, 5.4% of registered)
+- Green: 2,212 votes (4.3% of votes, 2.2% of registered)
+- Ind: 555 votes (1.1% of votes, 0.5% of registered)
+- SNP: 0 votes (0.0% of votes, 0.0% of registered)
+- PC: 0 votes (0.0% of votes, 0.0% of registered)
+- DUP: 0 votes (0.0% of votes, 0.0% of registered)
+- SF: 0 votes (0.0% of votes, 0.0% of registered)
+- SDLP: 0 votes (0.0% of votes, 0.0% of registered)
+- UUP: 0 votes (0.0% of votes, 0.0% of registered)
+- APNI: 0 votes (0.0% of votes, 0.0% of registered)
+
+**Second Round:** Parties qualifying (≥12.5%):
+- Con: 13,770 votes (26.9%)
+- Lab: 23,161 votes (45.3%)
+
+**Vote Redistribution Simulation:**
+Vote Transfers:
+- LD → Lab: 82 votes
+- LD: 5,414 votes lost/abstained
+- RUK → Con: 591 votes
+- RUK: 5,321 votes lost/abstained
+- Green → Lab: 132 votes
+- Green: 2,080 votes lost/abstained
+- SNP → Lab: 0 votes
+- PC → Lab: 0 votes
+- DUP → Con: 0 votes
+- SDLP → Lab: 0 votes
+- UUP → Con: 0 votes
+- APNI → Lab: 0 votes
+- Ind: 555 votes lost/abstained
+
+**Final Second Round Result:**
+- Lab: 23,375 votes (45.7%)
+- Con: 14,361 votes (28.1%)
 
 **Result:** Lab wins the simulated second round
 

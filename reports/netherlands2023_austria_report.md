@@ -11,382 +11,307 @@ Year: 2023
 
 ### Vote Summary
 
-A total of 41,698,428 votes were cast, representing a turnout of 311.2% of the electorate.
+A total of 10,424,607 votes were cast, representing a turnout of 77.8% of the electorate.
 
 | Party | Votes | Percentage |
 |-------|--------|------------|
-| PVV | 9,801,812 | 23.5% |
-| GL-PvdA | 6,570,092 | 15.8% |
-| VVD | 6,356,340 | 15.2% |
-| NSC | 5,371,836 | 12.9% |
-| D66 | 2,621,000 | 6.3% |
-| BBB | 1,941,416 | 4.7% |
-| CDA | 1,383,040 | 3.3% |
-| SP | 1,312,664 | 3.1% |
-| DENK | 986,992 | 2.4% |
-| PvdD | 940,248 | 2.3% |
-| FVD | 931,496 | 2.2% |
-| SGP | 869,016 | 2.1% |
-| CU | 848,272 | 2.0% |
-| Volt | 714,988 | 1.7% |
-| JA21 | 285,336 | 0.7% |
-| BVNL | 211,424 | 0.5% |
-| 50PLUS | 204,148 | 0.5% |
-| Bij1 | 176,836 | 0.4% |
-| Splinter | 51,292 | 0.1% |
-| Piratenpartij | 36,428 | 0.1% |
-| PLAN | 21,948 | 0.1% |
-| Samen voor Nederland | 21,300 | 0.1% |
-| LEF | 20,488 | 0.0% |
-| PvdS | 15,864 | 0.0% |
-| PPB | 4,152 | 0.0% |
+| PVV | 2,450,453 | 23.5% |
+| GL-PvdA | 1,642,523 | 15.8% |
+| VVD | 1,589,085 | 15.2% |
+| NSC | 1,342,959 | 12.9% |
+| D66 | 655,250 | 6.3% |
+| BBB | 485,354 | 4.7% |
+| CDA | 345,760 | 3.3% |
+| SP | 328,166 | 3.1% |
+| DENK | 246,748 | 2.4% |
+| PvdD | 235,062 | 2.3% |
+| FVD | 232,874 | 2.2% |
+| SGP | 217,254 | 2.1% |
+| CU | 212,068 | 2.0% |
+| Volt | 178,747 | 1.7% |
+| JA21 | 71,334 | 0.7% |
+| BVNL | 52,856 | 0.5% |
+| 50PLUS | 51,037 | 0.5% |
+| Bij1 | 44,209 | 0.4% |
+| Splinter | 12,823 | 0.1% |
+| Piratenpartij | 9,107 | 0.1% |
+| PLAN | 5,487 | 0.1% |
+| Samen voor Nederland | 5,325 | 0.1% |
+| LEF | 5,122 | 0.0% |
+| PvdS | 3,966 | 0.0% |
+| PPB | 1,038 | 0.0% |
 
-**PVV** received the most votes with 9,801,812 votes (23.5% of total votes).
+**PVV** received the most votes with 2,450,453 votes (23.5% of total votes).
 
 ## Seat Calculation Process
 
-## French Electoral System Explanation
+## Austrian Electoral System Explanation
 
-This election uses the French two-round voting system (scrutin uninominal majoritaire à deux tours):
+This election is calculated using the Austrian three-tier proportional representation system:
 
-1. **First Round**
-   - All candidates can participate
-   - If a candidate receives >50% of votes AND ≥25% of registered voters, they win immediately
-   - Otherwise, qualified candidates proceed to second round
+1. **Regional Constituency Level (Regionalwahlkreise)**
+   - In this election: 19 regional constituencies across 14 states
+     (The Austrian system typically has 39 constituencies across 9 states)
+   - First distribution of seats using the Hare quota
+   - Only parties that reach 4% nationally can receive seats
+   - Direct mandates are awarded at this level
 
-2. **Second Round Qualification**
-   - Candidates need ≥12.5% of votes to qualify
-   - If no candidates reach 12.5%, top two advance
-   - When no second round data is provided, votes are simulated:
-     * 80% of votes from eliminated parties go to parties with same left-right position
-     * 30% of remaining votes go to parties within 1 position on left-right scale
-     * Other votes are considered lost/abstentions
+2. **State Level (Landeswahlkreise)**
+   - States in this election:
+     - Amsterdam: 1 constituencies
+     - Drenthe: 1 constituencies
+     - Flevoland: 1 constituencies
+     - Friesland: 1 constituencies
+     - Gelderland: 2 constituencies
+     - Groningen: 1 constituencies
+     - Limburg: 1 constituencies
+     - Noord-Brabant: 2 constituencies
+     - Noord-Holland: 2 constituencies
+     - Overijssel: 1 constituencies
+     - Rotterdam: 1 constituencies
+     - Utrecht: 1 constituencies
+     - Zeeland: 1 constituencies
+     - Zuid-Holland: 3 constituencies
+   - Second distribution using state-level electoral numbers
+   - Remaining seats distributed using D'Hondt method
+   - Takes into account seats already won at regional level
+
+3. **Federal Level (Bundesebene)**
+   - Final distribution of remaining seats
+   - Uses Hare quota at national level
+   - Ensures overall proportional representation
+   - Compensates for any disproportions from lower levels
 
 Key Features:
-- 150 total seats to be distributed
-- Single-member constituencies
-- Two rounds if no absolute majority in first round
-
-3. **Seat Scaling**
-   When the required number of seats (150) differs from the number of districts (19),
-   we use proportional scaling to maintain fair representation:
-   - First calculate results for all districts
-   - Then multiply each party's seats by (total_seats / number_of_districts)
-   - Round to nearest whole number while preserving total seats
-   - This maintains the proportional representation from the district results
-   
-   Example: If we have 100 districts but need 200 seats:
-   - Party A wins 60 districts → scaled to 120 seats (60 * 200/100)
-   - Party B wins 40 districts → scaled to 80 seats (40 * 200/100)
-   The relative strength of each party remains the same.
+- 4% threshold nationally or one direct mandate required
+- 150 total seats to be distributed (Austrian National Council has 183)
+- Seats first allocated to states based on citizen population
 
 
 
+## Vote Type Used for Calculation
 
-## Example Districts
-
-To illustrate how the French two-round system works in practice, here are three example districts:
-
+Using list votes (Zweitstimmen) for calculations. 
 
 
-### Example 1: Groningen
+## Initial Threshold Check
 
-**First Round Results:**
-- Total votes cast: 365,485
-- Registered voters: 730,970
+Total valid votes cast: 10,424,607
+4% threshold: 416,984 votes
 
-**Party Results:**
-- PVV: 79,811 votes (21.8% of votes, 10.9% of registered)
-- GL-PvdA: 73,774 votes (20.2% of votes, 10.1% of registered)
-- NSC: 53,539 votes (14.6% of votes, 7.3% of registered)
-- VVD: 36,092 votes (9.9% of votes, 4.9% of registered)
-- BBB: 22,356 votes (6.1% of votes, 3.1% of registered)
-- D66: 20,899 votes (5.7% of votes, 2.9% of registered)
-- SP: 16,564 votes (4.5% of votes, 2.3% of registered)
-- CU: 12,374 votes (3.4% of votes, 1.7% of registered)
-- CDA: 10,792 votes (3.0% of votes, 1.5% of registered)
-- PvdD: 9,828 votes (2.7% of votes, 1.3% of registered)
-- FVD: 8,358 votes (2.3% of votes, 1.1% of registered)
-- Volt: 7,082 votes (1.9% of votes, 1.0% of registered)
-- SGP: 3,280 votes (0.9% of votes, 0.4% of registered)
-- DENK: 2,794 votes (0.8% of votes, 0.4% of registered)
-- JA21: 2,013 votes (0.6% of votes, 0.3% of registered)
-- BVNL: 1,870 votes (0.5% of votes, 0.3% of registered)
-- 50PLUS: 1,432 votes (0.4% of votes, 0.2% of registered)
-- Bij1: 1,182 votes (0.3% of votes, 0.2% of registered)
-- Splinter: 377 votes (0.1% of votes, 0.1% of registered)
-- Piratenpartij: 370 votes (0.1% of votes, 0.1% of registered)
-- Samen voor Nederland: 295 votes (0.1% of votes, 0.0% of registered)
-- LEF: 212 votes (0.1% of votes, 0.0% of registered)
-- PLAN: 191 votes (0.1% of votes, 0.0% of registered)
-- PvdS: 0 votes (0.0% of votes, 0.0% of registered)
-- PPB: 0 votes (0.0% of votes, 0.0% of registered)
+Party Results and Qualification Status:
+- PVV: 2,450,453 votes (23.51%) - Qualified
+  → Eligible for mandate distribution at all levels
+- GL-PvdA: 1,642,523 votes (15.76%) - Qualified
+  → Eligible for mandate distribution at all levels
+- VVD: 1,589,085 votes (15.24%) - Qualified
+  → Eligible for mandate distribution at all levels
+- NSC: 1,342,959 votes (12.88%) - Qualified
+  → Eligible for mandate distribution at all levels
+- D66: 655,250 votes (6.29%) - Qualified
+  → Eligible for mandate distribution at all levels
+- BBB: 485,354 votes (4.66%) - Qualified
+  → Eligible for mandate distribution at all levels
+- CDA: 345,760 votes (3.32%) - Did not qualify
+  → Can only receive direct mandates in regional constituencies
+- SP: 328,166 votes (3.15%) - Did not qualify
+  → Can only receive direct mandates in regional constituencies
+- DENK: 246,748 votes (2.37%) - Did not qualify
+  → Can only receive direct mandates in regional constituencies
+- PvdD: 235,062 votes (2.25%) - Did not qualify
+  → Can only receive direct mandates in regional constituencies
+- FVD: 232,874 votes (2.23%) - Did not qualify
+  → Can only receive direct mandates in regional constituencies
+- SGP: 217,254 votes (2.08%) - Did not qualify
+  → Can only receive direct mandates in regional constituencies
+- CU: 212,068 votes (2.03%) - Did not qualify
+  → Can only receive direct mandates in regional constituencies
+- Volt: 178,747 votes (1.71%) - Did not qualify
+  → Can only receive direct mandates in regional constituencies
+- JA21: 71,334 votes (0.68%) - Did not qualify
+  → Can only receive direct mandates in regional constituencies
+- BVNL: 52,856 votes (0.51%) - Did not qualify
+  → Can only receive direct mandates in regional constituencies
+- 50PLUS: 51,037 votes (0.49%) - Did not qualify
+  → Can only receive direct mandates in regional constituencies
+- Bij1: 44,209 votes (0.42%) - Did not qualify
+  → Can only receive direct mandates in regional constituencies
+- Splinter: 12,823 votes (0.12%) - Did not qualify
+  → Can only receive direct mandates in regional constituencies
+- Piratenpartij: 9,107 votes (0.09%) - Did not qualify
+  → Can only receive direct mandates in regional constituencies
+- PLAN: 5,487 votes (0.05%) - Did not qualify
+  → Can only receive direct mandates in regional constituencies
+- Samen voor Nederland: 5,325 votes (0.05%) - Did not qualify
+  → Can only receive direct mandates in regional constituencies
+- LEF: 5,122 votes (0.05%) - Did not qualify
+  → Can only receive direct mandates in regional constituencies
+- PvdS: 3,966 votes (0.04%) - Did not qualify
+  → Can only receive direct mandates in regional constituencies
+- PPB: 1,038 votes (0.01%) - Did not qualify
+  → Can only receive direct mandates in regional constituencies
 
-**Second Round:** Parties qualifying (≥12.5%):
+
+
+## Example Regional Constituency: Groningen
+
+This example shows how votes are counted at the regional constituency level:
+
+Total votes cast: 365,485
+
+Party Results:
+- PVV: 79,811 votes (21.8%)
 - GL-PvdA: 73,774 votes (20.2%)
 - NSC: 53,539 votes (14.6%)
-- PVV: 79,811 votes (21.8%)
+- VVD: 36,092 votes (9.9%)
+- BBB: 22,356 votes (6.1%)
+- D66: 20,899 votes (5.7%)
+- SP: 16,564 votes (4.5%)
+- CU: 12,374 votes (3.4%)
+- CDA: 10,792 votes (3.0%)
+- PvdD: 9,828 votes (2.7%)
+- FVD: 8,358 votes (2.3%)
+- Volt: 7,082 votes (1.9%)
+- SGP: 3,280 votes (0.9%)
+- DENK: 2,794 votes (0.8%)
+- JA21: 2,013 votes (0.6%)
+- BVNL: 1,870 votes (0.5%)
+- 50PLUS: 1,432 votes (0.4%)
+- Bij1: 1,182 votes (0.3%)
+- Splinter: 377 votes (0.1%)
+- Piratenpartij: 370 votes (0.1%)
+- Samen voor Nederland: 295 votes (0.1%)
+- LEF: 212 votes (0.1%)
+- PLAN: 191 votes (0.1%)
+- PvdS: 0 votes (0.0%)
+- PPB: 0 votes (0.0%)
 
-**Vote Redistribution Simulation:**
-Vote Transfers:
-- VVD → NSC: 309 votes
-- VVD: 35,783 votes lost/abstained
-- D66 → NSC: 209 votes
-- D66: 20,690 votes lost/abstained
-- CDA → NSC: 2,877 votes
-- CDA: 7,915 votes lost/abstained
-- SP → GL-PvdA: 13,251 votes
-- SP: 3,313 votes lost/abstained
-- FVD → PVV: 6,686 votes
-- FVD: 1,672 votes lost/abstained
-- PvdD → GL-PvdA: 53 votes
-- PvdD: 9,775 votes lost/abstained
-- CU → NSC: 3,299 votes
-- CU: 9,075 votes lost/abstained
-- Volt → NSC: 70 votes
-- Volt: 7,012 votes lost/abstained
-- JA21 → PVV: 24 votes
-- JA21: 1,989 votes lost/abstained
-- SGP → PVV: 39 votes
-- SGP: 3,241 votes lost/abstained
-- DENK → NSC: 28 votes
-- DENK: 2,766 votes lost/abstained
-- 50PLUS → NSC: 381 votes
-- 50PLUS: 1,051 votes lost/abstained
-- BBB → NSC: 191 votes
-- BBB: 22,165 votes lost/abstained
-- Bij1 → GL-PvdA: 177 votes
-- Bij1: 1,005 votes lost/abstained
-- Piratenpartij → NSC: 3 votes
-- Piratenpartij: 367 votes lost/abstained
-- BVNL → PVV: 22 votes
-- BVNL: 1,848 votes lost/abstained
-- Splinter → NSC: 4 votes
-- Splinter: 373 votes lost/abstained
-- LEF → NSC: 2 votes
-- LEF: 210 votes lost/abstained
-- Samen voor Nederland → NSC: 3 votes
-- Samen voor Nederland: 292 votes lost/abstained
-- PLAN → NSC: 1 votes
-- PLAN: 190 votes lost/abstained
-- PvdS → NSC: 0 votes
-- PPB → GL-PvdA: 0 votes
-
-**Final Second Round Result:**
-- GL-PvdA: 87,255 votes (23.9%)
-- PVV: 86,582 votes (23.7%)
-- NSC: 60,916 votes (16.7%)
-
-**Result:** GL-PvdA wins the simulated second round
+The Hare quota is used to determine direct mandates.
+Parties must either win a direct mandate or reach the 4% national threshold.
 
 
+## Example Regional Constituency: Leeuwarden
 
-### Example 2: Zwolle
+This example shows how votes are counted at the regional constituency level:
 
-**First Round Results:**
-- Total votes cast: 745,568
-- Registered voters: 1,491,136
+Total votes cast: 419,417
 
-**Party Results:**
-- PVV: 163,887 votes (22.0% of votes, 11.0% of registered)
-- NSC: 163,693 votes (22.0% of votes, 11.0% of registered)
-- GL-PvdA: 86,650 votes (11.6% of votes, 5.8% of registered)
-- VVD: 83,052 votes (11.1% of votes, 5.6% of registered)
-- BBB: 63,533 votes (8.5% of votes, 4.3% of registered)
-- D66: 32,251 votes (4.3% of votes, 2.2% of registered)
-- CDA: 26,019 votes (3.5% of votes, 1.7% of registered)
-- CU: 25,645 votes (3.4% of votes, 1.7% of registered)
-- SGP: 22,334 votes (3.0% of votes, 1.5% of registered)
-- SP: 18,051 votes (2.4% of votes, 1.2% of registered)
-- FVD: 15,816 votes (2.1% of votes, 1.1% of registered)
-- PvdD: 11,264 votes (1.5% of votes, 0.8% of registered)
-- DENK: 10,138 votes (1.4% of votes, 0.7% of registered)
-- Volt: 9,850 votes (1.3% of votes, 0.7% of registered)
-- JA21: 4,230 votes (0.6% of votes, 0.3% of registered)
-- BVNL: 3,375 votes (0.5% of votes, 0.2% of registered)
-- 50PLUS: 2,154 votes (0.3% of votes, 0.1% of registered)
-- Bij1: 1,347 votes (0.2% of votes, 0.1% of registered)
-- Splinter: 617 votes (0.1% of votes, 0.0% of registered)
-- Piratenpartij: 466 votes (0.1% of votes, 0.0% of registered)
-- Samen voor Nederland: 321 votes (0.0% of votes, 0.0% of registered)
-- PvdS: 314 votes (0.0% of votes, 0.0% of registered)
-- PLAN: 283 votes (0.0% of votes, 0.0% of registered)
-- LEF: 278 votes (0.0% of votes, 0.0% of registered)
-- PPB: 0 votes (0.0% of votes, 0.0% of registered)
-
-**Second Round:** Parties qualifying (≥12.5%):
-- NSC: 163,693 votes (22.0%)
-- PVV: 163,887 votes (22.0%)
-
-**Vote Redistribution Simulation:**
-Vote Transfers:
-- VVD → NSC: 711 votes
-- VVD: 82,341 votes lost/abstained
-- D66 → NSC: 322 votes
-- D66: 31,929 votes lost/abstained
-- GL-PvdA: 86,650 votes lost/abstained
-- CDA → NSC: 6,938 votes
-- CDA: 19,081 votes lost/abstained
-- SP: 18,051 votes lost/abstained
-- FVD → PVV: 12,652 votes
-- FVD: 3,164 votes lost/abstained
-- PvdD: 11,264 votes lost/abstained
-- CU → NSC: 6,838 votes
-- CU: 18,807 votes lost/abstained
-- Volt → NSC: 98 votes
-- Volt: 9,752 votes lost/abstained
-- JA21 → PVV: 50 votes
-- JA21: 4,180 votes lost/abstained
-- SGP → PVV: 268 votes
-- SGP: 22,066 votes lost/abstained
-- DENK → NSC: 101 votes
-- DENK: 10,037 votes lost/abstained
-- 50PLUS → NSC: 574 votes
-- 50PLUS: 1,580 votes lost/abstained
-- BBB → NSC: 544 votes
-- BBB: 62,989 votes lost/abstained
-- Bij1: 1,347 votes lost/abstained
-- Piratenpartij → NSC: 4 votes
-- Piratenpartij: 462 votes lost/abstained
-- BVNL → PVV: 40 votes
-- BVNL: 3,335 votes lost/abstained
-- Splinter → NSC: 6 votes
-- Splinter: 611 votes lost/abstained
-- LEF → NSC: 3 votes
-- LEF: 275 votes lost/abstained
-- Samen voor Nederland → NSC: 3 votes
-- Samen voor Nederland: 318 votes lost/abstained
-- PLAN → NSC: 2 votes
-- PLAN: 281 votes lost/abstained
-- PvdS → NSC: 3 votes
-- PvdS: 311 votes lost/abstained
-
-**Final Second Round Result:**
-- NSC: 179,840 votes (24.1%)
-- PVV: 176,897 votes (23.7%)
-
-**Result:** NSC wins the simulated second round
-
-
-
-### Example 3: Leeuwarden
-
-**First Round Results:**
-- Total votes cast: 419,417
-- Registered voters: 838,834
-
-**Party Results:**
-- PVV: 102,524 votes (24.4% of votes, 12.2% of registered)
-- NSC: 68,451 votes (16.3% of votes, 8.2% of registered)
-- GL-PvdA: 61,194 votes (14.6% of votes, 7.3% of registered)
-- VVD: 47,098 votes (11.2% of votes, 5.6% of registered)
-- BBB: 35,010 votes (8.3% of votes, 4.2% of registered)
-- CDA: 22,478 votes (5.4% of votes, 2.7% of registered)
-- D66: 18,249 votes (4.4% of votes, 2.2% of registered)
-- SP: 14,266 votes (3.4% of votes, 1.7% of registered)
-- CU: 11,469 votes (2.7% of votes, 1.4% of registered)
-- FVD: 11,312 votes (2.7% of votes, 1.3% of registered)
-- PvdD: 7,635 votes (1.8% of votes, 0.9% of registered)
-- SGP: 4,197 votes (1.0% of votes, 0.5% of registered)
-- Volt: 3,689 votes (0.9% of votes, 0.4% of registered)
-- BVNL: 3,450 votes (0.8% of votes, 0.4% of registered)
-- JA21: 2,737 votes (0.7% of votes, 0.3% of registered)
-- 50PLUS: 1,756 votes (0.4% of votes, 0.2% of registered)
-- DENK: 1,675 votes (0.4% of votes, 0.2% of registered)
-- Bij1: 685 votes (0.2% of votes, 0.1% of registered)
-- Splinter: 437 votes (0.1% of votes, 0.1% of registered)
-- Piratenpartij: 377 votes (0.1% of votes, 0.0% of registered)
-- Samen voor Nederland: 263 votes (0.1% of votes, 0.0% of registered)
-- LEF: 202 votes (0.0% of votes, 0.0% of registered)
-- PLAN: 161 votes (0.0% of votes, 0.0% of registered)
-- PPB: 102 votes (0.0% of votes, 0.0% of registered)
-- PvdS: 0 votes (0.0% of votes, 0.0% of registered)
-
-**Second Round:** Parties qualifying (≥12.5%):
-- GL-PvdA: 61,194 votes (14.6%)
-- NSC: 68,451 votes (16.3%)
+Party Results:
 - PVV: 102,524 votes (24.4%)
+- NSC: 68,451 votes (16.3%)
+- GL-PvdA: 61,194 votes (14.6%)
+- VVD: 47,098 votes (11.2%)
+- BBB: 35,010 votes (8.3%)
+- CDA: 22,478 votes (5.4%)
+- D66: 18,249 votes (4.4%)
+- SP: 14,266 votes (3.4%)
+- CU: 11,469 votes (2.7%)
+- FVD: 11,312 votes (2.7%)
+- PvdD: 7,635 votes (1.8%)
+- SGP: 4,197 votes (1.0%)
+- Volt: 3,689 votes (0.9%)
+- BVNL: 3,450 votes (0.8%)
+- JA21: 2,737 votes (0.7%)
+- 50PLUS: 1,756 votes (0.4%)
+- DENK: 1,675 votes (0.4%)
+- Bij1: 685 votes (0.2%)
+- Splinter: 437 votes (0.1%)
+- Piratenpartij: 377 votes (0.1%)
+- Samen voor Nederland: 263 votes (0.1%)
+- LEF: 202 votes (0.0%)
+- PLAN: 161 votes (0.0%)
+- PPB: 102 votes (0.0%)
+- PvdS: 0 votes (0.0%)
 
-**Vote Redistribution Simulation:**
-Vote Transfers:
-- VVD → NSC: 403 votes
-- VVD: 46,695 votes lost/abstained
-- D66 → NSC: 182 votes
-- D66: 18,067 votes lost/abstained
-- CDA → NSC: 5,994 votes
-- CDA: 16,484 votes lost/abstained
-- SP → GL-PvdA: 11,412 votes
-- SP: 2,854 votes lost/abstained
-- FVD → PVV: 9,049 votes
-- FVD: 2,263 votes lost/abstained
-- PvdD → GL-PvdA: 41 votes
-- PvdD: 7,594 votes lost/abstained
-- CU → NSC: 3,058 votes
-- CU: 8,411 votes lost/abstained
-- Volt → NSC: 37 votes
-- Volt: 3,652 votes lost/abstained
-- JA21 → PVV: 32 votes
-- JA21: 2,705 votes lost/abstained
-- SGP → PVV: 50 votes
-- SGP: 4,147 votes lost/abstained
-- DENK → NSC: 16 votes
-- DENK: 1,659 votes lost/abstained
-- 50PLUS → NSC: 468 votes
-- 50PLUS: 1,288 votes lost/abstained
-- BBB → NSC: 300 votes
-- BBB: 34,710 votes lost/abstained
-- Bij1 → GL-PvdA: 102 votes
-- Bij1: 583 votes lost/abstained
-- Piratenpartij → NSC: 4 votes
-- Piratenpartij: 373 votes lost/abstained
-- BVNL → PVV: 41 votes
-- BVNL: 3,409 votes lost/abstained
-- Splinter → NSC: 4 votes
-- Splinter: 433 votes lost/abstained
-- LEF → NSC: 2 votes
-- LEF: 200 votes lost/abstained
-- Samen voor Nederland → NSC: 2 votes
-- Samen voor Nederland: 261 votes lost/abstained
-- PLAN → NSC: 1 votes
-- PLAN: 160 votes lost/abstained
-- PvdS → NSC: 0 votes
-- PPB → GL-PvdA: 0 votes
-- PPB: 102 votes lost/abstained
-
-**Final Second Round Result:**
-- PVV: 111,696 votes (26.6%)
-- NSC: 78,922 votes (18.8%)
-- GL-PvdA: 72,749 votes (17.3%)
-
-**Result:** PVV wins the simulated second round
+The Hare quota is used to determine direct mandates.
+Parties must either win a direct mandate or reach the 4% national threshold.
 
 
+## Example Regional Constituency: Assen
 
-## Seat Scaling Applied
+This example shows how votes are counted at the regional constituency level:
 
-Scaling from 19 districts to 150 total seats:
+Total votes cast: 324,782
 
-### Before Scaling (19 seats)
-| Party | Seats | Percentage |
-|-------|--------|------------|
-| PVV | 14 | 73.7% |
-| GL-PvdA | 4 | 21.1% |
-| NSC | 1 | 5.3% |
+Party Results:
+- PVV: 84,505 votes (26.0%)
+- NSC: 51,907 votes (16.0%)
+- GL-PvdA: 45,404 votes (14.0%)
+- VVD: 40,761 votes (12.6%)
+- BBB: 28,602 votes (8.8%)
+- D66: 14,467 votes (4.5%)
+- CDA: 11,928 votes (3.7%)
+- SP: 10,736 votes (3.3%)
+- CU: 8,541 votes (2.6%)
+- FVD: 7,729 votes (2.4%)
+- PvdD: 5,967 votes (1.8%)
+- Volt: 3,254 votes (1.0%)
+- SGP: 2,569 votes (0.8%)
+- JA21: 1,993 votes (0.6%)
+- BVNL: 1,965 votes (0.6%)
+- DENK: 1,487 votes (0.5%)
+- 50PLUS: 1,470 votes (0.5%)
+- Bij1: 449 votes (0.1%)
+- Samen voor Nederland: 399 votes (0.1%)
+- Splinter: 306 votes (0.1%)
+- Piratenpartij: 217 votes (0.1%)
+- LEF: 126 votes (0.0%)
+- PLAN: 0 votes (0.0%)
+- PvdS: 0 votes (0.0%)
+- PPB: 0 votes (0.0%)
+
+The Hare quota is used to determine direct mandates.
+Parties must either win a direct mandate or reach the 4% national threshold.
 
 
-### After Scaling (150 seats)
-| Party | Seats | Percentage | Change |
-|-------|--------|------------|---------|
-| PVV | 110 | 73.3% | -0.4% |
-| GL-PvdA | 32 | 21.3% | +0.3% |
-| NSC | 8 | 5.3% | +0.1% |
+## State Level Distribution
+
+According to §1 of the Nationalrats-Wahlordnung, the 150 seats are distributed among the states based on their citizen population.
+
+The process:
+1. Calculate state-level electoral number (Wahlzahl)
+   For each state, the Wahlzahl is calculated as: Total valid votes ÷ (Number of seats + 1)
+   Example for a state with 100,000 votes and 4 seats:
+   Wahlzahl = 100,000 ÷ (4 + 1) = 20,000
+
+2. Calculate Verhältniszahl (proportional number)
+   Total population value: 16,585,208
+   Total seats: 150
+   Verhältniszahl = 16,585,208 ÷ 150 = 110,568.05
+   This number represents how many citizens one mandate represents.
+
+3. Determine remaining seats after direct mandates
+4. Use D'Hondt method for remaining seats
+5. Take into account party threshold requirement
 
 
-Scaling Details:
-- Scaling factor: 7.895
-- Each party's seats multiplied by this factor and rounded
-- Total seats preserved through rounding adjustments
-- Percentages of total seats remain nearly identical
+
+## Final Distribution Summary
+
+After completing all three levels of calculation:
+1. Regional constituency direct mandates
+2. State-level D'Hondt distribution
+3. Federal level compensation
+
+Final Results:
+- PVV: 45 seats (30.0%) from 2,450,453 votes (23.5%)
+  → Qualified through 4% threshold
+- GL-PvdA: 30 seats (20.0%) from 1,642,523 votes (15.8%)
+  → Qualified through 4% threshold
+- VVD: 29 seats (19.3%) from 1,589,085 votes (15.2%)
+  → Qualified through 4% threshold
+- NSC: 25 seats (16.7%) from 1,342,959 votes (12.9%)
+  → Qualified through 4% threshold
+- D66: 12 seats (8.0%) from 655,250 votes (6.3%)
+  → Qualified through 4% threshold
+- BBB: 9 seats (6.0%) from 485,354 votes (4.7%)
+  → Qualified through 4% threshold
+
+This distribution reflects the principles of proportional representation while accounting for:
+- The 4% threshold requirement or direct mandate qualification
+- Regional constituency direct mandates
+- State-level proportionality using D'Hondt method
+- Federal level compensation to ensure overall proportionality
 
 
 ## Visualizations

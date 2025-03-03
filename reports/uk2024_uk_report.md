@@ -10,202 +10,132 @@ Year: 2024
 
 ### Vote Summary
 
-A total of 57,610,554 votes were cast, representing a turnout of 119.4% of the electorate.
+A total of 28,805,277 votes were cast, representing a turnout of 59.7% of the electorate.
 
 | Party | Votes | Percentage |
 |-------|--------|------------|
-| Lab | 19,417,432 | 33.7% |
-| Con | 13,657,850 | 23.7% |
-| RUK | 8,235,220 | 14.3% |
-| LD | 7,038,286 | 12.2% |
-| Green | 3,889,002 | 6.8% |
-| Ind | 2,088,918 | 3.6% |
-| SNP | 1,449,516 | 2.5% |
-| SF | 421,782 | 0.7% |
-| PC | 389,622 | 0.7% |
-| DUP | 344,116 | 0.6% |
-| APNI | 234,382 | 0.4% |
-| UUP | 189,558 | 0.3% |
-| SDLP | 173,722 | 0.3% |
-| Ind1 | 28,932 | 0.1% |
-| Ind2 | 28,932 | 0.1% |
-| TUV | 23,284 | 0.0% |
+| Lab | 9,708,716 | 33.7% |
+| Con | 6,828,925 | 23.7% |
+| RUK | 4,117,610 | 14.3% |
+| LD | 3,519,143 | 12.2% |
+| Green | 1,944,501 | 6.8% |
+| Ind | 1,044,459 | 3.6% |
+| SNP | 724,758 | 2.5% |
+| SF | 210,891 | 0.7% |
+| PC | 194,811 | 0.7% |
+| DUP | 172,058 | 0.6% |
+| APNI | 117,191 | 0.4% |
+| UUP | 94,779 | 0.3% |
+| SDLP | 86,861 | 0.3% |
+| Ind1 | 14,466 | 0.1% |
+| Ind2 | 14,466 | 0.1% |
+| TUV | 11,642 | 0.0% |
 
-**Lab** received the most votes with 19,417,432 votes (33.7% of total votes).
+**Lab** received the most votes with 9,708,716 votes (33.7% of total votes).
 
 ## Seat Calculation Process
 
-## French Electoral System Explanation
+# United Kingdom Electoral System
+The UK uses First-Past-The-Post (FPTP) voting where:
+- Each constituency (district) elects one Member of Parliament (MP)
+- The candidate with the most votes in each constituency wins that seat
+- No minimum threshold is required
+- Normally, the total number of seats equals the number of constituencies (650 in this dataset)
 
-This election uses the French two-round voting system (scrutin uninominal majoritaire à deux tours):
-
-1. **First Round**
-   - All candidates can participate
-   - If a candidate receives >50% of votes AND ≥25% of registered voters, they win immediately
-   - Otherwise, qualified candidates proceed to second round
-
-2. **Second Round Qualification**
-   - Candidates need ≥12.5% of votes to qualify
-   - If no candidates reach 12.5%, top two advance
-   - When no second round data is provided, votes are simulated:
-     * 80% of votes from eliminated parties go to parties with same left-right position
-     * 30% of remaining votes go to parties within 1 position on left-right scale
-     * Other votes are considered lost/abstentions
-
-Key Features:
-- 650 total seats to be distributed
-- Single-member constituencies
-- Two rounds if no absolute majority in first round
-
-3. **Seat Scaling**
-   When the required number of seats (650) differs from the number of districts (650),
-   we use proportional scaling to maintain fair representation:
-   - First calculate results for all districts
-   - Then multiply each party's seats by (total_seats / number_of_districts)
-   - Round to nearest whole number while preserving total seats
-   - This maintains the proportional representation from the district results
-   
-   Example: If we have 100 districts but need 200 seats:
-   - Party A wins 60 districts → scaled to 120 seats (60 * 200/100)
-   - Party B wins 40 districts → scaled to 80 seats (40 * 200/100)
-   The relative strength of each party remains the same.
+In this calculation, the target number of seats is 650, which differs from the number of constituencies. This means we will need to scale the results proportionally after determining constituency winners.
 
 
 
-
-## Example Districts
-
-To illustrate how the French two-round system works in practice, here are three example districts:
+## Constituency: Coatbridge and Bellshill
+This constituency demonstrates how First-Past-The-Post works:
 
 
+## Example Constituency: Coatbridge and Bellshill
+This example shows how First-Past-The-Post determines the winner:
 
-### Example 1: Airdrie and Shotts
+Total votes cast: 38,731
+- Lab: 19,291 votes (49.8%)
+- SNP: 12,947 votes (33.4%)
+- RUK: 2,601 votes (6.7%)
+- Con: 1,382 votes (3.6%)
+- Green: 1,229 votes (3.2%)
+- LD: 671 votes (1.7%)
+- Ind: 610 votes (1.6%)
+- PC: 0 votes (0.0%)
+- DUP: 0 votes (0.0%)
+- SF: 0 votes (0.0%)
+- SDLP: 0 votes (0.0%)
+- UUP: 0 votes (0.0%)
+- APNI: 0 votes (0.0%)
 
-**First Round Results:**
-- Total votes cast: 36,666
-- Registered voters: 73,332
+Winner determination:
+- Highest vote count: Lab with 19,291 votes (49.8%)
+- Second place: SNP with 12,947 votes (33.4%)
+- Margin of victory: 6,344 votes (16.4% of total votes)
 
-**Party Results:**
-- Lab: 18,871 votes (51.5% of votes, 25.7% of registered)
-- SNP: 11,324 votes (30.9% of votes, 15.4% of registered)
-- RUK: 2,971 votes (8.1% of votes, 4.1% of registered)
-- Con: 1,696 votes (4.6% of votes, 2.3% of registered)
-- Ind: 1,079 votes (2.9% of votes, 1.5% of registered)
-- LD: 725 votes (2.0% of votes, 1.0% of registered)
-- Green: 0 votes (0.0% of votes, 0.0% of registered)
-- PC: 0 votes (0.0% of votes, 0.0% of registered)
-- DUP: 0 votes (0.0% of votes, 0.0% of registered)
-- SF: 0 votes (0.0% of votes, 0.0% of registered)
-- SDLP: 0 votes (0.0% of votes, 0.0% of registered)
-- UUP: 0 votes (0.0% of votes, 0.0% of registered)
-- APNI: 0 votes (0.0% of votes, 0.0% of registered)
-
-**Result:** Lab wins in first round with absolute majority and ≥25% of registered voters
-
-
-
-### Example 2: Aberafan Maesteg
-
-**First Round Results:**
-- Total votes cast: 35,755
-- Registered voters: 71,510
-
-**Party Results:**
-- Lab: 17,838 votes (49.9% of votes, 24.9% of registered)
-- RUK: 7,484 votes (20.9% of votes, 10.5% of registered)
-- PC: 4,719 votes (13.2% of votes, 6.6% of registered)
-- Con: 2,903 votes (8.1% of votes, 4.1% of registered)
-- Green: 1,094 votes (3.1% of votes, 1.5% of registered)
-- LD: 916 votes (2.6% of votes, 1.3% of registered)
-- Ind: 801 votes (2.2% of votes, 1.1% of registered)
-- SNP: 0 votes (0.0% of votes, 0.0% of registered)
-- DUP: 0 votes (0.0% of votes, 0.0% of registered)
-- SF: 0 votes (0.0% of votes, 0.0% of registered)
-- SDLP: 0 votes (0.0% of votes, 0.0% of registered)
-- UUP: 0 votes (0.0% of votes, 0.0% of registered)
-- APNI: 0 votes (0.0% of votes, 0.0% of registered)
-
-**Second Round:** Parties qualifying (≥12.5%):
-- PC: 4,719 votes (13.2%)
-- Lab: 17,838 votes (49.9%)
-- RUK: 7,484 votes (20.9%)
-
-**Vote Redistribution Simulation:**
-Vote Transfers:
-- Con → RUK: 87 votes
-- Con: 2,816 votes lost/abstained
-- LD → Lab: 13 votes
-- LD → PC: 13 votes
-- LD: 890 votes lost/abstained
-- Green → Lab: 65 votes
-- Green → PC: 65 votes
-- Green: 964 votes lost/abstained
-- SNP → Lab: 0 votes
-- SNP → PC: 0 votes
-- DUP → RUK: 0 votes
-- SDLP → Lab: 0 votes
-- SDLP → PC: 0 votes
-- APNI → Lab: 0 votes
-- APNI → PC: 0 votes
-- Ind: 801 votes lost/abstained
-
-**Final Second Round Result:**
-- Lab: 17,916 votes (50.1%)
-- RUK: 7,571 votes (21.2%)
-- PC: 4,797 votes (13.4%)
-
-**Result:** Lab wins the simulated second round
+Result: Lab wins this constituency's single seat, regardless of the margin of victory.
 
 
 
-### Example 3: Alloa and Grangemouth
+## Constituency: Foyle
+This constituency demonstrates how First-Past-The-Post works:
 
-**First Round Results:**
-- Total votes cast: 41,201
-- Registered voters: 82,402
 
-**Party Results:**
-- Lab: 18,039 votes (43.8% of votes, 21.9% of registered)
-- SNP: 11,917 votes (28.9% of votes, 14.5% of registered)
-- RUK: 3,804 votes (9.2% of votes, 4.6% of registered)
-- Con: 3,127 votes (7.6% of votes, 3.8% of registered)
-- Ind: 1,742 votes (4.2% of votes, 2.1% of registered)
-- Green: 1,421 votes (3.4% of votes, 1.7% of registered)
-- LD: 1,151 votes (2.8% of votes, 1.4% of registered)
-- PC: 0 votes (0.0% of votes, 0.0% of registered)
-- DUP: 0 votes (0.0% of votes, 0.0% of registered)
-- SF: 0 votes (0.0% of votes, 0.0% of registered)
-- SDLP: 0 votes (0.0% of votes, 0.0% of registered)
-- UUP: 0 votes (0.0% of votes, 0.0% of registered)
-- APNI: 0 votes (0.0% of votes, 0.0% of registered)
+## Example Constituency: Foyle
+This example shows how First-Past-The-Post determines the winner:
 
-**Second Round:** Parties qualifying (≥12.5%):
-- SNP: 11,917 votes (28.9%)
-- Lab: 18,039 votes (43.8%)
+Total votes cast: 38,358
+- SDLP: 15,647 votes (40.8%)
+- SF: 11,481 votes (29.9%)
+- Ind: 4,625 votes (12.1%)
+- DUP: 3,915 votes (10.2%)
+- UUP: 1,422 votes (3.7%)
+- APNI: 1,268 votes (3.3%)
+- Con: 0 votes (0.0%)
+- Lab: 0 votes (0.0%)
+- LD: 0 votes (0.0%)
+- RUK: 0 votes (0.0%)
+- Green: 0 votes (0.0%)
+- SNP: 0 votes (0.0%)
+- PC: 0 votes (0.0%)
 
-**Vote Redistribution Simulation:**
-Vote Transfers:
-- Con: 3,127 votes lost/abstained
-- LD → Lab: 17 votes
-- LD → SNP: 17 votes
-- LD: 1,117 votes lost/abstained
-- RUK: 3,804 votes lost/abstained
-- Green → Lab: 85 votes
-- Green → SNP: 85 votes
-- Green: 1,251 votes lost/abstained
-- PC → Lab: 0 votes
-- PC → SNP: 0 votes
-- SDLP → Lab: 0 votes
-- SDLP → SNP: 0 votes
-- APNI → Lab: 0 votes
-- APNI → SNP: 0 votes
-- Ind: 1,742 votes lost/abstained
+Winner determination:
+- Highest vote count: SDLP with 15,647 votes (40.8%)
+- Second place: SF with 11,481 votes (29.9%)
+- Margin of victory: 4,166 votes (10.9% of total votes)
 
-**Final Second Round Result:**
-- Lab: 18,141 votes (44.0%)
-- SNP: 12,019 votes (29.2%)
+Result: SDLP wins this constituency's single seat, regardless of the margin of victory.
 
-**Result:** Lab wins the simulated second round
+
+
+## Constituency: Harpenden and Berkhamsted
+This constituency demonstrates how First-Past-The-Post works:
+
+
+## Example Constituency: Harpenden and Berkhamsted
+This example shows how First-Past-The-Post determines the winner:
+
+Total votes cast: 54,336
+- LD: 27,282 votes (50.2%)
+- Con: 16,574 votes (30.5%)
+- RUK: 4,245 votes (7.8%)
+- Lab: 4,061 votes (7.5%)
+- Green: 1,951 votes (3.6%)
+- Ind: 223 votes (0.4%)
+- SNP: 0 votes (0.0%)
+- PC: 0 votes (0.0%)
+- DUP: 0 votes (0.0%)
+- SF: 0 votes (0.0%)
+- SDLP: 0 votes (0.0%)
+- UUP: 0 votes (0.0%)
+- APNI: 0 votes (0.0%)
+
+Winner determination:
+- Highest vote count: LD with 27,282 votes (50.2%)
+- Second place: Con with 16,574 votes (30.5%)
+- Margin of victory: 10,708 votes (19.7% of total votes)
+
+Result: LD wins this constituency's single seat, regardless of the margin of victory.
 
 
 

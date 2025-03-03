@@ -11,317 +11,360 @@ Year: 2021
 
 ### Vote Summary
 
-A total of 277,409,520 votes were cast, representing a turnout of 453.5% of the electorate.
+A total of 46,298,387 votes were cast, representing a turnout of 75.7% of the electorate.
 
 | Party | Votes | Percentage |
 |-------|--------|------------|
-| SPD | 71,974,424 | 25.9% |
-| CDU/CSU | 71,178,924 | 25.7% |
-| GRÜNE | 40,128,392 | 14.5% |
-| FDP | 29,203,182 | 10.5% |
-| AfD | 28,636,784 | 10.3% |
-| DIE LINKE | 13,595,596 | 4.9% |
-| FREIE WÄHLER | 7,168,088 | 2.6% |
-| dieBasis | 3,985,852 | 1.4% |
-| Tierschutzpartei | 3,016,406 | 1.1% |
-| Die PARTEI | 2,922,064 | 1.1% |
-| Team Todenhöfer | 858,260 | 0.3% |
-| Volt | 812,388 | 0.3% |
-| PIRATEN | 799,444 | 0.3% |
-| ÖDP | 753,600 | 0.3% |
-| SSW | 292,366 | 0.1% |
-| HEIMAT (2021: NPD) | 259,620 | 0.1% |
-| Die Humanisten | 215,440 | 0.1% |
-| BP | 204,656 | 0.1% |
-| Verjüngungsforschung (2021: Gesundheitsforschung) | 198,326 | 0.1% |
-| Bündnis C | 171,916 | 0.1% |
-| V-Partei³ | 148,340 | 0.1% |
-| UNABHÄNGIGE | 117,786 | 0.0% |
-| MLPD | 116,350 | 0.0% |
-| du. | 74,732 | 0.0% |
-| Die Grauen | 73,140 | 0.0% |
-| DKP | 70,720 | 0.0% |
-| Tierschutzallianz | 69,430 | 0.0% |
-| Wir Bürger (2021: LKR) | 67,322 | 0.0% |
-| LIEBE | 53,614 | 0.0% |
-| LfK | 36,756 | 0.0% |
-| Gartenpartei | 34,634 | 0.0% |
-| DiB | 33,954 | 0.0% |
-| BÜRGERBEWEGUNG | 33,076 | 0.0% |
-| III. Weg | 32,358 | 0.0% |
-| MENSCHLICHE WELT | 16,448 | 0.0% |
-| BÜNDNIS21 | 14,696 | 0.0% |
-| PdF | 12,912 | 0.0% |
-| KlimalisteBW | 7,934 | 0.0% |
-| SGP | 5,596 | 0.0% |
-| BüSo | 4,282 | 0.0% |
-| FAMILIE | 3,634 | 0.0% |
-| Volksabstimmung | 2,172 | 0.0% |
-| Graue Panther | 1,922 | 0.0% |
-| THP | 1,098 | 0.0% |
-| sonstige | 502 | 0.0% |
-| B* | 384 | 0.0% |
+| SPD | 11,901,558 | 25.7% |
+| CDU/CSU | 11,177,747 | 24.1% |
+| GRÜNE | 6,814,408 | 14.7% |
+| FDP | 5,291,013 | 11.4% |
+| AfD | 4,809,233 | 10.4% |
+| DIE LINKE | 2,255,864 | 4.9% |
+| FREIE WÄHLER | 1,125,667 | 2.4% |
+| Tierschutzpartei | 673,669 | 1.5% |
+| dieBasis | 630,153 | 1.4% |
+| Die PARTEI | 460,431 | 1.0% |
+| Team Todenhöfer | 211,854 | 0.5% |
+| PIRATEN | 169,587 | 0.4% |
+| Volt | 164,300 | 0.4% |
+| ÖDP | 112,129 | 0.2% |
+| HEIMAT (2021: NPD) | 64,360 | 0.1% |
+| SSW | 55,578 | 0.1% |
+| Verjüngungsforschung (2021: Gesundheitsforschung) | 48,496 | 0.1% |
+| Die Humanisten | 47,524 | 0.1% |
+| Bündnis C | 39,868 | 0.1% |
+| BP | 32,790 | 0.1% |
+| V-Partei³ | 31,763 | 0.1% |
+| UNABHÄNGIGE | 22,736 | 0.0% |
+| MLPD | 17,820 | 0.0% |
+| du. | 17,738 | 0.0% |
+| Die Grauen | 17,304 | 0.0% |
+| DKP | 14,957 | 0.0% |
+| Tierschutzallianz | 13,672 | 0.0% |
+| LIEBE | 12,967 | 0.0% |
+| Wir Bürger (2021: LKR) | 11,328 | 0.0% |
+| LfK | 9,189 | 0.0% |
+| III. Weg | 7,832 | 0.0% |
+| Gartenpartei | 7,611 | 0.0% |
+| BÜRGERBEWEGUNG | 7,491 | 0.0% |
+| DiB | 7,184 | 0.0% |
+| MENSCHLICHE WELT | 3,786 | 0.0% |
+| BÜNDNIS21 | 3,488 | 0.0% |
+| PdF | 3,228 | 0.0% |
+| SGP | 1,399 | 0.0% |
+| BüSo | 665 | 0.0% |
+| FAMILIE | 0 | 0.0% |
+| sonstige | 0 | 0.0% |
+| B* | 0 | 0.0% |
+| Volksabstimmung | 0 | 0.0% |
+| Graue Panther | 0 | 0.0% |
+| THP | 0 | 0.0% |
+| KlimalisteBW | 0 | 0.0% |
 
-**SPD** received the most votes with 71,974,424 votes (25.9% of total votes).
+**SPD** received the most votes with 11,901,558 votes (25.7% of total votes).
 
 ## Seat Calculation Process
 
-## French Electoral System Explanation
+## Austrian Electoral System Explanation
 
-This election uses the French two-round voting system (scrutin uninominal majoritaire à deux tours):
+This election is calculated using the Austrian three-tier proportional representation system:
 
-1. **First Round**
-   - All candidates can participate
-   - If a candidate receives >50% of votes AND ≥25% of registered voters, they win immediately
-   - Otherwise, qualified candidates proceed to second round
+1. **Regional Constituency Level (Regionalwahlkreise)**
+   - In this election: 299 regional constituencies across 16 states
+     (The Austrian system typically has 39 constituencies across 9 states)
+   - First distribution of seats using the Hare quota
+   - Only parties that reach 4% nationally can receive seats
+   - Direct mandates are awarded at this level
 
-2. **Second Round Qualification**
-   - Candidates need ≥12.5% of votes to qualify
-   - If no candidates reach 12.5%, top two advance
-   - When no second round data is provided, votes are simulated:
-     * 80% of votes from eliminated parties go to parties with same left-right position
-     * 30% of remaining votes go to parties within 1 position on left-right scale
-     * Other votes are considered lost/abstentions
+2. **State Level (Landeswahlkreise)**
+   - States in this election:
+     - Baden-Württemberg: 38 constituencies
+     - Bayern: 46 constituencies
+     - Berlin: 12 constituencies
+     - Brandenburg: 10 constituencies
+     - Bremen: 2 constituencies
+     - Hamburg: 6 constituencies
+     - Hessen: 22 constituencies
+     - Mecklenburg-Vorpommern: 6 constituencies
+     - Niedersachsen: 30 constituencies
+     - Nordrhein-Westfalen: 64 constituencies
+     - Rheinland-Pfalz: 15 constituencies
+     - Saarland: 4 constituencies
+     - Sachsen: 16 constituencies
+     - Sachsen-Anhalt: 9 constituencies
+     - Schleswig-Holstein: 11 constituencies
+     - Thüringen: 8 constituencies
+   - Second distribution using state-level electoral numbers
+   - Remaining seats distributed using D'Hondt method
+   - Takes into account seats already won at regional level
+
+3. **Federal Level (Bundesebene)**
+   - Final distribution of remaining seats
+   - Uses Hare quota at national level
+   - Ensures overall proportional representation
+   - Compensates for any disproportions from lower levels
 
 Key Features:
-- 598 total seats to be distributed
-- Single-member constituencies
-- Two rounds if no absolute majority in first round
-
-3. **Seat Scaling**
-   When the required number of seats (598) differs from the number of districts (299),
-   we use proportional scaling to maintain fair representation:
-   - First calculate results for all districts
-   - Then multiply each party's seats by (total_seats / number_of_districts)
-   - Round to nearest whole number while preserving total seats
-   - This maintains the proportional representation from the district results
-   
-   Example: If we have 100 districts but need 200 seats:
-   - Party A wins 60 districts → scaled to 120 seats (60 * 200/100)
-   - Party B wins 40 districts → scaled to 80 seats (40 * 200/100)
-   The relative strength of each party remains the same.
+- 4% threshold nationally or one direct mandate required
+- 598 total seats to be distributed (Austrian National Council has 183)
+- Seats first allocated to states based on citizen population
 
 
 
+## Vote Type Used for Calculation
 
-## Example Districts
-
-To illustrate how the French two-round system works in practice, here are three example districts:
-
+Using list votes (Zweitstimmen) for calculations. Although mandate votes (Erststimmen) are present, they are not used for proportional seat distribution in the Austrian system.
 
 
-### Example 1: Flensburg – Schleswig
+## Initial Threshold Check
 
-**First Round Results:**
-- Total votes cast: 178,575
-- Registered voters: 357,150
+Total valid votes cast: 46,298,387
+4% threshold: 1,851,935 votes
 
-**Party Results:**
-- GRÜNE: 50,231 votes (28.1% of votes, 14.1% of registered)
-- CDU/CSU: 41,721 votes (23.4% of votes, 11.7% of registered)
-- SPD: 38,927 votes (21.8% of votes, 10.9% of registered)
-- SSW: 13,020 votes (7.3% of votes, 3.6% of registered)
-- FDP: 12,299 votes (6.9% of votes, 3.4% of registered)
-- AfD: 9,768 votes (5.5% of votes, 2.7% of registered)
-- DIE LINKE: 6,544 votes (3.7% of votes, 1.8% of registered)
-- dieBasis: 3,357 votes (1.9% of votes, 0.9% of registered)
-- FREIE WÄHLER: 2,324 votes (1.3% of votes, 0.7% of registered)
-- du.: 227 votes (0.1% of votes, 0.1% of registered)
-- Wir Bürger (2021: LKR): 157 votes (0.1% of votes, 0.0% of registered)
-- Die PARTEI: 0 votes (0.0% of votes, 0.0% of registered)
-- HEIMAT (2021: NPD): 0 votes (0.0% of votes, 0.0% of registered)
-- ÖDP: 0 votes (0.0% of votes, 0.0% of registered)
-- MLPD: 0 votes (0.0% of votes, 0.0% of registered)
-- DKP: 0 votes (0.0% of votes, 0.0% of registered)
-- Die Humanisten: 0 votes (0.0% of votes, 0.0% of registered)
-- Tierschutzpartei: 0 votes (0.0% of votes, 0.0% of registered)
-- Team Todenhöfer: 0 votes (0.0% of votes, 0.0% of registered)
-- Volt: 0 votes (0.0% of votes, 0.0% of registered)
-- V-Partei³: 0 votes (0.0% of votes, 0.0% of registered)
-
-**Second Round:** Parties qualifying (≥12.5%):
-- GRÜNE: 50,231 votes (28.1%)
-- SPD: 38,927 votes (21.8%)
-- CDU/CSU: 41,721 votes (23.4%)
-
-**Vote Redistribution Simulation:**
-Vote Transfers:
-- FDP → CDU/CSU: 922 votes
-- FDP: 11,377 votes lost/abstained
-- AfD: 9,768 votes lost/abstained
-- DIE LINKE → GRÜNE: 78 votes
-- DIE LINKE: 6,466 votes lost/abstained
-- Die PARTEI → GRÜNE: 0 votes
-- FREIE WÄHLER → CDU/CSU: 1,859 votes
-- FREIE WÄHLER: 465 votes lost/abstained
-- ÖDP → GRÜNE: 0 votes
-- dieBasis: 3,357 votes lost/abstained
-- du.: 227 votes lost/abstained
-- Wir Bürger (2021: LKR): 157 votes lost/abstained
-- Tierschutzpartei → GRÜNE: 0 votes
-- SSW → GRÜNE: 651 votes
-- SSW → SPD: 651 votes
-- SSW: 11,718 votes lost/abstained
-- Volt → GRÜNE: 0 votes
-
-**Final Second Round Result:**
-- GRÜNE: 50,960 votes (28.5%)
-- CDU/CSU: 44,502 votes (24.9%)
-- SPD: 39,578 votes (22.2%)
-
-**Result:** GRÜNE wins the simulated second round
-
-
-
-### Example 2: Nordfriesland – Dithmarschen Nord
-
-**First Round Results:**
-- Total votes cast: 144,050
-- Registered voters: 288,100
-
-**Party Results:**
-- CDU/CSU: 43,745 votes (30.4% of votes, 15.2% of registered)
-- SPD: 40,026 votes (27.8% of votes, 13.9% of registered)
-- GRÜNE: 20,611 votes (14.3% of votes, 7.2% of registered)
-- FDP: 13,958 votes (9.7% of votes, 4.8% of registered)
-- SSW: 9,410 votes (6.5% of votes, 3.3% of registered)
-- AfD: 8,274 votes (5.7% of votes, 2.9% of registered)
-- DIE LINKE: 4,060 votes (2.8% of votes, 1.4% of registered)
-- dieBasis: 2,254 votes (1.6% of votes, 0.8% of registered)
-- FREIE WÄHLER: 1,510 votes (1.0% of votes, 0.5% of registered)
-- Wir Bürger (2021: LKR): 202 votes (0.1% of votes, 0.1% of registered)
-- Die PARTEI: 0 votes (0.0% of votes, 0.0% of registered)
-- HEIMAT (2021: NPD): 0 votes (0.0% of votes, 0.0% of registered)
-- ÖDP: 0 votes (0.0% of votes, 0.0% of registered)
-- MLPD: 0 votes (0.0% of votes, 0.0% of registered)
-- DKP: 0 votes (0.0% of votes, 0.0% of registered)
-- du.: 0 votes (0.0% of votes, 0.0% of registered)
-- Die Humanisten: 0 votes (0.0% of votes, 0.0% of registered)
-- Tierschutzpartei: 0 votes (0.0% of votes, 0.0% of registered)
-- Team Todenhöfer: 0 votes (0.0% of votes, 0.0% of registered)
-- Volt: 0 votes (0.0% of votes, 0.0% of registered)
-- V-Partei³: 0 votes (0.0% of votes, 0.0% of registered)
-
-**Second Round:** Parties qualifying (≥12.5%):
-- GRÜNE: 20,611 votes (14.3%)
-- SPD: 40,026 votes (27.8%)
-- CDU/CSU: 43,745 votes (30.4%)
-
-**Vote Redistribution Simulation:**
-Vote Transfers:
-- FDP → CDU/CSU: 1,046 votes
-- FDP: 12,912 votes lost/abstained
-- AfD: 8,274 votes lost/abstained
-- DIE LINKE → GRÜNE: 48 votes
-- DIE LINKE: 4,012 votes lost/abstained
-- Die PARTEI → GRÜNE: 0 votes
-- FREIE WÄHLER → CDU/CSU: 1,208 votes
-- FREIE WÄHLER: 302 votes lost/abstained
-- ÖDP → GRÜNE: 0 votes
-- dieBasis: 2,254 votes lost/abstained
-- Wir Bürger (2021: LKR): 202 votes lost/abstained
-- Tierschutzpartei → GRÜNE: 0 votes
-- SSW → GRÜNE: 470 votes
-- SSW → SPD: 470 votes
-- SSW: 8,470 votes lost/abstained
-- Volt → GRÜNE: 0 votes
-
-**Final Second Round Result:**
-- CDU/CSU: 45,999 votes (31.9%)
-- SPD: 40,496 votes (28.1%)
-- GRÜNE: 21,129 votes (14.7%)
-
-**Result:** CDU/CSU wins the simulated second round
+Party Results and Qualification Status:
+- SPD: 11,901,558 votes (25.71%) - Qualified
+  → Eligible for mandate distribution at all levels
+- CDU/CSU: 11,177,747 votes (24.14%) - Qualified
+  → Eligible for mandate distribution at all levels
+- GRÜNE: 6,814,408 votes (14.72%) - Qualified
+  → Eligible for mandate distribution at all levels
+- FDP: 5,291,013 votes (11.43%) - Qualified
+  → Eligible for mandate distribution at all levels
+- AfD: 4,809,233 votes (10.39%) - Qualified
+  → Eligible for mandate distribution at all levels
+- DIE LINKE: 2,255,864 votes (4.87%) - Qualified
+  → Eligible for mandate distribution at all levels
+- FREIE WÄHLER: 1,125,667 votes (2.43%) - Did not qualify
+  → Can only receive direct mandates in regional constituencies
+- Tierschutzpartei: 673,669 votes (1.46%) - Did not qualify
+  → Can only receive direct mandates in regional constituencies
+- dieBasis: 630,153 votes (1.36%) - Did not qualify
+  → Can only receive direct mandates in regional constituencies
+- Die PARTEI: 460,431 votes (0.99%) - Did not qualify
+  → Can only receive direct mandates in regional constituencies
+- Team Todenhöfer: 211,854 votes (0.46%) - Did not qualify
+  → Can only receive direct mandates in regional constituencies
+- PIRATEN: 169,587 votes (0.37%) - Did not qualify
+  → Can only receive direct mandates in regional constituencies
+- Volt: 164,300 votes (0.35%) - Did not qualify
+  → Can only receive direct mandates in regional constituencies
+- ÖDP: 112,129 votes (0.24%) - Did not qualify
+  → Can only receive direct mandates in regional constituencies
+- HEIMAT (2021: NPD): 64,360 votes (0.14%) - Did not qualify
+  → Can only receive direct mandates in regional constituencies
+- SSW: 55,578 votes (0.12%) - Did not qualify
+  → Can only receive direct mandates in regional constituencies
+- Verjüngungsforschung (2021: Gesundheitsforschung): 48,496 votes (0.10%) - Did not qualify
+  → Can only receive direct mandates in regional constituencies
+- Die Humanisten: 47,524 votes (0.10%) - Did not qualify
+  → Can only receive direct mandates in regional constituencies
+- Bündnis C: 39,868 votes (0.09%) - Did not qualify
+  → Can only receive direct mandates in regional constituencies
+- BP: 32,790 votes (0.07%) - Did not qualify
+  → Can only receive direct mandates in regional constituencies
+- V-Partei³: 31,763 votes (0.07%) - Did not qualify
+  → Can only receive direct mandates in regional constituencies
+- UNABHÄNGIGE: 22,736 votes (0.05%) - Did not qualify
+  → Can only receive direct mandates in regional constituencies
+- MLPD: 17,820 votes (0.04%) - Did not qualify
+  → Can only receive direct mandates in regional constituencies
+- du.: 17,738 votes (0.04%) - Did not qualify
+  → Can only receive direct mandates in regional constituencies
+- Die Grauen: 17,304 votes (0.04%) - Did not qualify
+  → Can only receive direct mandates in regional constituencies
+- DKP: 14,957 votes (0.03%) - Did not qualify
+  → Can only receive direct mandates in regional constituencies
+- Tierschutzallianz: 13,672 votes (0.03%) - Did not qualify
+  → Can only receive direct mandates in regional constituencies
+- LIEBE: 12,967 votes (0.03%) - Did not qualify
+  → Can only receive direct mandates in regional constituencies
+- Wir Bürger (2021: LKR): 11,328 votes (0.02%) - Did not qualify
+  → Can only receive direct mandates in regional constituencies
+- LfK: 9,189 votes (0.02%) - Did not qualify
+  → Can only receive direct mandates in regional constituencies
+- III. Weg: 7,832 votes (0.02%) - Did not qualify
+  → Can only receive direct mandates in regional constituencies
+- Gartenpartei: 7,611 votes (0.02%) - Did not qualify
+  → Can only receive direct mandates in regional constituencies
+- BÜRGERBEWEGUNG: 7,491 votes (0.02%) - Did not qualify
+  → Can only receive direct mandates in regional constituencies
+- DiB: 7,184 votes (0.02%) - Did not qualify
+  → Can only receive direct mandates in regional constituencies
+- MENSCHLICHE WELT: 3,786 votes (0.01%) - Did not qualify
+  → Can only receive direct mandates in regional constituencies
+- BÜNDNIS21: 3,488 votes (0.01%) - Did not qualify
+  → Can only receive direct mandates in regional constituencies
+- PdF: 3,228 votes (0.01%) - Did not qualify
+  → Can only receive direct mandates in regional constituencies
+- SGP: 1,399 votes (0.00%) - Did not qualify
+  → Can only receive direct mandates in regional constituencies
+- BüSo: 665 votes (0.00%) - Did not qualify
+  → Can only receive direct mandates in regional constituencies
+- FAMILIE: 0 votes (0.00%) - Did not qualify
+  → Can only receive direct mandates in regional constituencies
+- sonstige: 0 votes (0.00%) - Did not qualify
+  → Can only receive direct mandates in regional constituencies
+- B*: 0 votes (0.00%) - Did not qualify
+  → Can only receive direct mandates in regional constituencies
+- Volksabstimmung: 0 votes (0.00%) - Did not qualify
+  → Can only receive direct mandates in regional constituencies
+- Graue Panther: 0 votes (0.00%) - Did not qualify
+  → Can only receive direct mandates in regional constituencies
+- THP: 0 votes (0.00%) - Did not qualify
+  → Can only receive direct mandates in regional constituencies
+- KlimalisteBW: 0 votes (0.00%) - Did not qualify
+  → Can only receive direct mandates in regional constituencies
 
 
 
-### Example 3: Steinburg – Dithmarschen Süd
+## Example Regional Constituency: Flensburg – Schleswig
 
-**First Round Results:**
-- Total votes cast: 134,980
-- Registered voters: 269,960
+This example shows how votes are counted at the regional constituency level:
 
-**Party Results:**
-- CDU/CSU: 39,431 votes (29.2% of votes, 14.6% of registered)
-- SPD: 39,379 votes (29.2% of votes, 14.6% of registered)
-- FDP: 19,315 votes (14.3% of votes, 7.2% of registered)
-- GRÜNE: 16,686 votes (12.4% of votes, 6.2% of registered)
-- AfD: 10,429 votes (7.7% of votes, 3.9% of registered)
-- DIE LINKE: 4,339 votes (3.2% of votes, 1.6% of registered)
-- FREIE WÄHLER: 2,566 votes (1.9% of votes, 1.0% of registered)
-- dieBasis: 2,040 votes (1.5% of votes, 0.8% of registered)
-- V-Partei³: 581 votes (0.4% of votes, 0.2% of registered)
-- Wir Bürger (2021: LKR): 214 votes (0.2% of votes, 0.1% of registered)
-- Die PARTEI: 0 votes (0.0% of votes, 0.0% of registered)
-- HEIMAT (2021: NPD): 0 votes (0.0% of votes, 0.0% of registered)
-- ÖDP: 0 votes (0.0% of votes, 0.0% of registered)
-- MLPD: 0 votes (0.0% of votes, 0.0% of registered)
-- DKP: 0 votes (0.0% of votes, 0.0% of registered)
-- du.: 0 votes (0.0% of votes, 0.0% of registered)
-- Die Humanisten: 0 votes (0.0% of votes, 0.0% of registered)
-- Tierschutzpartei: 0 votes (0.0% of votes, 0.0% of registered)
-- SSW: 0 votes (0.0% of votes, 0.0% of registered)
-- Team Todenhöfer: 0 votes (0.0% of votes, 0.0% of registered)
-- Volt: 0 votes (0.0% of votes, 0.0% of registered)
+Total votes cast: 178,625
 
-**Second Round:** Parties qualifying (≥12.5%):
-- SPD: 39,379 votes (29.2%)
-- CDU/CSU: 39,431 votes (29.2%)
-- FDP: 19,315 votes (14.3%)
+Party Results:
+- SPD: 45,508 votes (25.5%)
+- CDU/CSU: 36,421 votes (20.4%)
+- GRÜNE: 33,300 votes (18.6%)
+- FDP: 19,189 votes (10.7%)
+- SSW: 16,415 votes (9.2%)
+- AfD: 10,317 votes (5.8%)
+- DIE LINKE: 7,475 votes (4.2%)
+- dieBasis: 2,866 votes (1.6%)
+- Tierschutzpartei: 1,990 votes (1.1%)
+- Die PARTEI: 1,844 votes (1.0%)
+- FREIE WÄHLER: 1,715 votes (1.0%)
+- Volt: 403 votes (0.2%)
+- Team Todenhöfer: 318 votes (0.2%)
+- V-Partei³: 194 votes (0.1%)
+- Die Humanisten: 157 votes (0.1%)
+- HEIMAT (2021: NPD): 138 votes (0.1%)
+- ÖDP: 132 votes (0.1%)
+- du.: 118 votes (0.1%)
+- Wir Bürger (2021: LKR): 73 votes (0.0%)
+- DKP: 40 votes (0.0%)
+- MLPD: 12 votes (0.0%)
 
-**Vote Redistribution Simulation:**
-Vote Transfers:
-- GRÜNE: 16,686 votes lost/abstained
-- AfD → FDP: 208 votes
-- AfD: 10,221 votes lost/abstained
-- DIE LINKE: 4,339 votes lost/abstained
-- FREIE WÄHLER → CDU/CSU: 2,052 votes
-- FREIE WÄHLER → FDP: 77 votes
-- FREIE WÄHLER: 437 votes lost/abstained
-- dieBasis → FDP: 40 votes
-- dieBasis: 2,000 votes lost/abstained
-- Wir Bürger (2021: LKR): 214 votes lost/abstained
-- SSW → SPD: 0 votes
-- V-Partei³: 581 votes lost/abstained
-
-**Final Second Round Result:**
-- CDU/CSU: 41,483 votes (30.7%)
-- SPD: 39,379 votes (29.2%)
-- FDP: 19,640 votes (14.6%)
-
-**Result:** CDU/CSU wins the simulated second round
+The Hare quota is used to determine direct mandates.
+Parties must either win a direct mandate or reach the 4% national threshold.
 
 
+## Example Regional Constituency: Nordfriesland – Dithmarschen Nord
 
-## Seat Scaling Applied
+This example shows how votes are counted at the regional constituency level:
 
-Scaling from 299 districts to 598 total seats:
+Total votes cast: 144,145
 
-### Before Scaling (299 seats)
-| Party | Seats | Percentage |
-|-------|--------|------------|
-| CDU/CSU | 158 | 52.8% |
-| SPD | 104 | 34.8% |
-| AfD | 19 | 6.4% |
-| GRÜNE | 15 | 5.0% |
-| DIE LINKE | 3 | 1.0% |
+Party Results:
+- SPD: 37,926 votes (26.3%)
+- CDU/CSU: 35,511 votes (24.6%)
+- GRÜNE: 22,588 votes (15.7%)
+- FDP: 18,350 votes (12.7%)
+- SSW: 9,516 votes (6.6%)
+- AfD: 8,798 votes (6.1%)
+- DIE LINKE: 4,437 votes (3.1%)
+- dieBasis: 1,836 votes (1.3%)
+- Tierschutzpartei: 1,604 votes (1.1%)
+- Die PARTEI: 1,322 votes (0.9%)
+- FREIE WÄHLER: 1,081 votes (0.7%)
+- Team Todenhöfer: 239 votes (0.2%)
+- Volt: 237 votes (0.2%)
+- HEIMAT (2021: NPD): 146 votes (0.1%)
+- Die Humanisten: 130 votes (0.1%)
+- V-Partei³: 125 votes (0.1%)
+- ÖDP: 121 votes (0.1%)
+- Wir Bürger (2021: LKR): 60 votes (0.0%)
+- du.: 59 votes (0.0%)
+- DKP: 33 votes (0.0%)
+- MLPD: 26 votes (0.0%)
+
+The Hare quota is used to determine direct mandates.
+Parties must either win a direct mandate or reach the 4% national threshold.
 
 
-### After Scaling (598 seats)
-| Party | Seats | Percentage | Change |
-|-------|--------|------------|---------|
-| CDU/CSU | 316 | 52.8% | +0.0% |
-| SPD | 208 | 34.8% | +0.0% |
-| AfD | 38 | 6.4% | +0.0% |
-| GRÜNE | 30 | 5.0% | +0.0% |
-| DIE LINKE | 6 | 1.0% | +0.0% |
+## Example Regional Constituency: Steinburg – Dithmarschen Süd
+
+This example shows how votes are counted at the regional constituency level:
+
+Total votes cast: 135,109
+
+Party Results:
+- SPD: 37,468 votes (27.7%)
+- CDU/CSU: 32,842 votes (24.3%)
+- GRÜNE: 19,237 votes (14.2%)
+- FDP: 18,492 votes (13.7%)
+- AfD: 11,303 votes (8.4%)
+- DIE LINKE: 4,524 votes (3.3%)
+- SSW: 3,366 votes (2.5%)
+- Tierschutzpartei: 1,719 votes (1.3%)
+- FREIE WÄHLER: 1,713 votes (1.3%)
+- dieBasis: 1,712 votes (1.3%)
+- Die PARTEI: 1,346 votes (1.0%)
+- Team Todenhöfer: 283 votes (0.2%)
+- V-Partei³: 250 votes (0.2%)
+- Volt: 226 votes (0.2%)
+- HEIMAT (2021: NPD): 190 votes (0.1%)
+- Die Humanisten: 118 votes (0.1%)
+- ÖDP: 105 votes (0.1%)
+- Wir Bürger (2021: LKR): 84 votes (0.1%)
+- du.: 77 votes (0.1%)
+- DKP: 29 votes (0.0%)
+- MLPD: 25 votes (0.0%)
+
+The Hare quota is used to determine direct mandates.
+Parties must either win a direct mandate or reach the 4% national threshold.
 
 
-Scaling Details:
-- Scaling factor: 2.000
-- Each party's seats multiplied by this factor and rounded
-- Total seats preserved through rounding adjustments
-- Percentages of total seats remain nearly identical
+## State Level Distribution
+
+According to §1 of the Nationalrats-Wahlordnung, the 598 seats are distributed among the states based on their citizen population.
+
+The process:
+1. Calculate state-level electoral number (Wahlzahl)
+   For each state, the Wahlzahl is calculated as: Total valid votes ÷ (Number of seats + 1)
+   Example for a state with 100,000 votes and 4 seats:
+   Wahlzahl = 100,000 ÷ (4 + 1) = 20,000
+
+2. Calculate Verhältniszahl (proportional number)
+   Total population value: 72,463,198
+   Total seats: 598
+   Verhältniszahl = 72,463,198 ÷ 598 = 121,175.92
+   This number represents how many citizens one mandate represents.
+
+3. Determine remaining seats after direct mandates
+4. Use D'Hondt method for remaining seats
+5. Take into account party threshold requirement
+
+
+
+## Final Distribution Summary
+
+After completing all three levels of calculation:
+1. Regional constituency direct mandates
+2. State-level D'Hondt distribution
+3. Federal level compensation
+
+Final Results:
+- SPD: 169 seats (28.3%) from 11,901,558 votes (25.7%)
+  → Qualified through 4% threshold
+- CDU/CSU: 158 seats (26.4%) from 11,177,747 votes (24.1%)
+  → Qualified through 4% threshold
+- GRÜNE: 96 seats (16.1%) from 6,814,408 votes (14.7%)
+  → Qualified through 4% threshold
+- FDP: 75 seats (12.5%) from 5,291,013 votes (11.4%)
+  → Qualified through 4% threshold
+- AfD: 68 seats (11.4%) from 4,809,233 votes (10.4%)
+  → Qualified through 4% threshold
+- DIE LINKE: 32 seats (5.4%) from 2,255,864 votes (4.9%)
+  → Qualified through 4% threshold
+
+This distribution reflects the principles of proportional representation while accounting for:
+- The 4% threshold requirement or direct mandate qualification
+- Regional constituency direct mandates
+- State-level proportionality using D'Hondt method
+- Federal level compensation to ensure overall proportionality
 
 
 ## Visualizations
