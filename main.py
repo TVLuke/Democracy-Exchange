@@ -9,11 +9,11 @@ from vote_distribution import plot_vote_distribution
 from election_report import create_election_report
 
 # Set up election parameters
-country = 'netherlands'
-year = '2023'
+country = 'uk'
+year = '2024'
 election = country + year
 
-appointments = ['netherlands', 'italy', 'germany', 'austria', 'usa', 'uk', 'france']
+appointments = ['usa']
 
 # Visualization
 POINT_SIZE = 100  # Doubled point size
@@ -187,6 +187,10 @@ def calculate_election_results(election_id: str, appointments: list) -> dict:
                 for appointment in appointments:
                     if appointment in appointment_info:
                         vote_type = appointment_info[appointment].get('relevant_vote', 'list')
+                        if vote_type == 'member' and 'member' not in results:
+                            vote_type = 'list'
+                        if vote_type == 'list' and 'list' not in results:
+                            vote_type = 'member'
                         # if vote_type is not list or member throw an exception 
                         if vote_type not in ['list', 'member']:
                             raise ValueError(f"Vote type {vote_type} not found in results for appointment {appointment}")
