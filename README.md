@@ -1,6 +1,8 @@
 # Democracy Exchange
 
 [![Tests](https://github.com/TVLuke/Democracy-Exchange/actions/workflows/tests.yml/badge.svg)](https://github.com/TVLuke/Democracy-Exchange/actions/workflows/tests.yml)
+[![Codeberg Sync](https://github.com/TVLuke/Democracy-Exchange/actions/workflows/codeberg-mirror.yml/badge.svg)](https://github.com/TVLuke/Democracy-Exchange/actions/workflows/codeberg-mirror.yml)
+
 
 **Note: This very much is just a quick thing i threw together in an afternoon or two out of curiosity. It may be useful to someone. But this is not great code and it is not completly tested. Use at your own risk.**
 
